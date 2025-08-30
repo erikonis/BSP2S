@@ -8,9 +8,9 @@ This repository consists of:
 2. work_tools - separated by categories, each consisting of python codes, used in the project to achieve different aims.
 
 In addition, other project-related files that are not in this repository can be accessed following the links:
-- Dataset (used for training): https://huggingface.co/datasets/erikonis/BSP2S-dataset
-- Obtained CNN models (```.pth``` files): https://huggingface.co/erikonis/BSP2S-models
+- [Dataset used for training](https://huggingface.co/datasets/erikonis/BSP2S-dataset)
+- [Obtained CNN models (```.pth``` files)](https://huggingface.co/erikonis/BSP2S-models)
 
 
 ## Related:
-https://github.com/erikonis/BSP2 - previous project, which built the foundation for this.
+[BSP2](https://github.com/erikonis/BSP2) - revious project, which built the foundation for this.
