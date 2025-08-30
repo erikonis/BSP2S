@@ -1,0 +1,127 @@
+<h2>C： AA グラフ (AA Graph)</h2>
+
+<h3>Problem</h3>
+
+<p>Given a graph as an ASCII Art (AA), please print the length of shortest paths from the vertex <var>s</var> to the vertex <var>t</var>. The AA of the graph satisfies the following constraints.</p>
+
+<p>A vertex is represented by an uppercase alphabet and symbols <code>o</code> in 8 neighbors as follows.</p>
+<pre>
+ooo
+oAo
+ooo
+</pre>
+
+<p>
+Horizontal edges and vertical edges are represented by symbols <code>-</code> and <code>|</code>, respectively.
+Lengths of all edges are 1, that is, it do not depends on the number of continuous symbols <code>-</code> or <code>|</code>.
+All edges do not cross each other, and all vertices do not overlap and touch each other.
+</p>
+
+<p>
+For each vertex, outgoing edges are at most 1 for each directions top, bottom, left, and right.
+Each edge is connected to a symbol <code>o</code> that is adjacent to an uppercase alphabet in 4 neighbors as follows.
+</p>
+<pre>
+..|..
+.ooo.
+-oAo-
+.ooo.
+..|..
+</pre>
+
+<p>Therefore, for example, following inputs are not given.</p>
+<pre>
+..........
+.ooo..ooo.
+.oAo..oBo.
+.ooo--ooo.
+..........
+</pre>
+<p>(Edges do not satisfies the constraint about their position.)</p>
+
+<pre>
+oooooo
+oAooBo
+oooooo
+</pre>
+<p>(Two vertices are adjacent each other.)</p>
+
+<h3>Input Format</h3>
+
+<pre>
+<var>H</var> <var>W</var> <var>s</var> <var>t</var>
+<var>a_1</var>
+$\vdots$
+<var>a_H</var>
+</pre>
+
+<ul>
+<li> In line 1, two integers <var>H</var> and <var>W</var>, and two characters <var>s</var> and <var>t</var> are given. <var>H</var> and <var>W</var> is the width and height of the AA, respectively. <var>s</var> and <var>t</var> is the start and end vertices, respectively. They are given in separating by en spaces.</li>
+<li> In line <var>1 + i</var> where <var>1 \leq i \leq H</var>, the string representing line <var>i</var> of the AA is given.</li>
+</ul>
+
+<h3>Constraints</h3>
+
+<ul>
+<li> <var>3 \leq H, W \leq 50</var></li>
+<li> <var>s</var> and <var>t</var> are selected by uppercase alphabets from <code>A</code> to <code>Z</code>, and <var>s \neq t</var>.</li>
+<li> <var>a_i</var> (<var>1 \leq i \leq H</var>) consists of  uppercase alphabets and symbols <code>o</code>, <code>-</code>, <code>|</code>, and <code>.</code>.</li>
+<li> Each uppercase alphabet occurs at most once in the AA.</li>
+<li> It is guaranteed that there are two vertices representing <var>s</var> and <var>t</var>.</li>
+<li> The AA represents a connected graph.</li>
+</ul>
+
+<h3>Output Format</h3>
+
+<p>Print the length of the shortest paths from <var>s</var> to <var>t</var> in one line.</p>
+
+<h3>Example 1</h3>
+<pre>
+14 16 A L 
+ooo.....ooo.....
+oAo-----oHo.....
+ooo.....ooo..ooo
+.|.......|...oLo
+ooo..ooo.|...ooo
+oKo--oYo.|....|.
+ooo..ooo.|....|.
+.|....|.ooo...|.
+.|....|.oGo...|.
+.|....|.ooo...|.
+.|....|.......|.
+ooo..ooo.....ooo
+oFo--oXo-----oEo
+ooo..ooo.....ooo
+</pre>
+
+<h3>Output 1</h3>
+<pre>5</pre>
+
+<h3>Exapmple 2</h3>
+<pre>
+21 17 F L
+.................
+.....ooo.....ooo.
+.....oAo-----oBo.
+.....ooo.....ooo.
+......|.......|..
+.ooo..|..ooo..|..
+.oCo..|..oDo.ooo.
+.ooo.ooo.ooo.oEo.
+..|..oFo..|..ooo.
+..|..ooo..|...|..
+..|...|...|...|..
+..|...|...|...|..
+..|...|...|...|..
+.ooo.ooo.ooo..|..
+.oGo-oHo-oIo..|..
+.ooo.ooo.ooo..|..
+..|...........|..
+.ooo...ooo...ooo.
+.oJo---oKo---oLo.
+.ooo...ooo...ooo.
+.................
+</pre>
+
+<h3>Output 2</h3>
+<pre>4</pre>

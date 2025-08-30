@@ -1,0 +1,29 @@
+Best model saved at epoch 7 with accuracy: 82.50%
+
+
+
+=== METRICS STATS ===
+
+Model: best_vgg16_humanEval_unique_preproc
+------------------------------
+ROC AUC: 0.7981
+MCC score: 0.4494
+F1 Score: 0.7527
+Recall: 0.8750
+Precision: 0.6604
+Accuracy: 71.25%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label    Samples  Average Confidence Max Confidence Min Confidence
+-----------------------------------------------------------------------------------------
+best_vgg16_humanEval_unique_preproc Student  22       0.716              0.999          0.501         
+best_vgg16_humanEval_unique_preproc AI       35       0.890              1.000          0.533         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+=== TRAINING TIME ===
+
+Total training time: 135.33 seconds
+Optimal training time: 42.37 seconds

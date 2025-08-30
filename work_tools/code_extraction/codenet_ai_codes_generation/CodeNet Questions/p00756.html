@@ -1,0 +1,162 @@
+
+<h3><U>And Then, How Many Are There?</U></h3>
+<!-- end en only -->
+
+
+<div>   <!-- please enclose each h3 level section with div -->
+<!-- begin en only -->
+<p>
+To Mr. Solitarius, who is a famous solo play game creator, a new idea
+occurs like every day.
+His new game requires discs of various colors and sizes.
+</p>
+<!-- end en only -->
+
+
+<!-- begin en only -->
+<p>
+To start with, all the discs are randomly scattered around the
+center of a table.
+During the play, you can remove a pair of discs of the same color if
+neither of them has any discs on top of it.
+Note that a disc is not considered to be on top of another when they
+are externally tangent to each other.
+</p>
+<!-- end en only -->
+
+
+<center>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_1175"><br><br>
+<!-- begin en only -->
+Figure D-1: Seven discs on the table<br>
+<!-- end en only -->
+</center>
+
+<!-- begin en only -->
+<p>
+For example, in Figure D-1, you can only remove the two black
+discs first and then their removal makes it possible to remove the two
+white ones.
+In contrast, gray ones never become removable.
+</p>
+<!-- end en only -->
+
+
+<!-- begin en only -->
+<p>
+You are requested to write a computer program that, for given colors,
+sizes, and initial placings of discs, calculates the maximum number of discs
+that can be removed. 
+</p>
+<!-- end en only -->
+
+
+</div>
+
+<h3>Input</h3>
+
+<div>
+
+<!-- begin en only -->
+<p>
+The input consists of multiple datasets, each being in the
+following format and representing the state of a game just after all
+the discs are scattered.
+</p>
+<!-- end en only -->
+
+
+<blockquote>
+<i>n</i><br>
+<i>x</i><sub>1</sub> <i>y</i><sub>1</sub> <i>r</i><sub>1</sub> <i>c</i><sub>1</sub><br>
+<i>x</i><sub>2</sub> <i>y</i><sub>2</sub> <i>r</i><sub>2</sub> <i>c</i><sub>2</sub><br>
+...<br>
+<i>x</i><sub><i>n</i></sub> <i>y</i><sub><i>n</i></sub> <i>r</i><sub><i>n</i></sub> <i>c</i><sub><i>n</i></sub><br>
+</blockquote>
+
+<!-- begin en only -->
+<p>
+The first line consists of a positive integer <i>n</i> representing
+the number of discs.
+The following <i>n</i> lines, each containing 4 integers separated by
+a single space, represent the colors, sizes, and initial placings of
+the <i>n</i> discs in the following manner:
+<ul>
+<li>
+(<i>x</i><sub><i>i</i></sub>, <i>y</i><sub><i>i</i></sub>), 
+<i>r</i><sub><i>i</i></sub>, and 
+<i>c</i><sub><i>i</i></sub> are
+the <i>xy</i>-coordinates of the center, the radius, and the color index
+number, respectively, of the <i>i</i>-th disc, and
+</li>
+<li>
+whenever the <i>i</i>-th disc is put on top of the <i>j</i>-th
+disc, <i>i</i> &lt; <i>j</i> must be satisfied.
+</li>
+</ul>
+</p>
+<!-- end en only -->
+
+
+<!-- begin en only -->
+<p>
+You may assume that every color index number is between 1 and 4,
+inclusive, and at most 6 discs in a dataset are of the same
+color.
+You may also assume that the <i>x</i>- and <i>y</i>-coordinates of the
+center of every disc are between 0 and 100, inclusive, and the radius
+between 1 and 100, inclusive.
+</p>
+<!-- end en only -->
+
+
+<!-- begin en only -->
+<p>
+The end of the input is indicated by a single zero.
+</p>
+<!-- end en only -->
+
+</div>
+
+<h3>Output</h3>
+<div>
+
+<!-- begin en only -->
+<p>
+For each dataset, print a line containing an integer indicating the
+maximum number of discs that can be removed.
+</p>
+<!-- end en only -->
+</div>
+
+<h3>Sample Input</h3>
+<div>
+<pre>
+4
+0 0 50 1
+0 0 50 2
+100 0 50 1
+0 0 100 2
+7
+12 40 8 1
+10 40 10 2
+30 40 10 2
+10 10 10 1
+20 10 9 3
+30 10 8 3
+40 10 7 3
+2
+0 0 100 1
+100 32 5 1
+0
+</pre>
+</div>
+
+<h3>Output for the Sample Input</h3>
+<div>
+<pre>
+2
+4
+0
+</pre>
+</div>

@@ -1,0 +1,91 @@
+
+
+<div>
+<h1 class="title">問題 B : (iwi)</h1>
+
+<p>20XX 年の今，G○○gle 社の世界的な支配により，人々のコミュニケーションは限られており，
+例えば，自由に人と情報をやりとりすることは基本的に許されていない．
+特に，過去にプログラミングコンテストで名を馳せた強豪たちは，危険と判断され，
+お互いバラバラにされ，密かに注意深く監視されているという．</p>
+<p>自分も，そんな一人であった，ような気がする．
+しかし実は，自分は記憶を失ってしまっているのだ．
+自分が何と名乗っていたか，それすらも思い出せない．
+'i' とか 'w' とか括弧とかを使っていた気がするが，
+それっぽいものを書きだしてみても，しっくりこない．
+そういえば，今思い出したことには，左右に線対称だった気がするのだ．</p>
+<div>
+<h1>問題</h1>
+<p>'i', 'w', '(', ')' からなる文字列が与えられた時，
+一部の文字を他の文字に置き換えて，'i', 'w', '(', ')' からなる左右に線対称な文字列にしたい．
+文字の追加や削除は許さず，1 文字を別の 1 文字に変える操作のみを行うことにする．
+少なくとも何文字置き換えなければならないかを出力するプログラムを作成せよ．</p>
+<p>ここで用いる左右に線対称の定義は，以下とする．</p>
+<ol class="arabic simple">
+<li>以下の文字列は左右に線対称．</li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li>空文字列</li>
+<li>&quot;i&quot;</li>
+<li>&quot;w&quot;</li>
+</ul>
+</blockquote>
+<ol class="arabic simple" start="2">
+<li>文字列 <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> が左右に線対称のとき，以下の文字列も左右に線対称．</li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li>&quot;i&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;i&quot;</li>
+<li>&quot;w&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;w&quot;</li>
+<li>&quot;(&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;)&quot;</li>
+<li>&quot;)&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;(&quot;</li>
+</ul>
+</blockquote>
+<ol class="arabic simple" start="3">
+<li>以上のもののみが左右に線対称．</li>
+</ol>
+<p>ここで，&quot;i&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;i&quot; とは &quot;i&quot; と <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> と &quot;i&quot; を連結したものを表す．
+他のものも同様である．</p>
+</div>
+<div>
+<h1>入力</h1>
+<p>入力は 'i', 'w', '(', ')' からなる 1 つの文字列である．</p>
+</div>
+<div>
+<h1>出力</h1>
+<p>置き換えなければならない文字数を表す整数を出力せよ．</p>
+</div>
+<div>
+<h1>制約</h1>
+<ul class="simple">
+<li>入力の文字列の長さは 10 以下である．</li>
+</ul>
+</div>
+<div>
+<h1>入出力例</h1>
+<div>
+<h2>入出力例 1</h2>
+<p>入力例 1:</p>
+<pre class="literal-block">
+(iwi)
+</pre>
+<p>入力例 1 に対する出力例:</p>
+<pre class="literal-block">
+0
+</pre>
+<p>入力例 1 では文字列がはじめから左右に線対称である．</p>
+</div>
+<div>
+<h2>入出力例 2</h2>
+<p>入力例 2:</p>
+<pre class="literal-block">
+ii(((((ww
+</pre>
+<p>入力例 2 に対する出力例:</p>
+<pre class="literal-block">
+5
+</pre>
+<p>入力例 2 では例えば ww((i))ww 等に変更すればよい．</p>
+</div>
+</div>
+</div>

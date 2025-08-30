@@ -1,0 +1,7 @@
+<clones>
+<systeminfo processor="nicad6" system="humanEval_clonesRemoved" granularity="files-blind" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="665" npairs="0"/>
+<runinfo ncompares="10241" cputime="68659"/>
+<classinfo nclasses="0"/>
+
+</clones>

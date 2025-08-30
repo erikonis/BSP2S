@@ -1,0 +1,130 @@
+
+
+<!-- begin en only -->
+<h3><u>Equation
+</u></h3>
+<!-- end en only -->
+<!-- begin ja only -->
+<h3><u>恒等式
+</u></h3>
+<!-- end ja only -->
+<div>
+<!-- begin en only -->
+<p>
+English text is not available in this practice contest.
+</p>
+<!-- end en only -->
+<!-- begin ja only -->
+<p>
+論理演算では，値は T と F の2種類だけを扱う．
+</p>
+
+<p>
+&quot;-&quot;を単項演算子（入力が 1 つの演算を表す記号），
+&quot;*&quot;, &quot;+&quot;, &quot;-&gt;&quot; を 2 項演算子（入力が 2 つの演算を表す記号）とする．
+&quot;-&quot; は論理否定(NOT)，
+&quot;*&quot; は論理積(AND)，
+&quot;+&quot; は論理和(OR)，
+&quot;-&gt;&quot; は論理包含(IMP)を表す演算子である．
+これらの論理演算の真理値表を下の表に示す．
+</p>
+
+<table>
+<thead><tr><th style="padding: .5em; background: #069; color: #fff">x</th><th style="padding: .5em; background: #069; color: #fff">y</th><th style="padding: .5em; background: #069; color: #fff">-x</th><th style="padding: .5em; background: #069; color: #fff">(x*y)</th><th style="padding: .5em; background: #069; color: #fff">(x+y)</th><th style="padding: .5em; background: #069; color: #fff">(x-&gt;y)</th></tr></thead>
+<tbody><tr><td style="padding: .5em; background: #0cf">T</td><td style="padding: .5em; background: #0cf">T</td><td style="padding: .5em; background: #0cf">F</td><td style="padding: .5em; background: #0cf">T</td><td style="padding: .5em; background: #0cf">T</td><td style="padding: .5em; background: #0cf">T</td></tr></tbody>
+<tbody><tr><td style="padding: .5em; background: #0cf">T</td><td style="padding: .5em; background: #0cf">F</td><td style="padding: .5em; background: #0cf">F</td><td style="padding: .5em; background: #0cf">F</td><td style="padding: .5em; background: #0cf">T</td><td style="padding: .5em; background: #0cf">F</td></tr></tbody>
+<tbody><tr><td style="padding: .5em; background: #0cf">F</td><td style="padding: .5em; background: #0cf">T</td><td style="padding: .5em; background: #0cf">T</td><td style="padding: .5em; background: #0cf">F</td><td style="padding: .5em; background: #0cf">T</td><td style="padding: .5em; background: #0cf">T</td></tr></tbody>
+<tbody><tr><td style="padding: .5em; background: #0cf">F</td><td style="padding: .5em; background: #0cf">F</td><td style="padding: .5em; background: #0cf">T</td><td style="padding: .5em; background: #0cf">F</td><td style="padding: .5em; background: #0cf">F</td><td style="padding: .5em; background: #0cf">T</td></tr></tbody>
+</table>
+
+<p>
+論理式は以下のいずれかの形式である．
+X, Yは論理式とし， 2 項演算子は必ず括弧で囲むものとする．
+</p>
+
+<ul>
+<li>定数: T, F</li>
+<li>変数: a, b, c, d, e, f, g, h, i, j, k</li>
+<li>論理否定: -X</li>
+<li>論理積: (X*Y)</li>
+<li>論理和: (X+Y)</li>
+<li>論理包含: (X-&gt;Y)</li>
+</ul>
+
+<p>
+2 つの論理式を等号 &quot;=&quot; で結合した等式が与えられる．
+恒等式とは，式に現れる変数がどのような値であっても成立する等式のことである．
+与えられた等式が恒等式であるかを判定するプログラムを作りたい．
+</p>
+
+
+<!-- end ja only -->
+</div>
+<h3>Input</h3>
+<div>
+<!-- begin ja only -->
+<p>
+入力は複数の行で構成され，各行は 1 つのデータセットである．
+データセットはT, F, a, b, c, d, e, f, g, h, i, j, k, (, ), =, -, +, *, &gt; から成る文字列であり， 空白など他の文字を含まない．
+1 行の文字数は 1000 文字以下と仮定してよい．
+</p>
+
+<p>
+1 つのデータセットは等式ひとつを含む．
+等式の文法は次の BNF で与えられる．
+すべての等式はこの構文規則に従う．
+</p>
+
+<pre>
+&lt;equation&gt; ::= &lt;formula&gt; &quot;=&quot; &lt;formula&gt;
+&lt;formula&gt;  ::= &quot;T&quot; | &quot;F&quot; |
+&quot;a&quot; | &quot;b&quot; | &quot;c&quot; | &quot;d&quot; | &quot;e&quot; | &quot;f&quot; |
+&quot;g&quot; | &quot;h&quot; | &quot;i&quot; | &quot;j&quot; | &quot;k&quot; |
+&quot;-&quot; &lt;formula&gt; |
+&quot;(&quot; &lt;formula&gt; &quot;*&quot; &lt;formula&gt; &quot;)&quot; |
+&quot;(&quot; &lt;formula&gt; &quot;+&quot; &lt;formula&gt; &quot;)&quot; |
+&quot;(&quot; &lt;formula&gt; &quot;-&gt;&quot; &lt;formula&gt; &quot;)&quot;
+</pre>
+
+<p>
+入力の終わりは &quot;#&quot; だけからなる行で示されており，この行はデータセットではない．
+</p>
+
+
+<!-- end ja only -->
+</div>
+<h3>Output</h3>
+<div>
+<!-- begin ja only -->
+<p>
+各データセットについて，等式が恒等式であれば“YES”を， そうでなければ“NO”をそれぞれ1行に出力しなさい． 出力には余分な文字を含んではならない．
+</p>
+
+
+<!-- end ja only -->
+</div>
+<h3>Sample Input</h3>
+<div>
+<pre>
+-(a+b)=(-a*-b)
+(a->b)=(-a+b)
+((a*T)+b)=(-c+(a*-b))
+#
+</pre>
+
+<!-- begin ja only -->
+
+<!-- end ja only -->
+</div>
+<h3>Output for Sample Input</h3>
+<div>
+<pre>
+YES
+YES
+NO
+</pre>
+
+<!-- begin ja only -->
+
+<!-- end ja only -->
+</div>

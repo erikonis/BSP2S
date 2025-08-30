@@ -1,0 +1,77 @@
+
+<H1><font color="#000">Problem B:</font> Cover Time</H1>
+
+<p>
+Let <i>G</i> be a connected undirected graph where <i>N</i> vertices of <i>G</i> are labeled by numbers from 1 to <i>N</i>. <i>G</i> is simple, i.e. <i>G</i> has no self loops or parallel edges.
+</p>
+
+<p>
+Let <i>P</i> be a particle walking on vertices of <i>G</i>. At the beginning, <i>P</i> is on the vertex 1. In each step, <i>P</i> moves to one of the adjacent vertices. When there are multiple adjacent vertices, each is selected in the same
+probability.
+</p>
+
+<p>
+The <i>cover time</i> is the expected number of steps necessary for <i>P</i> to visit all the vertices.
+</p>
+
+<p>
+Your task is to calculate the cover time for each given graph G.
+</p>
+
+<H2>Input</H2>
+
+<p>
+The input has the following format.
+</p>
+
+<p>
+<i>N M</i><br/>
+<i>a</i><sub>1</sub> <i>b</i><sub>1</sub><br/>
+.<br/>
+.<br/>
+.<br/>
+<i>a<sub>M</sub> b<sub>M</sub></i><br/>
+</p>
+
+<p>
+<i>N</i> is the number of vertices and <i>M</i> is the number of edges. You can assume that 2 &le; <i>N</i> &le; 10. <i>a<sub>i</sub></i> and <i>b<sub>i</sub></i> (1 &le; <i>i</i> &le; <i>M</i>) are positive integers less than or equal to <i>N</i>, which represent the two vertices connected by the <i>i</i>-th edge. You can assume that the input satisfies the constraints written in the problem description, that is, the given graph <i>G</i> is connected and simple.
+</p>
+
+<H2>Output</H2>
+
+<p>
+There should be one line containing the cover time in the output.
+</p>
+
+<p>
+The answer should be printed with six digits after the decimal point, and should not have an error greater than 10<sup>-6</sup>.
+</p>
+
+<H2>Sample Input and Output</H2>
+
+<H2>Input #1</H2>
+<pre>
+3 2
+1 2
+2 3
+</pre>
+<H2>Output #1</H2>
+<pre>
+4.000000
+</pre>
+<br/>
+
+<H2>Input #2</H2>
+<pre>
+4 6
+1 2
+1 3
+1 4
+2 3
+2 4
+3 4
+</pre>
+<H2>Output #2</H2>
+<pre>
+5.500000
+</pre>

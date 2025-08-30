@@ -1,0 +1,145 @@
+
+
+
+<h2>I - σ</h2>
+
+<p>
+大きさ <var>N</var> の順列とは，数列 <var>(1, 2, 3, …, N)</var> の各要素を並べ替えたものである．
+例えば <var>(5, 2, 1, 4, 3)</var> は大きさ <var>5</var> の順列だが，一方で <var>(1, 5, 1, 2, 3)</var> はそうではない．
+</p>
+
+<p>
+この問題はリアクティブ方式のタスクである．あなたは応答プログラムと「順列当てゲーム」を行う．
+まず最初に，応答プログラムは順列 <var>σ</var>を1つ内部で決める．
+次に，あなたにはこの順列の大きさ <var>N</var> が伝えられる．
+この後，あなたは応答プログラムに何回か<em>質問</em>をする．
+そして，応答プログラムの持っている順列を特定することがあなたの目的である．
+</p>
+
+<p>
+質問は次のようなものである：
+大きさ <var>N</var> の順列 <var>τ</var> を1つ決め，それを応答プログラムに聞くと，
+応答プログラムは数列 <var>a<sub>i</sub> = (σ</var>上での数字 <var>i</var> の位置と <var>τ</var> 上での数字 <var>i</var> の位置の距離<var>)</var>を計算する．
+その後，数列 <var>(a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, …, a<sub>N</sub>)</var> を昇順に並べて列 <var>(b<sub>1</sub>, b<sub>2</sub>, b<sub>3</sub>, …, b<sub>N</sub>)</var> を作り，あなたのプログラムに出力する．
+</p>
+
+<p>
+例えば，<var>σ = (5, 2, 1, 4, 3)</var> のとき，<var>τ = (2, 3, 1, 4, 5)</var> を聞くと，
+応答プログラムは内部で <var>(a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, a<sub>4</sub>, a<sub>5</sub>) = (0, 1, 3, 0, 4)</var> を計算し，
+これをソートした列 <var>(b<sub>1</sub>, b<sub>2</sub>, b<sub>3</sub>, b<sub>4</sub>, b<sub>5</sub>) = (0, 0, 1, 3, 4)</var> を出力する．
+</p>
+<p>
+できるだけ少ない質問回数で順列を特定するプログラムを記せ．
+採点方法については「採点方式」の項で記す．
+</p>
+
+<h2>入出力形式</h2>
+<p>
+まず，順列の大きさ <var>N</var> が入力として与えられる．
+</p>
+
+<pre>
+<var>N</var>
+</pre>
+
+
+<p>
+続いて，あなたのプログラムは何回か応答プログラムに質問をする．質問のフォーマットは以下であるとする．
+</p>
+
+<pre>
+? <var>τ<sub>1</sub></var> <var>τ<sub>2</sub></var> <var>τ<sub>3</sub></var> … <var>τ<sub>N</sub></var>
+</pre>
+
+<p>
+<var>τ<sub>i</sub></var> は，質問する順列の <var>i</var> 番目の要素の値である．
+このとき <var>(τ<sub>1</sub>, …, τ<sub>N</sub>)</var> は大きさ <var>N</var> の順列になっていなければならない．
+すなわち，<var>τ<sub>i</sub></var> の値は <var>1</var> 以上 <var>N</var> 以下ですべて相異なっていなければならない．
+この後，応答プログラムは質問に対する答えを出力する．
+</p>
+
+<pre>
+<var>b<sub>1</sub></var> <var>b<sub>2</sub></var> <var>b<sub>3</sub></var> … <var>b<sub>N</sub></var>
+</pre>
+
+<p>
+このやりとりをコード上で実装する場合，C++では例えば次のようになる．
+例えば順列 <var>(5, 2, 1, 4, 3)</var> を質問したい場合には，例えば
+</p>
+
+<pre class="prettyprint">
+int tau[5] = {5, 2, 1, 4, 3};
+printf("?");
+for (int i=0; i&lt;5; ++i) printf(" %d", tau[i]);
+printf("\n");
+fflush(stdout);</pre>
+<p>
+のようにする．次に
+</p>
+<pre class="prettyprint">for (int i=0; i&lt;5; ++i) scanf("%d", &amp;b[i]);</pre>
+
+<p>
+とすると，配列 b に質問の答えが返ってくる．
+</p>
+
+<p>
+何回か質問を行った後，あなたは応答プログラムの持つ順列 <var>σ</var> を特定する．フォーマットは以下の通りとする．
+(質問のときのフォーマットとほぼ同じで，先頭の <code>?</code> が <code>!</code> になっていることに注意せよ．)
+</p>
+
+<pre>
+! <var>τ<sub>1</sub></var> <var>τ<sub>2</sub></var> <var>τ<sub>3</sub></var> … <var>τ<sub>N</sub></var>
+</pre>
+<p>
+順列の特定を行った後，あなたのプログラムは直ちに終了しなければならない．終了しなかった場合のジャッジ結果は不定とする．
+</p>
+
+<p>
+この問題ではテストデータごとに質問回数の上限値が設定されており，プログラムの行った質問の回数がその上限値を上回ると誤答と判定される．
+</p>
+
+<h2>制約</h2>
+<ul>
+<li><var>1 &le; N &le; 400</var></li>
+</ul>
+
+<!--
+<h2>採点方式</h2>
+<ul>
+<li>50点分のテストケースグループでは，質問回数の上限値は 1000 回である．</li>
+<li>750点分のテストケースグループでは，質問回数の上限値は 240 回である．</li>
+</ul>
+-->
+
+<h2>入出力例1</h2>
+<pre style="padding-left:20px">
+<!--<table class = "table table-striped table-bordered table-condensed">-->
+<table class="withborder">
+<tr><th>プログラムの出力</th><th>プログラムへの入力</th></tr>
+<tr><td></td><td>5</td></tr>
+<tr><td>? 2 3 1 4 5</td><td></td></tr>
+<tr><td></td><td>0 0 1 3 4</td></tr>
+<tr><td>? 1 2 3 4 5</td><td></td></tr>
+<tr><td></td><td>0 0 2 2 4</td></tr>
+<tr><td>? 5 4 3 2 1</td><td></td></tr>
+<tr><td></td><td>0 2 2 2 2</td></tr>
+<tr><td>? 5 2 1 4 3</td><td></td></tr>
+<tr><td></td><td>0 0 0 0 0</td></tr>
+<tr><td>! 5 2 1 4 3</td><td></td></tr>
+</table>
+</pre>
+<p>
+<var>σ = (5, 2, 1, 4, 3)</var> である．何度か質問を行った後に列を特定している．
+</p>
+
+<h2>入出力例2</h2>
+<pre>
+<table class = "withborder">
+<tr><th>プログラムの出力</th><th>プログラムへの入力</th></tr>
+<tr><td></td><td>1</td></tr>
+<tr><td>! 1</td><td></td></tr>
+</table>
+</pre>
+<p>
+大きさ 1 の順列は 1 つしかないので質問をしなくても直ちに特定することができる．
+</p>

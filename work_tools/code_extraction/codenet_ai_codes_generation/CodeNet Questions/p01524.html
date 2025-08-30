@@ -1,0 +1,123 @@
+
+
+<h1>E - じゃんけん</h1>
+
+  <h2>問題文</h2>
+<p>
+E 君はじゃんけんが大好きである (ちなみにじゃんけんのルールについては<a href="http://ja.wikipedia.org/wiki/%E3%81%98%E3%82%83%E3%82%93%E3%81%91%E3%82%93">Wikipediaのじゃんけんのページ</a>を参照せよ)．
+ある日，町内でじゃんけん大会があるということを知った E 君は，じゃんけんの腕に自信があったこともあり早速出場することにした．
+ところが大会当日，E 君を待ち受けていたのは，普通の「グー・チョキ・パー」のみからなる普通のじゃんけんではなく，
+より多くの手からなる<strong>一般化されたじゃんけん</strong>であった．
+</p>
+<p>
+<strong>一般化されたじゃんけん</strong>は 2 人のプレイヤーで行われるゲームである．
+まず，2 人にはこのじゃんけんにおいて使用出来る手の個数 <var>N</var> と，<var>N</var> 個の手の勝敗関係を示す表が伝えられる．
+そして，通常のじゃんけんと同じように同時に手を出しあい，伝えられた手の勝敗関係に基いて勝敗を決める．これを 1,000 回 繰り返す．
+1 回のじゃんけんの勝敗の結果によって得点が手に入り，相手に勝利した場合は 3 点，相手と「あいこ」になった場合は 1 点が手に入る．相手に負けてしまった場合は得点を得られない．
+</p>
+<p>
+このなんだかよくわからないルールのじゃんけんにすっかり戦意を喪失してしまった E 君であったが，どうやら聞くところによると，最終的に相手に得点で勝てなくても，<strong>350 点</strong>以上を獲得すれば何か景品がもらえるらしい．
+めんどくさいので <strong>350 点</strong>を得てさっさと大会を後にすることにした．
+</p>
+<p>
+この問題の目的は，一般化されたじゃんけんをプレイする AI を作成し，ジャッジ側の用意した AI と対戦させて <strong>350 点</strong>以上を獲得することである．
+</p>
+
+<h2>入出力形式</h2>
+<p>
+まず入力が以下の形式で与えられる．
+</p>
+
+<pre><var>N</var>
+<var>a<sub>1,1</sub></var> ... <var>a<sub>1,N</sub> </var>
+...
+<var>a<sub>N,1</sub></var> ... <var>a<sub>N,N</sub></var>
+</pre>
+
+
+
+<p>
+<var>N</var> はじゃんけんの手の数である．</br>
+各 <var>a<sub>i,j</sub></var> は <var>N</var> 個の手の勝敗関係を表す．
+<var>a<sub>i,j</sub></var> は <code>-</code>，<code>o</code>，<code>x</code> のいずれかであり，<code>-</code> ならば手 <var>i</var> が手 <var>j</var> に対し引き分けることを，<code>o</code> ならば手 <var>i</var> が手 <var>j</var> に対し勝つことを，<code>x</code> なら負けることを示す．
+</p>
+
+
+<p>
+この条件の下で 1,000回 AI とじゃんけんをする．
+</p>
+<p>
+プログラムは自分の使う手を出力すると，ジャッジの AI が使った手を入力で受けとる事ができる．
+例えば C/C++で 3 番目の手を使う場合は </p>
+<pre class="prettyprint">printf("3\n"); fflush(stdout);</pre>
+<p>とする．次に，</p>
+<pre class="prettyprint">scanf("%d", &judge_ai_hand);</pre>
+<p>
+とすると変数 <tt>judge_ai_hand</tt> にジャッジの AI が使った手が入る．
+なおじゃんけんの手は1-indexedである．
+</p>
+<p>
+1,000 回のじゃんけんを終えた後は直ちにプログラムを終了せよ．その後，獲得できた得点の合計が 350 点以上であれば正答と判定される．
+</p>
+
+<h2>制約</h2>
+<ul>
+<li><var>3 &le;  N &le;  10</var> </li>
+<li><var>i &ne; j</var> のとき，<var>a<sub>i,j</sub></var> &isin; { <code>o</code>, <code>x</code> } であり，
+<var>a<sub>i,j</sub>=</var><code>o</code>，<var>a<sub>j,i</sub>=</var><code>x</code> または
+<var>a<sub>i,j</sub>=</var><code>x</code>，<var>a<sub>j,i</sub>=</var><code>o</code> のどちらか片方が成り立つ．
+<li><var>i = j</var> のとき， <var>a<sub>i,j</sub>=</var><code>-</code> である．</li>
+<li>AI の出す手は勝敗関係の表 <var>a<sub>i,j</sub></var> と AI の過去の手にだけ依存し，競技者のプログラムの過去の手や直前に出した手には依存しない．</li>
+<li><var>N</var> は整数である．</li>
+<li>データセットに <var>N=10</var> のテストケースは高々 6 個しか含まれていない．</li>
+</ul>
+
+<h2>入出力例1</h2>
+<!--
+<pre>
+<table class = "table table-striped table-bordered table-condensed">
+<tr><th>じゃんけんの説明</th><th>プログラムの出力</th><th>プログラムへの入力</th></tr>
+<tr><th></th><td></td><td>
+4
+-oox
+x-oo
+xx-o
+oxx-
+</td></tr>
+<tr><th>1 回目に競技者の AI が使った手</th><td>1</td><td></td></tr>
+<tr><th>1 回目にジャッジの AI が使った手</th><td></td><td>2</td></tr>
+<tr><th> ... </th><td> ... </td><td> ... </td></tr>
+<tr><th>1,000 回目に競技者の AI が使った手</th><td>4</td><td></td></tr>
+<tr><th>1,000 回目にジャッジの AI が使った手</th><td></td><td>3</td></tr>
+</table>
+</pre>
+-->
+<pre>
+<table width="600" class="withborder">
+<tr><th>じゃんけんの説明</th><th>プログラムの出力</th><th>プログラムへの入力</th></tr>
+<tr><th></th><td></td><td>
+4
+-oox
+x-oo
+xx-o
+oxx-
+</td></tr>
+<tr><th>1 回目に競技者の AI が使った手</th><td>1</td><td></td></tr>
+<tr><th>1 回目にジャッジの AI が使った手</th><td></td><td>2</td></tr>
+<tr><th> ... </th><td> ... </td><td> ... </td></tr>
+<tr><th>1,000 回目に競技者の AI が使った手</th><td>4</td><td></td></tr>
+<tr><th>1,000 回目にジャッジの AI が使った手</th><td></td><td>3</td></tr>
+</table>
+</pre>
+
+
+<p>
+最初にプログラムはじゃんけんの手の表を受け取る．その後，1,000 回のじゃんけんを行う．
+ここで，1 回目のじゃんけんでは競技者の AI はジャッジの AI に勝利しているが，
+1,000 回目のじゃんけんでは競技者の AI はジャッジの AI に敗北していることに注意せよ．
+</p>
+
+
+<hr>
+<address>Writer: 楠本充，小浜翔太郎</address>
+<address>Tester: 森槙悟</address>

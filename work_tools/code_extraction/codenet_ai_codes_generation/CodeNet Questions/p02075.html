@@ -1,0 +1,74 @@
+<style type="text/css">
+    blockquote {
+        font-family: Menlo, Monaco, "Courier New", monospace;
+        display: block;
+        margin: 10px 0 10px 30px;
+        font-size: 16px;
+        line-height: 18px;
+        white-space: pre;
+        white-space: pre-wrap;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    table.ioexample {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    table.ioexample td {
+        width: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        vertical-align: top;
+        padding: 5px;
+    }
+    .no-page-break {
+        page-break-inside: avoid;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+</style>
+
+<h3>Problem Statement</h3>
+<p>Your friend, Tatsumi, is a producer of Immortal Culture Production in Chiba (ICPC). His company is planning to form a zombie rock band named Gray Faces and cheer Chiba Prefecture up.</p>
+<p>But, unfortunately, there is only one zombie in ICPC. So, Tatsumi decided to release the zombie on a platform of Soga station to produce a sufficient number of zombies. As you may know, a zombie changes a human into a new zombie by passing by the human. In other words, a human becomes a zombie when the human and a zombie are at the same point. Note that a zombie who used to be a human changes a human into a zombie too.</p>
+<p>The platform of Soga station is represented by an infinitely long line, and Tatsumi will release a zombie at a point with coordinate $x_Z$. After the release, the zombie will start walking in the positive direction at $v_Z$ per second. If $v_Z$ is negative, the zombie will walk in the negative direction at $|v_Z|$ per second.</p>
+<p>There are $N$ humans on the platform. When Tatsumi releases the zombie, the $i$-th human will be at a point with coordinate $x_i$ and will start walking in the positive direction at $v_i$ per second. If $v_i$ is negative, the human will walk in the negative direction at $|v_i|$ per second as well as the zombie.</p>
+<p>For each human on the platform, Tatsumi wants to know when the human becomes a zombie. Please help him by writing a program that calculates a time when each human on the platform becomes a zombie.</p>
+<hr />
+<h3>Input</h3>
+<p>The input consists of a single test case in the following format.</p>
+<blockquote>$N$
+$x_Z$ $v_Z$
+$x_1$ $v_1$
+$\vdots$
+$x_N$ $v_N$</blockquote>
+<p>The first line consists of an integer $N \, (1 \le N \le 2 \times 10^5)$ which is the number of humans on a platform of Soga station. The second line consists of two integers $x_Z \, (-10^9 \le x_Z \le 10^9)$ and $v_Z \, (-10^9 \le v_Z \le 10^9)$ separated by a space, where $x_Z$ is an initial position of a zombie Tatsumi will release and $v_Z$ is the velocity of the zombie. The $i$-th line in the following $N$ lines contains two integers $x_i \, (-10^9 \le x_i \le 10^9)$ and $v_i \, (-10^9 \le v_i \le 10^9)$ separated by a space, where the $x_i$ is an initial position of the $i$-th human and $v_i$ is the velocity of the human. There is no human that shares their initial position with the zombie. In addition, initial positions of the humans are different from each other.</p>
+<h3>Output</h3>
+<p>The output consists of $N$ lines. In the $i$-th line, print how many seconds it will take for the $i$-th human to become a zombie. If the $i$-th human will never become a zombie, print $-1$ instead. The answer will be considered as correct if the values output have an absolute or relative error less than $10^{-9}$.</p>
+<p><div class="no-page-break"><h3>Examples</h3><table class="ioexample"><tr><th>Input</th><th>Output</th></tr><tr><td><pre>6
+3 1
+-5 0
+5 0
+-4 -3
+0 -2
+6 -3
+2 -1
+</pre></td><td><pre>3.66666666666667
+2.00000000000000
+-1
+6.00000000000000
+0.75000000000000
+2.00000000000000
+</pre></td></tr><tr><td><pre>5
+31415 -926
+5358 979
+323846 26
+-433832 7950
+288 -4
+-1971 -69
+</pre></td><td><pre>13.67821522309711
+95.61812216052499
+52.41629112212708
+33.76030368763558
+38.95682613768962
+</pre></td></tr></table></div></p>

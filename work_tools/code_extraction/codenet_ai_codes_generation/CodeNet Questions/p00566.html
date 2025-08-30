@@ -1,0 +1,106 @@
+<h1>幹線道路 (Trunk Road)</h1>
+
+<h2>問題文</h2>
+<p>
+JOI 市は，東西方向にまっすぐに伸びる <var>H</var> 本の道路と，南北方向にまっすぐに伸びる <var>W</var> 本の道路によって，碁盤の目の形に区分けされている．道路と道路の間隔は <var>1</var> である．JOI 市では，これら <var>H+W</var> 本の道路から，東西方向に <var>1</var> 本，南北方向に <var>1</var> 本，合計 <var>2</var> 本の道路を幹線道路として選ぶことになった．</p>
+
+<p>
+北から <var>i</var> 本目 (<var>1≦i≦H</var>) の道路と，西から <var>j</var> 本目 (<var>1≦j≦W</var>) の道路の交差点を，交差点 <var>(i,j)</var> とする．交差点 <var>(i,j)</var> と北から <var>m</var> 本目 (<var>1≦m≦H</var>) の道路の距離は <var>|i-m|</var> であり，交差点 <var>(i,j)</var> と西から <var>n</var> 本目 (<var>1≦n≦W</var>) の道路の距離は <var>|j-n|</var> である．
+また，交差点 <var>(i,j)</var> の近くには <var>A_{i,j}</var> 人の住人が住んでいる．</p>
+
+<p>
+<var>2</var> 本の幹線道路を選んだときの，JOI 市の全ての住人に対する，最寄りの交差点から近い方の幹線道路への距離の総和の最小値を求めよ．</p>
+
+<h2>制約</h2>
+
+<ul>
+<li><var>2 ≦ H ≦ 25</var></li>
+<li><var>2 ≦ W ≦ 25</var></li>
+<li><var>0 ≦ A_{i,j} ≦ 100</var> (<var>1 ≦ i ≦ H</var>, <var>1 ≦ j ≦ W</var>)</li>
+</ul>
+
+<h2>入力・出力</h2>
+
+<p>
+<b>入力</b><br>
+入力は以下の形式で標準入力から与えられる．<br>
+<var>H</var> <var>W</var><br>
+<var>A_{1,1}</var> <var>A_{1,2}</var> ... <var>A_{1,W}</var><br>
+:<br>
+<var>A_{H,1}</var> <var>A_{H,2}</var> ... <var>A_{H,W}</var>
+</p>
+
+<p>
+<b>出力</b><br>
+JOI 市の全ての住人に対する，最寄りの交差点から近い方の幹線道路への距離の総和の最小値を出力せよ．</p>
+
+<!--
+<h2>小課題</h2>
+
+<p>
+<b>小課題 1 [10点]</b>
+</p>
+
+<ul>
+<li><var>A_{i,j} = 1</var> (<var>1 ≦ i ≦ H</var>, <var>1 ≦ j ≦ W</var>)</li>
+</ul>
+
+<p>
+<b>小課題 2 [90点]</b>
+</p>
+
+<ul>
+<li>追加の制限はない．</li>
+</ul>
+-->
+
+
+<h2>入出力例</h2>
+
+
+<b>入力例 1</b><br>
+<pre>
+3 5
+1 1 1 1 1
+1 1 1 1 1
+1 1 1 1 1
+</pre>
+
+
+<b>出力例 1</b><br>
+<pre>
+8
+</pre>
+
+<p>
+例えば，北から <var>2</var> 本目の道路と西から <var>1</var> 本目の道路を幹線道路とすればよい．</p>
+
+<hr>
+
+
+<b>入力例 2</b><br>
+<pre>
+5 5
+1 2 3 1 5
+1 22 11 44 3
+1 33 41 53 2
+4 92 35 23 1
+4 2 6 3 5
+</pre>
+
+
+<b>出力例 2</b><br>
+<pre>
+164
+</pre>
+
+
+
+<br/>
+<p>
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/></a>
+  <br/>
+  
+  <a href="https://www.ioi-jp.org/joi/2017/2018-yo/index.html">情報オリンピック日本委員会作 『第 17 回日本情報オリンピック JOI 2017/2018 予選競技課題』</a>
+</p>
+

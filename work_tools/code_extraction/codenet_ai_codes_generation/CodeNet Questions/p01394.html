@@ -1,0 +1,80 @@
+
+
+<script src="./IMAGE/varmath.js" charset="UTF-8"></script>
+
+
+<h1><font color="#000">問題 G </font> XOR 回路</h1>
+
+
+<h2>問題文</h2>
+<p>
+<a href="http://www.t.kyoto-u.ac.jp/syllabus-s/?mode=subject&lang=ja&year=2011&b=5&c=90840">計算機科学実験及演習 3</a> は CAD を用いて CPU を設計する授業である．CPU は多くの回路を組み合わせなければ動かず，その中の 1 つに <var>n</var> ビット入力の XOR 回路がある．ここで XOR 回路とは，入力ビット列 <var>x<sub>1</sub>x<sub>2</sub>...x<sub>n</sub></var> に対して，<var>x<sub>1</sub> + x<sub>2</sub> + ... + x<sub>n</sub>\ (mod 2)</var> を出力する回路のことを言う．しかし完璧に動作する XOR 回路を設計するのは時間がかかるので，とりあえず <var>n</var> ビットのうち <var>k</var> ビットだけ使う XOR 回路 A を作ることにした．つまり，ある <var>i<sub>1</sub>, ... , i<sub>k</sub></var> が存在し，回路 A は <var>x<sub>i<sub>1</sub></sub> + x<sub>i<sub>2</sub></sub> + ... + x<sub>i<sub>k</sub></sub>\ (mod 2)</var>を出力する．
+
+</p>
+<p>
+暫く後に今度は <var>k</var> ビット入力の XOR 回路が欲しくなった．何だ簡単ではないか．先ほどの回路 A を使えばよい．ただ残念なことに，回路 A がどの <var>k</var> ビットを使っていたのか忘れてしまった上に，回路 A の設計図も間違って削除してしまった．しかしコンパイル済みの回路 A は残っている．なので，入力 <var>x<sub>1</sub>x<sub>2</sub>...x<sub>n</sub></var> を入れて回路 A を実行することで，その出力 <var>x<sub>i<sub>1</sub></sub> + x<sub>i<sub>2</sub></sub> + ... + x<sub>i<sub>k</sub></sub>\ (mod 2)</var> を見ることは出来る．
+出来るだけ作業の時間を短くしたいので，回路 A の実行回数には上限を設定することにしよう．どうすれば回路Aが依存しているビット <var>i<sub>1</sub>, ... ,  i<sub>k</sub></var> を見つけられるだろうか？
+
+</p>
+
+<h2>入出力</h2>
+<p>
+最初に <var>n</var> と <var>k</var> がスペース区切りで与えられる．以降，プログラムは回路 A に入力を与え，その出力を読むことが出来る．例えば C/C++ で回路 A にビット列 <var>x<sub>1</sub>x<sub>2</sub>...x<sub>n</sub></var> を与えるには
+
+<pre>printf("?<var>x<sub>1</sub>x<sub>2</sub>...x<sub>n</sub></var>\n"); fflush(stdout);</pre>
+とする．ここで各 <var>x<sub>i</sub></var> の間にスペースをいれてはならない．
+次に，
+<pre>scanf("%d", &v);</pre>
+
+とすると <var>v</var> に対応する出力 <var>x<sub>i<sub>1</sub></sub> + x<sub>i<sub>2</sub></sub> + ... + x<sub>i<sub>k</sub></sub>\ (mod 2)</var> が入る．
+最終的に回路 A が依存するビット <var>i<sub>1</sub>,...,i<sub>k</sub></var> を出力するには
+
+<pre>printf("!<var>i<sub>1</sub> i<sub>2</sub> ...i<sub>k</sub></var>\n"); fflush(stdout);</pre>
+とする．ここで各 <var>i<sub>j</sub></var> の間はスペースを丁度 1 つずついれる．</p>
+
+<h2>制約</h2>
+<ul>
+    <li><var>1 &le; n &le; 10,000</var></li>
+    <li><var>1 &le; k &le; min(10, n)</var></li>
+
+    <li>各データセットごとに，回路 A の実行回数の上限は 200 回であり，それを超えると誤答 (<i>Query Limit Exceeded</i>) と判定される．</li>
+</ul>
+
+<h2>入出力例</h2>
+<h3>入力例 1</h3>
+<p>
+以下の例はプログラムの入出力の例である．左の列はプログラムの出力，右の列はプログラムへの入力を時系列順に示している．最初に <var>n k</var> が入力として与えられる．ここでは <var>n = 2, k = 1</var> である．次に回路 A に <tt>00</tt> という入力をいれると，回路 A は <var>0</var> を返した．次に回路 A に <tt>01</tt> という入力をいれると，回路 A は再び <var>0</var> を返した．このことから回路 A は <var>1</var> ビット目のみ利用していることが分かり，プログラムは <var>1</var> を解答として出力した．
+
+</p>
+<div class="reactive-example">
+<table class="withborder">
+<tr><th>プログラムの出力</th><th>プログラムへの入力</th></tr>
+<tr><td></td><td>2 1</td></tr>
+<tr><td>?00</td><td></td></tr>
+<tr><td></td><td>0</td></tr>
+<tr><td>?01</td><td></td></tr>
+<tr><td></td><td>0</td></tr>
+<tr><td>!1</td><td></td></tr>
+
+</table>
+</div>
+<br>
+
+<h3>入力例 2</h3>
+<p>
+以下の例では，<var>n = 2, k = 2</var> であり，直ちに回路 A が <var>1</var> ビット目と <var>2</var> ビット目の両方を利用していることが分かる．よってプログラムは <var>1</var> と <var>2</var> を解答として出力した．
+
+</p>
+<div class="reactive-example">
+<table class="withborder">
+<tr><th>プログラムの出力</th><th>プログラムへの入力</th></tr>
+<tr><td></td><td>2 2</td></tr>
+<tr><td>!1 2</td><td></td></tr>
+</table>
+</div>
+<br>
+
+
+
+
+

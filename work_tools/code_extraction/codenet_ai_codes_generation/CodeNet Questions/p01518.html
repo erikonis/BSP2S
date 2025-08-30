@@ -1,0 +1,207 @@
+
+
+<!-- begin en only -->
+<h3><u>Dog Food
+</u></h3>
+<!-- end en only -->
+<!-- begin ja only -->
+<h3><u>ドッグフード
+</u></h3>
+<!-- end ja only -->
+<div>
+<!-- begin en only -->
+<p>
+English text is not available in this practice contest.
+</p>
+<!-- end en only -->
+<!-- begin ja only -->
+<p>
+あなたは, 賢い犬を選ぶコンテストの主催者である．
+種目の1つに，以下のようなものがある．
+</p>
+
+<p>
+この種目は，平面的な広場の上で行われる．
+広場には杭がいくつか立っており，そのうちの1つと，犬はロープで結ばれている．杭やロープの太さは無視できるものとする．ロープが結ばれている杭の座標を(0，0)，犬の位置を(Dx，Dy)とする．
+また，ロープが結ばれている杭以外の杭の本数をｎ本とし，それらの座標を(x<sub>1</sub>，y<sub>1</sub>)... (x<sub>n</sub>，y<sub>n</sub>)とする．
+初期状態で，ロープはピンと張られた状態である．すなわち，ロープの長さはちょうど(Dx，Dy)と(0，0)の距離に等しく，その2つの端は原点の杭と犬にそれぞれ結び付けられている．
+(Fx，Fy)には，ドッグフードがおかれており，この地点がゴールである．この条件下で，短い走行距離でゴールに辿りつけた犬ほど賢いと考えられる．
+場合によっては，図F-1のように，直接ゴールに向かうと，別の杭にロープが引っかかり，ロープの長さが足りなくなって，ゴールにたどりつけないため，杭を迂回する必要があることに注意せよ．
+この例は，サンプルの1番目の入力を表している．
+</p>
+
+<center>
+<center>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE_ukai">
+</center>
+
+</center>
+<center>
+<p>
+<i>図 F-1: 杭を迂回する必要がある例</i>
+</p>
+
+</center>
+<p>
+優秀なプログラマーでもあるあなたは，犬がゴールにたどり着けるかどうか，またたどり着けるとしたら最短距離はどうなるのかを，あらかじめ計算しておくことにした．
+</p>
+
+
+<!-- end ja only -->
+</div>
+<h3>Input</h3>
+<div>
+<!-- begin ja only -->
+<p>
+入力は1つ以上のデータセットからなる．1つのデータセットは次の形式をしている．データセット中の値は，全て整数である．
+</p>
+
+<blockquote>
+<var>n</var><br/>
+<var>Dx</var> <var>Dy</var><br/>
+<var>Fx</var> <var>Fx</var><br/>
+<var>x<sub>1</sub></var> <var>y<sub>1</sub></var><br/>
+<var>...</var><br/>
+<var>x<sub>n</sub></var> <var>y<sub>n</sub></var><br/>
+</blockquote>
+
+<p>
+n はロープが繋がっていない杭の本数を表す．
+Dx, Dy は，犬の初期位置の座標を表す．
+Fx, Fy は，ゴールの位置を表す．
+x<sub>i</sub>, y<sub>i</sub> は，ロープが繋がっていない杭の座標を表す．
+</p>
+
+<p>
+データセットについて，つぎの制約が成立している．
+</p>
+
+<ul>
+<li>1 &#8804; n &#8804; 8</li>
+<li>-100 &#8804; Dx, Dy, Fx, Fy, x<sub>i</sub>, y<sub>i</sub> &#8804; 100</li>
+<li>線分(0,0), (Dx,Dy)上に杭は存在しない.</li>
+<li>(0,0), (Dx, Dy), (Fx, Fy), (x<sub>1</sub>, y<sub>1</sub>), (x<sub>2</sub>, y<sub>2</sub>)... (x<sub>n</sub>, y<sub>n</sub>) はすべて異なる座標である.</li>
+</ul>
+
+<p>
+また，以下のことを仮定してよい.
+</p>
+
+<ul>
+<li>(Dx,Dy) が原点方向に対して, ε(|ε| &lt; 0.00001)だけ変化したとき, 結果が 0.0005 より大きく変化することはない．</li>
+</ul>
+
+<p>
+入力の終わりは，0を1つだけ含む行で表される．
+</p>
+
+
+<!-- end ja only -->
+</div>
+<h3>Output</h3>
+<div>
+<!-- begin ja only -->
+<p>
+各データセットについて，ゴールにたどり着ける場合は最短距離を，たどり着けない場合は-1を 1 行に出力せよ．
+出力には, 0.001を超える誤差があってはならない.
+</p>
+
+
+<!-- end ja only -->
+</div>
+<h3>Sample Input</h3>
+<div>
+<pre>
+1
+-4 -8
+3 -8
+0 -6
+1
+0 6
+4 0
+1 4
+1
+4 0
+0 6
+1 4
+4
+95 0
+0 90
+55 64
+33 31
+5 4
+15 43
+8
+100 100
+99 -100
+60 50
+6 5
+12 10
+24 20
+30 0
+70 0
+-30 -10
+-90 -30
+0
+</pre>
+
+<!-- begin ja only -->
+<p>
+図F-2, F-3, F-4 は，それぞれサンプルの2番目から4番目の配置を示している．
+</p>
+
+<center>
+<center>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE_sample0">
+</center>
+
+</center>
+<center>
+<p>
+<i>図 F-2: 2番目のサンプル</i>
+</p>
+
+</center>
+<center>
+<center>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE_sample1">
+</center>
+
+</center>
+<center>
+<p>
+<i>図 F-3: 3番目のサンプル</i>
+</p>
+
+</center>
+<center>
+<center>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE_sample2">
+</center>
+
+</center>
+<center>
+<p>
+<i>図 F-4: 4番目のサンプル</i>
+</p>
+
+</center>
+
+
+
+<!-- end ja only -->
+</div>
+<h3>Output for Sample Input</h3>
+<div>
+<pre>
+8.0776872
+7.2360679
+-1
+140.2870005
+273.9090890
+</pre>
+
+<!-- begin ja only -->
+
+<!-- end ja only -->
+</div>

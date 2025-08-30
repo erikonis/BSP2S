@@ -1,0 +1,33 @@
+Best model saved at epoch 14 with accuracy: 89.52%
+
+
+
+=== METRICS STATS ===
+
+Model: best_dn121_raw
+------------------------------
+ROC AUC: 0.9847
+MCC score: 0.8556
+F1 Score: 0.8847
+Recall: 0.8843
+Precision: 0.8862
+Accuracy: 88.43%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label            Samples  Average Confidence Max Confidence Min Confidence
+-------------------------------------------------------------------------------------------------
+best_dn121_raw         human            795      0.984              1.000          0.506         
+best_dn121_raw         chatgpt          737      0.901              1.000          0.359         
+best_dn121_raw         claude           736      0.925              1.000          0.394         
+best_dn121_raw         gemini           786      0.942              1.000          0.398         
+best_dn121_raw         deepseek         691      0.909              1.000          0.343         
+
+Table: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+
+=== TRAINING TIME ===
+
+Total training time: 7101.49 seconds
+Optimal training time: 3366.31 seconds

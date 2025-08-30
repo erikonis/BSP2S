@@ -1,0 +1,397 @@
+<html>
+<head>
+    <title>NiCad6 Clone Report</title>
+    <style type="text/css">
+        body {font-family:sans-serif;}
+        table {background-color:white; border:0px; padding:0px; border-spacing:4px; width:auto; margin-left:30px; margin-right:auto;}
+        td {background-color:rgba(192,212,238,0.8); border:0px; padding:8px; width:auto; vertical-align:top; border-radius:8px}
+        pre {background-color:white; padding:4px;}
+        a {color:darkblue;}
+    </style>
+</head>
+<body>
+<h2>NiCad6 Clone Report</h2>
+<table>
+<tr style="font-size:14pt">
+<td><b>System 1:</b> &nbsp; hum_codes_multiclass</td>
+<td><b>System 2:</b> &nbsp; ai_codes/deepseek</td>
+<td><b>Clone pairs:</b> &nbsp; 9</td>
+<td><b>Clone classes:</b> &nbsp; 4</td>
+</tr>
+<tr style="font-size:12pt">
+<td style="background-color:white">Clone type: &nbsp; 1</td>
+<td style="background-color:white">Granularity: &nbsp; files</td>
+<td style="background-color:white">Max diff threshold: &nbsp; 0%</td>
+<td style="background-color:white">Clone size: &nbsp; 10 - 2500 lines</td>
+<td style="background-color:white">Total files: &nbsp; 16892</td>
+</tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 1:</b> &nbsp; 6 fragments, nominal size 17 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag540')" href="javascript:;">
+hum_codes_multiclass/s061879748P.java: 1-21
+</a>
+<div class="mid" id="frag540" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+
+		if (a + b == 15) {
+			System.out.println("+");
+		} else if (a * b == 15) {
+			System.out.println("*");
+		} else {
+			System.out.println("x");
+		}
+
+	}
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14445')" href="javascript:;">
+ai_codes/deepseek/deepseek_p03302_4P.java: 1-18
+</a>
+<div class="mid" id="frag14445" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a + b == 15) {
+            System.out.println("+");
+        } else if (a * b == 15) {
+            System.out.println("*");
+        } else {
+            System.out.println("x");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14441')" href="javascript:;">
+ai_codes/deepseek/deepseek_p03302_0P.java: 1-18
+</a>
+<div class="mid" id="frag14441" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a + b == 15) {
+            System.out.println("+");
+        } else if (a * b == 15) {
+            System.out.println("*");
+        } else {
+            System.out.println("x");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14444')" href="javascript:;">
+ai_codes/deepseek/deepseek_p03302_3P.java: 1-18
+</a>
+<div class="mid" id="frag14444" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a + b == 15) {
+            System.out.println("+");
+        } else if (a * b == 15) {
+            System.out.println("*");
+        } else {
+            System.out.println("x");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14442')" href="javascript:;">
+ai_codes/deepseek/deepseek_p03302_1P.java: 1-18
+</a>
+<div class="mid" id="frag14442" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a + b == 15) {
+            System.out.println("+");
+        } else if (a * b == 15) {
+            System.out.println("*");
+        } else {
+            System.out.println("x");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14443')" href="javascript:;">
+ai_codes/deepseek/deepseek_p03302_2P.java: 1-18
+</a>
+<div class="mid" id="frag14443" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a + b == 15) {
+            System.out.println("+");
+        } else if (a * b == 15) {
+            System.out.println("*");
+        } else {
+            System.out.println("x");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 2:</b> &nbsp; 3 fragments, nominal size 15 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag915')" href="javascript:;">
+hum_codes_multiclass/s110563723P.java: 1-17
+</a>
+<div class="mid" id="frag915" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        if ( b - a == c - b) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16058')" href="javascript:;">
+ai_codes/deepseek/deepseek_p03759_4P.java: 1-17
+</a>
+<div class="mid" id="frag16058" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        if (b - a == c - b) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16056')" href="javascript:;">
+ai_codes/deepseek/deepseek_p03759_2P.java: 1-17
+</a>
+<div class="mid" id="frag16056" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        if (b - a == c - b) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 3:</b> &nbsp; 2 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag6105')" href="javascript:;">
+hum_codes_multiclass/s726306509P.java: 1-17
+</a>
+<div class="mid" id="frag6105" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+
+		if((A+B)%2==0) {
+			System.out.println((A+B)/2);
+		}else {
+			System.out.println("IMPOSSIBLE");
+		}
+	}
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag13118')" href="javascript:;">
+ai_codes/deepseek/deepseek_p02957_1P.java: 1-16
+</a>
+<div class="mid" id="frag13118" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if ((A + B) % 2 == 0) {
+            System.out.println((A + B) / 2);
+        } else {
+            System.out.println("IMPOSSIBLE");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 4:</b> &nbsp; 2 fragments, nominal size 10 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag6724')" href="javascript:;">
+hum_codes_multiclass/s798126232P.java: 1-14
+</a>
+<div class="mid" id="frag6724" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int h = sc.nextInt();
+
+		System.out.println((a+b)*h/2);
+	}
+
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16683')" href="javascript:;">
+ai_codes/deepseek/deepseek_p03997_0P.java: 1-13
+</a>
+<div class="mid" id="frag16683" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int h = sc.nextInt();
+
+        System.out.println((a + b) * h / 2);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<script language="JavaScript">
+function ShowHide(divId) { 
+    if(document.getElementById(divId).style.display == 'none') {
+        document.getElementById(divId).style.display='block';
+    } else { 
+        document.getElementById(divId).style.display = 'none';
+    } 
+}
+</script>
+</body>
+</html>

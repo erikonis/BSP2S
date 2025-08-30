@@ -1,0 +1,108 @@
+<span class="lang-en">
+<p>Score : <var>800</var> points</p>
+<div class="part">
+<section>
+<h3>Problem Statement</h3><p><font color="red"><strong>This is an interactive task.</strong></font></p>
+<p>Snuke has a favorite positive integer, <var>N</var>. You can ask him the following type of question at most <var>64</var> times: "Is <var>n</var> your favorite integer?" Identify <var>N</var>.</p>
+<p>Snuke is twisted, and when asked "Is <var>n</var> your favorite integer?", he answers "Yes" if one of the two conditions below is satisfied, and answers "No" otherwise:</p>
+<ul>
+<li>Both <var>n \leq N</var> and <var>str(n) \leq str(N)</var> hold.</li>
+<li>Both <var>n &gt; N</var> and <var>str(n) &gt; str(N)</var> hold.</li>
+</ul>
+<p>Here, <var>str(x)</var> is the decimal representation of <var>x</var> (without leading zeros) as a string. For example, <var>str(123) =</var> <code>123</code> and <var>str(2000)</var> = <code>2000</code>.
+Strings are compared lexicographically. For example, <code>11111</code> <var>&lt;</var> <code>123</code> and <code>123456789</code> <var>&lt;</var> <code>9</code>.</p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Constraints</h3><ul>
+<li><var>1 \leq N \leq 10^{9}</var></li>
+</ul>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Input and Output</h3><p>Write your question to Standard Output in the following format:</p>
+<pre>? <var>n</var>
+</pre>
+<p>Here, <var>n</var> must be an integer between <var>1</var> and <var>10^{18}</var> (inclusive).</p>
+<p>Then, the response to the question shall be given from Standard Input in the following format:</p>
+<pre><var>ans</var>
+</pre>
+<p>Here, <var>ans</var> is either <code>Y</code> or <code>N</code>. <code>Y</code> represents "Yes"; <code>N</code> represents "No".</p>
+<p>Finally, write your answer in the following format:</p>
+<pre>! <var>n</var>
+</pre>
+<p>Here, <var>n=N</var> must hold.</p>
+</section>
+</div>
+<hr/>
+<div class="io-style">
+<div class="part">
+<section>
+<h3>Judging</h3><ul>
+<li><font color="red"><strong>After each output, you must flush Standard Output.</strong></font> Otherwise you may get <code>TLE</code>.</li>
+<li>After you print the answer, the program must be terminated immediately. Otherwise, the behavior of the judge is undefined.</li>
+<li>When your output is invalid or incorrect, the behavior of the judge is undefined (it does not necessarily give <code>WA</code>).</li>
+</ul>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Sample</h3><p>Below is a sample communication for the case <var>N=123</var>:</p>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><code>? 1</code></td>
+</tr>
+<tr>
+<td><code>Y</code></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><code>? 32</code></td>
+</tr>
+<tr>
+<td><code>N</code></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><code>? 1010</code></td>
+</tr>
+<tr>
+<td><code>N</code></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><code>? 999</code></td>
+</tr>
+<tr>
+<td><code>Y</code></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><code>! 123</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Since <var>1 \leq 123</var> and <var>str(1) \leq str(123)</var>, the first response is "Yes".</li>
+<li>Since <var>32 \leq 123</var> but <var>str(32) &gt; str(123)</var>, the second response is "No".</li>
+<li>Since <var>1010 &gt; 123</var> but <var>str(1010) \leq str(123)</var>, the third response is "No".</li>
+<li>Since <var>999 \geq 123</var> and <var>str(999) &gt; str(123)</var>, the fourth response is "Yes".</li>
+<li>The program successfully identifies <var>N=123</var> in four questions, and thus passes the case.</li>
+</ul></section>
+</div>
+</div>
+</span>

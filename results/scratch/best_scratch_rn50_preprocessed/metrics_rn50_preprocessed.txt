@@ -1,0 +1,8 @@
+Model: rn50
+Dataset: preprocessed
+------------------------------
+F1 Score: 0.9561
+Recall: 0.9764
+Precision: 0.9366
+Accuracy: 95.51%
+------------------------------

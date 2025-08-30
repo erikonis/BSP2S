@@ -1,0 +1,4 @@
+Total evaluation time (sec): 2239.9557
+Average time per image (sec): 0.3549
+Min time per image (sec): 0.2797
+Max time per image (sec): 10.3950

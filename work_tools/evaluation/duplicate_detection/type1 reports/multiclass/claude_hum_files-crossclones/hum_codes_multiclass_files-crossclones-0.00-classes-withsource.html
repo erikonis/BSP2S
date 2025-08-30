@@ -1,0 +1,225 @@
+<html>
+<head>
+    <title>NiCad6 Clone Report</title>
+    <style type="text/css">
+        body {font-family:sans-serif;}
+        table {background-color:white; border:0px; padding:0px; border-spacing:4px; width:auto; margin-left:30px; margin-right:auto;}
+        td {background-color:rgba(192,212,238,0.8); border:0px; padding:8px; width:auto; vertical-align:top; border-radius:8px}
+        pre {background-color:white; padding:4px;}
+        a {color:darkblue;}
+    </style>
+</head>
+<body>
+<h2>NiCad6 Clone Report</h2>
+<table>
+<tr style="font-size:14pt">
+<td><b>System 1:</b> &nbsp; hum_codes_multiclass</td>
+<td><b>System 2:</b> &nbsp; ai_codes/claude</td>
+<td><b>Clone pairs:</b> &nbsp; 5</td>
+<td><b>Clone classes:</b> &nbsp; 2</td>
+</tr>
+<tr style="font-size:12pt">
+<td style="background-color:white">Clone type: &nbsp; 1</td>
+<td style="background-color:white">Granularity: &nbsp; files</td>
+<td style="background-color:white">Max diff threshold: &nbsp; 0%</td>
+<td style="background-color:white">Clone size: &nbsp; 10 - 2500 lines</td>
+<td style="background-color:white">Total files: &nbsp; 16922</td>
+</tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 1:</b> &nbsp; 4 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag5183')" href="javascript:;">
+hum_codes_multiclass/s617909226P.java: 1-18
+</a>
+<div class="mid" id="frag5183" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int K = sc.nextInt();
+        String S = sc.next();
+
+        if(S.length() &lt;= K){
+            System.out.println(S);
+        }else{
+            System.out.println(S.substring(0,K) + "...");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11975')" href="javascript:;">
+ai_codes/claude/claude_p02676_3P.java: 1-16
+</a>
+<div class="mid" id="frag11975" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        String S = sc.next();
+
+        if (S.length() &lt;= K) {
+            System.out.println(S);
+        } else {
+            System.out.println(S.substring(0, K) + "...");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11973')" href="javascript:;">
+ai_codes/claude/claude_p02676_1P.java: 1-16
+</a>
+<div class="mid" id="frag11973" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        String S = sc.next();
+
+        if (S.length() &lt;= K) {
+            System.out.println(S);
+        } else {
+            System.out.println(S.substring(0, K) + "...");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11976')" href="javascript:;">
+ai_codes/claude/claude_p02676_4P.java: 1-16
+</a>
+<div class="mid" id="frag11976" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        String S = sc.next();
+
+        if (S.length() &lt;= K) {
+            System.out.println(S);
+        } else {
+            System.out.println(S.substring(0, K) + "...");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 2:</b> &nbsp; 3 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag6105')" href="javascript:;">
+hum_codes_multiclass/s726306509P.java: 1-17
+</a>
+<div class="mid" id="frag6105" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+
+		if((A+B)%2==0) {
+			System.out.println((A+B)/2);
+		}else {
+			System.out.println("IMPOSSIBLE");
+		}
+	}
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag13138')" href="javascript:;">
+ai_codes/claude/claude_p02957_1P.java: 1-16
+</a>
+<div class="mid" id="frag13138" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if ((A + B) % 2 == 0) {
+            System.out.println((A + B) / 2);
+        } else {
+            System.out.println("IMPOSSIBLE");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag13139')" href="javascript:;">
+ai_codes/claude/claude_p02957_2P.java: 1-16
+</a>
+<div class="mid" id="frag13139" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if ((A + B) % 2 == 0) {
+            System.out.println((A + B) / 2);
+        } else {
+            System.out.println("IMPOSSIBLE");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<script language="JavaScript">
+function ShowHide(divId) { 
+    if(document.getElementById(divId).style.display == 'none') {
+        document.getElementById(divId).style.display='block';
+    } else { 
+        document.getElementById(divId).style.display = 'none';
+    } 
+}
+</script>
+</body>
+</html>

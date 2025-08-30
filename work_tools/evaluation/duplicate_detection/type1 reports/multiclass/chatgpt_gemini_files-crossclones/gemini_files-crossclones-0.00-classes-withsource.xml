@@ -1,0 +1,449 @@
+<clones>
+<systeminfo processor="nicad6" system="gemini" system2="chatgpt" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="15627" npairs="30"/>
+<runinfo ncompares="2578093" cputime="447243"/>
+<classinfo nclasses="4"/>
+
+<class classid="1" nclones="4" nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02392_3P.java" startline="1" endline="18" pcid="2757">
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int c = sc.nextInt();
+
+    if (a < b && b < c) {
+      System.out.println("Yes");
+    } else {
+      System.out.println("No");
+    }
+  }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02392_3P.java" startline="1" endline="16" pcid="11166">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        if (a < b && b < c) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02392_0P.java" startline="1" endline="16" pcid="11163">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        if (a < b && b < c) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02392_2P.java" startline="1" endline="16" pcid="11165">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        if (a < b && b < c) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="2" nclones="7" nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_0P.java" startline="1" endline="19" pcid="2764">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_4P.java" startline="1" endline="19" pcid="11177">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_3P.java" startline="1" endline="19" pcid="11176">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_2P.java" startline="1" endline="19" pcid="11175">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02394_3P.java" startline="1" endline="20" pcid="2767">
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02394_4P.java" startline="1" endline="19" pcid="2768">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02394_1P.java" startline="1" endline="19" pcid="2765">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="3" nclones="4" nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02398_1P.java" startline="1" endline="19" pcid="2780">
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int count = 0;
+        for (int i = a; i <= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02398_4P.java" startline="1" endline="18" pcid="11192">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int count = 0;
+        for (int i = a; i <= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02398_2P.java" startline="1" endline="19" pcid="2781">
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int c = sc.nextInt();
+    int count = 0;
+    for (int i = a; i <= b; i++) {
+      if (c % i == 0) {
+        count++;
+      }
+    }
+    System.out.println(count);
+  }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02398_3P.java" startline="1" endline="19" pcid="2782">
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int c = sc.nextInt();
+    int count = 0;
+    for (int i = a; i <= b; i++) {
+      if (c % i == 0) {
+        count++;
+      }
+    }
+    System.out.println(count);
+  }
+}
+
+</source>
+</class>
+
+<class classid="4" nclones="7" nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_0P.java" startline="1" endline="16" pcid="3802">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long H = sc.nextLong();
+        long W = sc.nextLong();
+
+        if (H == 1 || W == 1) {
+            System.out.println(1);
+        } else {
+            System.out.println((H * W + 1) / 2);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_4P.java" startline="1" endline="16" pcid="12220">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long H = sc.nextLong();
+        long W = sc.nextLong();
+
+        if (H == 1 || W == 1) {
+            System.out.println(1);
+        } else {
+            System.out.println((H * W + 1) / 2);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_2P.java" startline="1" endline="16" pcid="12218">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long H = sc.nextLong();
+        long W = sc.nextLong();
+
+        if (H == 1 || W == 1) {
+            System.out.println(1);
+        } else {
+            System.out.println((H * W + 1) / 2);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_3P.java" startline="1" endline="16" pcid="12219">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long H = sc.nextLong();
+        long W = sc.nextLong();
+
+        if (H == 1 || W == 1) {
+            System.out.println(1);
+        } else {
+            System.out.println((H * W + 1) / 2);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_1P.java" startline="1" endline="15" pcid="12217">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long H = sc.nextLong();
+        long W = sc.nextLong();
+        if (H == 1 || W == 1) {
+            System.out.println(1);
+        } else {
+            System.out.println((H * W + 1) / 2);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02742_2P.java" startline="1" endline="16" pcid="3804">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long H = sc.nextLong();
+        long W = sc.nextLong();
+
+        if (H == 1 || W == 1) {
+            System.out.println(1);
+        } else {
+            System.out.println((H * W + 1) / 2);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02742_3P.java" startline="1" endline="16" pcid="3805">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long H = sc.nextLong();
+        long W = sc.nextLong();
+
+        if (H == 1 || W == 1) {
+            System.out.println(1);
+        } else {
+            System.out.println((H * W + 1) / 2);
+        }
+    }
+}
+
+</source>
+</class>
+
+</clones>

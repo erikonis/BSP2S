@@ -1,0 +1,220 @@
+
+<h3><U>Planning Rolling Blackouts</U></h3>
+<!-- end en only -->
+
+
+<div>   <!-- please enclose each h3 level section with div -->
+<!-- begin en only -->
+<p>Faced with seriously tight power supply-demand balance, the
+electric power company for which you are working implemented <q>rolling
+    blackouts</q> in this spring.  It divided the servicing area into several
+groups of towns, and divided a day into several blackout periods.  At
+each blackout period of a day, one of the groups, which alternates
+from one group to another, is cut off the electricity.  By keeping the total demand of
+electricity used by the rest of the towns within the supply
+capacity, the company avoided unforeseeable large-scale blackout.</p>
+<!-- end en only -->
+
+<!-- begin en only -->
+
+<p>Working at the customer relations department, you had to listen to
+so many complaints from the customers, which made you think that you
+could have a better implementation.  Most of the complaints are about the
+frequent cut-offs.  But you could have divided the area into a larger number of
+groups, which resulted in less frequent cut-offs for each group.  The
+other complaints are about the complicated grouping (in fact, someone
+said that the shapes of the groups are fractals), which makes it
+impossible to understand which town belongs to which group without
+closely inspecting into the grouping list publicized by the company.
+With the rectangular servicing area and towns located in a grid form,
+you could have made a simpler grouping.
+
+</p>
+<!-- end en only -->
+
+<!-- begin en only -->
+<p>
+When you talked your analysis directly to the president of the company, you are
+appointed to plan rolling blackouts for this summer.  Be careful what
+you propose.  Anyway, you need to divide the servicing area into
+as many groups as possible with keeping total demand of electricity
+within the supply capacity.  It should also divide the towns into
+simple and easy to remember groups.
+</p>
+<!-- end en only -->
+
+<!-- begin en only -->
+<p>
+Your task is to write a program, given a demand table (a table showing
+electricity demand of each town) and the supply capacity, that answers
+a grouping of towns that satisfy the following conditions.
+</p>
+<!-- end en only -->
+
+<!-- begin en only -->
+<ol>
+  <li>The grouping should be made by horizontally or vertically splitting
+    the area in a recursive manner.  In other words, the grouping must
+    be a set of areas after applied the following splitting
+    procedure to a set containing only the entire area for zero or
+    more times:
+    <blockquote>(The splitting procedure) remove one area from the set,
+      either vertically or horizontally split it into two sub-areas,
+      and put the sub-areas into the set.
+<!--
+      replace one area in the set with two sub-areas that are
+      obtained by splitting it either vertically or horizontally.
+
+      pick one area and split it either vertically or horizontally.
+-->
+    </blockquote>
+<!--
+    In other words, the groups are formed by repeatedly 
+    split an area either vertically or horizontally into two areas.
+-->
+    </li>
+  <li>The maximum suppressed demand of the grouping, which is the greatest total demand of the
+    all but one group, is no more than the supply capacity.</li>
+  <li>The grouping has the largest number of groups among the groupings
+    that satisfy the above conditions 1 and 2.</li>
+  <li>The grouping has the greatest amount of reserve power among the
+  groupings that satisfy the above conditions 1, 2 and 3, where the
+  reserve power of a grouping is the difference between the supply
+  capacity and the maximum suppressed demand.</li>
+</ol>
+<!-- end en only -->
+
+<!-- begin en only -->
+<p>Note that the condition 1 does not allow such a grouping shown in Figure E-1.</p>
+<!-- end en only -->
+
+<center>
+  <img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_1176" align="center" width="200" height="200"/><br/>
+<!-- begin en only -->
+Figure E-1: A grouping that violates the condition 1
+<!-- end en only -->
+<br/><br/>
+</center>
+
+</div>
+
+<h3>Input</h3>
+
+<div>
+
+
+<!-- begin en only -->
+<p>The input consists of one or more datasets.  Each dataset is given in
+the following format.</p>
+<!-- end en only -->
+
+<blockquote>
+
+<i>h w s</i> <br/>
+<i>u</i><sub>11</sub> <i>u</i><sub>12</sub> ... <i>u</i><sub>1<i>w</i></sub><br/>
+<i>u</i><sub>21</sub> <i>u</i><sub>22</sub> ... <i>u</i><sub>2<i>w</i></sub><br/>
+...                                <br/>
+<i>u</i><sub><i>h</i>1</sub> <i>u</i><sub><i>h</i>2</sub> ... <i>u</i><sub><i>h</i><i>w</i></sub><br/>
+</blockquote>
+
+
+<!-- begin en only -->
+<p>
+The first line contains three positive integer numbers,
+namely <i>h</i>, <i>w</i> and <i>s</i>, denoting the height and width
+of the demand table and the power supply capacity.  The following <i>h</i>
+lines, each of which contains <i>w</i> integer numbers, denote demands of towns at respective
+locations.  Those figures are constrained as follows.
+</p>
+<!-- end en only -->
+
+<blockquote>
+1 &le; <i>h</i>, <i>w</i> &le; 32 <br/>
+1 &le; <i>u<sub><i>ij</i></sub></i> &le; 100<br/>
+</blockquote>
+
+<!-- begin en only -->
+<p>
+Regrettably, you may assume that the supply capacity is less than the total demand of the area.
+</p>
+<!-- end en only -->
+
+<!-- begin en only -->
+<p>
+The last dataset is followed by a line containing three zeros.
+</p>
+<!-- end en only -->
+
+</div>
+
+<h3>Output</h3>
+<div>
+
+<!-- begin en only -->
+<p>
+For each dataset, print a line having two integers indicating the
+number of groups in the grouping that satisfies the conditions, and
+the amount of the reserve power.  Each line should not have any
+character other than those numbers and a space in between.
+</p>
+<!-- end en only -->
+
+
+</div>
+
+<h3>Sample Input</h3>
+<div>
+<pre>
+3 3 33
+4 4 2
+2 9 6
+6 5 3
+3 4 15
+1 2 1 2
+2 1 2 1
+1 2 1 2
+32 32 1112
+1 1 1 1 2 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 2 1 1 1 1 1 1 1 1 1 2
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1
+2 1 1 2 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 2 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 2 1
+1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 2 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 2 1 1 1 2 1 1
+1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 2 1 1 1 1 1 2 1 1 1 1 1 1 1 1
+1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 2 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 2 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1
+1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1
+2 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 2 1 1 1 1 1 2 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 2 1 2 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 2 1 1 1 1 1 1 2 2 1 1 2 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+2 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 2 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1
+2 1 1 1 1 1 1 1 2 1 1 1 2 2 2 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 2 1 1 1 1 2 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 2 1 1 1 2 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 1 1 2 2
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 2 1 1 1 1
+1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1
+1 1 1 2 1 1 2 1 1 1 2 1 2 1 1 1 1 1 1 1 2 2 1 1 1 1 1 1 2 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 2 1 1 1 1 2 2 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 0 0
+</pre>
+</div>
+
+<h3>Output for the Sample Input</h3>
+<div>
+<pre>
+4 1
+6 0
+553 0
+</pre>
+</div>

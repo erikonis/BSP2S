@@ -1,0 +1,81 @@
+<clones>
+<systeminfo processor="nicad6" system="deepseek" system2="gemini" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16835" npairs="15"/>
+<runinfo ncompares="3033079" cputime="311715"/>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02404_4P.java" startline="1" endline="27" pcid="2795"></source>
+<source file="../ai_codes/gemini/gemini_p02404_0P.java" startline="1" endline="27" pcid="11235"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02404_4P.java" startline="1" endline="27" pcid="2795"></source>
+<source file="../ai_codes/gemini/gemini_p02404_2P.java" startline="1" endline="27" pcid="11237"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02404_4P.java" startline="1" endline="27" pcid="2795"></source>
+<source file="../ai_codes/gemini/gemini_p02404_3P.java" startline="1" endline="27" pcid="11238"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02404_4P.java" startline="1" endline="27" pcid="2795"></source>
+<source file="../ai_codes/gemini/gemini_p02404_4P.java" startline="1" endline="27" pcid="11239"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p04032_2P.java" startline="1" endline="26" pcid="8360"></source>
+<source file="../ai_codes/gemini/gemini_p04026_2P.java" startline="1" endline="26" pcid="16738"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p04032_2P.java" startline="1" endline="26" pcid="8360"></source>
+<source file="../ai_codes/gemini/gemini_p04032_1P.java" startline="1" endline="26" pcid="16767"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p04032_2P.java" startline="1" endline="26" pcid="8360"></source>
+<source file="../ai_codes/gemini/gemini_p04032_4P.java" startline="1" endline="26" pcid="16770"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02898_2P.java" startline="1" endline="21" pcid="4414"></source>
+<source file="../ai_codes/gemini/gemini_p02898_4P.java" startline="1" endline="19" pcid="12855"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02898_2P.java" startline="1" endline="21" pcid="4414"></source>
+<source file="../ai_codes/gemini/gemini_p02898_3P.java" startline="1" endline="19" pcid="12854"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02898_2P.java" startline="1" endline="21" pcid="4414"></source>
+<source file="../ai_codes/gemini/gemini_p02898_2P.java" startline="1" endline="20" pcid="12853"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02898_2P.java" startline="1" endline="21" pcid="4414"></source>
+<source file="../ai_codes/gemini/gemini_p02898_1P.java" startline="1" endline="19" pcid="12852"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03238_1P.java" startline="1" endline="18" pcid="5709"></source>
+<source file="../ai_codes/gemini/gemini_p03238_3P.java" startline="1" endline="18" pcid="14143"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03238_1P.java" startline="1" endline="18" pcid="5709"></source>
+<source file="../ai_codes/gemini/gemini_p03238_1P.java" startline="1" endline="18" pcid="14141"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03238_1P.java" startline="1" endline="18" pcid="5709"></source>
+<source file="../ai_codes/gemini/gemini_p03238_0P.java" startline="1" endline="18" pcid="14140"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02398_2P.java" startline="1" endline="19" pcid="2763"></source>
+<source file="../ai_codes/gemini/gemini_p02398_4P.java" startline="1" endline="20" pcid="11210"></source>
+</clone>
+
+</clones>

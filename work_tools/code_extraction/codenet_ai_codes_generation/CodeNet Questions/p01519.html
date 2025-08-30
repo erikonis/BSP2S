@@ -1,0 +1,159 @@
+
+
+<!-- begin en only -->
+<h3><u>Sister Ports
+</u></h3>
+<!-- end en only -->
+<!-- begin ja only -->
+<h3><u>姉妹港
+</u></h3>
+<!-- end ja only -->
+<div>
+<!-- begin en only -->
+<p>
+English text is not available in this practice contest.
+</p>
+<!-- end en only -->
+<!-- begin ja only -->
+<p>
+ACM 国は正 n 角形の島国である．
+n 個の角に港があり，ある角の港から時計回りに 1 から n までの番号が順番に付いている．
+港は点とみなす．
+</p>
+
+<p>
+ACM 国には，二種類の道路がある．
+</p>
+
+<ol>
+<li><b>隣り合う港を繋ぐ道路</b> 全ての隣接する港は道路で接続されている．すなわち，番号の差が 1 である港同士および港 1 と港 n の間に道路がある．この種類の道路は n 本ある．</li>
+<li><b>島の内部を通る道路</b> 一部の隣接しない港の間も，道路で接続されている．この種類の道路は m 本あり，道路 i は港 a<sub>i</sub> と港 b<sub>i</sub> を接続する．</li>
+</ol>
+
+<p>
+道路は線分とみなす．ACM 国では，任意の 2 つの道路は端点以外で共有点を持たない．
+</p>
+
+<center>
+<center>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE_fig1">
+</center>
+
+</center>
+<center>
+<p>
+<i>図 G-1: 港と道路の例</i>
+</p>
+
+</center>
+<p>
+ACM 国は，港に事故が起きた時などに備えるため，全ての港について姉妹港を決め，いつでも互いを補助できるよう準備させることにした．
+全ての港について姉妹港は 1 つで，港 a が港 b の姉妹港であるとき，港 b も港 a の姉妹港である．
+すなわち，n 個の港から，港が重複しない n/2 個のペアを作る．
+このとき，ACM 国は，姉妹港の間には必ず道がなければならないとすることにした．
+</p>
+
+<p>
+ACM 国に住む優秀なプログラマーであるあなたの仕事は，
+全港に対する姉妹港の選び方の総数を計算するプログラムを作成することである．
+</p>
+
+<center>
+<center>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE_fig2">
+</center>
+
+</center>
+<center>
+<p>
+<i>図 G-2: 姉妹港の選び方の例（姉妹港同士の間の道路を赤色太線で表示している）</i>
+</p>
+
+</center>
+
+<!-- end ja only -->
+</div>
+<h3>Input</h3>
+<div>
+<!-- begin ja only -->
+<p>
+入力は1つ以上のデータセットからなる．1つのデータセットは次の形式をしている．
+</p>
+
+<blockquote>
+<var>n</var> <var>m</var><br/>
+<var>a<sub>1</sub></var> <var>b<sub>1</sub></var><br/>
+<var>...</var><br/>
+<var>a<sub>m</sub></var> <var>b<sub>m</sub></var><br/>
+</blockquote>
+
+<p>
+先頭行は 2 つの正の整数 n, m からなり，
+それぞれ ACM 国の港の数および種類 2 の道路の数を表す．
+続く m 行の i 行目は 2 個の整数 a<sub>i</sub>, b<sub>i</sub> からなり，
+道路 i が港 a<sub>i</sub>, b<sub>i</sub> を結ぶことを表す．
+</p>
+
+<p>
+任意の 2 つの道路は端点以外で共有点を持たない．また，これらの数は以下の範囲の値をとる．
+</p>
+
+<ul>
+<li>3 &#8804; n &#8804; 50,000</li>
+<li>0 &#8804; m &#8804; 50,000</li>
+<li>1 &#8804; a<sub>i</sub>, b<sub>i</sub> &#8804; n</li>
+</ul>
+
+<p>
+入力の終わりはふたつのゼロを含む行で表される．
+</p>
+
+
+<!-- end ja only -->
+</div>
+<h3>Output</h3>
+<div>
+<!-- begin ja only -->
+<p>
+各データセットについて，
+姉妹港の選び方の総数を 1000003 で割った余りを出力せよ．
+適切な姉妹港の選び方が存在しない場合は 0 を出力せよ．
+</p>
+
+
+<!-- end ja only -->
+</div>
+<h3>Sample Input</h3>
+<div>
+<pre>
+6 1
+1 4
+8 3
+1 6
+1 5
+2 5
+12 3
+3 10
+4 9
+6 9
+3 0
+0 0
+</pre>
+
+<!-- begin ja only -->
+
+<!-- end ja only -->
+</div>
+<h3>Output for Sample Input</h3>
+<div>
+<pre>
+3
+5
+7
+0
+</pre>
+
+<!-- begin ja only -->
+
+<!-- end ja only -->
+</div>

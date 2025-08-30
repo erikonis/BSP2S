@@ -1,0 +1,29 @@
+Best model saved at epoch 14 with accuracy: 96.22%
+
+
+
+=== METRICS STATS ===
+
+Model: best_rn50_preproc_sheetSplit
+------------------------------
+ROC AUC: 0.9922
+MCC score: 0.9214
+F1 Score: 0.9604
+Recall: 0.9547
+Precision: 0.9662
+Accuracy: 96.07%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label    Samples  Average Confidence Max Confidence Min Confidence
+-----------------------------------------------------------------------------------------
+best_rn50_preproc_sheetSplit Student  3267     0.989              1.000          0.507         
+best_rn50_preproc_sheetSplit AI       3227     0.965              1.000          0.509         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+=== TRAINING TIME ===
+
+Total training time: 11119.99 seconds
+Optimal training time: 5345.97 seconds

@@ -1,0 +1,102 @@
+<span class="lang-en">
+<p>Score: <var>800</var> points</p>
+<div class="part">
+<section>
+<h3>Problem Statement</h3>
+<p><font color="red"><strong>This is an interactive task.</strong></font></p>
+<p>We have <var>2N</var> balls arranged in a row, numbered <var>1, 2, 3, ..., 2N</var> from left to right, where <var>N</var> is an odd number. Among them, there are <var>N</var> red balls and <var>N</var> blue balls.</p>
+<p>While blindfolded, you are challenged to guess the color of every ball correctly, by asking at most <var>210</var> questions of the following form:</p>
+<ul>
+<li>You choose any <var>N</var> of the <var>2N</var> balls and ask whether there are more red balls than blue balls or not among those <var>N</var> balls.</li>
+</ul>
+<p>Now, let us begin.</p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Constraints</h3>
+<ul>
+<li><var>1 \leq N \leq 99</var></li>
+<li><var>N</var> is an odd number.</li>
+</ul>
+<hr/>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Input and Output</h3>
+<p>First, receive the number of balls of each color, <var>N</var>, from Standard Input:</p>
+<pre><var>N</var>
+</pre>
+<p>Then, ask questions until you find out the color of every ball.
+A question should be printed to Standard Output in the following format:</p>
+<pre>? <var>A_1</var> <var>A_2</var> <var>A_3</var> <var>...</var> <var>A_N</var>
+</pre>
+<p>This means that you are asking about the <var>N</var> balls <var>A_1, A_2, A_3, ..., A_N</var>, where <var>1 \leq A_i \leq 2N</var> and <var>A_i \neq A_j (i \neq j)</var> must hold.</p>
+<p>The response <var>T</var> to this question will be given from Standard Input in the following format:</p>
+<pre><var>T</var>
+</pre>
+<p>Here <var>T</var> is one of the following strings:</p>
+<ul>
+<li><code>Red</code>: Among the <var>N</var> balls chosen, there are more red balls than blue balls.</li>
+<li><code>Blue</code>: Among the <var>N</var> balls chosen, there are more blue balls than red balls.</li>
+<li><code>-1</code>: You printed an invalid question (including the case you asked more than <var>210</var> questions), or something else that was invalid.</li>
+</ul>
+<p>If the judge returns <code>-1</code>, your submission is already judged as incorrect. The program should immediately quit in this case.</p>
+<p>When you find out the color of every ball, print your guess to Standard Output in the following format:</p>
+<pre>! <var>c_1</var><var>c_2</var><var>c_3</var><var>...</var><var>c_{2N}</var>
+</pre>
+<p>Here <var>c_i</var> should be the character representing the color of Ball <var>i</var>; use <code>R</code> for red and <code>B</code> for blue.</p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Notice</h3>
+<ul>
+<li><font color="red"><strong>Flush Standard Output each time you print something.</strong></font> Failure to do so may result in <code>TLE</code>.</li>
+<li>Immediately terminate your program after printing your guess (or receiving the <code>-1</code> response). Otherwise, the verdict will be indeterminate.</li>
+<li>If your program prints something invalid, the verdict will be indeterminate.</li>
+</ul>
+</section>
+</div>
+<hr/>
+<div class="part">
+<section>
+<h3>Sample Input and Output</h3>
+<table class="table-striped table-bordered table-condensed">
+<tr align="center">
+<th align="center">Input</th>
+<th align="center">Output</th>
+</tr>
+<tr align="center">
+<td><code>3</code></td>
+<td></td>
+</tr>
+<tr align="center">
+<td></td>
+<td><code>? 1 2 3</code></td>
+</tr>
+<tr align="center">
+<td><code>Red</code></td>
+<td></td>
+</tr>
+<tr align="center">
+<td></td>
+<td><code>? 2 4 6</code></td>
+</tr>
+<tr align="center">
+<td><code>Blue</code></td>
+<td></td>
+</tr>
+<tr align="center">
+<td></td>
+<td><code>! RRBBRB</code></td>
+</tr>
+</table>
+<p>In this sample, <var>N = 3</var>, and the colors of Ball <var>1, 2, 3, 4, 5, 6</var> are red, red, blue, blue, red, blue, respectively.</p>
+<ul>
+<li>In the first question, there are two red balls and one blue ball among the balls <var>1, 2, 3</var>, so the judge returns <code>Red</code>.</li>
+<li>In the second question, there are one red ball and two blue balls among the balls <var>2, 4, 6</var>, so the judge returns <code>Blue</code>.</li>
+</ul></section>
+</div>
+</span>

@@ -1,0 +1,2061 @@
+<clones>
+<systeminfo processor="nicad6" system="gemini" system2="claude" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16865" npairs="411"/>
+<runinfo ncompares="3137197" cputime="279956"/>
+
+<clone nlines="43" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02411_1P.java" startline="1" endline="48" pcid="2844"></source>
+<source file="../ai_codes/claude/claude_p02411_1P.java" startline="1" endline="47" pcid="11251"></source>
+</clone>
+
+<clone nlines="36" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02440_1P.java" startline="1" endline="37" pcid="2944"></source>
+<source file="../ai_codes/claude/claude_p02440_4P.java" startline="1" endline="41" pcid="11354"></source>
+</clone>
+
+<clone nlines="36" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02440_1P.java" startline="1" endline="37" pcid="2944"></source>
+<source file="../ai_codes/claude/claude_p02440_3P.java" startline="1" endline="41" pcid="11353"></source>
+</clone>
+
+<clone nlines="36" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02440_1P.java" startline="1" endline="37" pcid="2944"></source>
+<source file="../ai_codes/claude/claude_p02440_2P.java" startline="1" endline="41" pcid="11352"></source>
+</clone>
+
+<clone nlines="36" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02440_1P.java" startline="1" endline="37" pcid="2944"></source>
+<source file="../ai_codes/claude/claude_p02440_1P.java" startline="1" endline="41" pcid="11351"></source>
+</clone>
+
+<clone nlines="36" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02440_1P.java" startline="1" endline="37" pcid="2944"></source>
+<source file="../ai_codes/claude/claude_p02440_0P.java" startline="1" endline="41" pcid="11350"></source>
+</clone>
+
+<clone nlines="37" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00136_3P.java" startline="1" endline="38" pcid="668"></source>
+<source file="../ai_codes/claude/claude_p00136_0P.java" startline="1" endline="39" pcid="9074"></source>
+</clone>
+
+<clone nlines="37" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00136_4P.java" startline="1" endline="38" pcid="669"></source>
+<source file="../ai_codes/claude/claude_p00136_0P.java" startline="1" endline="39" pcid="9074"></source>
+</clone>
+
+<clone nlines="33" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02442_3P.java" startline="1" endline="38" pcid="2956"></source>
+<source file="../ai_codes/claude/claude_p02442_2P.java" startline="1" endline="38" pcid="11362"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02421_2P.java" startline="1" endline="31" pcid="2895"></source>
+<source file="../ai_codes/claude/claude_p02421_4P.java" startline="1" endline="31" pcid="11304"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02421_2P.java" startline="1" endline="31" pcid="2895"></source>
+<source file="../ai_codes/claude/claude_p02421_3P.java" startline="1" endline="31" pcid="11303"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02421_2P.java" startline="1" endline="31" pcid="2895"></source>
+<source file="../ai_codes/claude/claude_p02421_2P.java" startline="1" endline="31" pcid="11302"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02421_2P.java" startline="1" endline="31" pcid="2895"></source>
+<source file="../ai_codes/claude/claude_p02421_1P.java" startline="1" endline="31" pcid="11301"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02421_2P.java" startline="1" endline="31" pcid="2895"></source>
+<source file="../ai_codes/claude/claude_p02421_0P.java" startline="1" endline="31" pcid="11300"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_4P.java" startline="1" endline="31" pcid="2952"></source>
+<source file="../ai_codes/claude/claude_p02441_3P.java" startline="1" endline="31" pcid="11358"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_4P.java" startline="1" endline="31" pcid="2952"></source>
+<source file="../ai_codes/claude/claude_p02441_2P.java" startline="1" endline="31" pcid="11357"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_4P.java" startline="1" endline="31" pcid="2952"></source>
+<source file="../ai_codes/claude/claude_p02441_1P.java" startline="1" endline="31" pcid="11356"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_4P.java" startline="1" endline="31" pcid="2952"></source>
+<source file="../ai_codes/claude/claude_p02441_0P.java" startline="1" endline="31" pcid="11355"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_2P.java" startline="1" endline="32" pcid="2950"></source>
+<source file="../ai_codes/claude/claude_p02441_3P.java" startline="1" endline="31" pcid="11358"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_2P.java" startline="1" endline="32" pcid="2950"></source>
+<source file="../ai_codes/claude/claude_p02441_2P.java" startline="1" endline="31" pcid="11357"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_2P.java" startline="1" endline="32" pcid="2950"></source>
+<source file="../ai_codes/claude/claude_p02441_1P.java" startline="1" endline="31" pcid="11356"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_2P.java" startline="1" endline="32" pcid="2950"></source>
+<source file="../ai_codes/claude/claude_p02441_0P.java" startline="1" endline="31" pcid="11355"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_1P.java" startline="1" endline="31" pcid="2949"></source>
+<source file="../ai_codes/claude/claude_p02441_3P.java" startline="1" endline="31" pcid="11358"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_1P.java" startline="1" endline="31" pcid="2949"></source>
+<source file="../ai_codes/claude/claude_p02441_2P.java" startline="1" endline="31" pcid="11357"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_1P.java" startline="1" endline="31" pcid="2949"></source>
+<source file="../ai_codes/claude/claude_p02441_1P.java" startline="1" endline="31" pcid="11356"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_1P.java" startline="1" endline="31" pcid="2949"></source>
+<source file="../ai_codes/claude/claude_p02441_0P.java" startline="1" endline="31" pcid="11355"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_0P.java" startline="1" endline="29" pcid="2948"></source>
+<source file="../ai_codes/claude/claude_p02441_3P.java" startline="1" endline="31" pcid="11358"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_0P.java" startline="1" endline="29" pcid="2948"></source>
+<source file="../ai_codes/claude/claude_p02441_2P.java" startline="1" endline="31" pcid="11357"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_0P.java" startline="1" endline="29" pcid="2948"></source>
+<source file="../ai_codes/claude/claude_p02441_1P.java" startline="1" endline="31" pcid="11356"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02441_0P.java" startline="1" endline="29" pcid="2948"></source>
+<source file="../ai_codes/claude/claude_p02441_0P.java" startline="1" endline="31" pcid="11355"></source>
+</clone>
+
+<clone nlines="23" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00445_1P.java" startline="1" endline="24" pcid="1219"></source>
+<source file="../ai_codes/claude/claude_p00445_0P.java" startline="1" endline="28" pcid="9624"></source>
+</clone>
+
+<clone nlines="23" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00445_4P.java" startline="1" endline="24" pcid="1222"></source>
+<source file="../ai_codes/claude/claude_p00445_0P.java" startline="1" endline="28" pcid="9624"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p01333_4P.java" startline="1" endline="31" pcid="2150"></source>
+<source file="../ai_codes/claude/claude_p01333_4P.java" startline="1" endline="31" pcid="10555"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03477_2P.java" startline="1" endline="25" pcid="6641"></source>
+<source file="../ai_codes/claude/claude_p03477_0P.java" startline="1" endline="26" pcid="15081"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03477_2P.java" startline="1" endline="25" pcid="6641"></source>
+<source file="../ai_codes/claude/claude_p03477_1P.java" startline="1" endline="26" pcid="15082"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p04032_4P.java" startline="1" endline="26" pcid="8343"></source>
+<source file="../ai_codes/claude/claude_p04026_3P.java" startline="1" endline="26" pcid="16769"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p04032_1P.java" startline="1" endline="26" pcid="8340"></source>
+<source file="../ai_codes/claude/claude_p04026_3P.java" startline="1" endline="26" pcid="16769"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p04026_2P.java" startline="1" endline="26" pcid="8311"></source>
+<source file="../ai_codes/claude/claude_p04026_3P.java" startline="1" endline="26" pcid="16769"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00564_3P.java" startline="1" endline="24" pcid="1440"></source>
+<source file="../ai_codes/claude/claude_p00564_0P.java" startline="1" endline="23" pcid="9844"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02602_4P.java" startline="1" endline="23" pcid="3242"></source>
+<source file="../ai_codes/claude/claude_p02602_0P.java" startline="1" endline="25" pcid="11645"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02602_3P.java" startline="1" endline="23" pcid="3241"></source>
+<source file="../ai_codes/claude/claude_p02602_0P.java" startline="1" endline="25" pcid="11645"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02403_0P.java" startline="1" endline="23" pcid="2803"></source>
+<source file="../ai_codes/claude/claude_p02403_1P.java" startline="1" endline="27" pcid="11211"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02403_2P.java" startline="1" endline="23" pcid="2805"></source>
+<source file="../ai_codes/claude/claude_p02403_1P.java" startline="1" endline="27" pcid="11211"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03679_0P.java" startline="1" endline="23" pcid="7301"></source>
+<source file="../ai_codes/claude/claude_p03679_3P.java" startline="1" endline="23" pcid="15754"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03679_0P.java" startline="1" endline="23" pcid="7301"></source>
+<source file="../ai_codes/claude/claude_p03679_2P.java" startline="1" endline="23" pcid="15753"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03679_0P.java" startline="1" endline="23" pcid="7301"></source>
+<source file="../ai_codes/claude/claude_p03679_1P.java" startline="1" endline="23" pcid="15752"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03679_0P.java" startline="1" endline="23" pcid="7301"></source>
+<source file="../ai_codes/claude/claude_p03679_0P.java" startline="1" endline="23" pcid="15751"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02777_2P.java" startline="1" endline="24" pcid="3948"></source>
+<source file="../ai_codes/claude/claude_p02777_4P.java" startline="1" endline="24" pcid="12364"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02777_4P.java" startline="1" endline="23" pcid="3950"></source>
+<source file="../ai_codes/claude/claude_p02777_4P.java" startline="1" endline="24" pcid="12364"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02403_3P.java" startline="1" endline="28" pcid="2806"></source>
+<source file="../ai_codes/claude/claude_p02403_1P.java" startline="1" endline="27" pcid="11211"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02777_2P.java" startline="1" endline="24" pcid="3948"></source>
+<source file="../ai_codes/claude/claude_p02777_0P.java" startline="1" endline="24" pcid="12360"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02777_4P.java" startline="1" endline="23" pcid="3950"></source>
+<source file="../ai_codes/claude/claude_p02777_0P.java" startline="1" endline="24" pcid="12360"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02403_4P.java" startline="1" endline="23" pcid="2807"></source>
+<source file="../ai_codes/claude/claude_p02403_1P.java" startline="1" endline="27" pcid="11211"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02602_2P.java" startline="1" endline="23" pcid="3240"></source>
+<source file="../ai_codes/claude/claude_p02602_0P.java" startline="1" endline="25" pcid="11645"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02602_1P.java" startline="1" endline="23" pcid="3239"></source>
+<source file="../ai_codes/claude/claude_p02602_0P.java" startline="1" endline="25" pcid="11645"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02602_0P.java" startline="1" endline="23" pcid="3238"></source>
+<source file="../ai_codes/claude/claude_p02602_0P.java" startline="1" endline="25" pcid="11645"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00008_4P.java" startline="1" endline="25" pcid="45"></source>
+<source file="../ai_codes/claude/claude_p00008_4P.java" startline="1" endline="28" pcid="8453"></source>
+</clone>
+
+<clone nlines="23" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00008_3P.java" startline="1" endline="26" pcid="44"></source>
+<source file="../ai_codes/claude/claude_p00008_1P.java" startline="1" endline="29" pcid="8450"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03075_4P.java" startline="1" endline="21" pcid="5119"></source>
+<source file="../ai_codes/claude/claude_p03075_0P.java" startline="1" endline="23" pcid="13535"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03075_2P.java" startline="1" endline="23" pcid="5117"></source>
+<source file="../ai_codes/claude/claude_p03075_0P.java" startline="1" endline="23" pcid="13535"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02700_2P.java" startline="1" endline="23" pcid="3625"></source>
+<source file="../ai_codes/claude/claude_p02700_4P.java" startline="1" endline="23" pcid="12039"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02700_3P.java" startline="1" endline="24" pcid="3626"></source>
+<source file="../ai_codes/claude/claude_p02700_4P.java" startline="1" endline="23" pcid="12039"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02700_4P.java" startline="1" endline="23" pcid="3627"></source>
+<source file="../ai_codes/claude/claude_p02700_4P.java" startline="1" endline="23" pcid="12039"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p04032_3P.java" startline="1" endline="25" pcid="8342"></source>
+<source file="../ai_codes/claude/claude_p04026_2P.java" startline="1" endline="25" pcid="16768"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p04032_0P.java" startline="1" endline="25" pcid="8339"></source>
+<source file="../ai_codes/claude/claude_p04026_2P.java" startline="1" endline="25" pcid="16768"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p04026_4P.java" startline="1" endline="25" pcid="8313"></source>
+<source file="../ai_codes/claude/claude_p04026_2P.java" startline="1" endline="25" pcid="16768"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p04026_3P.java" startline="1" endline="25" pcid="8312"></source>
+<source file="../ai_codes/claude/claude_p04026_2P.java" startline="1" endline="25" pcid="16768"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p04026_1P.java" startline="1" endline="26" pcid="8310"></source>
+<source file="../ai_codes/claude/claude_p04026_2P.java" startline="1" endline="25" pcid="16768"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p04026_0P.java" startline="1" endline="26" pcid="8309"></source>
+<source file="../ai_codes/claude/claude_p04026_2P.java" startline="1" endline="25" pcid="16768"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03206_1P.java" startline="1" endline="20" pcid="5599"></source>
+<source file="../ai_codes/claude/claude_p03206_3P.java" startline="1" endline="21" pcid="14027"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03206_1P.java" startline="1" endline="20" pcid="5599"></source>
+<source file="../ai_codes/claude/claude_p03206_4P.java" startline="1" endline="21" pcid="14028"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03206_2P.java" startline="1" endline="21" pcid="5600"></source>
+<source file="../ai_codes/claude/claude_p03206_3P.java" startline="1" endline="21" pcid="14027"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03206_2P.java" startline="1" endline="21" pcid="5600"></source>
+<source file="../ai_codes/claude/claude_p03206_4P.java" startline="1" endline="21" pcid="14028"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03853_1P.java" startline="1" endline="24" pcid="7925"></source>
+<source file="../ai_codes/claude/claude_p03853_4P.java" startline="1" endline="24" pcid="16380"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03853_1P.java" startline="1" endline="24" pcid="7925"></source>
+<source file="../ai_codes/claude/claude_p03853_3P.java" startline="1" endline="24" pcid="16379"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03853_1P.java" startline="1" endline="24" pcid="7925"></source>
+<source file="../ai_codes/claude/claude_p03853_2P.java" startline="1" endline="24" pcid="16378"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03853_1P.java" startline="1" endline="24" pcid="7925"></source>
+<source file="../ai_codes/claude/claude_p03853_1P.java" startline="1" endline="23" pcid="16377"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03835_1P.java" startline="1" endline="23" pcid="7856"></source>
+<source file="../ai_codes/claude/claude_p03835_4P.java" startline="1" endline="24" pcid="16310"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03835_1P.java" startline="1" endline="23" pcid="7856"></source>
+<source file="../ai_codes/claude/claude_p03835_2P.java" startline="1" endline="24" pcid="16308"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03835_1P.java" startline="1" endline="23" pcid="7856"></source>
+<source file="../ai_codes/claude/claude_p03835_1P.java" startline="1" endline="24" pcid="16307"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03835_1P.java" startline="1" endline="23" pcid="7856"></source>
+<source file="../ai_codes/claude/claude_p03835_0P.java" startline="1" endline="24" pcid="16306"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03573_4P.java" startline="1" endline="20" pcid="6903"></source>
+<source file="../ai_codes/claude/claude_p03573_2P.java" startline="1" endline="21" pcid="15348"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03573_3P.java" startline="1" endline="20" pcid="6902"></source>
+<source file="../ai_codes/claude/claude_p03573_2P.java" startline="1" endline="21" pcid="15348"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03573_1P.java" startline="1" endline="20" pcid="6900"></source>
+<source file="../ai_codes/claude/claude_p03573_2P.java" startline="1" endline="21" pcid="15348"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03573_0P.java" startline="1" endline="22" pcid="6899"></source>
+<source file="../ai_codes/claude/claude_p03573_2P.java" startline="1" endline="21" pcid="15348"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03302_3P.java" startline="1" endline="20" pcid="5982"></source>
+<source file="../ai_codes/claude/claude_p03302_0P.java" startline="1" endline="20" pcid="14409"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03302_3P.java" startline="1" endline="20" pcid="5982"></source>
+<source file="../ai_codes/claude/claude_p03302_1P.java" startline="1" endline="20" pcid="14410"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03302_3P.java" startline="1" endline="20" pcid="5982"></source>
+<source file="../ai_codes/claude/claude_p03302_2P.java" startline="1" endline="20" pcid="14411"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03302_2P.java" startline="1" endline="20" pcid="5981"></source>
+<source file="../ai_codes/claude/claude_p03302_0P.java" startline="1" endline="20" pcid="14409"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03302_2P.java" startline="1" endline="20" pcid="5981"></source>
+<source file="../ai_codes/claude/claude_p03302_1P.java" startline="1" endline="20" pcid="14410"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03302_2P.java" startline="1" endline="20" pcid="5981"></source>
+<source file="../ai_codes/claude/claude_p03302_2P.java" startline="1" endline="20" pcid="14411"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03302_0P.java" startline="1" endline="21" pcid="5979"></source>
+<source file="../ai_codes/claude/claude_p03302_0P.java" startline="1" endline="20" pcid="14409"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03302_0P.java" startline="1" endline="21" pcid="5979"></source>
+<source file="../ai_codes/claude/claude_p03302_1P.java" startline="1" endline="20" pcid="14410"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03302_0P.java" startline="1" endline="21" pcid="5979"></source>
+<source file="../ai_codes/claude/claude_p03302_2P.java" startline="1" endline="20" pcid="14411"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_4P.java" startline="1" endline="19" pcid="2768"></source>
+<source file="../ai_codes/claude/claude_p02394_4P.java" startline="1" endline="19" pcid="11174"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_3P.java" startline="1" endline="20" pcid="2767"></source>
+<source file="../ai_codes/claude/claude_p02394_4P.java" startline="1" endline="19" pcid="11174"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_1P.java" startline="1" endline="19" pcid="2765"></source>
+<source file="../ai_codes/claude/claude_p02394_4P.java" startline="1" endline="19" pcid="11174"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_0P.java" startline="1" endline="19" pcid="2764"></source>
+<source file="../ai_codes/claude/claude_p02394_4P.java" startline="1" endline="19" pcid="11174"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_4P.java" startline="1" endline="19" pcid="2768"></source>
+<source file="../ai_codes/claude/claude_p02394_1P.java" startline="1" endline="19" pcid="11171"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_3P.java" startline="1" endline="20" pcid="2767"></source>
+<source file="../ai_codes/claude/claude_p02394_1P.java" startline="1" endline="19" pcid="11171"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_1P.java" startline="1" endline="19" pcid="2765"></source>
+<source file="../ai_codes/claude/claude_p02394_1P.java" startline="1" endline="19" pcid="11171"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_0P.java" startline="1" endline="19" pcid="2764"></source>
+<source file="../ai_codes/claude/claude_p02394_1P.java" startline="1" endline="19" pcid="11171"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_4P.java" startline="1" endline="19" pcid="2768"></source>
+<source file="../ai_codes/claude/claude_p02394_0P.java" startline="1" endline="19" pcid="11170"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_3P.java" startline="1" endline="20" pcid="2767"></source>
+<source file="../ai_codes/claude/claude_p02394_0P.java" startline="1" endline="19" pcid="11170"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_1P.java" startline="1" endline="19" pcid="2765"></source>
+<source file="../ai_codes/claude/claude_p02394_0P.java" startline="1" endline="19" pcid="11170"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_0P.java" startline="1" endline="19" pcid="2764"></source>
+<source file="../ai_codes/claude/claude_p02394_0P.java" startline="1" endline="19" pcid="11170"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_3P.java" startline="1" endline="21" pcid="7354"></source>
+<source file="../ai_codes/claude/claude_p03693_4P.java" startline="1" endline="21" pcid="15805"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_3P.java" startline="1" endline="21" pcid="7354"></source>
+<source file="../ai_codes/claude/claude_p03693_3P.java" startline="1" endline="21" pcid="15804"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_3P.java" startline="1" endline="21" pcid="7354"></source>
+<source file="../ai_codes/claude/claude_p03693_2P.java" startline="1" endline="21" pcid="15803"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_3P.java" startline="1" endline="21" pcid="7354"></source>
+<source file="../ai_codes/claude/claude_p03693_1P.java" startline="1" endline="21" pcid="15802"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_3P.java" startline="1" endline="21" pcid="7354"></source>
+<source file="../ai_codes/claude/claude_p03693_0P.java" startline="1" endline="21" pcid="15801"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_2P.java" startline="1" endline="22" pcid="7353"></source>
+<source file="../ai_codes/claude/claude_p03693_4P.java" startline="1" endline="21" pcid="15805"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_2P.java" startline="1" endline="22" pcid="7353"></source>
+<source file="../ai_codes/claude/claude_p03693_3P.java" startline="1" endline="21" pcid="15804"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_2P.java" startline="1" endline="22" pcid="7353"></source>
+<source file="../ai_codes/claude/claude_p03693_2P.java" startline="1" endline="21" pcid="15803"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_2P.java" startline="1" endline="22" pcid="7353"></source>
+<source file="../ai_codes/claude/claude_p03693_1P.java" startline="1" endline="21" pcid="15802"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_2P.java" startline="1" endline="22" pcid="7353"></source>
+<source file="../ai_codes/claude/claude_p03693_0P.java" startline="1" endline="21" pcid="15801"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_0P.java" startline="1" endline="21" pcid="7351"></source>
+<source file="../ai_codes/claude/claude_p03693_4P.java" startline="1" endline="21" pcid="15805"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_0P.java" startline="1" endline="21" pcid="7351"></source>
+<source file="../ai_codes/claude/claude_p03693_3P.java" startline="1" endline="21" pcid="15804"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_0P.java" startline="1" endline="21" pcid="7351"></source>
+<source file="../ai_codes/claude/claude_p03693_2P.java" startline="1" endline="21" pcid="15803"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_0P.java" startline="1" endline="21" pcid="7351"></source>
+<source file="../ai_codes/claude/claude_p03693_1P.java" startline="1" endline="21" pcid="15802"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03693_0P.java" startline="1" endline="21" pcid="7351"></source>
+<source file="../ai_codes/claude/claude_p03693_0P.java" startline="1" endline="21" pcid="15801"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03079_2P.java" startline="1" endline="18" pcid="5137"></source>
+<source file="../ai_codes/claude/claude_p03079_0P.java" startline="1" endline="19" pcid="13555"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03079_2P.java" startline="1" endline="18" pcid="5137"></source>
+<source file="../ai_codes/claude/claude_p03079_1P.java" startline="1" endline="19" pcid="13556"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03079_2P.java" startline="1" endline="18" pcid="5137"></source>
+<source file="../ai_codes/claude/claude_p03079_2P.java" startline="1" endline="19" pcid="13557"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03079_2P.java" startline="1" endline="18" pcid="5137"></source>
+<source file="../ai_codes/claude/claude_p03079_3P.java" startline="1" endline="19" pcid="13558"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03079_2P.java" startline="1" endline="18" pcid="5137"></source>
+<source file="../ai_codes/claude/claude_p03079_4P.java" startline="1" endline="19" pcid="13559"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03079_1P.java" startline="1" endline="18" pcid="5136"></source>
+<source file="../ai_codes/claude/claude_p03079_0P.java" startline="1" endline="19" pcid="13555"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03079_1P.java" startline="1" endline="18" pcid="5136"></source>
+<source file="../ai_codes/claude/claude_p03079_1P.java" startline="1" endline="19" pcid="13556"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03079_1P.java" startline="1" endline="18" pcid="5136"></source>
+<source file="../ai_codes/claude/claude_p03079_2P.java" startline="1" endline="19" pcid="13557"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03079_1P.java" startline="1" endline="18" pcid="5136"></source>
+<source file="../ai_codes/claude/claude_p03079_3P.java" startline="1" endline="19" pcid="13558"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03079_1P.java" startline="1" endline="18" pcid="5136"></source>
+<source file="../ai_codes/claude/claude_p03079_4P.java" startline="1" endline="19" pcid="13559"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03377_0P.java" startline="1" endline="19" pcid="6275"></source>
+<source file="../ai_codes/claude/claude_p03377_3P.java" startline="1" endline="19" pcid="14717"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03759_0P.java" startline="1" endline="18" pcid="7576"></source>
+<source file="../ai_codes/claude/claude_p03759_3P.java" startline="1" endline="19" pcid="16029"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03759_0P.java" startline="1" endline="18" pcid="7576"></source>
+<source file="../ai_codes/claude/claude_p03759_4P.java" startline="1" endline="19" pcid="16030"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03759_2P.java" startline="1" endline="19" pcid="7578"></source>
+<source file="../ai_codes/claude/claude_p03759_0P.java" startline="1" endline="19" pcid="16026"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03759_2P.java" startline="1" endline="19" pcid="7578"></source>
+<source file="../ai_codes/claude/claude_p03759_1P.java" startline="1" endline="19" pcid="16027"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03759_2P.java" startline="1" endline="19" pcid="7578"></source>
+<source file="../ai_codes/claude/claude_p03759_2P.java" startline="1" endline="19" pcid="16028"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03759_3P.java" startline="1" endline="19" pcid="7579"></source>
+<source file="../ai_codes/claude/claude_p03759_0P.java" startline="1" endline="19" pcid="16026"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03759_3P.java" startline="1" endline="19" pcid="7579"></source>
+<source file="../ai_codes/claude/claude_p03759_1P.java" startline="1" endline="19" pcid="16027"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03759_3P.java" startline="1" endline="19" pcid="7579"></source>
+<source file="../ai_codes/claude/claude_p03759_2P.java" startline="1" endline="19" pcid="16028"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02398_1P.java" startline="1" endline="19" pcid="2780"></source>
+<source file="../ai_codes/claude/claude_p02398_4P.java" startline="1" endline="20" pcid="11189"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02398_2P.java" startline="1" endline="19" pcid="2781"></source>
+<source file="../ai_codes/claude/claude_p02398_4P.java" startline="1" endline="20" pcid="11189"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02398_3P.java" startline="1" endline="19" pcid="2782"></source>
+<source file="../ai_codes/claude/claude_p02398_4P.java" startline="1" endline="20" pcid="11189"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02398_4P.java" startline="1" endline="20" pcid="2783"></source>
+<source file="../ai_codes/claude/claude_p02398_2P.java" startline="1" endline="20" pcid="11187"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03288_0P.java" startline="1" endline="18" pcid="5925"></source>
+<source file="../ai_codes/claude/claude_p03288_1P.java" startline="1" endline="19" pcid="14355"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03288_1P.java" startline="1" endline="19" pcid="5926"></source>
+<source file="../ai_codes/claude/claude_p03288_1P.java" startline="1" endline="19" pcid="14355"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03288_2P.java" startline="1" endline="18" pcid="5927"></source>
+<source file="../ai_codes/claude/claude_p03288_1P.java" startline="1" endline="19" pcid="14355"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03288_3P.java" startline="1" endline="19" pcid="5928"></source>
+<source file="../ai_codes/claude/claude_p03288_1P.java" startline="1" endline="19" pcid="14355"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03288_4P.java" startline="1" endline="19" pcid="5929"></source>
+<source file="../ai_codes/claude/claude_p03288_1P.java" startline="1" endline="19" pcid="14355"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03719_4P.java" startline="1" endline="19" pcid="7455"></source>
+<source file="../ai_codes/claude/claude_p03719_0P.java" startline="1" endline="19" pcid="15901"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03719_3P.java" startline="1" endline="18" pcid="7454"></source>
+<source file="../ai_codes/claude/claude_p03719_0P.java" startline="1" endline="19" pcid="15901"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03288_0P.java" startline="1" endline="18" pcid="5925"></source>
+<source file="../ai_codes/claude/claude_p03288_0P.java" startline="1" endline="19" pcid="14354"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03288_1P.java" startline="1" endline="19" pcid="5926"></source>
+<source file="../ai_codes/claude/claude_p03288_0P.java" startline="1" endline="19" pcid="14354"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03288_2P.java" startline="1" endline="18" pcid="5927"></source>
+<source file="../ai_codes/claude/claude_p03288_0P.java" startline="1" endline="19" pcid="14354"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03288_3P.java" startline="1" endline="19" pcid="5928"></source>
+<source file="../ai_codes/claude/claude_p03288_0P.java" startline="1" endline="19" pcid="14354"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03288_4P.java" startline="1" endline="19" pcid="5929"></source>
+<source file="../ai_codes/claude/claude_p03288_0P.java" startline="1" endline="19" pcid="14354"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03719_2P.java" startline="1" endline="18" pcid="7453"></source>
+<source file="../ai_codes/claude/claude_p03719_0P.java" startline="1" endline="19" pcid="15901"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03719_1P.java" startline="1" endline="19" pcid="7452"></source>
+<source file="../ai_codes/claude/claude_p03719_0P.java" startline="1" endline="19" pcid="15901"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03719_0P.java" startline="1" endline="18" pcid="7451"></source>
+<source file="../ai_codes/claude/claude_p03719_0P.java" startline="1" endline="19" pcid="15901"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03697_2P.java" startline="1" endline="17" pcid="7373"></source>
+<source file="../ai_codes/claude/claude_p03697_1P.java" startline="1" endline="20" pcid="15822"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03697_0P.java" startline="1" endline="22" pcid="7371"></source>
+<source file="../ai_codes/claude/claude_p03697_1P.java" startline="1" endline="20" pcid="15822"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03826_4P.java" startline="1" endline="22" pcid="7819"></source>
+<source file="../ai_codes/claude/claude_p03826_4P.java" startline="1" endline="20" pcid="16270"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03826_2P.java" startline="1" endline="22" pcid="7817"></source>
+<source file="../ai_codes/claude/claude_p03826_4P.java" startline="1" endline="20" pcid="16270"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03826_4P.java" startline="1" endline="22" pcid="7819"></source>
+<source file="../ai_codes/claude/claude_p03826_3P.java" startline="1" endline="20" pcid="16269"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03826_2P.java" startline="1" endline="22" pcid="7817"></source>
+<source file="../ai_codes/claude/claude_p03826_3P.java" startline="1" endline="20" pcid="16269"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03826_4P.java" startline="1" endline="22" pcid="7819"></source>
+<source file="../ai_codes/claude/claude_p03826_2P.java" startline="1" endline="20" pcid="16268"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03826_2P.java" startline="1" endline="22" pcid="7817"></source>
+<source file="../ai_codes/claude/claude_p03826_2P.java" startline="1" endline="20" pcid="16268"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03826_4P.java" startline="1" endline="22" pcid="7819"></source>
+<source file="../ai_codes/claude/claude_p03826_0P.java" startline="1" endline="20" pcid="16266"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03826_2P.java" startline="1" endline="22" pcid="7817"></source>
+<source file="../ai_codes/claude/claude_p03826_0P.java" startline="1" endline="20" pcid="16266"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02999_1P.java" startline="1" endline="18" pcid="4826"></source>
+<source file="../ai_codes/claude/claude_p02999_3P.java" startline="1" endline="18" pcid="13248"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02999_3P.java" startline="1" endline="18" pcid="4828"></source>
+<source file="../ai_codes/claude/claude_p02999_3P.java" startline="1" endline="18" pcid="13248"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02999_4P.java" startline="1" endline="18" pcid="4829"></source>
+<source file="../ai_codes/claude/claude_p02999_3P.java" startline="1" endline="18" pcid="13248"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03323_1P.java" startline="1" endline="19" pcid="6071"></source>
+<source file="../ai_codes/claude/claude_p03323_4P.java" startline="1" endline="18" pcid="14508"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03323_3P.java" startline="1" endline="18" pcid="6073"></source>
+<source file="../ai_codes/claude/claude_p03323_4P.java" startline="1" endline="18" pcid="14508"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03323_1P.java" startline="1" endline="19" pcid="6071"></source>
+<source file="../ai_codes/claude/claude_p03323_1P.java" startline="1" endline="18" pcid="14505"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03323_3P.java" startline="1" endline="18" pcid="6073"></source>
+<source file="../ai_codes/claude/claude_p03323_1P.java" startline="1" endline="18" pcid="14505"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03323_1P.java" startline="1" endline="19" pcid="6071"></source>
+<source file="../ai_codes/claude/claude_p03323_0P.java" startline="1" endline="18" pcid="14504"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03323_3P.java" startline="1" endline="18" pcid="6073"></source>
+<source file="../ai_codes/claude/claude_p03323_0P.java" startline="1" endline="18" pcid="14504"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_1P.java" startline="1" endline="17" pcid="5264"></source>
+<source file="../ai_codes/claude/claude_p03125_0P.java" startline="1" endline="18" pcid="13684"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_4P.java" startline="1" endline="18" pcid="5267"></source>
+<source file="../ai_codes/claude/claude_p03125_1P.java" startline="1" endline="18" pcid="13685"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_3P.java" startline="1" endline="17" pcid="5266"></source>
+<source file="../ai_codes/claude/claude_p03125_1P.java" startline="1" endline="18" pcid="13685"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_2P.java" startline="1" endline="17" pcid="5265"></source>
+<source file="../ai_codes/claude/claude_p03125_1P.java" startline="1" endline="18" pcid="13685"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_4P.java" startline="1" endline="18" pcid="5267"></source>
+<source file="../ai_codes/claude/claude_p03125_2P.java" startline="1" endline="18" pcid="13686"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_3P.java" startline="1" endline="17" pcid="5266"></source>
+<source file="../ai_codes/claude/claude_p03125_2P.java" startline="1" endline="18" pcid="13686"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_2P.java" startline="1" endline="17" pcid="5265"></source>
+<source file="../ai_codes/claude/claude_p03125_2P.java" startline="1" endline="18" pcid="13686"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02399_3P.java" startline="1" endline="18" pcid="2787"></source>
+<source file="../ai_codes/claude/claude_p02399_3P.java" startline="1" endline="18" pcid="11193"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02789_3P.java" startline="1" endline="16" pcid="4009"></source>
+<source file="../ai_codes/claude/claude_p02789_2P.java" startline="1" endline="18" pcid="12422"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02789_2P.java" startline="1" endline="16" pcid="4008"></source>
+<source file="../ai_codes/claude/claude_p02789_2P.java" startline="1" endline="18" pcid="12422"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02789_1P.java" startline="1" endline="16" pcid="4007"></source>
+<source file="../ai_codes/claude/claude_p02789_2P.java" startline="1" endline="18" pcid="12422"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02789_0P.java" startline="1" endline="16" pcid="4006"></source>
+<source file="../ai_codes/claude/claude_p02789_2P.java" startline="1" endline="18" pcid="12422"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02789_3P.java" startline="1" endline="16" pcid="4009"></source>
+<source file="../ai_codes/claude/claude_p02789_0P.java" startline="1" endline="18" pcid="12420"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02789_2P.java" startline="1" endline="16" pcid="4008"></source>
+<source file="../ai_codes/claude/claude_p02789_0P.java" startline="1" endline="18" pcid="12420"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02789_1P.java" startline="1" endline="16" pcid="4007"></source>
+<source file="../ai_codes/claude/claude_p02789_0P.java" startline="1" endline="18" pcid="12420"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02789_0P.java" startline="1" endline="16" pcid="4006"></source>
+<source file="../ai_codes/claude/claude_p02789_0P.java" startline="1" endline="18" pcid="12420"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_4P.java" startline="1" endline="18" pcid="5267"></source>
+<source file="../ai_codes/claude/claude_p03125_3P.java" startline="1" endline="18" pcid="13687"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_3P.java" startline="1" endline="17" pcid="5266"></source>
+<source file="../ai_codes/claude/claude_p03125_3P.java" startline="1" endline="18" pcid="13687"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_2P.java" startline="1" endline="17" pcid="5265"></source>
+<source file="../ai_codes/claude/claude_p03125_3P.java" startline="1" endline="18" pcid="13687"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_4P.java" startline="1" endline="18" pcid="5267"></source>
+<source file="../ai_codes/claude/claude_p03125_4P.java" startline="1" endline="18" pcid="13688"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_3P.java" startline="1" endline="17" pcid="5266"></source>
+<source file="../ai_codes/claude/claude_p03125_4P.java" startline="1" endline="18" pcid="13688"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03125_2P.java" startline="1" endline="17" pcid="5265"></source>
+<source file="../ai_codes/claude/claude_p03125_4P.java" startline="1" endline="18" pcid="13688"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02879_4P.java" startline="1" endline="18" pcid="4353"></source>
+<source file="../ai_codes/claude/claude_p02879_4P.java" startline="1" endline="18" pcid="12769"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02879_3P.java" startline="1" endline="18" pcid="4352"></source>
+<source file="../ai_codes/claude/claude_p02879_4P.java" startline="1" endline="18" pcid="12769"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02879_1P.java" startline="1" endline="16" pcid="4350"></source>
+<source file="../ai_codes/claude/claude_p02879_4P.java" startline="1" endline="18" pcid="12769"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02836_1P.java" startline="1" endline="17" pcid="4192"></source>
+<source file="../ai_codes/claude/claude_p02836_1P.java" startline="1" endline="20" pcid="12606"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02836_1P.java" startline="1" endline="17" pcid="4192"></source>
+<source file="../ai_codes/claude/claude_p02836_3P.java" startline="1" endline="20" pcid="12608"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03657_4P.java" startline="1" endline="17" pcid="7226"></source>
+<source file="../ai_codes/claude/claude_p03657_1P.java" startline="1" endline="18" pcid="15672"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03657_4P.java" startline="1" endline="17" pcid="7226"></source>
+<source file="../ai_codes/claude/claude_p03657_2P.java" startline="1" endline="18" pcid="15673"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03605_4P.java" startline="1" endline="18" pcid="7011"></source>
+<source file="../ai_codes/claude/claude_p03605_0P.java" startline="1" endline="17" pcid="15456"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03605_4P.java" startline="1" endline="18" pcid="7011"></source>
+<source file="../ai_codes/claude/claude_p03605_2P.java" startline="1" endline="17" pcid="15458"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03605_3P.java" startline="1" endline="17" pcid="7010"></source>
+<source file="../ai_codes/claude/claude_p03605_0P.java" startline="1" endline="17" pcid="15456"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03605_3P.java" startline="1" endline="17" pcid="7010"></source>
+<source file="../ai_codes/claude/claude_p03605_2P.java" startline="1" endline="17" pcid="15458"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03605_0P.java" startline="1" endline="15" pcid="7007"></source>
+<source file="../ai_codes/claude/claude_p03605_0P.java" startline="1" endline="17" pcid="15456"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03605_0P.java" startline="1" endline="15" pcid="7007"></source>
+<source file="../ai_codes/claude/claude_p03605_2P.java" startline="1" endline="17" pcid="15458"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03567_4P.java" startline="1" endline="17" pcid="6883"></source>
+<source file="../ai_codes/claude/claude_p03567_4P.java" startline="1" endline="17" pcid="15330"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02534_4P.java" startline="1" endline="15" pcid="2997"></source>
+<source file="../ai_codes/claude/claude_p02534_0P.java" startline="1" endline="17" pcid="11400"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02534_3P.java" startline="1" endline="15" pcid="2996"></source>
+<source file="../ai_codes/claude/claude_p02534_0P.java" startline="1" endline="17" pcid="11400"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02390_1P.java" startline="1" endline="18" pcid="2745"></source>
+<source file="../ai_codes/claude/claude_p02390_2P.java" startline="1" endline="16" pcid="11152"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03597_1P.java" startline="1" endline="19" pcid="6975"></source>
+<source file="../ai_codes/claude/claude_p03597_4P.java" startline="1" endline="18" pcid="15425"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02390_2P.java" startline="1" endline="17" pcid="2746"></source>
+<source file="../ai_codes/claude/claude_p02390_2P.java" startline="1" endline="16" pcid="11152"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02390_4P.java" startline="1" endline="17" pcid="2748"></source>
+<source file="../ai_codes/claude/claude_p02390_2P.java" startline="1" endline="16" pcid="11152"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03145_1P.java" startline="1" endline="18" pcid="5353"></source>
+<source file="../ai_codes/claude/claude_p03145_2P.java" startline="1" endline="16" pcid="13776"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03145_1P.java" startline="1" endline="18" pcid="5353"></source>
+<source file="../ai_codes/claude/claude_p03145_3P.java" startline="1" endline="16" pcid="13777"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03145_2P.java" startline="1" endline="18" pcid="5354"></source>
+<source file="../ai_codes/claude/claude_p03145_2P.java" startline="1" endline="16" pcid="13776"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03145_2P.java" startline="1" endline="18" pcid="5354"></source>
+<source file="../ai_codes/claude/claude_p03145_3P.java" startline="1" endline="16" pcid="13777"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03145_3P.java" startline="1" endline="16" pcid="5355"></source>
+<source file="../ai_codes/claude/claude_p03145_2P.java" startline="1" endline="16" pcid="13776"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03145_3P.java" startline="1" endline="16" pcid="5355"></source>
+<source file="../ai_codes/claude/claude_p03145_3P.java" startline="1" endline="16" pcid="13777"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03145_4P.java" startline="1" endline="18" pcid="5356"></source>
+<source file="../ai_codes/claude/claude_p03145_2P.java" startline="1" endline="16" pcid="13776"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03145_4P.java" startline="1" endline="18" pcid="5356"></source>
+<source file="../ai_codes/claude/claude_p03145_3P.java" startline="1" endline="16" pcid="13777"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_0P.java" startline="1" endline="17" pcid="8200"></source>
+<source file="../ai_codes/claude/claude_p03997_4P.java" startline="1" endline="18" pcid="16660"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_0P.java" startline="1" endline="17" pcid="8200"></source>
+<source file="../ai_codes/claude/claude_p03997_3P.java" startline="1" endline="16" pcid="16659"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_0P.java" startline="1" endline="17" pcid="8200"></source>
+<source file="../ai_codes/claude/claude_p03997_2P.java" startline="1" endline="16" pcid="16658"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_0P.java" startline="1" endline="17" pcid="8200"></source>
+<source file="../ai_codes/claude/claude_p03997_1P.java" startline="1" endline="18" pcid="16657"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_0P.java" startline="1" endline="17" pcid="8200"></source>
+<source file="../ai_codes/claude/claude_p03997_0P.java" startline="1" endline="18" pcid="16656"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00272_0P.java" startline="1" endline="16" pcid="1048"></source>
+<source file="../ai_codes/claude/claude_p00272_4P.java" startline="1" endline="18" pcid="9458"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00272_0P.java" startline="1" endline="16" pcid="1048"></source>
+<source file="../ai_codes/claude/claude_p00272_1P.java" startline="1" endline="18" pcid="9455"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03210_2P.java" startline="1" endline="16" pcid="5620"></source>
+<source file="../ai_codes/claude/claude_p03210_0P.java" startline="1" endline="17" pcid="14044"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03210_2P.java" startline="1" endline="16" pcid="5620"></source>
+<source file="../ai_codes/claude/claude_p03210_4P.java" startline="1" endline="17" pcid="14048"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03210_2P.java" startline="1" endline="16" pcid="5620"></source>
+<source file="../ai_codes/claude/claude_p03210_3P.java" startline="1" endline="17" pcid="14047"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03210_2P.java" startline="1" endline="16" pcid="5620"></source>
+<source file="../ai_codes/claude/claude_p03210_2P.java" startline="1" endline="17" pcid="14046"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03210_2P.java" startline="1" endline="16" pcid="5620"></source>
+<source file="../ai_codes/claude/claude_p03210_1P.java" startline="1" endline="17" pcid="14045"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03210_4P.java" startline="1" endline="16" pcid="5622"></source>
+<source file="../ai_codes/claude/claude_p03210_0P.java" startline="1" endline="17" pcid="14044"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03210_4P.java" startline="1" endline="16" pcid="5622"></source>
+<source file="../ai_codes/claude/claude_p03210_4P.java" startline="1" endline="17" pcid="14048"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03210_4P.java" startline="1" endline="16" pcid="5622"></source>
+<source file="../ai_codes/claude/claude_p03210_3P.java" startline="1" endline="17" pcid="14047"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03210_4P.java" startline="1" endline="16" pcid="5622"></source>
+<source file="../ai_codes/claude/claude_p03210_2P.java" startline="1" endline="17" pcid="14046"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03210_4P.java" startline="1" endline="16" pcid="5622"></source>
+<source file="../ai_codes/claude/claude_p03210_1P.java" startline="1" endline="17" pcid="14045"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_0P.java" startline="1" endline="16" pcid="3397"></source>
+<source file="../ai_codes/claude/claude_p02639_4P.java" startline="1" endline="18" pcid="11809"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_0P.java" startline="1" endline="16" pcid="3397"></source>
+<source file="../ai_codes/claude/claude_p02639_3P.java" startline="1" endline="18" pcid="11808"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_0P.java" startline="1" endline="16" pcid="3397"></source>
+<source file="../ai_codes/claude/claude_p02639_2P.java" startline="1" endline="18" pcid="11807"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_0P.java" startline="1" endline="16" pcid="3397"></source>
+<source file="../ai_codes/claude/claude_p02639_1P.java" startline="1" endline="18" pcid="11806"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_0P.java" startline="1" endline="16" pcid="3397"></source>
+<source file="../ai_codes/claude/claude_p02639_0P.java" startline="1" endline="18" pcid="11805"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_2P.java" startline="1" endline="16" pcid="3399"></source>
+<source file="../ai_codes/claude/claude_p02639_4P.java" startline="1" endline="18" pcid="11809"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_2P.java" startline="1" endline="16" pcid="3399"></source>
+<source file="../ai_codes/claude/claude_p02639_3P.java" startline="1" endline="18" pcid="11808"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_2P.java" startline="1" endline="16" pcid="3399"></source>
+<source file="../ai_codes/claude/claude_p02639_2P.java" startline="1" endline="18" pcid="11807"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_2P.java" startline="1" endline="16" pcid="3399"></source>
+<source file="../ai_codes/claude/claude_p02639_1P.java" startline="1" endline="18" pcid="11806"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_2P.java" startline="1" endline="16" pcid="3399"></source>
+<source file="../ai_codes/claude/claude_p02639_0P.java" startline="1" endline="18" pcid="11805"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_3P.java" startline="1" endline="16" pcid="3400"></source>
+<source file="../ai_codes/claude/claude_p02639_4P.java" startline="1" endline="18" pcid="11809"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_3P.java" startline="1" endline="16" pcid="3400"></source>
+<source file="../ai_codes/claude/claude_p02639_3P.java" startline="1" endline="18" pcid="11808"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_3P.java" startline="1" endline="16" pcid="3400"></source>
+<source file="../ai_codes/claude/claude_p02639_2P.java" startline="1" endline="18" pcid="11807"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_3P.java" startline="1" endline="16" pcid="3400"></source>
+<source file="../ai_codes/claude/claude_p02639_1P.java" startline="1" endline="18" pcid="11806"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02639_3P.java" startline="1" endline="16" pcid="3400"></source>
+<source file="../ai_codes/claude/claude_p02639_0P.java" startline="1" endline="18" pcid="11805"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_1P.java" startline="1" endline="17" pcid="8201"></source>
+<source file="../ai_codes/claude/claude_p03997_4P.java" startline="1" endline="18" pcid="16660"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_2P.java" startline="1" endline="17" pcid="8202"></source>
+<source file="../ai_codes/claude/claude_p03997_4P.java" startline="1" endline="18" pcid="16660"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_4P.java" startline="1" endline="14" pcid="8204"></source>
+<source file="../ai_codes/claude/claude_p03997_4P.java" startline="1" endline="18" pcid="16660"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_1P.java" startline="1" endline="17" pcid="8201"></source>
+<source file="../ai_codes/claude/claude_p03997_3P.java" startline="1" endline="16" pcid="16659"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_1P.java" startline="1" endline="17" pcid="8201"></source>
+<source file="../ai_codes/claude/claude_p03997_2P.java" startline="1" endline="16" pcid="16658"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_1P.java" startline="1" endline="17" pcid="8201"></source>
+<source file="../ai_codes/claude/claude_p03997_1P.java" startline="1" endline="18" pcid="16657"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_1P.java" startline="1" endline="17" pcid="8201"></source>
+<source file="../ai_codes/claude/claude_p03997_0P.java" startline="1" endline="18" pcid="16656"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_2P.java" startline="1" endline="17" pcid="8202"></source>
+<source file="../ai_codes/claude/claude_p03997_3P.java" startline="1" endline="16" pcid="16659"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_4P.java" startline="1" endline="14" pcid="8204"></source>
+<source file="../ai_codes/claude/claude_p03997_3P.java" startline="1" endline="16" pcid="16659"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_2P.java" startline="1" endline="17" pcid="8202"></source>
+<source file="../ai_codes/claude/claude_p03997_2P.java" startline="1" endline="16" pcid="16658"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_2P.java" startline="1" endline="17" pcid="8202"></source>
+<source file="../ai_codes/claude/claude_p03997_1P.java" startline="1" endline="18" pcid="16657"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_2P.java" startline="1" endline="17" pcid="8202"></source>
+<source file="../ai_codes/claude/claude_p03997_0P.java" startline="1" endline="18" pcid="16656"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_4P.java" startline="1" endline="14" pcid="8204"></source>
+<source file="../ai_codes/claude/claude_p03997_2P.java" startline="1" endline="16" pcid="16658"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_4P.java" startline="1" endline="14" pcid="8204"></source>
+<source file="../ai_codes/claude/claude_p03997_1P.java" startline="1" endline="18" pcid="16657"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03997_4P.java" startline="1" endline="14" pcid="8204"></source>
+<source file="../ai_codes/claude/claude_p03997_0P.java" startline="1" endline="18" pcid="16656"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02534_0P.java" startline="1" endline="15" pcid="2993"></source>
+<source file="../ai_codes/claude/claude_p02534_0P.java" startline="1" endline="17" pcid="11400"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02723_3P.java" startline="1" endline="17" pcid="3730"></source>
+<source file="../ai_codes/claude/claude_p02723_4P.java" startline="1" endline="17" pcid="12144"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02723_3P.java" startline="1" endline="17" pcid="3730"></source>
+<source file="../ai_codes/claude/claude_p02723_3P.java" startline="1" endline="17" pcid="12143"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02723_3P.java" startline="1" endline="17" pcid="3730"></source>
+<source file="../ai_codes/claude/claude_p02723_2P.java" startline="1" endline="17" pcid="12142"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02723_3P.java" startline="1" endline="17" pcid="3730"></source>
+<source file="../ai_codes/claude/claude_p02723_0P.java" startline="1" endline="17" pcid="12140"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02687_2P.java" startline="1" endline="15" pcid="3561"></source>
+<source file="../ai_codes/claude/claude_p02687_1P.java" startline="1" endline="17" pcid="11971"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02687_2P.java" startline="1" endline="15" pcid="3561"></source>
+<source file="../ai_codes/claude/claude_p02687_4P.java" startline="1" endline="17" pcid="11974"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02687_4P.java" startline="1" endline="15" pcid="3563"></source>
+<source file="../ai_codes/claude/claude_p02687_1P.java" startline="1" endline="17" pcid="11971"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02687_4P.java" startline="1" endline="15" pcid="3563"></source>
+<source file="../ai_codes/claude/claude_p02687_4P.java" startline="1" endline="17" pcid="11974"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_1P.java" startline="1" endline="17" pcid="6005"></source>
+<source file="../ai_codes/claude/claude_p03307_4P.java" startline="1" endline="17" pcid="14438"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_2P.java" startline="1" endline="17" pcid="6006"></source>
+<source file="../ai_codes/claude/claude_p03307_4P.java" startline="1" endline="17" pcid="14438"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_3P.java" startline="1" endline="17" pcid="6007"></source>
+<source file="../ai_codes/claude/claude_p03307_4P.java" startline="1" endline="17" pcid="14438"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_4P.java" startline="1" endline="17" pcid="6008"></source>
+<source file="../ai_codes/claude/claude_p03307_4P.java" startline="1" endline="17" pcid="14438"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_1P.java" startline="1" endline="17" pcid="6005"></source>
+<source file="../ai_codes/claude/claude_p03307_3P.java" startline="1" endline="17" pcid="14437"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_2P.java" startline="1" endline="17" pcid="6006"></source>
+<source file="../ai_codes/claude/claude_p03307_3P.java" startline="1" endline="17" pcid="14437"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_3P.java" startline="1" endline="17" pcid="6007"></source>
+<source file="../ai_codes/claude/claude_p03307_3P.java" startline="1" endline="17" pcid="14437"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_4P.java" startline="1" endline="17" pcid="6008"></source>
+<source file="../ai_codes/claude/claude_p03307_3P.java" startline="1" endline="17" pcid="14437"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_1P.java" startline="1" endline="17" pcid="6005"></source>
+<source file="../ai_codes/claude/claude_p03307_2P.java" startline="1" endline="17" pcid="14436"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_2P.java" startline="1" endline="17" pcid="6006"></source>
+<source file="../ai_codes/claude/claude_p03307_2P.java" startline="1" endline="17" pcid="14436"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_3P.java" startline="1" endline="17" pcid="6007"></source>
+<source file="../ai_codes/claude/claude_p03307_2P.java" startline="1" endline="17" pcid="14436"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_4P.java" startline="1" endline="17" pcid="6008"></source>
+<source file="../ai_codes/claude/claude_p03307_2P.java" startline="1" endline="17" pcid="14436"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_1P.java" startline="1" endline="17" pcid="6005"></source>
+<source file="../ai_codes/claude/claude_p03307_1P.java" startline="1" endline="17" pcid="14435"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_2P.java" startline="1" endline="17" pcid="6006"></source>
+<source file="../ai_codes/claude/claude_p03307_1P.java" startline="1" endline="17" pcid="14435"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_3P.java" startline="1" endline="17" pcid="6007"></source>
+<source file="../ai_codes/claude/claude_p03307_1P.java" startline="1" endline="17" pcid="14435"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_4P.java" startline="1" endline="17" pcid="6008"></source>
+<source file="../ai_codes/claude/claude_p03307_1P.java" startline="1" endline="17" pcid="14435"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_1P.java" startline="1" endline="17" pcid="6005"></source>
+<source file="../ai_codes/claude/claude_p03307_0P.java" startline="1" endline="17" pcid="14434"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_2P.java" startline="1" endline="17" pcid="6006"></source>
+<source file="../ai_codes/claude/claude_p03307_0P.java" startline="1" endline="17" pcid="14434"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_3P.java" startline="1" endline="17" pcid="6007"></source>
+<source file="../ai_codes/claude/claude_p03307_0P.java" startline="1" endline="17" pcid="14434"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03307_4P.java" startline="1" endline="17" pcid="6008"></source>
+<source file="../ai_codes/claude/claude_p03307_0P.java" startline="1" endline="17" pcid="14434"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00134_3P.java" startline="1" endline="16" pcid="658"></source>
+<source file="../ai_codes/claude/claude_p00134_2P.java" startline="1" endline="18" pcid="9066"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00134_1P.java" startline="1" endline="20" pcid="656"></source>
+<source file="../ai_codes/claude/claude_p00134_2P.java" startline="1" endline="18" pcid="9066"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_3P.java" startline="1" endline="17" pcid="7768"></source>
+<source file="../ai_codes/claude/claude_p03813_4P.java" startline="1" endline="17" pcid="16220"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_3P.java" startline="1" endline="17" pcid="7768"></source>
+<source file="../ai_codes/claude/claude_p03813_3P.java" startline="1" endline="17" pcid="16219"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_3P.java" startline="1" endline="17" pcid="7768"></source>
+<source file="../ai_codes/claude/claude_p03813_2P.java" startline="1" endline="17" pcid="16218"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_3P.java" startline="1" endline="17" pcid="7768"></source>
+<source file="../ai_codes/claude/claude_p03813_0P.java" startline="1" endline="17" pcid="16216"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_2P.java" startline="1" endline="17" pcid="7767"></source>
+<source file="../ai_codes/claude/claude_p03813_4P.java" startline="1" endline="17" pcid="16220"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_2P.java" startline="1" endline="17" pcid="7767"></source>
+<source file="../ai_codes/claude/claude_p03813_3P.java" startline="1" endline="17" pcid="16219"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_2P.java" startline="1" endline="17" pcid="7767"></source>
+<source file="../ai_codes/claude/claude_p03813_2P.java" startline="1" endline="17" pcid="16218"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_2P.java" startline="1" endline="17" pcid="7767"></source>
+<source file="../ai_codes/claude/claude_p03813_0P.java" startline="1" endline="17" pcid="16216"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_1P.java" startline="1" endline="18" pcid="7766"></source>
+<source file="../ai_codes/claude/claude_p03813_4P.java" startline="1" endline="17" pcid="16220"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_1P.java" startline="1" endline="18" pcid="7766"></source>
+<source file="../ai_codes/claude/claude_p03813_3P.java" startline="1" endline="17" pcid="16219"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_1P.java" startline="1" endline="18" pcid="7766"></source>
+<source file="../ai_codes/claude/claude_p03813_2P.java" startline="1" endline="17" pcid="16218"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_1P.java" startline="1" endline="18" pcid="7766"></source>
+<source file="../ai_codes/claude/claude_p03813_0P.java" startline="1" endline="17" pcid="16216"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_0P.java" startline="1" endline="15" pcid="7765"></source>
+<source file="../ai_codes/claude/claude_p03813_4P.java" startline="1" endline="17" pcid="16220"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_0P.java" startline="1" endline="15" pcid="7765"></source>
+<source file="../ai_codes/claude/claude_p03813_3P.java" startline="1" endline="17" pcid="16219"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_0P.java" startline="1" endline="15" pcid="7765"></source>
+<source file="../ai_codes/claude/claude_p03813_2P.java" startline="1" endline="17" pcid="16218"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03813_0P.java" startline="1" endline="15" pcid="7765"></source>
+<source file="../ai_codes/claude/claude_p03813_0P.java" startline="1" endline="17" pcid="16216"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00586_0P.java" startline="1" endline="14" pcid="1452"></source>
+<source file="../ai_codes/claude/claude_p00586_1P.java" startline="1" endline="14" pcid="9860"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00586_1P.java" startline="1" endline="14" pcid="1453"></source>
+<source file="../ai_codes/claude/claude_p00586_1P.java" startline="1" endline="14" pcid="9860"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00586_4P.java" startline="1" endline="14" pcid="1456"></source>
+<source file="../ai_codes/claude/claude_p00586_1P.java" startline="1" endline="14" pcid="9860"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00586_0P.java" startline="1" endline="14" pcid="1452"></source>
+<source file="../ai_codes/claude/claude_p00586_2P.java" startline="1" endline="14" pcid="9861"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00586_1P.java" startline="1" endline="14" pcid="1453"></source>
+<source file="../ai_codes/claude/claude_p00586_2P.java" startline="1" endline="14" pcid="9861"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00586_4P.java" startline="1" endline="14" pcid="1456"></source>
+<source file="../ai_codes/claude/claude_p00586_2P.java" startline="1" endline="14" pcid="9861"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03563_4P.java" startline="1" endline="18" pcid="6863"></source>
+<source file="../ai_codes/claude/claude_p03563_3P.java" startline="1" endline="15" pcid="15309"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03563_4P.java" startline="1" endline="18" pcid="6863"></source>
+<source file="../ai_codes/claude/claude_p03563_2P.java" startline="1" endline="15" pcid="15308"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03563_4P.java" startline="1" endline="18" pcid="6863"></source>
+<source file="../ai_codes/claude/claude_p03563_1P.java" startline="1" endline="15" pcid="15307"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03563_4P.java" startline="1" endline="18" pcid="6863"></source>
+<source file="../ai_codes/claude/claude_p03563_0P.java" startline="1" endline="15" pcid="15306"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00310_1P.java" startline="1" endline="13" pcid="1094"></source>
+<source file="../ai_codes/claude/claude_p00310_4P.java" startline="1" endline="15" pcid="9503"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00310_4P.java" startline="1" endline="13" pcid="1097"></source>
+<source file="../ai_codes/claude/claude_p00310_4P.java" startline="1" endline="15" pcid="9503"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00310_1P.java" startline="1" endline="13" pcid="1094"></source>
+<source file="../ai_codes/claude/claude_p00310_2P.java" startline="1" endline="13" pcid="9501"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00310_4P.java" startline="1" endline="13" pcid="1097"></source>
+<source file="../ai_codes/claude/claude_p00310_2P.java" startline="1" endline="13" pcid="9501"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00310_1P.java" startline="1" endline="13" pcid="1094"></source>
+<source file="../ai_codes/claude/claude_p00310_0P.java" startline="1" endline="13" pcid="9499"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00310_4P.java" startline="1" endline="13" pcid="1097"></source>
+<source file="../ai_codes/claude/claude_p00310_0P.java" startline="1" endline="13" pcid="9499"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03264_4P.java" startline="1" endline="16" pcid="5826"></source>
+<source file="../ai_codes/claude/claude_p03264_1P.java" startline="1" endline="16" pcid="14250"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03264_2P.java" startline="1" endline="15" pcid="5824"></source>
+<source file="../ai_codes/claude/claude_p03264_1P.java" startline="1" endline="16" pcid="14250"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03264_4P.java" startline="1" endline="16" pcid="5826"></source>
+<source file="../ai_codes/claude/claude_p03264_3P.java" startline="1" endline="16" pcid="14252"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03264_2P.java" startline="1" endline="15" pcid="5824"></source>
+<source file="../ai_codes/claude/claude_p03264_3P.java" startline="1" endline="16" pcid="14252"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00271_4P.java" startline="1" endline="17" pcid="1047"></source>
+<source file="../ai_codes/claude/claude_p00271_3P.java" startline="1" endline="16" pcid="9452"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00271_3P.java" startline="1" endline="17" pcid="1046"></source>
+<source file="../ai_codes/claude/claude_p00271_3P.java" startline="1" endline="16" pcid="9452"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00271_1P.java" startline="1" endline="14" pcid="1044"></source>
+<source file="../ai_codes/claude/claude_p00271_3P.java" startline="1" endline="16" pcid="9452"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_4P.java" startline="1" endline="16" pcid="5859"></source>
+<source file="../ai_codes/claude/claude_p03272_1P.java" startline="1" endline="15" pcid="14285"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_3P.java" startline="1" endline="15" pcid="5858"></source>
+<source file="../ai_codes/claude/claude_p03272_1P.java" startline="1" endline="15" pcid="14285"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_1P.java" startline="1" endline="15" pcid="5856"></source>
+<source file="../ai_codes/claude/claude_p03272_1P.java" startline="1" endline="15" pcid="14285"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_0P.java" startline="1" endline="16" pcid="5855"></source>
+<source file="../ai_codes/claude/claude_p03272_1P.java" startline="1" endline="15" pcid="14285"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_4P.java" startline="1" endline="16" pcid="5859"></source>
+<source file="../ai_codes/claude/claude_p03272_2P.java" startline="1" endline="15" pcid="14286"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_3P.java" startline="1" endline="15" pcid="5858"></source>
+<source file="../ai_codes/claude/claude_p03272_2P.java" startline="1" endline="15" pcid="14286"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_1P.java" startline="1" endline="15" pcid="5856"></source>
+<source file="../ai_codes/claude/claude_p03272_2P.java" startline="1" endline="15" pcid="14286"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_0P.java" startline="1" endline="16" pcid="5855"></source>
+<source file="../ai_codes/claude/claude_p03272_2P.java" startline="1" endline="15" pcid="14286"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_4P.java" startline="1" endline="16" pcid="5859"></source>
+<source file="../ai_codes/claude/claude_p03272_3P.java" startline="1" endline="15" pcid="14287"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_3P.java" startline="1" endline="15" pcid="5858"></source>
+<source file="../ai_codes/claude/claude_p03272_3P.java" startline="1" endline="15" pcid="14287"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_1P.java" startline="1" endline="15" pcid="5856"></source>
+<source file="../ai_codes/claude/claude_p03272_3P.java" startline="1" endline="15" pcid="14287"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_0P.java" startline="1" endline="16" pcid="5855"></source>
+<source file="../ai_codes/claude/claude_p03272_3P.java" startline="1" endline="15" pcid="14287"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_4P.java" startline="1" endline="16" pcid="5859"></source>
+<source file="../ai_codes/claude/claude_p03272_4P.java" startline="1" endline="15" pcid="14288"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_3P.java" startline="1" endline="15" pcid="5858"></source>
+<source file="../ai_codes/claude/claude_p03272_4P.java" startline="1" endline="15" pcid="14288"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_1P.java" startline="1" endline="15" pcid="5856"></source>
+<source file="../ai_codes/claude/claude_p03272_4P.java" startline="1" endline="15" pcid="14288"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03272_0P.java" startline="1" endline="16" pcid="5855"></source>
+<source file="../ai_codes/claude/claude_p03272_4P.java" startline="1" endline="15" pcid="14288"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02687_0P.java" startline="1" endline="14" pcid="3559"></source>
+<source file="../ai_codes/claude/claude_p02687_0P.java" startline="1" endline="15" pcid="11970"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_4P.java" startline="1" endline="12" pcid="3450"></source>
+<source file="../ai_codes/claude/claude_p02657_4P.java" startline="1" endline="12" pcid="11859"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_3P.java" startline="1" endline="12" pcid="3449"></source>
+<source file="../ai_codes/claude/claude_p02657_4P.java" startline="1" endline="12" pcid="11859"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_2P.java" startline="1" endline="12" pcid="3448"></source>
+<source file="../ai_codes/claude/claude_p02657_4P.java" startline="1" endline="12" pcid="11859"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_1P.java" startline="1" endline="12" pcid="3447"></source>
+<source file="../ai_codes/claude/claude_p02657_4P.java" startline="1" endline="12" pcid="11859"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_4P.java" startline="1" endline="12" pcid="3450"></source>
+<source file="../ai_codes/claude/claude_p02657_2P.java" startline="1" endline="12" pcid="11857"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_3P.java" startline="1" endline="12" pcid="3449"></source>
+<source file="../ai_codes/claude/claude_p02657_2P.java" startline="1" endline="12" pcid="11857"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_2P.java" startline="1" endline="12" pcid="3448"></source>
+<source file="../ai_codes/claude/claude_p02657_2P.java" startline="1" endline="12" pcid="11857"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_1P.java" startline="1" endline="12" pcid="3447"></source>
+<source file="../ai_codes/claude/claude_p02657_2P.java" startline="1" endline="12" pcid="11857"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_4P.java" startline="1" endline="12" pcid="3450"></source>
+<source file="../ai_codes/claude/claude_p02657_1P.java" startline="1" endline="12" pcid="11856"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_3P.java" startline="1" endline="12" pcid="3449"></source>
+<source file="../ai_codes/claude/claude_p02657_1P.java" startline="1" endline="12" pcid="11856"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_2P.java" startline="1" endline="12" pcid="3448"></source>
+<source file="../ai_codes/claude/claude_p02657_1P.java" startline="1" endline="12" pcid="11856"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_1P.java" startline="1" endline="12" pcid="3447"></source>
+<source file="../ai_codes/claude/claude_p02657_1P.java" startline="1" endline="12" pcid="11856"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_4P.java" startline="1" endline="12" pcid="3450"></source>
+<source file="../ai_codes/claude/claude_p02657_0P.java" startline="1" endline="12" pcid="11855"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_3P.java" startline="1" endline="12" pcid="3449"></source>
+<source file="../ai_codes/claude/claude_p02657_0P.java" startline="1" endline="12" pcid="11855"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_2P.java" startline="1" endline="12" pcid="3448"></source>
+<source file="../ai_codes/claude/claude_p02657_0P.java" startline="1" endline="12" pcid="11855"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02657_1P.java" startline="1" endline="12" pcid="3447"></source>
+<source file="../ai_codes/claude/claude_p02657_0P.java" startline="1" endline="12" pcid="11855"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_0P.java" startline="1" endline="12" pcid="3643"></source>
+<source file="../ai_codes/claude/claude_p02705_1P.java" startline="1" endline="12" pcid="12056"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_0P.java" startline="1" endline="12" pcid="3643"></source>
+<source file="../ai_codes/claude/claude_p02705_3P.java" startline="1" endline="12" pcid="12058"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_0P.java" startline="1" endline="12" pcid="3643"></source>
+<source file="../ai_codes/claude/claude_p02705_4P.java" startline="1" endline="12" pcid="12059"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03577_0P.java" startline="1" endline="12" pcid="6919"></source>
+<source file="../ai_codes/claude/claude_p03577_3P.java" startline="1" endline="14" pcid="15369"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_2P.java" startline="1" endline="12" pcid="3645"></source>
+<source file="../ai_codes/claude/claude_p02705_1P.java" startline="1" endline="12" pcid="12056"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_3P.java" startline="1" endline="12" pcid="3646"></source>
+<source file="../ai_codes/claude/claude_p02705_1P.java" startline="1" endline="12" pcid="12056"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_4P.java" startline="1" endline="12" pcid="3647"></source>
+<source file="../ai_codes/claude/claude_p02705_1P.java" startline="1" endline="12" pcid="12056"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_2P.java" startline="1" endline="12" pcid="3645"></source>
+<source file="../ai_codes/claude/claude_p02705_3P.java" startline="1" endline="12" pcid="12058"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_3P.java" startline="1" endline="12" pcid="3646"></source>
+<source file="../ai_codes/claude/claude_p02705_3P.java" startline="1" endline="12" pcid="12058"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_4P.java" startline="1" endline="12" pcid="3647"></source>
+<source file="../ai_codes/claude/claude_p02705_3P.java" startline="1" endline="12" pcid="12058"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_2P.java" startline="1" endline="12" pcid="3645"></source>
+<source file="../ai_codes/claude/claude_p02705_4P.java" startline="1" endline="12" pcid="12059"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_3P.java" startline="1" endline="12" pcid="3646"></source>
+<source file="../ai_codes/claude/claude_p02705_4P.java" startline="1" endline="12" pcid="12059"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02705_4P.java" startline="1" endline="12" pcid="3647"></source>
+<source file="../ai_codes/claude/claude_p02705_4P.java" startline="1" endline="12" pcid="12059"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02817_0P.java" startline="1" endline="12" pcid="4121"></source>
+<source file="../ai_codes/claude/claude_p02817_2P.java" startline="1" endline="12" pcid="12537"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02817_1P.java" startline="1" endline="12" pcid="4122"></source>
+<source file="../ai_codes/claude/claude_p02817_2P.java" startline="1" endline="12" pcid="12537"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02817_2P.java" startline="1" endline="12" pcid="4123"></source>
+<source file="../ai_codes/claude/claude_p02817_2P.java" startline="1" endline="12" pcid="12537"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02817_3P.java" startline="1" endline="12" pcid="4124"></source>
+<source file="../ai_codes/claude/claude_p02817_2P.java" startline="1" endline="12" pcid="12537"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02817_4P.java" startline="1" endline="12" pcid="4125"></source>
+<source file="../ai_codes/claude/claude_p02817_2P.java" startline="1" endline="12" pcid="12537"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02817_0P.java" startline="1" endline="12" pcid="4121"></source>
+<source file="../ai_codes/claude/claude_p02817_0P.java" startline="1" endline="12" pcid="12535"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02817_1P.java" startline="1" endline="12" pcid="4122"></source>
+<source file="../ai_codes/claude/claude_p02817_0P.java" startline="1" endline="12" pcid="12535"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02817_2P.java" startline="1" endline="12" pcid="4123"></source>
+<source file="../ai_codes/claude/claude_p02817_0P.java" startline="1" endline="12" pcid="12535"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02817_3P.java" startline="1" endline="12" pcid="4124"></source>
+<source file="../ai_codes/claude/claude_p02817_0P.java" startline="1" endline="12" pcid="12535"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02817_4P.java" startline="1" endline="12" pcid="4125"></source>
+<source file="../ai_codes/claude/claude_p02817_0P.java" startline="1" endline="12" pcid="12535"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00290_3P.java" startline="1" endline="13" pcid="1076"></source>
+<source file="../ai_codes/claude/claude_p00290_4P.java" startline="1" endline="12" pcid="9483"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00290_3P.java" startline="1" endline="13" pcid="1076"></source>
+<source file="../ai_codes/claude/claude_p00290_3P.java" startline="1" endline="12" pcid="9482"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00290_3P.java" startline="1" endline="13" pcid="1076"></source>
+<source file="../ai_codes/claude/claude_p00290_0P.java" startline="1" endline="12" pcid="9479"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00290_2P.java" startline="1" endline="13" pcid="1075"></source>
+<source file="../ai_codes/claude/claude_p00290_4P.java" startline="1" endline="12" pcid="9483"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00290_2P.java" startline="1" endline="13" pcid="1075"></source>
+<source file="../ai_codes/claude/claude_p00290_3P.java" startline="1" endline="12" pcid="9482"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00290_2P.java" startline="1" endline="13" pcid="1075"></source>
+<source file="../ai_codes/claude/claude_p00290_0P.java" startline="1" endline="12" pcid="9479"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00290_1P.java" startline="1" endline="12" pcid="1074"></source>
+<source file="../ai_codes/claude/claude_p00290_4P.java" startline="1" endline="12" pcid="9483"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00290_1P.java" startline="1" endline="12" pcid="1074"></source>
+<source file="../ai_codes/claude/claude_p00290_3P.java" startline="1" endline="12" pcid="9482"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p00290_1P.java" startline="1" endline="12" pcid="1074"></source>
+<source file="../ai_codes/claude/claude_p00290_0P.java" startline="1" endline="12" pcid="9479"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/gemini/gemini_p03423_2P.java" startline="1" endline="16" pcid="6444"></source>
+<source file="../ai_codes/claude/claude_p03423_1P.java" startline="1" endline="15" pcid="14885"></source>
+</clone>
+
+</clones>

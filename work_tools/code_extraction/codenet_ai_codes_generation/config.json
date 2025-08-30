@@ -1,0 +1,9 @@
+{
+  "API_KEY": "sk-xxx",
+  "OUTPUT_DIR": "output",
+  "INPUT_DIR": "CodeNet Questions",
+  "UNAVAILABLE_DIR": "unavailable_exercises.csv",
+  "LANGUAGES": ["java"],
+  "MAX_SOLS": 5,
+  "MAX_TOKENS": 8000
+}

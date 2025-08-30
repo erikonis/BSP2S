@@ -1,0 +1,5084 @@
+<html>
+<head>
+    <title>NiCad6 Clone Report</title>
+    <style type="text/css">
+        body {font-family:sans-serif;}
+        table {background-color:white; border:0px; padding:0px; border-spacing:4px; width:auto; margin-left:30px; margin-right:auto;}
+        td {background-color:rgba(192,212,238,0.8); border:0px; padding:8px; width:auto; vertical-align:top; border-radius:8px}
+        pre {background-color:white; padding:4px;}
+        a {color:darkblue;}
+    </style>
+</head>
+<body>
+<h2>NiCad6 Clone Report</h2>
+<table>
+<tr style="font-size:14pt">
+<td><b>System 1:</b> &nbsp; claude</td>
+<td><b>System 2:</b> &nbsp; chatgpt</td>
+<td><b>Clone pairs:</b> &nbsp; 210</td>
+<td><b>Clone classes:</b> &nbsp; 43</td>
+</tr>
+<tr style="font-size:12pt">
+<td style="background-color:white">Clone type: &nbsp; 1</td>
+<td style="background-color:white">Granularity: &nbsp; files</td>
+<td style="background-color:white">Max diff threshold: &nbsp; 0%</td>
+<td style="background-color:white">Clone size: &nbsp; 10 - 2500 lines</td>
+<td style="background-color:white">Total files: &nbsp; 16914</td>
+</tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 1:</b> &nbsp; 4 fragments, nominal size 11 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag472')" href="javascript:;">
+claude/claude_p00094_1P.java: 1-15
+</a>
+<div class="mid" id="frag472" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        double area = a * b;
+        double tsubo = area / 3.305785;
+
+        System.out.println(tsubo);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag8929')" href="javascript:;">
+chatgpt/chatgpt_p00094_2P.java: 1-13
+</a>
+<div class="mid" id="frag8929" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        double area = a * b;
+        double tsubo = area / 3.305785;
+        System.out.println(tsubo);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag8931')" href="javascript:;">
+chatgpt/chatgpt_p00094_4P.java: 1-13
+</a>
+<div class="mid" id="frag8931" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        double area = a * b;
+        double tsubo = area / 3.305785;
+        System.out.println(tsubo);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag475')" href="javascript:;">
+claude/claude_p00094_4P.java: 1-15
+</a>
+<div class="mid" id="frag475" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        double area = a * b;
+        double tsubo = area / 3.305785;
+
+        System.out.println(tsubo);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 2:</b> &nbsp; 6 fragments, nominal size 26 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1006')" href="javascript:;">
+claude/claude_p00241_0P.java: 1-33
+</a>
+<div class="mid" id="frag1006" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+
+            for (int i = 0; i &lt; n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1*x2 - y1*y2 - z1*z2 - w1*w2;
+                int y3 = x1*y2 + y1*x2 + z1*w2 - w1*z2;
+                int z3 = x1*z2 - y1*w2 + z1*x2 + w1*y2;
+                int w3 = x1*w2 + y1*z2 - z1*y2 + w1*x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag9466')" href="javascript:;">
+chatgpt/chatgpt_p00241_0P.java: 1-31
+</a>
+<div class="mid" id="frag9466" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+            for (int i = 0; i &lt; n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1 * x2 - y1 * y2 - z1 * z2 - w1 * w2;
+                int y3 = x1 * y2 + y1 * x2 + z1 * w2 - w1 * z2;
+                int z3 = x1 * z2 - y1 * w2 + z1 * x2 + w1 * y2;
+                int w3 = x1 * w2 + y1 * z2 - z1 * y2 + w1 * x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1007')" href="javascript:;">
+claude/claude_p00241_1P.java: 1-33
+</a>
+<div class="mid" id="frag1007" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+
+            for (int i = 0; i &lt; n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1 * x2 - y1 * y2 - z1 * z2 - w1 * w2;
+                int y3 = x1 * y2 + y1 * x2 + z1 * w2 - w1 * z2;
+                int z3 = x1 * z2 - y1 * w2 + z1 * x2 + w1 * y2;
+                int w3 = x1 * w2 + y1 * z2 - z1 * y2 + w1 * x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1010')" href="javascript:;">
+claude/claude_p00241_4P.java: 1-33
+</a>
+<div class="mid" id="frag1010" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+
+            for (int i = 0; i &lt; n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1*x2 - y1*y2 - z1*z2 - w1*w2;
+                int y3 = x1*y2 + y1*x2 + z1*w2 - w1*z2;
+                int z3 = x1*z2 - y1*w2 + z1*x2 + w1*y2;
+                int w3 = x1*w2 + y1*z2 - z1*y2 + w1*x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1008')" href="javascript:;">
+claude/claude_p00241_2P.java: 1-33
+</a>
+<div class="mid" id="frag1008" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+
+            for (int i = 0; i &lt; n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1*x2 - y1*y2 - z1*z2 - w1*w2;
+                int y3 = x1*y2 + y1*x2 + z1*w2 - w1*z2;
+                int z3 = x1*z2 - y1*w2 + z1*x2 + w1*y2;
+                int w3 = x1*w2 + y1*z2 - z1*y2 + w1*x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1009')" href="javascript:;">
+claude/claude_p00241_3P.java: 1-33
+</a>
+<div class="mid" id="frag1009" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+
+            for (int i = 0; i &lt; n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1 * x2 - y1 * y2 - z1 * z2 - w1 * w2;
+                int y3 = x1 * y2 + y1 * x2 + z1 * w2 - w1 * z2;
+                int z3 = x1 * z2 - y1 * w2 + z1 * x2 + w1 * y2;
+                int w3 = x1 * w2 + y1 * z2 - z1 * y2 + w1 * x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 3:</b> &nbsp; 2 fragments, nominal size 19 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag1212')" href="javascript:;">
+claude/claude_p00444_1P.java: 1-26
+</a>
+<div class="mid" id="frag1212" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] coins = {500, 100, 50, 10, 5, 1};
+
+        while (true) {
+            int price = sc.nextInt();
+            if (price == 0) break;
+
+            int change = 1000 - price;
+            int count = 0;
+
+            for (int coin : coins) {
+                count += change / coin;
+                change %= coin;
+            }
+
+            System.out.println(count);
+        }
+
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag9671')" href="javascript:;">
+chatgpt/chatgpt_p00444_0P.java: 1-21
+</a>
+<div class="mid" id="frag9671" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] coins = {500, 100, 50, 10, 5, 1};
+        while (true) {
+            int price = sc.nextInt();
+            if (price == 0) break;
+            int change = 1000 - price;
+            int count = 0;
+            for (int coin : coins) {
+                count += change / coin;
+                change %= coin;
+            }
+            System.out.println(count);
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 4:</b> &nbsp; 6 fragments, nominal size 17 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2762')" href="javascript:;">
+claude/claude_p02394_0P.java: 1-19
+</a>
+<div class="mid" id="frag2762" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r &gt;= 0 &amp;&amp; x + r &lt;= W &amp;&amp; y - r &gt;= 0 &amp;&amp; y + r &lt;= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11224')" href="javascript:;">
+chatgpt/chatgpt_p02394_2P.java: 1-19
+</a>
+<div class="mid" id="frag11224" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r &gt;= 0 &amp;&amp; x + r &lt;= W &amp;&amp; y - r &gt;= 0 &amp;&amp; y + r &lt;= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11225')" href="javascript:;">
+chatgpt/chatgpt_p02394_3P.java: 1-19
+</a>
+<div class="mid" id="frag11225" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r &gt;= 0 &amp;&amp; x + r &lt;= W &amp;&amp; y - r &gt;= 0 &amp;&amp; y + r &lt;= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11226')" href="javascript:;">
+chatgpt/chatgpt_p02394_4P.java: 1-19
+</a>
+<div class="mid" id="frag11226" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r &gt;= 0 &amp;&amp; x + r &lt;= W &amp;&amp; y - r &gt;= 0 &amp;&amp; y + r &lt;= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2766')" href="javascript:;">
+claude/claude_p02394_4P.java: 1-19
+</a>
+<div class="mid" id="frag2766" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r &gt;= 0 &amp;&amp; x + r &lt;= W &amp;&amp; y - r &gt;= 0 &amp;&amp; y + r &lt;= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2763')" href="javascript:;">
+claude/claude_p02394_1P.java: 1-19
+</a>
+<div class="mid" id="frag2763" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r &gt;= 0 &amp;&amp; x + r &lt;= W &amp;&amp; y - r &gt;= 0 &amp;&amp; y + r &lt;= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 5:</b> &nbsp; 2 fragments, nominal size 16 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2781')" href="javascript:;">
+claude/claude_p02398_4P.java: 1-20
+</a>
+<div class="mid" id="frag2781" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int count = 0;
+        for (int i = a; i &lt;= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11241')" href="javascript:;">
+chatgpt/chatgpt_p02398_4P.java: 1-18
+</a>
+<div class="mid" id="frag11241" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int count = 0;
+        for (int i = a; i &lt;= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 6:</b> &nbsp; 5 fragments, nominal size 15 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3107')" href="javascript:;">
+claude/claude_p02570_0P.java: 1-17
+</a>
+<div class="mid" id="frag3107" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int D = sc.nextInt();
+        int T = sc.nextInt();
+        int S = sc.nextInt();
+
+        if (D &lt;= T * S) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11570')" href="javascript:;">
+chatgpt/chatgpt_p02570_4P.java: 1-16
+</a>
+<div class="mid" id="frag11570" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int D = sc.nextInt();
+        int T = sc.nextInt();
+        int S = sc.nextInt();
+        if (D &lt;= T * S) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11568')" href="javascript:;">
+chatgpt/chatgpt_p02570_2P.java: 1-16
+</a>
+<div class="mid" id="frag11568" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int D = sc.nextInt();
+        int T = sc.nextInt();
+        int S = sc.nextInt();
+        if (D &lt;= T * S) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3108')" href="javascript:;">
+claude/claude_p02570_1P.java: 1-17
+</a>
+<div class="mid" id="frag3108" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int D = sc.nextInt();
+        int T = sc.nextInt();
+        int S = sc.nextInt();
+
+        if (D &lt;= T * S) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3109')" href="javascript:;">
+claude/claude_p02570_2P.java: 1-17
+</a>
+<div class="mid" id="frag3109" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int D = sc.nextInt();
+        int T = sc.nextInt();
+        int S = sc.nextInt();
+
+        if (D &lt;= T * S) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 7:</b> &nbsp; 4 fragments, nominal size 10 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3285')" href="javascript:;">
+claude/claude_p02612_3P.java: 1-15
+</a>
+<div class="mid" id="frag3285" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int bills = (N + 999) / 1000;
+
+        int change = bills * 1000 - N;
+
+        System.out.println(change);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11743')" href="javascript:;">
+chatgpt/chatgpt_p02612_3P.java: 1-12
+</a>
+<div class="mid" id="frag11743" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int bills = (N + 999) / 1000;
+        int change = bills * 1000 - N;
+        System.out.println(change);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11744')" href="javascript:;">
+chatgpt/chatgpt_p02612_4P.java: 1-12
+</a>
+<div class="mid" id="frag11744" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int bills = (N + 999) / 1000;
+        int change = bills * 1000 - N;
+        System.out.println(change);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3286')" href="javascript:;">
+claude/claude_p02612_4P.java: 1-15
+</a>
+<div class="mid" id="frag3286" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int bills = (N + 999) / 1000;
+
+        int change = bills * 1000 - N;
+
+        System.out.println(change);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 8:</b> &nbsp; 5 fragments, nominal size 13 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3357')" href="javascript:;">
+claude/claude_p02627_0P.java: 1-15
+</a>
+<div class="mid" id="frag3357" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11816')" href="javascript:;">
+chatgpt/chatgpt_p02627_1P.java: 1-14
+</a>
+<div class="mid" id="frag11816" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3359')" href="javascript:;">
+claude/claude_p02627_2P.java: 1-15
+</a>
+<div class="mid" id="frag3359" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3360')" href="javascript:;">
+claude/claude_p02627_3P.java: 1-15
+</a>
+<div class="mid" id="frag3360" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3358')" href="javascript:;">
+claude/claude_p02627_1P.java: 1-15
+</a>
+<div class="mid" id="frag3358" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 9:</b> &nbsp; 2 fragments, nominal size 13 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3450')" href="javascript:;">
+claude/claude_p02657_3P.java: 1-17
+</a>
+<div class="mid" id="frag3450" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int result = 0;
+        for (int i = 0; i &lt; B; i++) {
+            result += A;
+        }
+
+        System.out.println(result);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11906')" href="javascript:;">
+chatgpt/chatgpt_p02657_1P.java: 1-15
+</a>
+<div class="mid" id="frag11906" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int result = 0;
+        for (int i = 0; i &lt; B; i++) {
+            result += A;
+        }
+        System.out.println(result);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 10:</b> &nbsp; 4 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3533')" href="javascript:;">
+claude/claude_p02681_1P.java: 1-16
+</a>
+<div class="mid" id="frag3533" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        String T = sc.nextLine();
+
+        if (T.startsWith(S) &amp;&amp; T.length() == S.length() + 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11991')" href="javascript:;">
+chatgpt/chatgpt_p02681_1P.java: 1-15
+</a>
+<div class="mid" id="frag11991" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        String T = sc.nextLine();
+        if (T.startsWith(S) &amp;&amp; T.length() == S.length() + 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3536')" href="javascript:;">
+claude/claude_p02681_4P.java: 1-16
+</a>
+<div class="mid" id="frag3536" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        String T = sc.nextLine();
+
+        if (T.startsWith(S) &amp;&amp; T.length() == S.length() + 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3535')" href="javascript:;">
+claude/claude_p02681_3P.java: 1-16
+</a>
+<div class="mid" id="frag3535" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        String T = sc.nextLine();
+
+        if (T.startsWith(S) &amp;&amp; T.length() == S.length() + 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 11:</b> &nbsp; 4 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3598')" href="javascript:;">
+claude/claude_p02694_1P.java: 1-19
+</a>
+<div class="mid" id="frag3598" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long X = sc.nextLong();
+
+        long balance = 100;
+        int years = 0;
+
+        while (balance &lt; X) {
+            balance = balance + balance / 100;
+            years++;
+        }
+
+        System.out.println(years);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12059')" href="javascript:;">
+chatgpt/chatgpt_p02694_4P.java: 1-16
+</a>
+<div class="mid" id="frag12059" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long X = sc.nextLong();
+        long balance = 100;
+        int years = 0;
+        while (balance &lt; X) {
+            balance = balance + balance / 100;
+            years++;
+        }
+        System.out.println(years);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3600')" href="javascript:;">
+claude/claude_p02694_3P.java: 1-19
+</a>
+<div class="mid" id="frag3600" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long X = sc.nextLong();
+
+        long balance = 100;
+        int years = 0;
+
+        while (balance &lt; X) {
+            balance = balance + balance / 100;
+            years++;
+        }
+
+        System.out.println(years);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3599')" href="javascript:;">
+claude/claude_p02694_2P.java: 1-19
+</a>
+<div class="mid" id="frag3599" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long X = sc.nextLong();
+
+        long balance = 100;
+        int years = 0;
+
+        while (balance &lt; X) {
+            balance = balance + balance / 100;
+            years++;
+        }
+
+        System.out.println(years);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 12:</b> &nbsp; 4 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3622')" href="javascript:;">
+claude/claude_p02699_0P.java: 1-16
+</a>
+<div class="mid" id="frag3622" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int S = sc.nextInt();
+        int W = sc.nextInt();
+
+        if (W &gt;= S) {
+            System.out.println("unsafe");
+        } else {
+            System.out.println("safe");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12082')" href="javascript:;">
+chatgpt/chatgpt_p02699_2P.java: 1-15
+</a>
+<div class="mid" id="frag12082" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int S = sc.nextInt();
+        int W = sc.nextInt();
+        if (W &gt;= S) {
+            System.out.println("unsafe");
+        } else {
+            System.out.println("safe");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12083')" href="javascript:;">
+chatgpt/chatgpt_p02699_3P.java: 1-15
+</a>
+<div class="mid" id="frag12083" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int S = sc.nextInt();
+        int W = sc.nextInt();
+        if (W &gt;= S) {
+            System.out.println("unsafe");
+        } else {
+            System.out.println("safe");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3624')" href="javascript:;">
+claude/claude_p02699_2P.java: 1-16
+</a>
+<div class="mid" id="frag3624" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int S = sc.nextInt();
+        int W = sc.nextInt();
+
+        if (W &gt;= S) {
+            System.out.println("unsafe");
+        } else {
+            System.out.println("safe");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 13:</b> &nbsp; 5 fragments, nominal size 18 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3627')" href="javascript:;">
+claude/claude_p02700_0P.java: 1-21
+</a>
+<div class="mid" id="frag3627" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns &lt;= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12088')" href="javascript:;">
+chatgpt/chatgpt_p02700_3P.java: 1-21
+</a>
+<div class="mid" id="frag12088" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns &lt;= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12085')" href="javascript:;">
+chatgpt/chatgpt_p02700_0P.java: 1-21
+</a>
+<div class="mid" id="frag12085" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns &lt;= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12089')" href="javascript:;">
+chatgpt/chatgpt_p02700_4P.java: 1-21
+</a>
+<div class="mid" id="frag12089" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns &lt;= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3628')" href="javascript:;">
+claude/claude_p02700_1P.java: 1-21
+</a>
+<div class="mid" id="frag3628" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns &lt;= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 14:</b> &nbsp; 3 fragments, nominal size 10 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3702')" href="javascript:;">
+claude/claude_p02717_0P.java: 1-13
+</a>
+<div class="mid" id="frag3702" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        System.out.println(Z + " " + X + " " + Y);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12161')" href="javascript:;">
+chatgpt/chatgpt_p02717_1P.java: 1-12
+</a>
+<div class="mid" id="frag12161" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+        System.out.println(Z + " " + X + " " + Y);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3706')" href="javascript:;">
+claude/claude_p02717_4P.java: 1-13
+</a>
+<div class="mid" id="frag3706" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        System.out.println(Z + " " + X + " " + Y);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 15:</b> &nbsp; 6 fragments, nominal size 11 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3762')" href="javascript:;">
+claude/claude_p02729_0P.java: 1-16
+</a>
+<div class="mid" id="frag3762" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+
+        int oddPairs = M * (M - 1) / 2;
+
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12222')" href="javascript:;">
+chatgpt/chatgpt_p02729_2P.java: 1-13
+</a>
+<div class="mid" id="frag12222" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+        int evenPairs = N * (N - 1) / 2;
+        int oddPairs = M * (M - 1) / 2;
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12220')" href="javascript:;">
+chatgpt/chatgpt_p02729_0P.java: 1-13
+</a>
+<div class="mid" id="frag12220" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+        int evenPairs = N * (N - 1) / 2;
+        int oddPairs = M * (M - 1) / 2;
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12223')" href="javascript:;">
+chatgpt/chatgpt_p02729_3P.java: 1-14
+</a>
+<div class="mid" id="frag12223" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+        int oddPairs = M * (M - 1) / 2;
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3763')" href="javascript:;">
+claude/claude_p02729_1P.java: 1-15
+</a>
+<div class="mid" id="frag3763" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+        int oddPairs = M * (M - 1) / 2;
+
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3764')" href="javascript:;">
+claude/claude_p02729_2P.java: 1-16
+</a>
+<div class="mid" id="frag3764" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+
+        int oddPairs = M * (M - 1) / 2;
+
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 16:</b> &nbsp; 7 fragments, nominal size 16 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3898')" href="javascript:;">
+claude/claude_p02765_1P.java: 1-19
+</a>
+<div class="mid" id="frag3898" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N &gt;= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12355')" href="javascript:;">
+chatgpt/chatgpt_p02765_0P.java: 1-17
+</a>
+<div class="mid" id="frag12355" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+        int innerRating;
+        if (N &gt;= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+        System.out.println(innerRating);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12357')" href="javascript:;">
+chatgpt/chatgpt_p02765_2P.java: 1-17
+</a>
+<div class="mid" id="frag12357" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+        int innerRating;
+        if (N &gt;= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+        System.out.println(innerRating);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12359')" href="javascript:;">
+chatgpt/chatgpt_p02765_4P.java: 1-17
+</a>
+<div class="mid" id="frag12359" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+        int innerRating;
+        if (N &gt;= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+        System.out.println(innerRating);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3899')" href="javascript:;">
+claude/claude_p02765_2P.java: 1-19
+</a>
+<div class="mid" id="frag3899" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N &gt;= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3901')" href="javascript:;">
+claude/claude_p02765_4P.java: 1-19
+</a>
+<div class="mid" id="frag3901" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N &gt;= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3900')" href="javascript:;">
+claude/claude_p02765_3P.java: 1-19
+</a>
+<div class="mid" id="frag3900" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N &gt;= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</pre></div>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 17:</b> &nbsp; 4 fragments, nominal size 18 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3954')" href="javascript:;">
+claude/claude_p02777_2P.java: 1-21
+</a>
+<div class="mid" id="frag3954" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.next();
+        String T = sc.next();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        String U = sc.next();
+
+        if (U.equals(S)) {
+            A--;
+        } else {
+            B--;
+        }
+
+        System.out.println(A + " " + B);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12414')" href="javascript:;">
+chatgpt/chatgpt_p02777_4P.java: 1-22
+</a>
+<div class="mid" id="frag12414" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String S = sc.next();
+        String T = sc.next();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        String U = sc.next();
+
+        if (U.equals(S)) {
+            A--;
+        } else {
+            B--;
+        }
+
+        System.out.println(A + " " + B);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12413')" href="javascript:;">
+chatgpt/chatgpt_p02777_3P.java: 1-20
+</a>
+<div class="mid" id="frag12413" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.next();
+        String T = sc.next();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        String U = sc.next();
+
+        if (U.equals(S)) {
+            A--;
+        } else {
+            B--;
+        }
+        System.out.println(A + " " + B);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12410')" href="javascript:;">
+chatgpt/chatgpt_p02777_0P.java: 1-22
+</a>
+<div class="mid" id="frag12410" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String S = sc.next();
+        String T = sc.next();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        String U = sc.next();
+
+        if (U.equals(S)) {
+            A--;
+        } else {
+            B--;
+        }
+
+        System.out.println(A + " " + B);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 18:</b> &nbsp; 8 fragments, nominal size 10 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3982')" href="javascript:;">
+claude/claude_p02783_0P.java: 1-13
+</a>
+<div class="mid" id="frag3982" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12444')" href="javascript:;">
+chatgpt/chatgpt_p02783_4P.java: 1-12
+</a>
+<div class="mid" id="frag12444" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12443')" href="javascript:;">
+chatgpt/chatgpt_p02783_3P.java: 1-12
+</a>
+<div class="mid" id="frag12443" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12442')" href="javascript:;">
+chatgpt/chatgpt_p02783_2P.java: 1-12
+</a>
+<div class="mid" id="frag12442" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12441')" href="javascript:;">
+chatgpt/chatgpt_p02783_1P.java: 1-12
+</a>
+<div class="mid" id="frag12441" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12440')" href="javascript:;">
+chatgpt/chatgpt_p02783_0P.java: 1-12
+</a>
+<div class="mid" id="frag12440" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3985')" href="javascript:;">
+claude/claude_p02783_3P.java: 1-14
+</a>
+<div class="mid" id="frag3985" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+
+        int attacks = (H + A - 1) / A;
+
+        System.out.println(attacks);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag3986')" href="javascript:;">
+claude/claude_p02783_4P.java: 1-14
+</a>
+<div class="mid" id="frag3986" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+
+        int attacks = (H + A - 1) / A;
+
+        System.out.println(attacks);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 19:</b> &nbsp; 4 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4097')" href="javascript:;">
+claude/claude_p02811_0P.java: 1-16
+</a>
+<div class="mid" id="frag4097" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (K * 500 &gt;= X) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12557')" href="javascript:;">
+chatgpt/chatgpt_p02811_2P.java: 1-15
+</a>
+<div class="mid" id="frag12557" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        int X = sc.nextInt();
+        if (K * 500 &gt;= X) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12555')" href="javascript:;">
+chatgpt/chatgpt_p02811_0P.java: 1-15
+</a>
+<div class="mid" id="frag12555" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        int X = sc.nextInt();
+        if (K * 500 &gt;= X) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4099')" href="javascript:;">
+claude/claude_p02811_2P.java: 1-16
+</a>
+<div class="mid" id="frag4099" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (K * 500 &gt;= X) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 20:</b> &nbsp; 9 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4162')" href="javascript:;">
+claude/claude_p02829_0P.java: 1-17
+</a>
+<div class="mid" id="frag4162" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i &lt;= 3; i++) {
+            if (i != A &amp;&amp; i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12623')" href="javascript:;">
+chatgpt/chatgpt_p02829_3P.java: 1-16
+</a>
+<div class="mid" id="frag12623" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        for (int i = 1; i &lt;= 3; i++) {
+            if (i != A &amp;&amp; i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12622')" href="javascript:;">
+chatgpt/chatgpt_p02829_2P.java: 1-17
+</a>
+<div class="mid" id="frag12622" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i &lt;= 3; i++) {
+            if (i != A &amp;&amp; i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12624')" href="javascript:;">
+chatgpt/chatgpt_p02829_4P.java: 1-16
+</a>
+<div class="mid" id="frag12624" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        for (int i = 1; i &lt;= 3; i++) {
+            if (i != A &amp;&amp; i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12620')" href="javascript:;">
+chatgpt/chatgpt_p02829_0P.java: 1-16
+</a>
+<div class="mid" id="frag12620" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        for (int i = 1; i &lt;= 3; i++) {
+            if (i != A &amp;&amp; i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4165')" href="javascript:;">
+claude/claude_p02829_3P.java: 1-17
+</a>
+<div class="mid" id="frag4165" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i &lt;= 3; i++) {
+            if (i != A &amp;&amp; i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4166')" href="javascript:;">
+claude/claude_p02829_4P.java: 1-17
+</a>
+<div class="mid" id="frag4166" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i &lt;= 3; i++) {
+            if (i != A &amp;&amp; i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4164')" href="javascript:;">
+claude/claude_p02829_2P.java: 1-17
+</a>
+<div class="mid" id="frag4164" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i &lt;= 3; i++) {
+            if (i != A &amp;&amp; i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4163')" href="javascript:;">
+claude/claude_p02829_1P.java: 1-17
+</a>
+<div class="mid" id="frag4163" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i &lt;= 3; i++) {
+            if (i != A &amp;&amp; i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 21:</b> &nbsp; 2 fragments, nominal size 20 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4299')" href="javascript:;">
+claude/claude_p02860_2P.java: 1-24
+</a>
+<div class="mid" id="frag4299" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        String S = sc.next();
+
+        if (N % 2 != 0) {
+            System.out.println("No");
+            return;
+        }
+
+        String firstHalf = S.substring(0, N/2);
+        String secondHalf = S.substring(N/2);
+
+        if (firstHalf.equals(secondHalf)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12756')" href="javascript:;">
+chatgpt/chatgpt_p02860_1P.java: 1-21
+</a>
+<div class="mid" id="frag12756" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        String S = sc.next();
+        if (N % 2 != 0) {
+            System.out.println("No");
+            return;
+        }
+        String firstHalf = S.substring(0, N/2);
+        String secondHalf = S.substring(N/2);
+        if (firstHalf.equals(secondHalf)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 22:</b> &nbsp; 7 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4357')" href="javascript:;">
+claude/claude_p02879_0P.java: 1-16
+</a>
+<div class="mid" id="frag4357" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A &gt;= 1 &amp;&amp; A &lt;= 9 &amp;&amp; B &gt;= 1 &amp;&amp; B &lt;= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12817')" href="javascript:;">
+chatgpt/chatgpt_p02879_2P.java: 1-15
+</a>
+<div class="mid" id="frag12817" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        if (A &gt;= 1 &amp;&amp; A &lt;=9 &amp;&amp; B &gt;= 1 &amp;&amp; B &lt;= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12819')" href="javascript:;">
+chatgpt/chatgpt_p02879_4P.java: 1-15
+</a>
+<div class="mid" id="frag12819" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        if (A &gt;= 1 &amp;&amp; A &lt;= 9 &amp;&amp; B &gt;= 1 &amp;&amp; B &lt;= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12816')" href="javascript:;">
+chatgpt/chatgpt_p02879_1P.java: 1-15
+</a>
+<div class="mid" id="frag12816" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        if (A &gt;= 1 &amp;&amp; A &lt;= 9 &amp;&amp; B &gt;= 1 &amp;&amp; B &lt;= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12815')" href="javascript:;">
+chatgpt/chatgpt_p02879_0P.java: 1-15
+</a>
+<div class="mid" id="frag12815" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        if (A &gt;= 1 &amp;&amp; A &lt;= 9 &amp;&amp; B &gt;= 1 &amp;&amp; B &lt;= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4360')" href="javascript:;">
+claude/claude_p02879_3P.java: 1-16
+</a>
+<div class="mid" id="frag4360" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A &gt;= 1 &amp;&amp; A &lt;= 9 &amp;&amp; B &gt;= 1 &amp;&amp; B &lt;= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4358')" href="javascript:;">
+claude/claude_p02879_1P.java: 1-16
+</a>
+<div class="mid" id="frag4358" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A &gt;= 1 &amp;&amp; A &lt;= 9 &amp;&amp; B &gt;= 1 &amp;&amp; B &lt;= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 23:</b> &nbsp; 4 fragments, nominal size 16 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4362')" href="javascript:;">
+claude/claude_p02880_0P.java: 1-20
+</a>
+<div class="mid" id="frag4362" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        for (int i = 1; i &lt;= 9; i++) {
+            for (int j = 1; j &lt;= 9; j++) {
+                if (i * j == N) {
+                    System.out.println("Yes");
+                    return;
+                }
+            }
+        }
+
+        System.out.println("No");
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12823')" href="javascript:;">
+chatgpt/chatgpt_p02880_3P.java: 1-18
+</a>
+<div class="mid" id="frag12823" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for (int i = 1; i &lt;= 9; i++) {
+            for (int j = 1; j &lt;= 9; j++) {
+                if (i * j == N) {
+                    System.out.println("Yes");
+                    return;
+                }
+            }
+        }
+        System.out.println("No");
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4364')" href="javascript:;">
+claude/claude_p02880_2P.java: 1-20
+</a>
+<div class="mid" id="frag4364" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        for (int i = 1; i &lt;= 9; i++) {
+            for (int j = 1; j &lt;= 9; j++) {
+                if (i * j == N) {
+                    System.out.println("Yes");
+                    return;
+                }
+            }
+        }
+
+        System.out.println("No");
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4365')" href="javascript:;">
+claude/claude_p02880_3P.java: 1-20
+</a>
+<div class="mid" id="frag4365" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        for (int i = 1; i &lt;= 9; i++) {
+            for (int j = 1; j &lt;= 9; j++) {
+                if (i * j == N) {
+                    System.out.println("Yes");
+                    return;
+                }
+            }
+        }
+
+        System.out.println("No");
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 24:</b> &nbsp; 5 fragments, nominal size 15 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4397')" href="javascript:;">
+claude/claude_p02887_0P.java: 1-19
+</a>
+<div class="mid" id="frag4397" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = sc.next();
+
+        int count = 1;
+        for (int i = 1; i &lt; n; i++) {
+            if (s.charAt(i) != s.charAt(i - 1)) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12859')" href="javascript:;">
+chatgpt/chatgpt_p02887_4P.java: 1-17
+</a>
+<div class="mid" id="frag12859" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = sc.next();
+        int count = 1;
+        for (int i = 1; i &lt; n; i++) {
+            if (s.charAt(i) != s.charAt(i - 1)) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4400')" href="javascript:;">
+claude/claude_p02887_3P.java: 1-20
+</a>
+<div class="mid" id="frag4400" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = sc.next();
+
+        int count = 1;
+
+        for (int i = 1; i &lt; n; i++) {
+            if (s.charAt(i) != s.charAt(i-1)) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4398')" href="javascript:;">
+claude/claude_p02887_1P.java: 1-19
+</a>
+<div class="mid" id="frag4398" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = sc.next();
+
+        int count = 1;
+        for (int i = 1; i &lt; n; i++) {
+            if (s.charAt(i) != s.charAt(i-1)) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4401')" href="javascript:;">
+claude/claude_p02887_4P.java: 1-19
+</a>
+<div class="mid" id="frag4401" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = sc.next();
+
+        int count = 1;
+        for (int i = 1; i &lt; n; i++) {
+            if (s.charAt(i) != s.charAt(i-1)) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 25:</b> &nbsp; 7 fragments, nominal size 10 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4427')" href="javascript:;">
+claude/claude_p02897_0P.java: 1-14
+</a>
+<div class="mid" id="frag4427" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12888')" href="javascript:;">
+chatgpt/chatgpt_p02897_3P.java: 1-12
+</a>
+<div class="mid" id="frag12888" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12889')" href="javascript:;">
+chatgpt/chatgpt_p02897_4P.java: 1-12
+</a>
+<div class="mid" id="frag12889" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4428')" href="javascript:;">
+claude/claude_p02897_1P.java: 1-14
+</a>
+<div class="mid" id="frag4428" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4429')" href="javascript:;">
+claude/claude_p02897_2P.java: 1-14
+</a>
+<div class="mid" id="frag4429" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4431')" href="javascript:;">
+claude/claude_p02897_4P.java: 1-14
+</a>
+<div class="mid" id="frag4431" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4430')" href="javascript:;">
+claude/claude_p02897_3P.java: 1-14
+</a>
+<div class="mid" id="frag4430" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</pre></div>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 26:</b> &nbsp; 3 fragments, nominal size 16 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4501')" href="javascript:;">
+claude/claude_p02915_4P.java: 1-20
+</a>
+<div class="mid" id="frag4501" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int count = 0;
+        for (int i = 1; i &lt;= N; i++) {
+            for (int j = 1; j &lt;= N; j++) {
+                for (int k = 1; k &lt;= N; k++) {
+                    count++;
+                }
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12955')" href="javascript:;">
+chatgpt/chatgpt_p02915_0P.java: 1-18
+</a>
+<div class="mid" id="frag12955" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int count = 0;
+        for (int i = 1; i &lt;= N; i++) {
+            for (int j = 1; j &lt;= N; j++) {
+                for (int k = 1; k &lt;= N; k++) {
+                    count++;
+                }
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12958')" href="javascript:;">
+chatgpt/chatgpt_p02915_3P.java: 1-18
+</a>
+<div class="mid" id="frag12958" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int count = 0;
+        for (int i = 1; i &lt;= N; i++) {
+            for (int j = 1; j &lt;= N; j++) {
+                for (int k = 1; k &lt;= N; k++) {
+                    count++;
+                }
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 27:</b> &nbsp; 2 fragments, nominal size 16 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4621')" href="javascript:;">
+claude/claude_p02945_4P.java: 1-21
+</a>
+<div class="mid" id="frag4621" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int[] results = {A + B, A - B, A * B};
+        int max = results[0];
+
+        for (int i = 1; i &lt; results.length; i++) {
+            if (results[i] &gt; max) {
+                max = results[i];
+            }
+        }
+
+        System.out.println(max);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag13075')" href="javascript:;">
+chatgpt/chatgpt_p02945_0P.java: 1-19
+</a>
+<div class="mid" id="frag13075" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int[] results = {A + B, A - B, A * B};
+        int max = results[0];
+        for (int i = 1; i &lt; results.length; i++) {
+            if (results[i] &gt; max) {
+                max = results[i];
+            }
+        }
+        System.out.println(max);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 28:</b> &nbsp; 6 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4837')" href="javascript:;">
+claude/claude_p02999_0P.java: 1-16
+</a>
+<div class="mid" id="frag4837" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+
+        if (X &lt; A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag13294')" href="javascript:;">
+chatgpt/chatgpt_p02999_1P.java: 1-15
+</a>
+<div class="mid" id="frag13294" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+        if (X &lt; A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag13297')" href="javascript:;">
+chatgpt/chatgpt_p02999_4P.java: 1-15
+</a>
+<div class="mid" id="frag13297" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+        if (X &lt; A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4838')" href="javascript:;">
+claude/claude_p02999_1P.java: 1-16
+</a>
+<div class="mid" id="frag4838" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+
+        if (X &lt; A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4839')" href="javascript:;">
+claude/claude_p02999_2P.java: 1-16
+</a>
+<div class="mid" id="frag4839" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+
+        if (X &lt; A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4841')" href="javascript:;">
+claude/claude_p02999_4P.java: 1-16
+</a>
+<div class="mid" id="frag4841" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+
+        if (X &lt; A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 29:</b> &nbsp; 5 fragments, nominal size 19 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4972')" href="javascript:;">
+claude/claude_p03035_0P.java: 1-21
+</a>
+<div class="mid" id="frag4972" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int cost;
+        if (A &gt;= 13) {
+            cost = B;
+        } else if (A &gt;= 6) {
+            cost = B / 2;
+        } else {
+            cost = 0;
+        }
+
+        System.out.println(cost);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag13432')" href="javascript:;">
+chatgpt/chatgpt_p03035_4P.java: 1-21
+</a>
+<div class="mid" id="frag13432" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int cost;
+        if (A &gt;= 13) {
+            cost = B;
+        } else if (A &gt;= 6) {
+            cost = B / 2;
+        } else {
+            cost = 0;
+        }
+
+        System.out.println(cost);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag13430')" href="javascript:;">
+chatgpt/chatgpt_p03035_2P.java: 1-19
+</a>
+<div class="mid" id="frag13430" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int cost;
+        if (A &gt;= 13) {
+            cost = B;
+        } else if (A &gt;= 6) {
+            cost = B / 2;
+        } else {
+            cost = 0;
+        }
+        System.out.println(cost);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag13429')" href="javascript:;">
+chatgpt/chatgpt_p03035_1P.java: 1-19
+</a>
+<div class="mid" id="frag13429" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int cost;
+        if (A &gt;= 13) {
+            cost = B;
+        } else if (A &gt;= 6) {
+            cost = B / 2;
+        } else {
+            cost = 0;
+        }
+        System.out.println(cost);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4974')" href="javascript:;">
+claude/claude_p03035_2P.java: 1-21
+</a>
+<div class="mid" id="frag4974" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int cost;
+        if (A &gt;= 13) {
+            cost = B;
+        } else if (A &gt;= 6) {
+            cost = B / 2;
+        } else {
+            cost = 0;
+        }
+
+        System.out.println(cost);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 30:</b> &nbsp; 3 fragments, nominal size 24 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag5707')" href="javascript:;">
+claude/claude_p03228_1P.java: 1-27
+</a>
+<div class="mid" id="frag5707" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long A = sc.nextLong();
+        long B = sc.nextLong();
+        int K = sc.nextInt();
+
+        for (int i = 0; i &lt; K; i++) {
+            if (i % 2 == 0) {
+                if (A % 2 == 1) A--;
+                long give = A / 2;
+                A -= give;
+                B += give;
+            } else {
+                if (B % 2 == 1) B--;
+                long give = B / 2;
+                B -= give;
+                A += give;
+            }
+        }
+
+        System.out.println(A + " " + B);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14163')" href="javascript:;">
+chatgpt/chatgpt_p03228_2P.java: 1-27
+</a>
+<div class="mid" id="frag14163" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        long A = sc.nextLong();
+        long B = sc.nextLong();
+        int K = sc.nextInt();
+
+        for (int i = 0; i &lt; K; i++) {
+            if (i % 2 == 0) {
+                if (A % 2 == 1) A--;
+                long give = A / 2;
+                A -= give;
+                B += give;
+            } else {
+                if (B % 2 == 1) B--;
+                long give = B / 2;
+                B -= give;
+                A += give;
+            }
+        }
+        System.out.println(A + " " + B);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14162')" href="javascript:;">
+chatgpt/chatgpt_p03228_1P.java: 1-26
+</a>
+<div class="mid" id="frag14162" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long A = sc.nextLong();
+        long B = sc.nextLong();
+        int K = sc.nextInt();
+
+        for (int i = 0; i &lt; K; i++) {
+            if (i % 2 == 0) {
+                if (A % 2 == 1) A--;
+                long give = A / 2;
+                A -= give;
+                B += give;
+            } else {
+                if (B % 2 == 1) B--;
+                long give = B / 2;
+                B -= give;
+                A += give;
+            }
+        }
+        System.out.println(A + " " + B);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 31:</b> &nbsp; 7 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag5821')" href="javascript:;">
+claude/claude_p03260_0P.java: 1-16
+</a>
+<div class="mid" id="frag5821" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 &amp;&amp; B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14279')" href="javascript:;">
+chatgpt/chatgpt_p03260_3P.java: 1-16
+</a>
+<div class="mid" id="frag14279" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 &amp;&amp; B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14278')" href="javascript:;">
+chatgpt/chatgpt_p03260_2P.java: 1-16
+</a>
+<div class="mid" id="frag14278" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 &amp;&amp; B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14280')" href="javascript:;">
+chatgpt/chatgpt_p03260_4P.java: 1-16
+</a>
+<div class="mid" id="frag14280" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 &amp;&amp; B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14276')" href="javascript:;">
+chatgpt/chatgpt_p03260_0P.java: 1-16
+</a>
+<div class="mid" id="frag14276" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 &amp;&amp; B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag5823')" href="javascript:;">
+claude/claude_p03260_2P.java: 1-16
+</a>
+<div class="mid" id="frag5823" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 &amp;&amp; B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag5822')" href="javascript:;">
+claude/claude_p03260_1P.java: 1-16
+</a>
+<div class="mid" id="frag5822" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 &amp;&amp; B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 32:</b> &nbsp; 5 fragments, nominal size 17 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag5846')" href="javascript:;">
+claude/claude_p03265_0P.java: 1-23
+</a>
+<div class="mid" id="frag5846" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14304')" href="javascript:;">
+chatgpt/chatgpt_p03265_3P.java: 1-23
+</a>
+<div class="mid" id="frag14304" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14302')" href="javascript:;">
+chatgpt/chatgpt_p03265_1P.java: 1-23
+</a>
+<div class="mid" id="frag14302" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag5850')" href="javascript:;">
+claude/claude_p03265_4P.java: 1-22
+</a>
+<div class="mid" id="frag5850" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag5847')" href="javascript:;">
+claude/claude_p03265_1P.java: 1-23
+</a>
+<div class="mid" id="frag5847" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 33:</b> &nbsp; 5 fragments, nominal size 15 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag6310')" href="javascript:;">
+claude/claude_p03377_4P.java: 1-17
+</a>
+<div class="mid" id="frag6310" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X &gt;= A &amp;&amp; X &lt;= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14763')" href="javascript:;">
+chatgpt/chatgpt_p03377_3P.java: 1-17
+</a>
+<div class="mid" id="frag14763" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X &gt;= A &amp;&amp; X &lt;= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14761')" href="javascript:;">
+chatgpt/chatgpt_p03377_1P.java: 1-17
+</a>
+<div class="mid" id="frag14761" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X &gt;= A &amp;&amp; X &lt;= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14762')" href="javascript:;">
+chatgpt/chatgpt_p03377_2P.java: 1-17
+</a>
+<div class="mid" id="frag14762" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X &gt;= A &amp;&amp; X &lt;= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14760')" href="javascript:;">
+chatgpt/chatgpt_p03377_0P.java: 1-16
+</a>
+<div class="mid" id="frag14760" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+        if (X &gt;= A &amp;&amp; X &lt;= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 34:</b> &nbsp; 2 fragments, nominal size 20 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag6446')" href="javascript:;">
+claude/claude_p03416_0P.java: 1-25
+</a>
+<div class="mid" id="frag6446" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int count = 0;
+
+        for (int a = 1; a &lt;= 9; a++) {
+            for (int b = 0; b &lt;= 9; b++) {
+                for (int c = 0; c &lt;= 9; c++) {
+                    int palindrome = a * 10000 + b * 1000 + c * 100 + b * 10 + a;
+                    if (palindrome &gt;= A &amp;&amp; palindrome &lt;= B) {
+                        count++;
+                    }
+                }
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14900')" href="javascript:;">
+chatgpt/chatgpt_p03416_0P.java: 1-24
+</a>
+<div class="mid" id="frag14900" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int count = 0;
+
+        for (int a = 1; a &lt;= 9; a++) {
+            for (int b = 0; b &lt;= 9; b++) {
+                for (int c = 0; c &lt;= 9; c++) {
+                    int palindrome = a * 10000 + b * 1000 + c * 100 + b * 10 + a;
+                    if (palindrome &gt;= A &amp;&amp; palindrome &lt;= B) {
+                        count++;
+                    }
+                }
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 35:</b> &nbsp; 4 fragments, nominal size 10 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag6710')" href="javascript:;">
+claude/claude_p03485_2P.java: 1-14
+</a>
+<div class="mid" id="frag6710" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int result = (a + b + 1) / 2;
+
+        System.out.println(result);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15169')" href="javascript:;">
+chatgpt/chatgpt_p03485_4P.java: 1-12
+</a>
+<div class="mid" id="frag15169" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int result = (a + b + 1) / 2;
+        System.out.println(result);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15166')" href="javascript:;">
+chatgpt/chatgpt_p03485_1P.java: 1-12
+</a>
+<div class="mid" id="frag15166" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int result = (a + b + 1) / 2;
+        System.out.println(result);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15167')" href="javascript:;">
+chatgpt/chatgpt_p03485_2P.java: 1-12
+</a>
+<div class="mid" id="frag15167" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int result = (a + b + 1) / 2;
+        System.out.println(result);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 36:</b> &nbsp; 2 fragments, nominal size 11 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag6839')" href="javascript:;">
+claude/claude_p03548_1P.java: 1-15
+</a>
+<div class="mid" id="frag6839" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        int maxPeople = (X - Z) / (Y + Z);
+
+        System.out.println(maxPeople);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15296')" href="javascript:;">
+chatgpt/chatgpt_p03548_1P.java: 1-15
+</a>
+<div class="mid" id="frag15296" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        int maxPeople = (X - Z) / (Y + Z);
+
+        System.out.println(maxPeople);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 37:</b> &nbsp; 4 fragments, nominal size 10 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag6902')" href="javascript:;">
+claude/claude_p03563_4P.java: 1-14
+</a>
+<div class="mid" id="frag6902" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int R = sc.nextInt();
+        int G = sc.nextInt();
+
+        int performance = 2 * G - R;
+
+        System.out.println(performance);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15359')" href="javascript:;">
+chatgpt/chatgpt_p03563_4P.java: 1-12
+</a>
+<div class="mid" id="frag15359" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int R = sc.nextInt();
+        int G = sc.nextInt();
+        int performance = 2 * G - R;
+        System.out.println(performance);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15358')" href="javascript:;">
+chatgpt/chatgpt_p03563_3P.java: 1-12
+</a>
+<div class="mid" id="frag15358" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int R = sc.nextInt();
+        int G = sc.nextInt();
+        int performance = 2 * G - R;
+        System.out.println(performance);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15355')" href="javascript:;">
+chatgpt/chatgpt_p03563_0P.java: 1-12
+</a>
+<div class="mid" id="frag15355" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int R = sc.nextInt();
+        int G = sc.nextInt();
+        int performance = 2 * G - R;
+        System.out.println(performance);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 38:</b> &nbsp; 3 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag7163')" href="javascript:;">
+claude/claude_p03632_0P.java: 1-19
+</a>
+<div class="mid" id="frag7163" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15624')" href="javascript:;">
+chatgpt/chatgpt_p03632_4P.java: 1-19
+</a>
+<div class="mid" id="frag15624" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15621')" href="javascript:;">
+chatgpt/chatgpt_p03632_1P.java: 1-20
+</a>
+<div class="mid" id="frag15621" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 39:</b> &nbsp; 5 fragments, nominal size 17 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag7495')" href="javascript:;">
+claude/claude_p03719_2P.java: 1-20
+</a>
+<div class="mid" id="frag7495" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        int min = Math.min(A, B);
+        int max = Math.max(A, B);
+
+        if (C &gt;= min &amp;&amp; C &lt;= max) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15952')" href="javascript:;">
+chatgpt/chatgpt_p03719_2P.java: 1-20
+</a>
+<div class="mid" id="frag15952" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        int min = Math.min(A, B);
+        int max = Math.max(A, B);
+
+        if (C &gt;= min &amp;&amp; C &lt;= max) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15950')" href="javascript:;">
+chatgpt/chatgpt_p03719_0P.java: 1-20
+</a>
+<div class="mid" id="frag15950" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        int min = Math.min(A, B);
+        int max = Math.max(A, B);
+
+        if (C &gt;= min &amp;&amp; C &lt;= max) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag15951')" href="javascript:;">
+chatgpt/chatgpt_p03719_1P.java: 1-18
+</a>
+<div class="mid" id="frag15951" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int min = Math.min(A, B);
+        int max = Math.max(A, B);
+        if (C &gt;= min &amp;&amp; C &lt;= max) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag7496')" href="javascript:;">
+claude/claude_p03719_3P.java: 1-20
+</a>
+<div class="mid" id="frag7496" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        int min = Math.min(A, B);
+        int max = Math.max(A, B);
+
+        if (C &gt;= min &amp;&amp; C &lt;= max) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 40:</b> &nbsp; 3 fragments, nominal size 14 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag7683')" href="javascript:;">
+claude/claude_p03777_0P.java: 1-16
+</a>
+<div class="mid" id="frag7683" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char a = sc.next().charAt(0);
+        char b = sc.next().charAt(0);
+
+        if (a == 'H') {
+            System.out.println(b);
+        } else {
+            System.out.println(b == 'H' ? 'D' : 'H');
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16140')" href="javascript:;">
+chatgpt/chatgpt_p03777_0P.java: 1-16
+</a>
+<div class="mid" id="frag16140" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char a = sc.next().charAt(0);
+        char b = sc.next().charAt(0);
+
+        if (a == 'H') {
+            System.out.println(b);
+        } else {
+            System.out.println(b == 'H' ? 'D' : 'H');
+        }
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag7685')" href="javascript:;">
+claude/claude_p03777_2P.java: 1-16
+</a>
+<div class="mid" id="frag7685" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char a = sc.next().charAt(0);
+        char b = sc.next().charAt(0);
+
+        if (a == 'H') {
+            System.out.println(b);
+        } else {
+            System.out.println(b == 'H' ? 'D' : 'H');
+        }
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 41:</b> &nbsp; 3 fragments, nominal size 10 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag7740')" href="javascript:;">
+claude/claude_p03795_2P.java: 1-14
+</a>
+<div class="mid" id="frag7740" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int x = N * 800;
+        int y = (N / 15) * 200;
+
+        System.out.println(x - y);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16199')" href="javascript:;">
+chatgpt/chatgpt_p03795_4P.java: 1-12
+</a>
+<div class="mid" id="frag16199" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int x = N * 800;
+        int y = (N / 15) * 200;
+        System.out.println(x - y);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16197')" href="javascript:;">
+chatgpt/chatgpt_p03795_2P.java: 1-14
+</a>
+<div class="mid" id="frag16197" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int x = N * 800;
+        int y = (N / 15) * 200;
+
+        System.out.println(x - y);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 42:</b> &nbsp; 3 fragments, nominal size 12 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag7999')" href="javascript:;">
+claude/claude_p03861_1P.java: 1-16
+</a>
+<div class="mid" id="frag7999" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long a = sc.nextLong();
+        long b = sc.nextLong();
+        long x = sc.nextLong();
+
+        long countB = b / x;
+        long countA = (a == 0) ? 0 : (a - 1) / x;
+
+        System.out.println(countB - countA);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16457')" href="javascript:;">
+chatgpt/chatgpt_p03861_2P.java: 1-16
+</a>
+<div class="mid" id="frag16457" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long a = sc.nextLong();
+        long b = sc.nextLong();
+        long x = sc.nextLong();
+
+        long countB = b / x;
+        long countA = (a == 0) ? 0 : (a - 1) / x;
+
+        System.out.println(countB - countA);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag8002')" href="javascript:;">
+claude/claude_p03861_4P.java: 1-16
+</a>
+<div class="mid" id="frag8002" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long a = sc.nextLong();
+        long b = sc.nextLong();
+        long x = sc.nextLong();
+
+        long countB = b / x;
+        long countA = (a == 0) ? 0 : (a - 1) / x;
+
+        System.out.println(countB - countA);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 43:</b> &nbsp; 2 fragments, nominal size 17 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag8444')" href="javascript:;">
+claude/claude_p04047_1P.java: 1-23
+</a>
+<div class="mid" id="frag8444" style="display:none"><pre>
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int[] L = new int[2 * N];
+
+        for (int i = 0; i &lt; 2 * N; i++) {
+            L[i] = sc.nextInt();
+        }
+
+        Arrays.sort(L);
+
+        int total = 0;
+        for (int i = 0; i &lt; 2 * N; i += 2) {
+            total += L[i];
+        }
+
+        System.out.println(total);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16904')" href="javascript:;">
+chatgpt/chatgpt_p04047_4P.java: 1-19
+</a>
+<div class="mid" id="frag16904" style="display:none"><pre>
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int[] L = new int[2 * N];
+        for (int i = 0; i &lt; 2 * N; i++) {
+            L[i] = sc.nextInt();
+        }
+        Arrays.sort(L);
+        int total = 0;
+        for (int i = 0; i &lt; 2 * N; i += 2) {
+            total += L[i];
+        }
+        System.out.println(total);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<script language="JavaScript">
+function ShowHide(divId) { 
+    if(document.getElementById(divId).style.display == 'none') {
+        document.getElementById(divId).style.display='block';
+    } else { 
+        document.getElementById(divId).style.display = 'none';
+    } 
+}
+</script>
+</body>
+</html>

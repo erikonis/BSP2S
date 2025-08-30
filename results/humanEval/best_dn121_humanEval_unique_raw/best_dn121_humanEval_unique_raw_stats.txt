@@ -1,0 +1,29 @@
+Best model saved at epoch 4 with accuracy: 82.50%
+
+
+
+=== METRICS STATS ===
+
+Model: best_dn121_humanEval_unique_raw
+------------------------------
+ROC AUC: 0.8344
+MCC score: 0.5241
+F1 Score: 0.7826
+Recall: 0.9000
+Precision: 0.6923
+Accuracy: 75.00%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label    Samples  Average Confidence Max Confidence Min Confidence
+-----------------------------------------------------------------------------------------
+best_dn121_humanEval_unique_raw Student  24       0.747              0.964          0.501         
+best_dn121_humanEval_unique_raw AI       36       0.826              0.992          0.506         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+=== TRAINING TIME ===
+
+Total training time: 116.07 seconds
+Optimal training time: 27.21 seconds

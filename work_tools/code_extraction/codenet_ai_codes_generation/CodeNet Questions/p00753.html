@@ -1,0 +1,96 @@
+
+<h3><U>Chebyshev's Theorem</U></h3>
+<!-- end en only -->
+
+
+<div>   <!-- please enclose each h3 level section with div -->
+<!-- begin en only -->
+<p>
+If <i>n</i> is a positive integer,
+there exists at least one prime number greater than <i>n</i> and less than or equal to 2<i>n</i>.
+This fact is known as Chebyshev's theorem or the Bertrand-Chebyshev theorem,
+which had been conjectured by Joseph Louis Fran&ccedil;ois Bertrand (1822&ndash;1900)
+and was proven by Pafnuty Lvovich Chebyshev (&#x041f;&#x0430;&#x0444;&#x043d;&#x0443;&#x0442&#x0438;&#x0439; &#x041b;&#x044c;&#x0432;&#x043e;&#x0432;&#x0438;&#x0447; &#x0427;&#x0435;&#x0431;&#x044b;&#x0448;&#x0451;&#x0432;, 1821&ndash;1894) in 1850.
+Srinivasa Aiyangar Ramanujan (1887&ndash;1920) gave an elementary proof in his paper published in 1919.
+Paul Erd&#337;s (1913&ndash;1996) discovered another elementary proof in 1932.
+</p>
+<!-- end en only -->
+
+<!-- begin en only -->
+<p>
+For example, there exist 4 prime numbers greater than 10 and less than or equal to 20, i.e. 11, 13, 17 and 19.
+There exist 3 prime numbers greater than 14 and less than or equal to 28, i.e. 17, 19 and 23.
+</p>
+<!-- end en only -->
+
+<!-- begin en only -->
+<p>
+Your mission is to write a program that counts the prime numbers greater than <i>n</i> and less than or equal to 2<i>n</i> for each given positive integer <i>n</i>.
+Using such a program, you can verify Chebyshev's theorem for individual positive integers.
+</p>
+<!-- end en only -->
+
+</div>
+
+<h3>Input</h3>
+
+<div>
+<!-- begin en only -->
+<p>
+The input is a sequence of datasets.
+A dataset is a line containing a single positive integer <i>n</i>.
+You may assume <i>n</i>&nbsp;&le;&nbsp;123456.
+</p>
+<!-- end en only -->
+
+<!-- begin en only -->
+<p>
+The end of the input is indicated by a line containing a single zero.
+It is not a dataset.
+</p>
+<!-- end en only -->
+
+</div>
+
+<h3>Output</h3>
+<div>
+<!-- begin en only -->
+<p>
+The output should be composed of as many lines as the input datasets.
+Each line should contain a single integer and should never contain extra characters.
+</p>
+<!-- end en only -->
+
+<!-- begin en only -->
+<p>
+The output integer corresponding to a dataset consisting of an integer <I>n</I> should be the number of the prime numbers <i>p</i> satisfying <i>n</i> &lt; <i>p</i> &le; 2<i>n</i>.
+</p>
+<!-- end en only -->
+</div>
+
+<h3>Sample Input</h3>
+<div>
+<pre>
+1
+10
+13
+100
+1000
+10000
+100000
+0
+</pre>
+</div>
+
+<h3>Output for the Sample Input</h3>
+<div>
+<pre>
+1
+4
+3
+21
+135
+1033
+8392
+</pre>
+</div>

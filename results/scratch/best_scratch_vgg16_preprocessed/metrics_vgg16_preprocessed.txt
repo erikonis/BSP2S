@@ -1,0 +1,8 @@
+Model: vgg16
+Dataset: preprocessed
+------------------------------
+F1 Score: 0.9589
+Recall: 0.9746
+Precision: 0.9437
+Accuracy: 95.82%
+------------------------------

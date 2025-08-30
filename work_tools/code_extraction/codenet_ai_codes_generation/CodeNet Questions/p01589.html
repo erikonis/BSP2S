@@ -1,0 +1,50 @@
+
+<H1><font color="#000">Problem I:</font> Strange Currency System</H1>
+
+<p>
+The currency system in the Kingdom of Yoax-Musty is strange and fairly inefficient. Like other countries, the kingdom has its own currencty unit denoted by K <span>$</span> (kingdom dollar). However, the Ministry of Finance issues bills for every value between 1 K <span>$</span> and (2<sup>31</sup> - 1) K <span>$</span> worth.
+</p>
+
+<p>
+On the other hand, this system often enables people to make many different values just with a small number of bills. For example, if you have four bills of 1 K <span>$</span>, 2 K <span>$</span>, 4 K <span>$</span>, and 8 K <span>$</span> worth respectively, you can make any values from 1 K #36; to 15 K <span>$</span>.
+</p>
+
+<p>
+In this problem, you are requested to write a program that finds the minimum value that cannot be made with a given set (multiset in a mathematical sense) of bills. For the case with the four bills (1 K <span>$</span>, 2 K <span>$</span>, 4 K <span>$</span>, and 8 K <span>$</span>), since you can make any values up to 15 K <span>$</span>, your program should report 16 K <span>$</span>.
+</p>
+
+
+<H2>Input</H2>
+
+<p>
+The input consists of two lines. The first line contains an integer <i>N</i> (1 &le; <i>N</i> &le; 10000), the number of bills. The second line contains <i>N</i> integers, each of which represents the value of a bill in K <span>$</span>. There may be multiple bills of the same value.
+</p>
+
+<H2>Output</H2>
+
+<p>
+Print the minimum value unable to be made on a line. The value should be given in K <span>$</span> and without any currency sign or name.
+</p>
+
+<H2>Sample Input and Output</H2>
+
+<H2>Input #1</H2>
+<pre>
+4
+1 2 4 8
+</pre>
+<H2>Output #1</H2>
+<pre>
+16
+</pre>
+<br/>
+
+<H2>Input #2</H2>
+<pre>
+5
+1 1 3 11 2
+</pre>
+<H2>Output #2</H2>
+<pre>
+8
+</pre>

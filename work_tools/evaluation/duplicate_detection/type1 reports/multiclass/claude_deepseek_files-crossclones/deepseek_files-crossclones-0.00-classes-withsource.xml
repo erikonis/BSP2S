@@ -1,0 +1,3403 @@
+<clones>
+<systeminfo processor="nicad6" system="deepseek" system2="claude" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16884" npairs="140"/>
+<runinfo ncompares="3221298" cputime="583266"/>
+<classinfo nclasses="37"/>
+
+<class classid="1" nclones="4" nlines="11" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02389_3P.java" startline="1" endline="13" pcid="2724">
+import java.util.Scanner;
+
+public class Rectangle {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int area = a * b;
+        int perimeter = 2 * (a + b);
+        System.out.println(area + " " + perimeter);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02389_3P.java" startline="1" endline="15" pcid="11167">
+import java.util.Scanner;
+
+public class Rectangle {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        int area = a * b;
+        int perimeter = 2 * (a + b);
+
+        System.out.println(area + " " + perimeter);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02389_4P.java" startline="1" endline="15" pcid="11168">
+import java.util.Scanner;
+
+public class Rectangle {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        int area = a * b;
+        int perimeter = 2 * (a + b);
+
+        System.out.println(area + " " + perimeter);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p02389_4P.java" startline="1" endline="13" pcid="2725">
+import java.util.Scanner;
+
+public class Rectangle {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int area = a * b;
+        int perimeter = 2 * (a + b);
+        System.out.println(area + " " + perimeter);
+    }
+}
+
+</source>
+</class>
+
+<class classid="2" nclones="2" nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02398_2P.java" startline="1" endline="19" pcid="2763">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        int count = 0;
+        for (int i = a; i <= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02398_2P.java" startline="1" endline="20" pcid="11206">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        int count = 0;
+        for (int i = a; i <= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+</class>
+
+<class classid="3" nclones="3" nlines="12" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02399_3P.java" startline="1" endline="16" pcid="2769">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        int d = a / b;
+        int r = a % b;
+        double f = (double) a / b;
+
+        System.out.printf("%d %d %.5f%n", d, r, f);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02399_1P.java" startline="1" endline="16" pcid="11210">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        int d = a / b;
+        int r = a % b;
+        double f = (double) a / b;
+
+        System.out.printf("%d %d %.5f%n", d, r, f);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02399_4P.java" startline="1" endline="16" pcid="11213">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        int d = a / b;
+        int r = a % b;
+        double f = (double) a / b;
+
+        System.out.printf("%d %d %.5f%n", d, r, f);
+    }
+}
+
+</source>
+</class>
+
+<class classid="4" nclones="3" nlines="26" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02405_0P.java" startline="1" endline="27" pcid="2796">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            int H = scanner.nextInt();
+            int W = scanner.nextInt();
+            if (H == 0 && W == 0) {
+                break;
+            }
+            for (int i = 0; i < H; i++) {
+                for (int j = 0; j < W; j++) {
+                    if ((i + j) % 2 == 0) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        scanner.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02405_3P.java" startline="1" endline="31" pcid="11242">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            int H = scanner.nextInt();
+            int W = scanner.nextInt();
+
+            if (H == 0 && W == 0) {
+                break;
+            }
+
+            for (int i = 0; i < H; i++) {
+                for (int j = 0; j < W; j++) {
+                    if ((i + j) % 2 == 0) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+
+        scanner.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p02405_1P.java" startline="1" endline="28" pcid="2797">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            int H = scanner.nextInt();
+            int W = scanner.nextInt();
+            if (H == 0 && W == 0) {
+                break;
+            }
+
+            for (int i = 0; i < H; i++) {
+                for (int j = 0; j < W; j++) {
+                    if ((i + j) % 2 == 0) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        scanner.close();
+    }
+}
+
+</source>
+</class>
+
+<class classid="5" nclones="5" nlines="25" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02412_0P.java" startline="1" endline="27" pcid="2831">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            int n = scanner.nextInt();
+            int x = scanner.nextInt();
+            if (n == 0 && x == 0) {
+                break;
+            }
+            int count = 0;
+            for (int i = 1; i <= n; i++) {
+                for (int j = i + 1; j <= n; j++) {
+                    for (int k = j + 1; k <= n; k++) {
+                        if (i + j + k == x) {
+                            count++;
+                        }
+                    }
+                }
+            }
+            System.out.println(count);
+        }
+        scanner.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02412_1P.java" startline="1" endline="33" pcid="11275">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            int n = scanner.nextInt();
+            int x = scanner.nextInt();
+
+            if (n == 0 && x == 0) {
+                break;
+            }
+
+            int count = 0;
+
+            for (int i = 1; i <= n; i++) {
+                for (int j = i + 1; j <= n; j++) {
+                    for (int k = j + 1; k <= n; k++) {
+                        if (i + j + k == x) {
+                            count++;
+                        }
+                    }
+                }
+            }
+
+            System.out.println(count);
+        }
+
+        scanner.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02412_3P.java" startline="1" endline="33" pcid="11277">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            int n = scanner.nextInt();
+            int x = scanner.nextInt();
+
+            if (n == 0 && x == 0) {
+                break;
+            }
+
+            int count = 0;
+
+            for (int i = 1; i <= n; i++) {
+                for (int j = i + 1; j <= n; j++) {
+                    for (int k = j + 1; k <= n; k++) {
+                        if (i + j + k == x) {
+                            count++;
+                        }
+                    }
+                }
+            }
+
+            System.out.println(count);
+        }
+
+        scanner.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02412_4P.java" startline="1" endline="33" pcid="11278">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            int n = scanner.nextInt();
+            int x = scanner.nextInt();
+
+            if (n == 0 && x == 0) {
+                break;
+            }
+
+            int count = 0;
+
+            for (int i = 1; i <= n; i++) {
+                for (int j = i + 1; j <= n; j++) {
+                    for (int k = j + 1; k <= n; k++) {
+                        if (i + j + k == x) {
+                            count++;
+                        }
+                    }
+                }
+            }
+
+            System.out.println(count);
+        }
+
+        scanner.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p02412_3P.java" startline="1" endline="27" pcid="2834">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            int n = scanner.nextInt();
+            int x = scanner.nextInt();
+            if (n == 0 && x == 0) {
+                break;
+            }
+            int count = 0;
+            for (int i = 1; i <= n; i++) {
+                for (int j = i + 1; j <= n; j++) {
+                    for (int k = j + 1; k <= n; k++) {
+                        if (i + j + k == x) {
+                            count++;
+                        }
+                    }
+                }
+            }
+            System.out.println(count);
+        }
+        scanner.close();
+    }
+}
+
+</source>
+</class>
+
+<class classid="6" nclones="2" nlines="20" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02415_1P.java" startline="1" endline="22" pcid="2847">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        StringBuilder result = new StringBuilder();
+
+        for (char c : input.toCharArray()) {
+            if (Character.isUpperCase(c)) {
+                result.append(Character.toLowerCase(c));
+            } else if (Character.isLowerCase(c)) {
+                result.append(Character.toUpperCase(c));
+            } else {
+                result.append(c);
+            }
+        }
+
+        System.out.println(result.toString());
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02415_0P.java" startline="1" endline="23" pcid="11289">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+
+        StringBuilder result = new StringBuilder();
+
+        for (char c : input.toCharArray()) {
+            if (Character.isUpperCase(c)) {
+                result.append(Character.toLowerCase(c));
+            } else if (Character.isLowerCase(c)) {
+                result.append(Character.toUpperCase(c));
+            } else {
+                result.append(c);
+            }
+        }
+
+        System.out.println(result.toString());
+    }
+}
+
+</source>
+</class>
+
+<class classid="7" nclones="4" nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02606_3P.java" startline="1" endline="18" pcid="3243">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int L = sc.nextInt();
+        int R = sc.nextInt();
+        int d = sc.nextInt();
+        int count = 0;
+        for (int i = L; i <= R; i++) {
+            if (i % d == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02606_4P.java" startline="1" endline="20" pcid="11688">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int L = sc.nextInt();
+        int R = sc.nextInt();
+        int d = sc.nextInt();
+
+        int count = 0;
+        for (int i = L; i <= R; i++) {
+            if (i % d == 0) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02606_0P.java" startline="1" endline="20" pcid="11684">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int L = sc.nextInt();
+        int R = sc.nextInt();
+        int d = sc.nextInt();
+
+        int count = 0;
+        for (int i = L; i <= R; i++) {
+            if (i % d == 0) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02606_2P.java" startline="1" endline="20" pcid="11686">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int L = sc.nextInt();
+        int R = sc.nextInt();
+        int d = sc.nextInt();
+
+        int count = 0;
+        for (int i = L; i <= R; i++) {
+            if (i % d == 0) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+</class>
+
+<class classid="8" nclones="6" nlines="13" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02627_3P.java" startline="1" endline="14" pcid="3343">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02627_3P.java" startline="1" endline="15" pcid="11787">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02627_1P.java" startline="1" endline="15" pcid="11785">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02627_2P.java" startline="1" endline="15" pcid="11786">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02627_0P.java" startline="1" endline="15" pcid="11784">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p02627_4P.java" startline="1" endline="14" pcid="3344">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="9" nclones="2" nlines="36" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02689_3P.java" startline="1" endline="42" pcid="3557">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+        int[] H = new int[N + 1];
+        for (int i = 1; i <= N; i++) {
+            H[i] = sc.nextInt();
+        }
+
+        List<List<Integer>> adj = new ArrayList<>();
+        for (int i = 0; i <= N; i++) {
+            adj.add(new ArrayList<>());
+        }
+
+        for (int i = 0; i < M; i++) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            adj.get(a).add(b);
+            adj.get(b).add(a);
+        }
+
+        int count = 0;
+        for (int i = 1; i <= N; i++) {
+            boolean isGood = true;
+            for (int neighbor : adj.get(i)) {
+                if (H[i] <= H[neighbor]) {
+                    isGood = false;
+                    break;
+                }
+            }
+            if (isGood) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02689_4P.java" startline="1" endline="43" pcid="12003">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int[] H = new int[N + 1];
+        for (int i = 1; i <= N; i++) {
+            H[i] = sc.nextInt();
+        }
+
+        List<List<Integer>> adj = new ArrayList<>();
+        for (int i = 0; i <= N; i++) {
+            adj.add(new ArrayList<>());
+        }
+
+        for (int i = 0; i < M; i++) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            adj.get(a).add(b);
+            adj.get(b).add(a);
+        }
+
+        int count = 0;
+        for (int i = 1; i <= N; i++) {
+            boolean isGood = true;
+            for (int neighbor : adj.get(i)) {
+                if (H[i] <= H[neighbor]) {
+                    isGood = false;
+                    break;
+                }
+            }
+            if (isGood) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+</class>
+
+<class classid="10" nclones="3" nlines="18" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02700_3P.java" startline="1" endline="21" pcid="3612">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns <= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02700_0P.java" startline="1" endline="21" pcid="12054">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns <= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02700_1P.java" startline="1" endline="21" pcid="12055">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns <= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="11" nclones="3" nlines="24" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02713_0P.java" startline="1" endline="29" pcid="3664">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        long sum = 0;
+
+        for (int a = 1; a <= K; a++) {
+            for (int b = 1; b <= K; b++) {
+                for (int c = 1; c <= K; c++) {
+                    sum += gcd(gcd(a, b), c);
+                }
+            }
+        }
+
+        System.out.println(sum);
+    }
+
+    private static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02713_0P.java" startline="1" endline="29" pcid="12109">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+
+        long sum = 0;
+        for (int a = 1; a <= K; a++) {
+            for (int b = 1; b <= K; b++) {
+                for (int c = 1; c <= K; c++) {
+                    sum += gcd(gcd(a, b), c);
+                }
+            }
+        }
+
+        System.out.println(sum);
+    }
+
+    private static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p02713_2P.java" startline="1" endline="29" pcid="3666">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        long sum = 0;
+
+        for (int a = 1; a <= K; a++) {
+            for (int b = 1; b <= K; b++) {
+                for (int c = 1; c <= K; c++) {
+                    sum += gcd(gcd(a, b), c);
+                }
+            }
+        }
+
+        System.out.println(sum);
+    }
+
+    private static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
+
+</source>
+</class>
+
+<class classid="12" nclones="4" nlines="11" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02729_4P.java" startline="1" endline="15" pcid="3748">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+        int oddPairs = M * (M - 1) / 2;
+
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02729_1P.java" startline="1" endline="15" pcid="12190">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+        int oddPairs = M * (M - 1) / 2;
+
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02729_2P.java" startline="1" endline="16" pcid="12191">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+
+        int oddPairs = M * (M - 1) / 2;
+
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02729_0P.java" startline="1" endline="16" pcid="12189">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+
+        int oddPairs = M * (M - 1) / 2;
+
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</source>
+</class>
+
+<class classid="13" nclones="5" nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02765_2P.java" startline="1" endline="19" pcid="3880">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02765_1P.java" startline="1" endline="19" pcid="12325">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02765_4P.java" startline="1" endline="19" pcid="12328">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02765_3P.java" startline="1" endline="19" pcid="12327">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02765_2P.java" startline="1" endline="19" pcid="12326">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+</class>
+
+<class classid="14" nclones="5" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02766_1P.java" startline="1" endline="18" pcid="3884">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int digits = 0;
+
+        while (N > 0) {
+            N /= K;
+            digits++;
+        }
+
+        System.out.println(digits);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02766_2P.java" startline="1" endline="18" pcid="12331">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+
+        int digits = 0;
+        while (N > 0) {
+            N /= K;
+            digits++;
+        }
+
+        System.out.println(digits);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02766_4P.java" startline="1" endline="18" pcid="12333">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+
+        int digits = 0;
+        while (N > 0) {
+            N /= K;
+            digits++;
+        }
+
+        System.out.println(digits);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02766_1P.java" startline="1" endline="18" pcid="12330">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+
+        int digits = 0;
+        while (N > 0) {
+            N /= K;
+            digits++;
+        }
+
+        System.out.println(digits);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p02766_2P.java" startline="1" endline="18" pcid="3885">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int digits = 0;
+
+        while (N > 0) {
+            N /= K;
+            digits++;
+        }
+
+        System.out.println(digits);
+    }
+}
+
+</source>
+</class>
+
+<class classid="15" nclones="6" nlines="15" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02771_1P.java" startline="1" endline="17" pcid="3909">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        if ((A == B && A != C) || (A == C && A != B) || (B == C && B != A)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02771_3P.java" startline="1" endline="17" pcid="12357">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        if ((A == B && A != C) || (A == C && A != B) || (B == C && B != A)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02771_4P.java" startline="1" endline="17" pcid="12358">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        if ((A == B && A != C) || (A == C && A != B) || (B == C && B != A)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02771_0P.java" startline="1" endline="17" pcid="12354">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        if ((A == B && A != C) || (A == C && A != B) || (B == C && B != A)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02771_1P.java" startline="1" endline="17" pcid="12355">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        if ((A == B && A != C) || (A == C && A != B) || (B == C && B != A)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p02771_3P.java" startline="1" endline="17" pcid="3911">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        if ((A == B && A != C) || (A == C && A != B) || (B == C && B != A)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="16" nclones="2" nlines="18" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02777_1P.java" startline="1" endline="21" pcid="3934">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.next();
+        String T = sc.next();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        String U = sc.next();
+
+        if (U.equals(S)) {
+            A--;
+        } else {
+            B--;
+        }
+
+        System.out.println(A + " " + B);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02777_2P.java" startline="1" endline="21" pcid="12381">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.next();
+        String T = sc.next();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        String U = sc.next();
+
+        if (U.equals(S)) {
+            A--;
+        } else {
+            B--;
+        }
+
+        System.out.println(A + " " + B);
+    }
+}
+
+</source>
+</class>
+
+<class classid="17" nclones="2" nlines="15" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02830_1P.java" startline="1" endline="19" pcid="4148">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        String S = sc.next();
+        String T = sc.next();
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < N; i++) {
+            result.append(S.charAt(i));
+            result.append(T.charAt(i));
+        }
+
+        System.out.println(result.toString());
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02830_0P.java" startline="1" endline="19" pcid="12594">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        String S = sc.next();
+        String T = sc.next();
+
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < N; i++) {
+            result.append(S.charAt(i));
+            result.append(T.charAt(i));
+        }
+
+        System.out.println(result.toString());
+    }
+}
+
+</source>
+</class>
+
+<class classid="18" nclones="4" nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02841_0P.java" startline="1" endline="18" pcid="4197">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int M1 = sc.nextInt();
+        int D1 = sc.nextInt();
+        int M2 = sc.nextInt();
+        int D2 = sc.nextInt();
+
+        if (M1 != M2) {
+            System.out.println(1);
+        } else {
+            System.out.println(0);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02841_1P.java" startline="1" endline="18" pcid="12645">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int M1 = sc.nextInt();
+        int D1 = sc.nextInt();
+        int M2 = sc.nextInt();
+        int D2 = sc.nextInt();
+
+        if (M1 != M2) {
+            System.out.println(1);
+        } else {
+            System.out.println(0);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02841_3P.java" startline="1" endline="18" pcid="12647">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int M1 = sc.nextInt();
+        int D1 = sc.nextInt();
+        int M2 = sc.nextInt();
+        int D2 = sc.nextInt();
+
+        if (M1 != M2) {
+            System.out.println(1);
+        } else {
+            System.out.println(0);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p02841_1P.java" startline="1" endline="18" pcid="4198">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int M1 = sc.nextInt();
+        int D1 = sc.nextInt();
+        int M2 = sc.nextInt();
+        int D2 = sc.nextInt();
+
+        if (M1 != M2) {
+            System.out.println(1);
+        } else {
+            System.out.println(0);
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="19" nclones="4" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02879_0P.java" startline="1" endline="15" pcid="4337">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        if (A >= 1 && A <= 9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02879_3P.java" startline="1" endline="16" pcid="12787">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A >= 1 && A <= 9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02879_1P.java" startline="1" endline="16" pcid="12785">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A >= 1 && A <= 9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02879_0P.java" startline="1" endline="16" pcid="12784">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A >= 1 && A <= 9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="20" nclones="3" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02957_1P.java" startline="1" endline="16" pcid="4653">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if ((A + B) % 2 == 0) {
+            System.out.println((A + B) / 2);
+        } else {
+            System.out.println("IMPOSSIBLE");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02957_2P.java" startline="1" endline="16" pcid="13101">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if ((A + B) % 2 == 0) {
+            System.out.println((A + B) / 2);
+        } else {
+            System.out.println("IMPOSSIBLE");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02957_1P.java" startline="1" endline="16" pcid="13100">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if ((A + B) % 2 == 0) {
+            System.out.println((A + B) / 2);
+        } else {
+            System.out.println("IMPOSSIBLE");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="21" nclones="2" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03101_3P.java" startline="1" endline="18" pcid="5200">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int W = sc.nextInt();
+        int h = sc.nextInt();
+        int w = sc.nextInt();
+
+        int total = H * W;
+        int painted = h * W + w * H - h * w;
+        int remaining = total - painted;
+
+        System.out.println(remaining);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03101_3P.java" startline="1" endline="20" pcid="13646">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int W = sc.nextInt();
+        int h = sc.nextInt();
+        int w = sc.nextInt();
+
+        int total = H * W;
+
+        int painted = h * W + w * H - h * w;
+
+        int remaining = total - painted;
+
+        System.out.println(remaining);
+    }
+}
+
+</source>
+</class>
+
+<class classid="22" nclones="6" nlines="26" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03106_2P.java" startline="1" endline="33" pcid="5224">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int K = sc.nextInt();
+
+        int gcd = gcd(A, B);
+
+        List<Integer> divisors = new ArrayList<>();
+        for (int i = 1; i <= gcd; i++) {
+            if (gcd % i == 0) {
+                divisors.add(i);
+            }
+        }
+
+        Collections.sort(divisors, Collections.reverseOrder());
+
+        System.out.println(divisors.get(K - 1));
+    }
+
+    private static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03106_1P.java" startline="1" endline="33" pcid="13669">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int K = sc.nextInt();
+
+        int gcd = gcd(A, B);
+
+        List<Integer> divisors = new ArrayList<>();
+        for (int i = 1; i <= gcd; i++) {
+            if (gcd % i == 0) {
+                divisors.add(i);
+            }
+        }
+
+        Collections.sort(divisors, Collections.reverseOrder());
+
+        System.out.println(divisors.get(K - 1));
+    }
+
+    private static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03106_3P.java" startline="1" endline="33" pcid="13671">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int K = sc.nextInt();
+
+        int gcd = gcd(A, B);
+
+        List<Integer> divisors = new ArrayList<>();
+        for (int i = 1; i <= gcd; i++) {
+            if (gcd % i == 0) {
+                divisors.add(i);
+            }
+        }
+
+        Collections.sort(divisors, Collections.reverseOrder());
+
+        System.out.println(divisors.get(K - 1));
+    }
+
+    private static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03106_4P.java" startline="1" endline="33" pcid="13672">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int K = sc.nextInt();
+
+        int gcd = gcd(A, B);
+
+        List<Integer> divisors = new ArrayList<>();
+        for (int i = 1; i <= gcd; i++) {
+            if (gcd % i == 0) {
+                divisors.add(i);
+            }
+        }
+
+        Collections.sort(divisors, Collections.reverseOrder());
+
+        System.out.println(divisors.get(K - 1));
+    }
+
+    private static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03106_2P.java" startline="1" endline="33" pcid="13670">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int K = sc.nextInt();
+
+        int gcd = gcd(A, B);
+
+        List<Integer> divisors = new ArrayList<>();
+        for (int i = 1; i <= gcd; i++) {
+            if (gcd % i == 0) {
+                divisors.add(i);
+            }
+        }
+
+        Collections.sort(divisors, Collections.reverseOrder());
+
+        System.out.println(divisors.get(K - 1));
+    }
+
+    private static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03106_0P.java" startline="1" endline="33" pcid="13668">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int K = sc.nextInt();
+
+        int gcd = gcd(A, B);
+
+        List<Integer> divisors = new ArrayList<>();
+        for (int i = 1; i <= gcd; i++) {
+            if (gcd % i == 0) {
+                divisors.add(i);
+            }
+        }
+
+        Collections.sort(divisors, Collections.reverseOrder());
+
+        System.out.println(divisors.get(K - 1));
+    }
+
+    private static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+}
+
+</source>
+</class>
+
+<class classid="23" nclones="3" nlines="15" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03129_0P.java" startline="1" endline="18" pcid="5277">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+
+        int maxPossible = (N + 1) / 2;
+
+        if (K <= maxPossible) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03129_1P.java" startline="1" endline="18" pcid="13724">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+
+        int maxPossible = (N + 1) / 2;
+
+        if (K <= maxPossible) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03129_4P.java" startline="1" endline="17" pcid="5281">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+
+        int maxPossible = (N + 1) / 2;
+        if (K <= maxPossible) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="24" nclones="3" nlines="12" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03139_1P.java" startline="1" endline="16" pcid="5322">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int max = Math.min(A, B);
+        int min = Math.max(0, A + B - N);
+
+        System.out.println(max + " " + min);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03139_2P.java" startline="1" endline="16" pcid="13770">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int max = Math.min(A, B);
+        int min = Math.max(0, A + B - N);
+
+        System.out.println(max + " " + min);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03139_4P.java" startline="1" endline="17" pcid="13772">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int max = Math.min(A, B);
+
+        int min = Math.max(0, A + B - N);
+
+        System.out.println(max + " " + min);
+    }
+}
+
+</source>
+</class>
+
+<class classid="25" nclones="3" nlines="11" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03145_0P.java" startline="1" endline="14" pcid="5346">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int ab = sc.nextInt();
+        int bc = sc.nextInt();
+        int ca = sc.nextInt();
+
+        int area = (ab * bc) / 2;
+        System.out.println(area);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03145_1P.java" startline="1" endline="15" pcid="13794">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int ab = sc.nextInt();
+        int bc = sc.nextInt();
+        int ca = sc.nextInt();
+
+        int area = (ab * bc) / 2;
+
+        System.out.println(area);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03145_3P.java" startline="1" endline="14" pcid="5349">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int ab = sc.nextInt();
+        int bc = sc.nextInt();
+        int ca = sc.nextInt();
+
+        int area = (ab * bc) / 2;
+        System.out.println(area);
+    }
+}
+
+</source>
+</class>
+
+<class classid="26" nclones="6" nlines="37" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03165_1P.java" startline="1" endline="41" pcid="5431">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        String t = sc.nextLine();
+
+        int m = s.length();
+        int n = t.length();
+
+        int[][] dp = new int[m + 1][n + 1];
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
+        }
+
+        StringBuilder lcs = new StringBuilder();
+        int i = m, j = n;
+        while (i > 0 && j > 0) {
+            if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                lcs.append(s.charAt(i - 1));
+                i--;
+                j--;
+            } else if (dp[i - 1][j] > dp[i][j - 1]) {
+                i--;
+            } else {
+                j--;
+            }
+        }
+
+        System.out.println(lcs.reverse().toString());
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03165_4P.java" startline="1" endline="42" pcid="13882">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        String t = sc.nextLine();
+
+        int m = s.length();
+        int n = t.length();
+
+        int[][] dp = new int[m + 1][n + 1];
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
+        }
+
+        StringBuilder lcs = new StringBuilder();
+        int i = m, j = n;
+
+        while (i > 0 && j > 0) {
+            if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                lcs.append(s.charAt(i - 1));
+                i--;
+                j--;
+            } else if (dp[i - 1][j] > dp[i][j - 1]) {
+                i--;
+            } else {
+                j--;
+            }
+        }
+
+        System.out.println(lcs.reverse().toString());
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03165_1P.java" startline="1" endline="42" pcid="13879">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        String t = sc.nextLine();
+
+        int m = s.length();
+        int n = t.length();
+
+        int[][] dp = new int[m + 1][n + 1];
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
+        }
+
+        StringBuilder lcs = new StringBuilder();
+        int i = m, j = n;
+
+        while (i > 0 && j > 0) {
+            if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                lcs.append(s.charAt(i - 1));
+                i--;
+                j--;
+            } else if (dp[i - 1][j] > dp[i][j - 1]) {
+                i--;
+            } else {
+                j--;
+            }
+        }
+
+        System.out.println(lcs.reverse().toString());
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03165_2P.java" startline="1" endline="42" pcid="13880">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        String t = sc.nextLine();
+
+        int m = s.length();
+        int n = t.length();
+
+        int[][] dp = new int[m + 1][n + 1];
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
+        }
+
+        StringBuilder lcs = new StringBuilder();
+        int i = m, j = n;
+
+        while (i > 0 && j > 0) {
+            if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                lcs.append(s.charAt(i - 1));
+                i--;
+                j--;
+            } else if (dp[i - 1][j] > dp[i][j - 1]) {
+                i--;
+            } else {
+                j--;
+            }
+        }
+
+        System.out.println(lcs.reverse().toString());
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03165_4P.java" startline="1" endline="41" pcid="5434">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        String t = sc.nextLine();
+
+        int m = s.length();
+        int n = t.length();
+
+        int[][] dp = new int[m + 1][n + 1];
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
+        }
+
+        StringBuilder lcs = new StringBuilder();
+        int i = m, j = n;
+        while (i > 0 && j > 0) {
+            if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                lcs.append(s.charAt(i - 1));
+                i--;
+                j--;
+            } else if (dp[i - 1][j] > dp[i][j - 1]) {
+                i--;
+            } else {
+                j--;
+            }
+        }
+
+        System.out.println(lcs.reverse().toString());
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03165_2P.java" startline="1" endline="40" pcid="5432">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        String t = sc.nextLine();
+        int m = s.length();
+        int n = t.length();
+
+        int[][] dp = new int[m + 1][n + 1];
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
+        }
+
+        StringBuilder lcs = new StringBuilder();
+        int i = m, j = n;
+        while (i > 0 && j > 0) {
+            if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                lcs.append(s.charAt(i - 1));
+                i--;
+                j--;
+            } else if (dp[i - 1][j] > dp[i][j - 1]) {
+                i--;
+            } else {
+                j--;
+            }
+        }
+
+        System.out.println(lcs.reverse().toString());
+    }
+}
+
+</source>
+</class>
+
+<class classid="27" nclones="6" nlines="19" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03193_1P.java" startline="1" endline="23" pcid="5551">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int H = sc.nextInt();
+        int W = sc.nextInt();
+        int count = 0;
+
+        for (int i = 0; i < N; i++) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            if (A >= H && B >= W) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03193_0P.java" startline="1" endline="26" pcid="13998">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+        int H = sc.nextInt();
+        int W = sc.nextInt();
+
+        int count = 0;
+
+        for (int i = 0; i < N; i++) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+
+            if (A >= H && B >= W) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03193_2P.java" startline="1" endline="26" pcid="14000">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+        int H = sc.nextInt();
+        int W = sc.nextInt();
+
+        int count = 0;
+
+        for (int i = 0; i < N; i++) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+
+            if (A >= H && B >= W) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03193_1P.java" startline="1" endline="26" pcid="13999">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+        int H = sc.nextInt();
+        int W = sc.nextInt();
+
+        int count = 0;
+
+        for (int i = 0; i < N; i++) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+
+            if (A >= H && B >= W) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03193_3P.java" startline="1" endline="23" pcid="5553">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int H = sc.nextInt();
+        int W = sc.nextInt();
+        int count = 0;
+
+        for (int i = 0; i < N; i++) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            if (A >= H && B >= W) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03193_4P.java" startline="1" endline="23" pcid="5554">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int H = sc.nextInt();
+        int W = sc.nextInt();
+        int count = 0;
+
+        for (int i = 0; i < N; i++) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            if (A >= H && B >= W) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+</class>
+
+<class classid="28" nclones="4" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03260_3P.java" startline="1" endline="16" pcid="5801">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03260_2P.java" startline="1" endline="16" pcid="14250">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03260_1P.java" startline="1" endline="16" pcid="14249">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03260_0P.java" startline="1" endline="16" pcid="14248">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="29" nclones="7" nlines="17" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03265_0P.java" startline="1" endline="22" pcid="5823">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03265_1P.java" startline="1" endline="23" pcid="14274">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03265_4P.java" startline="1" endline="22" pcid="14277">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03265_0P.java" startline="1" endline="23" pcid="14273">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03265_1P.java" startline="1" endline="22" pcid="5824">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03265_2P.java" startline="1" endline="22" pcid="5825">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03265_4P.java" startline="1" endline="22" pcid="5827">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+</class>
+
+<class classid="30" nclones="4" nlines="13" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03303_0P.java" startline="1" endline="17" pcid="5981">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        int w = sc.nextInt();
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < S.length(); i += w) {
+            result.append(S.charAt(i));
+        }
+
+        System.out.println(result.toString());
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03303_0P.java" startline="1" endline="18" pcid="14433">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        int w = sc.nextInt();
+
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < S.length(); i += w) {
+            result.append(S.charAt(i));
+        }
+
+        System.out.println(result.toString());
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03303_4P.java" startline="1" endline="18" pcid="14437">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        int w = sc.nextInt();
+
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < S.length(); i += w) {
+            result.append(S.charAt(i));
+        }
+
+        System.out.println(result.toString());
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03303_3P.java" startline="1" endline="16" pcid="5984">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        int w = sc.nextInt();
+
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < S.length(); i += w) {
+            result.append(S.charAt(i));
+        }
+        System.out.println(result.toString());
+    }
+}
+
+</source>
+</class>
+
+<class classid="31" nclones="7" nlines="13" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03337_1P.java" startline="1" endline="17" pcid="6127">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int sum = A + B;
+        int diff = A - B;
+        int product = A * B;
+
+        int max = Math.max(sum, Math.max(diff, product));
+        System.out.println(max);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02945_2P.java" startline="1" endline="17" pcid="13046">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int sum = A + B;
+        int diff = A - B;
+        int product = A * B;
+
+        int max = Math.max(sum, Math.max(diff, product));
+        System.out.println(max);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02945_1P.java" startline="1" endline="17" pcid="13045">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int sum = A + B;
+        int diff = A - B;
+        int product = A * B;
+
+        int max = Math.max(sum, Math.max(diff, product));
+        System.out.println(max);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02945_0P.java" startline="1" endline="17" pcid="13044">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int sum = A + B;
+        int diff = A - B;
+        int product = A * B;
+
+        int max = Math.max(sum, Math.max(diff, product));
+        System.out.println(max);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03337_2P.java" startline="1" endline="18" pcid="14580">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int sum = A + B;
+        int diff = A - B;
+        int product = A * B;
+
+        int max = Math.max(sum, Math.max(diff, product));
+
+        System.out.println(max);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03337_2P.java" startline="1" endline="17" pcid="6128">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int sum = A + B;
+        int diff = A - B;
+        int product = A * B;
+
+        int max = Math.max(sum, Math.max(diff, product));
+        System.out.println(max);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03337_3P.java" startline="1" endline="17" pcid="6129">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int sum = A + B;
+        int diff = A - B;
+        int product = A * B;
+
+        int max = Math.max(sum, Math.max(diff, product));
+        System.out.println(max);
+    }
+}
+
+</source>
+</class>
+
+<class classid="32" nclones="5" nlines="15" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03377_0P.java" startline="1" endline="17" pcid="6280">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X >= A && X <= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03377_4P.java" startline="1" endline="17" pcid="14737">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X >= A && X <= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03377_4P.java" startline="1" endline="17" pcid="6284">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X >= A && X <= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03377_2P.java" startline="1" endline="17" pcid="6282">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X >= A && X <= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03377_1P.java" startline="1" endline="17" pcid="6281">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X >= A && X <= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="33" nclones="3" nlines="11" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03548_0P.java" startline="1" endline="14" pcid="6812">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        int maxPeople = (X - Z) / (Y + Z);
+        System.out.println(maxPeople);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03548_1P.java" startline="1" endline="15" pcid="15266">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        int maxPeople = (X - Z) / (Y + Z);
+
+        System.out.println(maxPeople);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03548_1P.java" startline="1" endline="14" pcid="6813">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        int maxPeople = (X - Z) / (Y + Z);
+        System.out.println(maxPeople);
+    }
+}
+
+</source>
+</class>
+
+<class classid="34" nclones="3" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03555_0P.java" startline="1" endline="18" pcid="6842">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String row1 = sc.nextLine();
+        String row2 = sc.nextLine();
+
+        if (row1.charAt(0) == row2.charAt(2) &&
+            row1.charAt(1) == row2.charAt(1) &&
+            row1.charAt(2) == row2.charAt(0)) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03555_1P.java" startline="1" endline="18" pcid="15296">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String row1 = sc.nextLine();
+        String row2 = sc.nextLine();
+
+        if (row1.charAt(0) == row2.charAt(2) &&
+            row1.charAt(1) == row2.charAt(1) &&
+            row1.charAt(2) == row2.charAt(0)) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03555_4P.java" startline="1" endline="18" pcid="6846">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String row1 = sc.nextLine();
+        String row2 = sc.nextLine();
+
+        if (row1.charAt(0) == row2.charAt(2) &&
+            row1.charAt(1) == row2.charAt(1) &&
+            row1.charAt(2) == row2.charAt(0)) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="35" nclones="6" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03632_0P.java" startline="1" endline="18" pcid="7135">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03632_0P.java" startline="1" endline="19" pcid="15590">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03632_1P.java" startline="1" endline="18" pcid="7136">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03632_2P.java" startline="1" endline="18" pcid="7137">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03632_3P.java" startline="1" endline="18" pcid="7138">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03632_4P.java" startline="1" endline="19" pcid="7139">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</source>
+</class>
+
+<class classid="36" nclones="2" nlines="10" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03795_2P.java" startline="1" endline="14" pcid="7711">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int x = N * 800;
+        int y = (N / 15) * 200;
+
+        System.out.println(x - y);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03795_2P.java" startline="1" endline="14" pcid="16167">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int x = N * 800;
+        int y = (N / 15) * 200;
+
+        System.out.println(x - y);
+    }
+}
+
+</source>
+</class>
+
+<class classid="37" nclones="2" nlines="21" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p04032_2P.java" startline="1" endline="26" pcid="8360">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = s.length();
+
+        for (int i = 0; i < n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                System.out.println((i + 1) + " " + (i + 2));
+                return;
+            }
+        }
+
+        for (int i = 0; i < n - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 2)) {
+                System.out.println((i + 1) + " " + (i + 3));
+                return;
+            }
+        }
+
+        System.out.println("-1 -1");
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p04026_3P.java" startline="1" endline="26" pcid="16788">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = s.length();
+
+        for (int i = 0; i < n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                System.out.println((i + 1) + " " + (i + 2));
+                return;
+            }
+        }
+
+        for (int i = 0; i < n - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 2)) {
+                System.out.println((i + 1) + " " + (i + 3));
+                return;
+            }
+        }
+
+        System.out.println("-1 -1");
+    }
+}
+
+</source>
+</class>
+
+</clones>

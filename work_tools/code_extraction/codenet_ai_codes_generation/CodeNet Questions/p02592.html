@@ -1,0 +1,82 @@
+<span class="lang-en">
+<p>Score : <var>1800</var> points</p>
+<div class="part">
+<section>
+<h3>Problem Statement</h3><p>This is an output-only problem. You shouldn't read anything from the input.</p>
+<p>In short, your task is to simulate multiplication by using only comparison <var>(x &lt; y)</var> and addition <var>(x + y)</var>.
+There is no input in this problem, you just print a sequence of operations.</p>
+<p>Imagine that there is a big array <var>a[0], a[1], ..., a[N-1]</var> of length <var>N</var>.
+The first two values are initially two non-negative integers <var>A</var> and <var>B</var> (which are unknown to you),
+    the other elements are zeros.
+Your goal is to get the product <var>A \cdot B</var> in <var>a[2]</var> at the end.</p>
+<p>You are allowed operations of two types, with the following format (where <var>0 \leq i, j, k &lt; N</var>):</p>
+<ul>
+<li><code>+ i j k</code> — applies operation <var>a[k] = a[i] + a[j]</var>.</li>
+<li><code>&lt; i j k</code> — applies operation <var>a[k] = a[i] &lt; a[j]</var>.
+    That is, if <var>a[i] &lt; a[j]</var> then <var>a[k]</var> becomes <var>1</var>, otherwise it becomes <var>0</var>.</li>
+</ul>
+<p>You can use at most <var>Q</var> operations.
+Elements of <var>a</var> can't exceed <var>V</var>.
+Indices <var>(i, j, k)</var> don't have to be distinct.
+It's allowed to modify any element of the array (including the first two).
+The actual checker simulates the process for multiple pairs <var>(A, B)</var> within a single test.
+Each time, the checker chooses values <var>A</var> and <var>B</var>, creates the array <var>a = [A, B, 0, 0, \ldots, 0]</var>,
+    applies all your operations and ensures that <var>a[2] = A \cdot B</var>.</p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Constraints</h3><ul>
+<li><var>0 \leq A, B \leq 10^9</var></li>
+<li><var>N = Q = 200\,000</var></li>
+<li><var>V = 10^{19} = 10\,000\,000\,000\,000\,000\,000</var></li>
+</ul>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Partial Score</h3><ul>
+<li><var>800</var> points will be awarded for passing tests that satisfy <var>A, B \leq 10</var>.</li>
+<li>Another <var>1000</var> points will be awarded for passing all tests.</li>
+</ul>
+</section>
+</div>
+<hr/>
+<div class="io-style">
+<div class="part">
+<section>
+<h3>Input</h3><p>The Standard Input is empty.</p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Output</h3><p>In the first line, print the number of operations.
+Each operation should then be printed in a single line of format <code>+ i j k</code> or <code>&lt; i j k</code>.</p>
+</section>
+</div>
+</div>
+<hr/>
+<div class="part">
+<section>
+<h3>Sample Input 1</h3><pre></pre>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Sample Output 1</h3><pre>4
+&lt; 0 1 8
++ 0 1 2
++ 2 8 2
++ 0 0 0</pre>
+<p>In the first sample test, the checker checks your sequence only for a pair <var>(A, B) = (2, 3)</var>.
+The provided output is correct for this test:</p>
+<ul>
+<li>Initially, <var>a[0] = 2</var>, <var>a[1] = 3</var>, <var>a[2] = a[3] = \ldots = a[N-1] = 0</var>.</li>
+<li><code>&lt; 0 1 8</code> applies <var>a[8] = 1</var> because <var>a[0] &lt; a[1]</var>.</li>
+<li><code>+ 0 1 2</code> applies <var>a[2] = a[0] + a[1] = 5</var>.</li>
+<li><code>+ 2 8 2</code> applies <var>a[2] = a[2] + a[8] = 6</var>.</li>
+<li><code>+ 0 0 0</code> applies <var>a[0] = a[0] + a[0] = 4</var>.</li>
+<li>As required, at the end we have <var>a[2] = 6 = A \cdot B</var>.</li>
+</ul></section>
+</div>
+</span>

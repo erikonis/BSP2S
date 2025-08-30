@@ -1,0 +1,115 @@
+
+
+
+<div>
+<h1 class="title">問題 H : キャッシュ戦略</h1>
+
+<p>今，G○○gle Code Jam の地区大会が始まろうとしている．
+斜め右前の席に座っている男の ID は lyrically と言うらしい．
+東京大学時代の記憶に，似たような ID の仲間が居た覚えがあるが，僕の仲間は一人残さず美少女だったはずだ．</p>
+<p>僕の記憶の中の lyrically は，アルゴリズムの力や実装の力もさながら，
+気合で問題に正解することにも定評があった．
+例えば，計算量が多少悪いプログラムでも，上手な実装をすることで高速にし，
+正解とするようなことも得意としていた．</p>
+<p>プログラムを高速にする上で，非常に大切になってくるのが，
+キャッシュメモリとの親和性である．</p>
+<div>
+<h1>問題</h1>
+<p>ブロック毎に読み込みのコストが異なるメモリを考える．
+起こる全てのメモリアクセスがあらかじめ分かった状態での，
+フルアソシアティブのキャッシュメモリでの最善なキャッシュ戦略を求めたい．
+以下，平易な言葉で説明する．</p>
+<p><span style="font-size:110%;font-family:times new roman;"><i>M</i></span> 個の箱と，<span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 個のボールがある．
+ボールには <span style="font-size:110%;font-family:times new roman;">1</span> から <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> までの番号が付いており，
+各ボール <span style="font-size:110%;font-family:times new roman;"><i>i</i></span> には重さ <span style="font-size:110%;font-family:times new roman;"><i>w</i><sub><i>i</i></sub></span> が決まっている．
+また，長さ <span style="font-size:110%;font-family:times new roman;"><i>K</i></span> の数列 <span style="font-size:110%;font-family:times new roman;"><i>a</i><sub>1</sub>,&nbsp;<i>a</i><sub>2</sub>,&nbsp;…,&nbsp;<i>a</i><sub><i>K</i></sub></span> が与えられる．
+各 <span style="font-size:110%;font-family:times new roman;"><i>a</i><sub><i>j</i></sub></span> は <span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>a</i><sub><i>j</i></sub>&nbsp;&le;&nbsp;<i>N</i></span> を満たす整数である．</p>
+<p>はじめは全ての箱は空である．
+<span style="font-size:110%;font-family:times new roman;"><i>j</i>&nbsp;=&nbsp;1,&nbsp;2,&nbsp;…,&nbsp;<i>K</i></span> の順に，以下を行いたい．</p>
+<ul class="simple">
+<li>ボール <span style="font-size:110%;font-family:times new roman;"><i>a</i><sub><i>j</i></sub></span> が入っている箱があれば，何もしない．<ul>
+<li>この操作にかかるコストは 0 である．</li>
+</ul>
+</li>
+<li>ボール <span style="font-size:110%;font-family:times new roman;"><i>a</i><sub><i>j</i></sub></span> が入っている箱がなければ，いずれかの箱にボール <span style="font-size:110%;font-family:times new roman;"><i>a</i><sub><i>j</i></sub></span> を入れる．<ul>
+<li>ボールを箱に入れる際，もし既にその箱に入っているボールがあれば，そのボールは外に出す．</li>
+<li>この操作にかかるコストは <span style="font-size:110%;font-family:times new roman;"><i>w</i><sub><i>a</i><sub><i>j</i></sub></sub></span> である．（コストは，入れる箱や取り出すボール等にはよらない．）</li>
+</ul>
+</li>
+</ul>
+<p>コストの和の最小値を計算するプログラムを作成せよ．</p>
+</div>
+<div>
+<h1>入力</h1>
+<p>入力の最初の行は 3 つの整数 <span style="font-size:110%;font-family:times new roman;"><i>M</i>,&nbsp;<i>N</i>,&nbsp;<i>K</i></span> を含む．</p>
+<p>続く <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 行の <span style="font-size:110%;font-family:times new roman;"><i>i</i></span> 行目には整数 <span style="font-size:110%;font-family:times new roman;"><i>w</i><sub><i>i</i></sub></span> が書かれている．</p>
+<p>続く <span style="font-size:110%;font-family:times new roman;"><i>K</i></span> 行の <span style="font-size:110%;font-family:times new roman;"><i>j</i></span> 行目には整数 <span style="font-size:110%;font-family:times new roman;"><i>a</i><sub><i>j</i></sub></span> が書かれている．</p>
+</div>
+<div>
+<h1>出力</h1>
+<p>コストの和の最小値を出力せよ．</p>
+</div>
+<div>
+<h1>制約</h1>
+<ul class="simple">
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>M</i>&nbsp;&le;&nbsp;10</span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>N</i>&nbsp;&le;&nbsp;10<sup>4</sup></span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>K</i>&nbsp;&le;&nbsp;10<sup>4</sup></span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>w</i><sub><i>i</i></sub>&nbsp;&le;&nbsp;10<sup>4</sup></span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>a</i><sub><i>j</i></sub>&nbsp;&le;&nbsp;<i>N</i></span></li>
+</ul>
+</div>
+<div>
+<h1>部分点</h1>
+<p>この問題の判定には，20 点分のテストケースのグループが設定されている．
+このグループに含まれるテストケースの入力は以下を満たす．</p>
+<ul class="simple">
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>M</i>&nbsp;&le;&nbsp;3</span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>N</i>&nbsp;&le;&nbsp;10</span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>K</i>&nbsp;&le;&nbsp;10<sup>3</sup></span></li>
+</ul>
+</div>
+<div>
+<h1>入出力例</h1>
+<div>
+<h2>入力例 1</h2>
+<p>入力例 1:</p>
+<pre class="literal-block">
+3 3 6
+10
+20
+30
+1
+2
+3
+1
+2
+3
+</pre>
+<p>入力例 1 に対する出力例:</p>
+<pre class="literal-block">
+60
+</pre>
+</div>
+<div>
+<h2>入力例 2</h2>
+<p>入力例 2:</p>
+<pre class="literal-block">
+2 3 6
+10
+20
+30
+1
+2
+3
+1
+2
+3
+</pre>
+<p>入力例 2 に対する出力例:</p>
+<pre class="literal-block">
+80
+</pre>
+</div>
+</div>
+</div>

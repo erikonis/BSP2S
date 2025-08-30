@@ -1,0 +1,21 @@
+TIMING STATISTICS FOR VGG16:
+=== PREPROCESS ===
+Mean: 0.0018 s
+Worst: 0.0254 s
+Best: 0.0007 s
+=== RESCALE IMAGE ===
+Mean: 0.0212 s
+Worst: 1.3096 s
+Best: 0.0050 s
+=== LOAD MODEL ===
+Mean: 2.0087 s
+Worst: 4.3660 s
+Best: 1.6919 s
+=== PREDICTION ===
+Mean: 0.2674 s
+Worst: 1.9260 s
+Best: 0.1703 s
+=== TOTAL ===
+Mean: 2.2992 s
+Worst: 4.6055 s
+Best: 1.8839 s

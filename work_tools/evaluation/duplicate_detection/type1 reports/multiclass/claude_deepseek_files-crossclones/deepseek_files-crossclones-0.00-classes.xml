@@ -1,0 +1,262 @@
+<clones>
+<systeminfo processor="nicad6" system="deepseek" system2="claude" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16884" npairs="140"/>
+<runinfo ncompares="3221298" cputime="583266"/>
+<classinfo nclasses="37"/>
+
+<class classid="1" nclones="4" nlines="11" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02389_3P.java" startline="1" endline="13" pcid="2724"></source>
+<source file="../ai_codes/claude/claude_p02389_3P.java" startline="1" endline="15" pcid="11167"></source>
+<source file="../ai_codes/claude/claude_p02389_4P.java" startline="1" endline="15" pcid="11168"></source>
+<source file="../ai_codes/deepseek/deepseek_p02389_4P.java" startline="1" endline="13" pcid="2725"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02398_2P.java" startline="1" endline="19" pcid="2763"></source>
+<source file="../ai_codes/claude/claude_p02398_2P.java" startline="1" endline="20" pcid="11206"></source>
+</class>
+
+<class classid="3" nclones="3" nlines="12" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02399_3P.java" startline="1" endline="16" pcid="2769"></source>
+<source file="../ai_codes/claude/claude_p02399_1P.java" startline="1" endline="16" pcid="11210"></source>
+<source file="../ai_codes/claude/claude_p02399_4P.java" startline="1" endline="16" pcid="11213"></source>
+</class>
+
+<class classid="4" nclones="3" nlines="26" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02405_0P.java" startline="1" endline="27" pcid="2796"></source>
+<source file="../ai_codes/claude/claude_p02405_3P.java" startline="1" endline="31" pcid="11242"></source>
+<source file="../ai_codes/deepseek/deepseek_p02405_1P.java" startline="1" endline="28" pcid="2797"></source>
+</class>
+
+<class classid="5" nclones="5" nlines="25" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02412_0P.java" startline="1" endline="27" pcid="2831"></source>
+<source file="../ai_codes/claude/claude_p02412_1P.java" startline="1" endline="33" pcid="11275"></source>
+<source file="../ai_codes/claude/claude_p02412_3P.java" startline="1" endline="33" pcid="11277"></source>
+<source file="../ai_codes/claude/claude_p02412_4P.java" startline="1" endline="33" pcid="11278"></source>
+<source file="../ai_codes/deepseek/deepseek_p02412_3P.java" startline="1" endline="27" pcid="2834"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="20" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02415_1P.java" startline="1" endline="22" pcid="2847"></source>
+<source file="../ai_codes/claude/claude_p02415_0P.java" startline="1" endline="23" pcid="11289"></source>
+</class>
+
+<class classid="7" nclones="4" nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02606_3P.java" startline="1" endline="18" pcid="3243"></source>
+<source file="../ai_codes/claude/claude_p02606_4P.java" startline="1" endline="20" pcid="11688"></source>
+<source file="../ai_codes/claude/claude_p02606_0P.java" startline="1" endline="20" pcid="11684"></source>
+<source file="../ai_codes/claude/claude_p02606_2P.java" startline="1" endline="20" pcid="11686"></source>
+</class>
+
+<class classid="8" nclones="6" nlines="13" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02627_3P.java" startline="1" endline="14" pcid="3343"></source>
+<source file="../ai_codes/claude/claude_p02627_3P.java" startline="1" endline="15" pcid="11787"></source>
+<source file="../ai_codes/claude/claude_p02627_1P.java" startline="1" endline="15" pcid="11785"></source>
+<source file="../ai_codes/claude/claude_p02627_2P.java" startline="1" endline="15" pcid="11786"></source>
+<source file="../ai_codes/claude/claude_p02627_0P.java" startline="1" endline="15" pcid="11784"></source>
+<source file="../ai_codes/deepseek/deepseek_p02627_4P.java" startline="1" endline="14" pcid="3344"></source>
+</class>
+
+<class classid="9" nclones="2" nlines="36" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02689_3P.java" startline="1" endline="42" pcid="3557"></source>
+<source file="../ai_codes/claude/claude_p02689_4P.java" startline="1" endline="43" pcid="12003"></source>
+</class>
+
+<class classid="10" nclones="3" nlines="18" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02700_3P.java" startline="1" endline="21" pcid="3612"></source>
+<source file="../ai_codes/claude/claude_p02700_0P.java" startline="1" endline="21" pcid="12054"></source>
+<source file="../ai_codes/claude/claude_p02700_1P.java" startline="1" endline="21" pcid="12055"></source>
+</class>
+
+<class classid="11" nclones="3" nlines="24" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02713_0P.java" startline="1" endline="29" pcid="3664"></source>
+<source file="../ai_codes/claude/claude_p02713_0P.java" startline="1" endline="29" pcid="12109"></source>
+<source file="../ai_codes/deepseek/deepseek_p02713_2P.java" startline="1" endline="29" pcid="3666"></source>
+</class>
+
+<class classid="12" nclones="4" nlines="11" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02729_4P.java" startline="1" endline="15" pcid="3748"></source>
+<source file="../ai_codes/claude/claude_p02729_1P.java" startline="1" endline="15" pcid="12190"></source>
+<source file="../ai_codes/claude/claude_p02729_2P.java" startline="1" endline="16" pcid="12191"></source>
+<source file="../ai_codes/claude/claude_p02729_0P.java" startline="1" endline="16" pcid="12189"></source>
+</class>
+
+<class classid="13" nclones="5" nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02765_2P.java" startline="1" endline="19" pcid="3880"></source>
+<source file="../ai_codes/claude/claude_p02765_1P.java" startline="1" endline="19" pcid="12325"></source>
+<source file="../ai_codes/claude/claude_p02765_4P.java" startline="1" endline="19" pcid="12328"></source>
+<source file="../ai_codes/claude/claude_p02765_3P.java" startline="1" endline="19" pcid="12327"></source>
+<source file="../ai_codes/claude/claude_p02765_2P.java" startline="1" endline="19" pcid="12326"></source>
+</class>
+
+<class classid="14" nclones="5" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02766_1P.java" startline="1" endline="18" pcid="3884"></source>
+<source file="../ai_codes/claude/claude_p02766_2P.java" startline="1" endline="18" pcid="12331"></source>
+<source file="../ai_codes/claude/claude_p02766_4P.java" startline="1" endline="18" pcid="12333"></source>
+<source file="../ai_codes/claude/claude_p02766_1P.java" startline="1" endline="18" pcid="12330"></source>
+<source file="../ai_codes/deepseek/deepseek_p02766_2P.java" startline="1" endline="18" pcid="3885"></source>
+</class>
+
+<class classid="15" nclones="6" nlines="15" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02771_1P.java" startline="1" endline="17" pcid="3909"></source>
+<source file="../ai_codes/claude/claude_p02771_3P.java" startline="1" endline="17" pcid="12357"></source>
+<source file="../ai_codes/claude/claude_p02771_4P.java" startline="1" endline="17" pcid="12358"></source>
+<source file="../ai_codes/claude/claude_p02771_0P.java" startline="1" endline="17" pcid="12354"></source>
+<source file="../ai_codes/claude/claude_p02771_1P.java" startline="1" endline="17" pcid="12355"></source>
+<source file="../ai_codes/deepseek/deepseek_p02771_3P.java" startline="1" endline="17" pcid="3911"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="18" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02777_1P.java" startline="1" endline="21" pcid="3934"></source>
+<source file="../ai_codes/claude/claude_p02777_2P.java" startline="1" endline="21" pcid="12381"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="15" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02830_1P.java" startline="1" endline="19" pcid="4148"></source>
+<source file="../ai_codes/claude/claude_p02830_0P.java" startline="1" endline="19" pcid="12594"></source>
+</class>
+
+<class classid="18" nclones="4" nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02841_0P.java" startline="1" endline="18" pcid="4197"></source>
+<source file="../ai_codes/claude/claude_p02841_1P.java" startline="1" endline="18" pcid="12645"></source>
+<source file="../ai_codes/claude/claude_p02841_3P.java" startline="1" endline="18" pcid="12647"></source>
+<source file="../ai_codes/deepseek/deepseek_p02841_1P.java" startline="1" endline="18" pcid="4198"></source>
+</class>
+
+<class classid="19" nclones="4" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02879_0P.java" startline="1" endline="15" pcid="4337"></source>
+<source file="../ai_codes/claude/claude_p02879_3P.java" startline="1" endline="16" pcid="12787"></source>
+<source file="../ai_codes/claude/claude_p02879_1P.java" startline="1" endline="16" pcid="12785"></source>
+<source file="../ai_codes/claude/claude_p02879_0P.java" startline="1" endline="16" pcid="12784"></source>
+</class>
+
+<class classid="20" nclones="3" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02957_1P.java" startline="1" endline="16" pcid="4653"></source>
+<source file="../ai_codes/claude/claude_p02957_2P.java" startline="1" endline="16" pcid="13101"></source>
+<source file="../ai_codes/claude/claude_p02957_1P.java" startline="1" endline="16" pcid="13100"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03101_3P.java" startline="1" endline="18" pcid="5200"></source>
+<source file="../ai_codes/claude/claude_p03101_3P.java" startline="1" endline="20" pcid="13646"></source>
+</class>
+
+<class classid="22" nclones="6" nlines="26" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03106_2P.java" startline="1" endline="33" pcid="5224"></source>
+<source file="../ai_codes/claude/claude_p03106_1P.java" startline="1" endline="33" pcid="13669"></source>
+<source file="../ai_codes/claude/claude_p03106_3P.java" startline="1" endline="33" pcid="13671"></source>
+<source file="../ai_codes/claude/claude_p03106_4P.java" startline="1" endline="33" pcid="13672"></source>
+<source file="../ai_codes/claude/claude_p03106_2P.java" startline="1" endline="33" pcid="13670"></source>
+<source file="../ai_codes/claude/claude_p03106_0P.java" startline="1" endline="33" pcid="13668"></source>
+</class>
+
+<class classid="23" nclones="3" nlines="15" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03129_0P.java" startline="1" endline="18" pcid="5277"></source>
+<source file="../ai_codes/claude/claude_p03129_1P.java" startline="1" endline="18" pcid="13724"></source>
+<source file="../ai_codes/deepseek/deepseek_p03129_4P.java" startline="1" endline="17" pcid="5281"></source>
+</class>
+
+<class classid="24" nclones="3" nlines="12" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03139_1P.java" startline="1" endline="16" pcid="5322"></source>
+<source file="../ai_codes/claude/claude_p03139_2P.java" startline="1" endline="16" pcid="13770"></source>
+<source file="../ai_codes/claude/claude_p03139_4P.java" startline="1" endline="17" pcid="13772"></source>
+</class>
+
+<class classid="25" nclones="3" nlines="11" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03145_0P.java" startline="1" endline="14" pcid="5346"></source>
+<source file="../ai_codes/claude/claude_p03145_1P.java" startline="1" endline="15" pcid="13794"></source>
+<source file="../ai_codes/deepseek/deepseek_p03145_3P.java" startline="1" endline="14" pcid="5349"></source>
+</class>
+
+<class classid="26" nclones="6" nlines="37" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03165_1P.java" startline="1" endline="41" pcid="5431"></source>
+<source file="../ai_codes/claude/claude_p03165_4P.java" startline="1" endline="42" pcid="13882"></source>
+<source file="../ai_codes/claude/claude_p03165_1P.java" startline="1" endline="42" pcid="13879"></source>
+<source file="../ai_codes/claude/claude_p03165_2P.java" startline="1" endline="42" pcid="13880"></source>
+<source file="../ai_codes/deepseek/deepseek_p03165_4P.java" startline="1" endline="41" pcid="5434"></source>
+<source file="../ai_codes/deepseek/deepseek_p03165_2P.java" startline="1" endline="40" pcid="5432"></source>
+</class>
+
+<class classid="27" nclones="6" nlines="19" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03193_1P.java" startline="1" endline="23" pcid="5551"></source>
+<source file="../ai_codes/claude/claude_p03193_0P.java" startline="1" endline="26" pcid="13998"></source>
+<source file="../ai_codes/claude/claude_p03193_2P.java" startline="1" endline="26" pcid="14000"></source>
+<source file="../ai_codes/claude/claude_p03193_1P.java" startline="1" endline="26" pcid="13999"></source>
+<source file="../ai_codes/deepseek/deepseek_p03193_3P.java" startline="1" endline="23" pcid="5553"></source>
+<source file="../ai_codes/deepseek/deepseek_p03193_4P.java" startline="1" endline="23" pcid="5554"></source>
+</class>
+
+<class classid="28" nclones="4" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03260_3P.java" startline="1" endline="16" pcid="5801"></source>
+<source file="../ai_codes/claude/claude_p03260_2P.java" startline="1" endline="16" pcid="14250"></source>
+<source file="../ai_codes/claude/claude_p03260_1P.java" startline="1" endline="16" pcid="14249"></source>
+<source file="../ai_codes/claude/claude_p03260_0P.java" startline="1" endline="16" pcid="14248"></source>
+</class>
+
+<class classid="29" nclones="7" nlines="17" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03265_0P.java" startline="1" endline="22" pcid="5823"></source>
+<source file="../ai_codes/claude/claude_p03265_1P.java" startline="1" endline="23" pcid="14274"></source>
+<source file="../ai_codes/claude/claude_p03265_4P.java" startline="1" endline="22" pcid="14277"></source>
+<source file="../ai_codes/claude/claude_p03265_0P.java" startline="1" endline="23" pcid="14273"></source>
+<source file="../ai_codes/deepseek/deepseek_p03265_1P.java" startline="1" endline="22" pcid="5824"></source>
+<source file="../ai_codes/deepseek/deepseek_p03265_2P.java" startline="1" endline="22" pcid="5825"></source>
+<source file="../ai_codes/deepseek/deepseek_p03265_4P.java" startline="1" endline="22" pcid="5827"></source>
+</class>
+
+<class classid="30" nclones="4" nlines="13" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03303_0P.java" startline="1" endline="17" pcid="5981"></source>
+<source file="../ai_codes/claude/claude_p03303_0P.java" startline="1" endline="18" pcid="14433"></source>
+<source file="../ai_codes/claude/claude_p03303_4P.java" startline="1" endline="18" pcid="14437"></source>
+<source file="../ai_codes/deepseek/deepseek_p03303_3P.java" startline="1" endline="16" pcid="5984"></source>
+</class>
+
+<class classid="31" nclones="7" nlines="13" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03337_1P.java" startline="1" endline="17" pcid="6127"></source>
+<source file="../ai_codes/claude/claude_p02945_2P.java" startline="1" endline="17" pcid="13046"></source>
+<source file="../ai_codes/claude/claude_p02945_1P.java" startline="1" endline="17" pcid="13045"></source>
+<source file="../ai_codes/claude/claude_p02945_0P.java" startline="1" endline="17" pcid="13044"></source>
+<source file="../ai_codes/claude/claude_p03337_2P.java" startline="1" endline="18" pcid="14580"></source>
+<source file="../ai_codes/deepseek/deepseek_p03337_2P.java" startline="1" endline="17" pcid="6128"></source>
+<source file="../ai_codes/deepseek/deepseek_p03337_3P.java" startline="1" endline="17" pcid="6129"></source>
+</class>
+
+<class classid="32" nclones="5" nlines="15" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03377_0P.java" startline="1" endline="17" pcid="6280"></source>
+<source file="../ai_codes/claude/claude_p03377_4P.java" startline="1" endline="17" pcid="14737"></source>
+<source file="../ai_codes/deepseek/deepseek_p03377_4P.java" startline="1" endline="17" pcid="6284"></source>
+<source file="../ai_codes/deepseek/deepseek_p03377_2P.java" startline="1" endline="17" pcid="6282"></source>
+<source file="../ai_codes/deepseek/deepseek_p03377_1P.java" startline="1" endline="17" pcid="6281"></source>
+</class>
+
+<class classid="33" nclones="3" nlines="11" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03548_0P.java" startline="1" endline="14" pcid="6812"></source>
+<source file="../ai_codes/claude/claude_p03548_1P.java" startline="1" endline="15" pcid="15266"></source>
+<source file="../ai_codes/deepseek/deepseek_p03548_1P.java" startline="1" endline="14" pcid="6813"></source>
+</class>
+
+<class classid="34" nclones="3" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03555_0P.java" startline="1" endline="18" pcid="6842"></source>
+<source file="../ai_codes/claude/claude_p03555_1P.java" startline="1" endline="18" pcid="15296"></source>
+<source file="../ai_codes/deepseek/deepseek_p03555_4P.java" startline="1" endline="18" pcid="6846"></source>
+</class>
+
+<class classid="35" nclones="6" nlines="14" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03632_0P.java" startline="1" endline="18" pcid="7135"></source>
+<source file="../ai_codes/claude/claude_p03632_0P.java" startline="1" endline="19" pcid="15590"></source>
+<source file="../ai_codes/deepseek/deepseek_p03632_1P.java" startline="1" endline="18" pcid="7136"></source>
+<source file="../ai_codes/deepseek/deepseek_p03632_2P.java" startline="1" endline="18" pcid="7137"></source>
+<source file="../ai_codes/deepseek/deepseek_p03632_3P.java" startline="1" endline="18" pcid="7138"></source>
+<source file="../ai_codes/deepseek/deepseek_p03632_4P.java" startline="1" endline="19" pcid="7139"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="10" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03795_2P.java" startline="1" endline="14" pcid="7711"></source>
+<source file="../ai_codes/claude/claude_p03795_2P.java" startline="1" endline="14" pcid="16167"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="21" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p04032_2P.java" startline="1" endline="26" pcid="8360"></source>
+<source file="../ai_codes/claude/claude_p04026_3P.java" startline="1" endline="26" pcid="16788"></source>
+</class>
+
+</clones>

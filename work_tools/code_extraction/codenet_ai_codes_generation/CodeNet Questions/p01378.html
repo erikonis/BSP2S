@@ -1,0 +1,104 @@
+
+
+
+<div>
+<h1 class="title">問題 C : [[iwi]]</h1>
+
+<p>そうだ，僕のハンドルネームは (iwi) だ．
+僕は確かに昔にプログラミングコンテストに参加していた．
+そして，多くの仲間と楽しい時間を過ごした．</p>
+<p>確か，仲間たちは全員，美少女だったような気がする．
+プログラミングコンテストの世界は，僕のハーレムだったような気がする．
+G○○gle は，僕のハーレムを奪ったのだ，そうに違いない．
+昔の仲間の手がかりをつかむためにも，やはりプログラミングコンテストに出なければならない．</p>
+<p>G○○gle Code Jam に参加登録することにしよう．
+今度の ID には，丸括弧以外の括弧も検討に入れてみよう．</p>
+<div>
+<h1>問題</h1>
+<p>'i', 'w', '(', ')', '{', '}', '[', ']' からなる文字列が与えられた時，
+その部分列をとって，線対称な文字列を作りたい．
+最大で何文字の文字列を作ることができるかを計算するプログラムを作成せよ．</p>
+<p>与えられる文字列は，
+&quot;iwi&quot; という文字列を一度含み，それ以外の部分には 'i' と 'w' を含まない．
+より形式的には，与えられる文字列は <span style="font-size:110%;font-family:times new roman;"><i>s</i></span> &quot;iwi&quot; <span style="font-size:110%;font-family:times new roman;"><i>t</i></span>
+（<span style="font-size:110%;font-family:times new roman;"><i>s</i></span> と &quot;iwi&quot; と <span style="font-size:110%;font-family:times new roman;"><i>t</i></span> を連結したもの）という形で表すことができ，
+<span style="font-size:110%;font-family:times new roman;"><i>s</i></span> と <span style="font-size:110%;font-family:times new roman;"><i>t</i></span> は '(', ')', '{', '}', '[', ']' からなる文字列である．
+<span style="font-size:110%;font-family:times new roman;"><i>s</i></span> や <span style="font-size:110%;font-family:times new roman;"><i>t</i></span> が 0 文字である可能性もある．</p>
+<p>作る文字列は，与えられる文字列の部分列をとって作る．
+部分列とは，元の文字列からいくつかの文字を取り出し，それらを，
+元の文字列に含まれる順番で繋げたものである．
+取り出す文字たちは必ずしも元の文字列で連続していなくても良い．</p>
+<p>また，作る文字列も，与えられる文字列と同様に，&quot;iwi&quot; という文字列を一度含み，
+それ以外の部分には 'i' と 'w' は含まないようにしたい．</p>
+<p>ここで用いる左右に線対称の定義は，以下とする．</p>
+<ol class="arabic simple">
+<li>以下の文字列は左右に線対称．</li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li>空文字列</li>
+<li>&quot;i&quot;</li>
+<li>&quot;w&quot;</li>
+</ul>
+</blockquote>
+<ol class="arabic simple" start="2">
+<li>文字列 <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> が左右に線対称のとき，以下の文字列も左右に線対称．</li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li>&quot;i&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;i&quot;</li>
+<li>&quot;w&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;w&quot;</li>
+<li>&quot;(&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;)&quot;</li>
+<li>&quot;)&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;(&quot;</li>
+<li>&quot;{&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;}&quot;</li>
+<li>&quot;}&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;{&quot;</li>
+<li>&quot;[&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;]&quot;</li>
+<li>&quot;]&quot; <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> &quot;[&quot;</li>
+</ul>
+</blockquote>
+<ol class="arabic simple" start="3">
+<li>以上のもののみが左右に線対称．</li>
+</ol>
+</div>
+<div>
+<h1>入力</h1>
+<p>入力は 'i', 'w', '(', ')', '{', '}', '[', ']' からなり上記の条件を満たす文字列である．</p>
+</div>
+<div>
+<h1>出力</h1>
+<p>上記の条件を満たし作ることのできる文字列の長さの最大値を出力せよ．</p>
+</div>
+<div>
+<h1>制約</h1>
+<ul class="simple">
+<li>入力の文字列の長さは 15 以下である．</li>
+</ul>
+</div>
+<div>
+<h1>入出力例</h1>
+<div>
+<h2>入出力例 1</h2>
+<p>入力例 1:</p>
+<pre class="literal-block">
+[[[iwi[[[
+</pre>
+<p>入力例 1 に対する出力例:</p>
+<pre class="literal-block">
+3
+</pre>
+<p>&quot;iwi&quot; という文字列しか作ることができない．</p>
+</div>
+<div>
+<h2>入出力例 2</h2>
+<p>入力例 2:</p>
+<pre class="literal-block">
+[{)iwi(]}
+</pre>
+<p>入力例 2 に対する出力例:</p>
+<pre class="literal-block">
+7
+</pre>
+<p>&quot;[)iwi(]&quot; や &quot;{)iwi(}&quot; など 7 文字の文字列を作ることができる．</p>
+</div>
+</div>
+</div>

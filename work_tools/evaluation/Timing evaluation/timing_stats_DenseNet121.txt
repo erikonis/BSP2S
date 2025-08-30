@@ -1,0 +1,21 @@
+TIMING STATISTICS FOR DenseNet121:
+=== PREPROCESS ===
+Mean: 0.0022 s
+Worst: 0.0450 s
+Best: 0.0007 s
+=== RESCALE IMAGE ===
+Mean: 0.0244 s
+Worst: 0.0984 s
+Best: 0.0055 s
+=== LOAD MODEL ===
+Mean: 0.3476 s
+Worst: 2.0222 s
+Best: 0.2439 s
+=== PREDICTION ===
+Mean: 0.1387 s
+Worst: 2.6633 s
+Best: 0.0778 s
+=== TOTAL ===
+Mean: 0.5128 s
+Worst: 3.0959 s
+Best: 0.3491 s

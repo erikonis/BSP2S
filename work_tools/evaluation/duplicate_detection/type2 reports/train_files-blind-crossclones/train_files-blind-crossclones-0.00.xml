@@ -1,0 +1,1691 @@
+<clones>
+<systeminfo processor="nicad6" system="train" system2="test" granularity="files-blind" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="67606" npairs="337"/>
+<runinfo ncompares="37118346" cputime="1921594"/>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_4P.java" startline="1" endline="72" pcid="33002"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_1P.java" startline="1" endline="72" pcid="67459"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_2P.java" startline="1" endline="72" pcid="33000"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_1P.java" startline="1" endline="72" pcid="67459"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_0P.java" startline="1" endline="69" pcid="32998"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_1P.java" startline="1" endline="72" pcid="67459"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_4P.java" startline="1" endline="72" pcid="33002"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_2P.java" startline="1" endline="72" pcid="67460"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_2P.java" startline="1" endline="72" pcid="33000"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_2P.java" startline="1" endline="72" pcid="67460"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_0P.java" startline="1" endline="69" pcid="32998"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_2P.java" startline="1" endline="72" pcid="67460"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_4P.java" startline="1" endline="72" pcid="33002"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_4P.java" startline="1" endline="72" pcid="67462"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_2P.java" startline="1" endline="72" pcid="33000"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_4P.java" startline="1" endline="72" pcid="67462"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_0P.java" startline="1" endline="69" pcid="32998"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_4P.java" startline="1" endline="72" pcid="67462"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_4P.java" startline="1" endline="72" pcid="33002"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_3P.java" startline="1" endline="72" pcid="67461"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_2P.java" startline="1" endline="72" pcid="33000"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_3P.java" startline="1" endline="72" pcid="67461"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_0P.java" startline="1" endline="69" pcid="32998"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_3P.java" startline="1" endline="72" pcid="67461"></source>
+</clone>
+
+<clone nlines="45" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p04002_3P.java" startline="1" endline="55" pcid="48940"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p04000_1P.java" startline="1" endline="55" pcid="65911"></source>
+</clone>
+
+<clone nlines="44" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03714_1P.java" startline="1" endline="52" pcid="33164"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03716_0P.java" startline="1" endline="50" pcid="67488"></source>
+</clone>
+
+<clone nlines="46" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03626_2P.java" startline="1" endline="46" pcid="40357"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03628_2P.java" startline="1" endline="46" pcid="64927"></source>
+</clone>
+
+<clone nlines="42" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03626_1P.java" startline="1" endline="44" pcid="32870"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03628_4P.java" startline="1" endline="44" pcid="67452"></source>
+</clone>
+
+<clone nlines="37" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03702_3P.java" startline="1" endline="46" pcid="33131"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03700_2P.java" startline="1" endline="45" pcid="67485"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03403_0P.java" startline="1" endline="44" pcid="47294"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03401_2P.java" startline="1" endline="44" pcid="65692"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03403_0P.java" startline="1" endline="44" pcid="47294"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03401_1P.java" startline="1" endline="44" pcid="65691"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03403_0P.java" startline="1" endline="44" pcid="47294"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03401_0P.java" startline="1" endline="44" pcid="65690"></source>
+</clone>
+
+<clone nlines="36" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03701_2P.java" startline="1" endline="39" pcid="33121"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03699_0P.java" startline="1" endline="38" pcid="67478"></source>
+</clone>
+
+<clone nlines="36" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03701_0P.java" startline="1" endline="38" pcid="33122"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03699_0P.java" startline="1" endline="38" pcid="67478"></source>
+</clone>
+
+<clone nlines="35" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04015_1P.java" startline="1" endline="41" pcid="41382"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04013_1P.java" startline="1" endline="42" pcid="65076"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03764_0P.java" startline="1" endline="41" pcid="48378"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03762_3P.java" startline="1" endline="41" pcid="65843"></source>
+</clone>
+
+<clone nlines="33" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04015_2P.java" startline="1" endline="39" pcid="56551"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p04013_1P.java" startline="1" endline="38" pcid="66760"></source>
+</clone>
+
+<clone nlines="33" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04015_0P.java" startline="1" endline="39" pcid="56552"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p04013_1P.java" startline="1" endline="38" pcid="66760"></source>
+</clone>
+
+<clone nlines="33" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04015_3P.java" startline="1" endline="39" pcid="56553"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p04013_1P.java" startline="1" endline="38" pcid="66760"></source>
+</clone>
+
+<clone nlines="33" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04015_1P.java" startline="1" endline="38" pcid="56554"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p04013_1P.java" startline="1" endline="38" pcid="66760"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03764_1P.java" startline="1" endline="38" pcid="33300"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03762_1P.java" startline="1" endline="38" pcid="67519"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03764_3P.java" startline="1" endline="39" pcid="33299"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03762_3P.java" startline="1" endline="39" pcid="67521"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03764_2P.java" startline="1" endline="39" pcid="33298"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03762_1P.java" startline="1" endline="38" pcid="67519"></source>
+</clone>
+
+<clone nlines="30" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03341_2P.java" startline="1" endline="36" pcid="47092"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03339_0P.java" startline="1" endline="37" pcid="65660"></source>
+</clone>
+
+<clone nlines="29" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03701_1P.java" startline="1" endline="35" pcid="33126"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03699_1P.java" startline="1" endline="31" pcid="67479"></source>
+</clone>
+
+<clone nlines="29" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03701_4P.java" startline="1" endline="36" pcid="48208"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03699_4P.java" startline="1" endline="36" pcid="65804"></source>
+</clone>
+
+<clone nlines="29" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03701_0P.java" startline="1" endline="36" pcid="48205"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03699_4P.java" startline="1" endline="36" pcid="65804"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03966_1P.java" startline="1" endline="33" pcid="41252"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03964_0P.java" startline="1" endline="32" pcid="65045"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03966_1P.java" startline="1" endline="33" pcid="41252"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03964_3P.java" startline="1" endline="34" pcid="65048"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03966_0P.java" startline="1" endline="30" pcid="41251"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03964_0P.java" startline="1" endline="32" pcid="65045"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03966_0P.java" startline="1" endline="30" pcid="41251"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03964_3P.java" startline="1" endline="34" pcid="65048"></source>
+</clone>
+
+<clone nlines="27" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04015_0P.java" startline="1" endline="35" pcid="41380"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04013_3P.java" startline="1" endline="36" pcid="65078"></source>
+</clone>
+
+<clone nlines="28" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03614_0P.java" startline="1" endline="33" pcid="47910"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03612_4P.java" startline="1" endline="33" pcid="65764"></source>
+</clone>
+
+<clone nlines="28" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03614_0P.java" startline="1" endline="33" pcid="47910"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03612_2P.java" startline="1" endline="33" pcid="65762"></source>
+</clone>
+
+<clone nlines="27" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03614_4P.java" startline="1" endline="32" pcid="47914"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03612_1P.java" startline="1" endline="32" pcid="65761"></source>
+</clone>
+
+<clone nlines="27" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p04015_4P.java" startline="1" endline="35" pcid="48981"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p04013_0P.java" startline="1" endline="35" pcid="65920"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03966_0P.java" startline="1" endline="31" pcid="48847"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03964_0P.java" startline="1" endline="31" pcid="65890"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03966_3P.java" startline="1" endline="31" pcid="48851"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03964_0P.java" startline="1" endline="31" pcid="65890"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03341_3P.java" startline="1" endline="31" pcid="47093"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03339_1P.java" startline="1" endline="31" pcid="65661"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03341_0P.java" startline="1" endline="31" pcid="47091"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03339_1P.java" startline="1" endline="31" pcid="65661"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03341_1P.java" startline="1" endline="31" pcid="47090"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03339_1P.java" startline="1" endline="31" pcid="65661"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03341_3P.java" startline="1" endline="31" pcid="47093"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03339_3P.java" startline="1" endline="31" pcid="65663"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03341_0P.java" startline="1" endline="31" pcid="47091"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03339_3P.java" startline="1" endline="31" pcid="65663"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03341_1P.java" startline="1" endline="31" pcid="47090"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03339_3P.java" startline="1" endline="31" pcid="65663"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03966_1P.java" startline="1" endline="29" pcid="48848"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03964_4P.java" startline="1" endline="29" pcid="65894"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04032_4P.java" startline="1" endline="31" pcid="56615"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p04026_4P.java" startline="1" endline="31" pcid="66768"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03341_1P.java" startline="1" endline="31" pcid="54667"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03339_3P.java" startline="1" endline="31" pcid="66503"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03341_4P.java" startline="1" endline="31" pcid="54670"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03339_3P.java" startline="1" endline="31" pcid="66503"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02469_4P.java" startline="1" endline="28" pcid="36755"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03633_3P.java" startline="1" endline="28" pcid="64933"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02469_4P.java" startline="1" endline="28" pcid="36755"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03633_0P.java" startline="1" endline="28" pcid="64930"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03341_3P.java" startline="1" endline="27" pcid="39494"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03339_2P.java" startline="1" endline="28" pcid="64817"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03614_1P.java" startline="1" endline="26" pcid="60851"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03612_3P.java" startline="1" endline="26" pcid="66603"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03614_1P.java" startline="1" endline="26" pcid="60851"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03612_4P.java" startline="1" endline="26" pcid="66604"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_3P.java" startline="1" endline="29" pcid="33768"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_3P.java" startline="1" endline="28" pcid="67570"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_1P.java" startline="1" endline="29" pcid="33766"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_3P.java" startline="1" endline="28" pcid="67570"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_2P.java" startline="1" endline="28" pcid="33765"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_3P.java" startline="1" endline="28" pcid="67570"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_3P.java" startline="1" endline="29" pcid="33768"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_1P.java" startline="1" endline="28" pcid="67568"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_1P.java" startline="1" endline="29" pcid="33766"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_1P.java" startline="1" endline="28" pcid="67568"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_2P.java" startline="1" endline="28" pcid="33765"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_1P.java" startline="1" endline="28" pcid="67568"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03614_3P.java" startline="1" endline="26" pcid="55486"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03612_3P.java" startline="1" endline="26" pcid="66603"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03614_0P.java" startline="1" endline="26" pcid="55484"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03612_3P.java" startline="1" endline="26" pcid="66603"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03614_3P.java" startline="1" endline="26" pcid="55486"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03612_4P.java" startline="1" endline="26" pcid="66604"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03614_0P.java" startline="1" endline="26" pcid="55484"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03612_4P.java" startline="1" endline="26" pcid="66604"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_1P.java" startline="1" endline="25" pcid="32828"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03612_3P.java" startline="1" endline="25" pcid="67441"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_1P.java" startline="1" endline="25" pcid="32828"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03612_1P.java" startline="1" endline="25" pcid="67439"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_4P.java" startline="1" endline="26" pcid="32829"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03612_3P.java" startline="1" endline="25" pcid="67441"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_4P.java" startline="1" endline="26" pcid="32829"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03612_1P.java" startline="1" endline="25" pcid="67439"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_0P.java" startline="1" endline="25" pcid="32830"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03612_3P.java" startline="1" endline="25" pcid="67441"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_0P.java" startline="1" endline="25" pcid="32830"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03612_1P.java" startline="1" endline="25" pcid="67439"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_3P.java" startline="1" endline="25" pcid="32835"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03612_3P.java" startline="1" endline="25" pcid="67441"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_3P.java" startline="1" endline="25" pcid="32835"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03612_1P.java" startline="1" endline="25" pcid="67439"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_2P.java" startline="1" endline="27" pcid="41442"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_1P.java" startline="1" endline="27" pcid="65081"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_2P.java" startline="1" endline="27" pcid="41442"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_2P.java" startline="1" endline="27" pcid="65082"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_2P.java" startline="1" endline="27" pcid="41442"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_3P.java" startline="1" endline="27" pcid="65083"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_2P.java" startline="1" endline="27" pcid="41442"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_4P.java" startline="1" endline="27" pcid="65084"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_1P.java" startline="1" endline="27" pcid="41441"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_1P.java" startline="1" endline="27" pcid="65081"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_1P.java" startline="1" endline="27" pcid="41441"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_2P.java" startline="1" endline="27" pcid="65082"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_1P.java" startline="1" endline="27" pcid="41441"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_3P.java" startline="1" endline="27" pcid="65083"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_1P.java" startline="1" endline="27" pcid="41441"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_4P.java" startline="1" endline="27" pcid="65084"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_0P.java" startline="1" endline="25" pcid="41440"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_1P.java" startline="1" endline="27" pcid="65081"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_0P.java" startline="1" endline="25" pcid="41440"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_2P.java" startline="1" endline="27" pcid="65082"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_0P.java" startline="1" endline="25" pcid="41440"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_3P.java" startline="1" endline="27" pcid="65083"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_0P.java" startline="1" endline="25" pcid="41440"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_4P.java" startline="1" endline="27" pcid="65084"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03966_2P.java" startline="1" endline="26" pcid="41253"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03964_4P.java" startline="1" endline="26" pcid="65049"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03966_4P.java" startline="1" endline="25" pcid="48850"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_4P.java" startline="1" endline="25" pcid="67571"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03966_4P.java" startline="1" endline="25" pcid="48850"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_2P.java" startline="1" endline="26" pcid="67569"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03966_4P.java" startline="1" endline="25" pcid="48850"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_0P.java" startline="1" endline="25" pcid="67567"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03865_0P.java" startline="1" endline="24" pcid="33636"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03863_3P.java" startline="1" endline="25" pcid="67555"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03865_0P.java" startline="1" endline="24" pcid="33636"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03863_0P.java" startline="1" endline="24" pcid="67552"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_0P.java" startline="1" endline="24" pcid="47621"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_4P.java" startline="1" endline="24" pcid="65659"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_0P.java" startline="1" endline="24" pcid="47621"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_3P.java" startline="1" endline="24" pcid="65658"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_0P.java" startline="1" endline="24" pcid="47621"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_2P.java" startline="1" endline="24" pcid="65657"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_0P.java" startline="1" endline="24" pcid="47621"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_1P.java" startline="1" endline="24" pcid="65656"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_0P.java" startline="1" endline="24" pcid="47621"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_0P.java" startline="1" endline="24" pcid="65655"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_1P.java" startline="1" endline="24" pcid="47622"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_4P.java" startline="1" endline="24" pcid="65659"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_1P.java" startline="1" endline="24" pcid="47622"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_3P.java" startline="1" endline="24" pcid="65658"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_1P.java" startline="1" endline="24" pcid="47622"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_2P.java" startline="1" endline="24" pcid="65657"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_1P.java" startline="1" endline="24" pcid="47622"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_1P.java" startline="1" endline="24" pcid="65656"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_1P.java" startline="1" endline="24" pcid="47622"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_0P.java" startline="1" endline="24" pcid="65655"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_2P.java" startline="1" endline="24" pcid="47623"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_4P.java" startline="1" endline="24" pcid="65659"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_2P.java" startline="1" endline="24" pcid="47623"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_3P.java" startline="1" endline="24" pcid="65658"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_2P.java" startline="1" endline="24" pcid="47623"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_2P.java" startline="1" endline="24" pcid="65657"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_2P.java" startline="1" endline="24" pcid="47623"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_1P.java" startline="1" endline="24" pcid="65656"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_2P.java" startline="1" endline="24" pcid="47623"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_0P.java" startline="1" endline="24" pcid="65655"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_3P.java" startline="1" endline="25" pcid="47624"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_4P.java" startline="1" endline="24" pcid="65659"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_3P.java" startline="1" endline="25" pcid="47624"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_3P.java" startline="1" endline="24" pcid="65658"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_3P.java" startline="1" endline="25" pcid="47624"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_2P.java" startline="1" endline="24" pcid="65657"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_3P.java" startline="1" endline="25" pcid="47624"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_1P.java" startline="1" endline="24" pcid="65656"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_3P.java" startline="1" endline="25" pcid="47624"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_0P.java" startline="1" endline="24" pcid="65655"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_4P.java" startline="1" endline="24" pcid="47625"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_4P.java" startline="1" endline="24" pcid="65659"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_4P.java" startline="1" endline="24" pcid="47625"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_3P.java" startline="1" endline="24" pcid="65658"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_4P.java" startline="1" endline="24" pcid="47625"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_2P.java" startline="1" endline="24" pcid="65657"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_4P.java" startline="1" endline="24" pcid="47625"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_1P.java" startline="1" endline="24" pcid="65656"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_4P.java" startline="1" endline="24" pcid="47625"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_0P.java" startline="1" endline="24" pcid="65655"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03502_2P.java" startline="1" endline="23" pcid="32548"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03316_2P.java" startline="1" endline="23" pcid="67336"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03502_0P.java" startline="1" endline="24" pcid="32545"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03316_2P.java" startline="1" endline="23" pcid="67336"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_0P.java" startline="1" endline="25" pcid="33763"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_4P.java" startline="1" endline="25" pcid="67571"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_0P.java" startline="1" endline="25" pcid="33763"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_2P.java" startline="1" endline="26" pcid="67569"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_0P.java" startline="1" endline="25" pcid="33763"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_0P.java" startline="1" endline="25" pcid="67567"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_4P.java" startline="1" endline="25" pcid="33767"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_4P.java" startline="1" endline="25" pcid="67571"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_4P.java" startline="1" endline="25" pcid="33767"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_2P.java" startline="1" endline="26" pcid="67569"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_4P.java" startline="1" endline="25" pcid="33767"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_0P.java" startline="1" endline="25" pcid="67567"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_0P.java" startline="1" endline="23" pcid="40209"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_4P.java" startline="1" endline="23" pcid="64909"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_0P.java" startline="1" endline="23" pcid="40209"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_3P.java" startline="1" endline="22" pcid="64908"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_0P.java" startline="1" endline="23" pcid="40209"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_1P.java" startline="1" endline="23" pcid="64906"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_0P.java" startline="1" endline="23" pcid="40209"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_0P.java" startline="1" endline="23" pcid="64905"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_1P.java" startline="1" endline="23" pcid="40210"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_2P.java" startline="1" endline="23" pcid="64907"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_2P.java" startline="1" endline="23" pcid="40211"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_4P.java" startline="1" endline="23" pcid="64909"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_2P.java" startline="1" endline="23" pcid="40211"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_3P.java" startline="1" endline="22" pcid="64908"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_2P.java" startline="1" endline="23" pcid="40211"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_1P.java" startline="1" endline="23" pcid="64906"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_2P.java" startline="1" endline="23" pcid="40211"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_0P.java" startline="1" endline="23" pcid="64905"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_3P.java" startline="1" endline="22" pcid="40212"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_4P.java" startline="1" endline="23" pcid="64909"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_3P.java" startline="1" endline="22" pcid="40212"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_3P.java" startline="1" endline="22" pcid="64908"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_3P.java" startline="1" endline="22" pcid="40212"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_1P.java" startline="1" endline="23" pcid="64906"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_3P.java" startline="1" endline="22" pcid="40212"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_0P.java" startline="1" endline="23" pcid="64905"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_1P.java" startline="1" endline="26" pcid="33951"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_2P.java" startline="1" endline="26" pcid="67604"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_1P.java" startline="1" endline="26" pcid="33951"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p04026_3P.java" startline="1" endline="26" pcid="65928"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_4P.java" startline="1" endline="26" pcid="33955"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_2P.java" startline="1" endline="26" pcid="67604"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_4P.java" startline="1" endline="26" pcid="33955"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p04026_3P.java" startline="1" endline="26" pcid="65928"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04032_3P.java" startline="1" endline="26" pcid="56614"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_2P.java" startline="1" endline="26" pcid="67604"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04032_2P.java" startline="1" endline="26" pcid="56613"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_2P.java" startline="1" endline="26" pcid="67604"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04032_3P.java" startline="1" endline="26" pcid="56614"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p04026_3P.java" startline="1" endline="26" pcid="65928"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04032_2P.java" startline="1" endline="26" pcid="56613"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p04026_3P.java" startline="1" endline="26" pcid="65928"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03817_4P.java" startline="1" endline="23" pcid="56124"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03815_2P.java" startline="1" endline="23" pcid="66696"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_0P.java" startline="1" endline="22" pcid="55196"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_4P.java" startline="1" endline="22" pcid="66499"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_3P.java" startline="1" endline="22" pcid="55197"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_4P.java" startline="1" endline="22" pcid="66499"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_2P.java" startline="1" endline="22" pcid="55198"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_4P.java" startline="1" endline="22" pcid="66499"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_1P.java" startline="1" endline="22" pcid="55200"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_4P.java" startline="1" endline="22" pcid="66499"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_4P.java" startline="1" endline="22" pcid="55204"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_4P.java" startline="1" endline="22" pcid="66499"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03502_0P.java" startline="1" endline="22" pcid="40026"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_4P.java" startline="1" endline="22" pcid="66499"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_0P.java" startline="1" endline="22" pcid="55196"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_2P.java" startline="1" endline="22" pcid="66497"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_3P.java" startline="1" endline="22" pcid="55197"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_2P.java" startline="1" endline="22" pcid="66497"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_2P.java" startline="1" endline="22" pcid="55198"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_2P.java" startline="1" endline="22" pcid="66497"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_1P.java" startline="1" endline="22" pcid="55200"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_2P.java" startline="1" endline="22" pcid="66497"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_4P.java" startline="1" endline="22" pcid="55204"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_2P.java" startline="1" endline="22" pcid="66497"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03502_0P.java" startline="1" endline="22" pcid="40026"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_2P.java" startline="1" endline="22" pcid="66497"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_0P.java" startline="1" endline="22" pcid="55196"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_0P.java" startline="1" endline="22" pcid="66495"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_3P.java" startline="1" endline="22" pcid="55197"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_0P.java" startline="1" endline="22" pcid="66495"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_2P.java" startline="1" endline="22" pcid="55198"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_0P.java" startline="1" endline="22" pcid="66495"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_1P.java" startline="1" endline="22" pcid="55200"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_0P.java" startline="1" endline="22" pcid="66495"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03502_4P.java" startline="1" endline="22" pcid="55204"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_0P.java" startline="1" endline="22" pcid="66495"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03502_0P.java" startline="1" endline="22" pcid="40026"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_0P.java" startline="1" endline="22" pcid="66495"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03502_3P.java" startline="1" endline="24" pcid="32547"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03316_0P.java" startline="1" endline="23" pcid="67334"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03502_4P.java" startline="1" endline="24" pcid="32549"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03316_0P.java" startline="1" endline="23" pcid="67334"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03502_3P.java" startline="1" endline="24" pcid="32547"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03316_4P.java" startline="1" endline="23" pcid="67338"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03502_4P.java" startline="1" endline="24" pcid="32549"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03316_4P.java" startline="1" endline="23" pcid="67338"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03583_4P.java" startline="1" endline="25" pcid="32729"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03589_2P.java" startline="1" endline="24" pcid="67430"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_3P.java" startline="1" endline="25" pcid="33954"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_0P.java" startline="1" endline="26" pcid="67602"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_0P.java" startline="1" endline="25" pcid="33952"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_0P.java" startline="1" endline="26" pcid="67602"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_3P.java" startline="1" endline="25" pcid="33954"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_1P.java" startline="1" endline="26" pcid="67603"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_0P.java" startline="1" endline="25" pcid="33952"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_1P.java" startline="1" endline="26" pcid="67603"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_3P.java" startline="1" endline="25" pcid="33954"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_3P.java" startline="1" endline="25" pcid="67605"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_0P.java" startline="1" endline="25" pcid="33952"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_3P.java" startline="1" endline="25" pcid="67605"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_3P.java" startline="1" endline="25" pcid="33954"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_4P.java" startline="1" endline="25" pcid="67606"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_0P.java" startline="1" endline="25" pcid="33952"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_4P.java" startline="1" endline="25" pcid="67606"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_3P.java" startline="1" endline="25" pcid="33954"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p04026_2P.java" startline="1" endline="25" pcid="65927"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_0P.java" startline="1" endline="25" pcid="33952"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p04026_2P.java" startline="1" endline="25" pcid="65927"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03583_0P.java" startline="1" endline="25" pcid="47806"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03589_4P.java" startline="1" endline="25" pcid="65754"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03583_0P.java" startline="1" endline="25" pcid="47806"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03589_2P.java" startline="1" endline="25" pcid="65752"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03583_3P.java" startline="1" endline="25" pcid="47810"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03589_1P.java" startline="1" endline="25" pcid="65751"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03583_4P.java" startline="1" endline="24" pcid="47809"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03589_0P.java" startline="1" endline="25" pcid="65750"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03865_1P.java" startline="1" endline="23" pcid="33638"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_2P.java" startline="1" endline="23" pcid="65032"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_3P.java" startline="1" endline="19" pcid="56425"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_2P.java" startline="1" endline="21" pcid="66731"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_3P.java" startline="1" endline="19" pcid="56425"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_1P.java" startline="1" endline="21" pcid="66730"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_3P.java" startline="1" endline="19" pcid="56425"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_0P.java" startline="1" endline="21" pcid="66729"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_4P.java" startline="1" endline="21" pcid="56424"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_2P.java" startline="1" endline="21" pcid="66731"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_4P.java" startline="1" endline="21" pcid="56424"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_1P.java" startline="1" endline="21" pcid="66730"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_4P.java" startline="1" endline="21" pcid="56424"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_0P.java" startline="1" endline="21" pcid="66729"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_1P.java" startline="1" endline="21" pcid="56423"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_2P.java" startline="1" endline="21" pcid="66731"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_1P.java" startline="1" endline="21" pcid="56423"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_1P.java" startline="1" endline="21" pcid="66730"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_1P.java" startline="1" endline="21" pcid="56423"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_0P.java" startline="1" endline="21" pcid="66729"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03817_1P.java" startline="1" endline="19" pcid="56125"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03815_4P.java" startline="1" endline="19" pcid="66698"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03817_1P.java" startline="1" endline="19" pcid="56125"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03815_0P.java" startline="1" endline="19" pcid="66694"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03817_2P.java" startline="1" endline="19" pcid="56123"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03815_4P.java" startline="1" endline="19" pcid="66698"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03817_2P.java" startline="1" endline="19" pcid="56123"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03815_0P.java" startline="1" endline="19" pcid="66694"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03583_4P.java" startline="1" endline="21" pcid="55386"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03589_4P.java" startline="1" endline="21" pcid="66594"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03583_3P.java" startline="1" endline="21" pcid="55383"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03589_3P.java" startline="1" endline="21" pcid="66593"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03583_3P.java" startline="1" endline="21" pcid="55383"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03589_1P.java" startline="1" endline="21" pcid="66591"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p02701_0P.java" startline="1" endline="17" pcid="59979"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03470_2P.java" startline="1" endline="17" pcid="67385"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p02701_2P.java" startline="1" endline="17" pcid="59980"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03470_2P.java" startline="1" endline="17" pcid="67385"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p02701_3P.java" startline="1" endline="17" pcid="59981"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03470_2P.java" startline="1" endline="17" pcid="67385"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p02701_1P.java" startline="1" endline="17" pcid="59982"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03470_2P.java" startline="1" endline="17" pcid="67385"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p02701_4P.java" startline="1" endline="17" pcid="59983"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03470_2P.java" startline="1" endline="17" pcid="67385"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03260_4P.java" startline="1" endline="18" pcid="31704"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03455_2P.java" startline="1" endline="17" pcid="67380"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03260_4P.java" startline="1" endline="18" pcid="31704"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03455_1P.java" startline="1" endline="18" pcid="67379"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03260_3P.java" startline="1" endline="19" pcid="31702"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03455_2P.java" startline="1" endline="17" pcid="67380"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03260_3P.java" startline="1" endline="19" pcid="31702"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03455_1P.java" startline="1" endline="18" pcid="67379"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03260_1P.java" startline="1" endline="17" pcid="31700"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03455_4P.java" startline="1" endline="17" pcid="67382"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03260_0P.java" startline="1" endline="19" pcid="31698"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03455_2P.java" startline="1" endline="17" pcid="67380"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03260_0P.java" startline="1" endline="19" pcid="31698"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03455_1P.java" startline="1" endline="18" pcid="67379"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03260_4P.java" startline="1" endline="18" pcid="46762"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03455_2P.java" startline="1" endline="18" pcid="65702"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03260_3P.java" startline="1" endline="18" pcid="46763"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03455_2P.java" startline="1" endline="18" pcid="65702"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03260_4P.java" startline="1" endline="18" pcid="46762"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03455_1P.java" startline="1" endline="18" pcid="65701"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03260_3P.java" startline="1" endline="18" pcid="46763"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03455_1P.java" startline="1" endline="18" pcid="65701"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_1P.java" startline="1" endline="19" pcid="41121"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_0P.java" startline="1" endline="19" pcid="65030"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_0P.java" startline="1" endline="19" pcid="41122"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_0P.java" startline="1" endline="19" pcid="65030"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_2P.java" startline="1" endline="18" pcid="41123"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_0P.java" startline="1" endline="19" pcid="65030"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_4P.java" startline="1" endline="19" pcid="41124"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_0P.java" startline="1" endline="19" pcid="65030"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_3P.java" startline="1" endline="19" pcid="41125"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_1P.java" startline="1" endline="19" pcid="65031"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_1P.java" startline="1" endline="19" pcid="41121"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_3P.java" startline="1" endline="19" pcid="65033"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_0P.java" startline="1" endline="19" pcid="41122"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_3P.java" startline="1" endline="19" pcid="65033"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_2P.java" startline="1" endline="18" pcid="41123"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_3P.java" startline="1" endline="19" pcid="65033"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_4P.java" startline="1" endline="19" pcid="41124"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_3P.java" startline="1" endline="19" pcid="65033"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03817_3P.java" startline="1" endline="16" pcid="56126"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03815_1P.java" startline="1" endline="19" pcid="66695"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03865_1P.java" startline="1" endline="16" pcid="56292"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03863_0P.java" startline="1" endline="16" pcid="66714"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03865_2P.java" startline="1" endline="16" pcid="56293"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03863_0P.java" startline="1" endline="16" pcid="66714"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03865_3P.java" startline="1" endline="15" pcid="56294"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03863_0P.java" startline="1" endline="16" pcid="66714"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03865_4P.java" startline="1" endline="15" pcid="56295"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03863_0P.java" startline="1" endline="16" pcid="66714"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../preprocessed_sheetSplit/train/0/s204249210P.java" startline="1" endline="16" pcid="3776"></source>
+<source file="../preprocessed_sheetSplit/test/0/s779309433P.java" startline="1" endline="15" pcid="63454"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03502_1P.java" startline="1" endline="15" pcid="40027"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03316_3P.java" startline="1" endline="15" pcid="64813"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_0P.java" startline="1" endline="16" pcid="44809"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_0P.java" startline="1" endline="14" pcid="64860"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_0P.java" startline="1" endline="16" pcid="44809"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_1P.java" startline="1" endline="14" pcid="64861"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_0P.java" startline="1" endline="16" pcid="44809"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_2P.java" startline="1" endline="14" pcid="64862"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_0P.java" startline="1" endline="16" pcid="44809"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_3P.java" startline="1" endline="14" pcid="64863"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_0P.java" startline="1" endline="16" pcid="44809"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_3P.java" startline="1" endline="14" pcid="66548"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_0P.java" startline="1" endline="16" pcid="44809"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_2P.java" startline="1" endline="16" pcid="66547"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_0P.java" startline="1" endline="16" pcid="44809"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_1P.java" startline="1" endline="16" pcid="66546"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_1P.java" startline="1" endline="16" pcid="44810"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_0P.java" startline="1" endline="14" pcid="64860"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_1P.java" startline="1" endline="16" pcid="44810"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_1P.java" startline="1" endline="14" pcid="64861"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_1P.java" startline="1" endline="16" pcid="44810"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_2P.java" startline="1" endline="14" pcid="64862"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_1P.java" startline="1" endline="16" pcid="44810"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_3P.java" startline="1" endline="14" pcid="64863"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_1P.java" startline="1" endline="16" pcid="44810"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_3P.java" startline="1" endline="14" pcid="66548"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_1P.java" startline="1" endline="16" pcid="44810"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_2P.java" startline="1" endline="16" pcid="66547"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p02701_1P.java" startline="1" endline="16" pcid="44810"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_1P.java" startline="1" endline="16" pcid="66546"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03816_3P.java" startline="1" endline="16" pcid="48544"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_0P.java" startline="1" endline="14" pcid="64860"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_0P.java" startline="1" endline="14" pcid="37319"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_0P.java" startline="1" endline="14" pcid="64860"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_1P.java" startline="1" endline="14" pcid="37320"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_0P.java" startline="1" endline="14" pcid="64860"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_2P.java" startline="1" endline="14" pcid="37323"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_0P.java" startline="1" endline="14" pcid="64860"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03816_3P.java" startline="1" endline="16" pcid="48544"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_1P.java" startline="1" endline="14" pcid="64861"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_0P.java" startline="1" endline="14" pcid="37319"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_1P.java" startline="1" endline="14" pcid="64861"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_1P.java" startline="1" endline="14" pcid="37320"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_1P.java" startline="1" endline="14" pcid="64861"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_2P.java" startline="1" endline="14" pcid="37323"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_1P.java" startline="1" endline="14" pcid="64861"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03816_3P.java" startline="1" endline="16" pcid="48544"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_2P.java" startline="1" endline="14" pcid="64862"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_0P.java" startline="1" endline="14" pcid="37319"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_2P.java" startline="1" endline="14" pcid="64862"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_1P.java" startline="1" endline="14" pcid="37320"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_2P.java" startline="1" endline="14" pcid="64862"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_2P.java" startline="1" endline="14" pcid="37323"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_2P.java" startline="1" endline="14" pcid="64862"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03816_3P.java" startline="1" endline="16" pcid="48544"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_3P.java" startline="1" endline="14" pcid="64863"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_0P.java" startline="1" endline="14" pcid="37319"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_3P.java" startline="1" endline="14" pcid="64863"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_1P.java" startline="1" endline="14" pcid="37320"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_3P.java" startline="1" endline="14" pcid="64863"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_2P.java" startline="1" endline="14" pcid="37323"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03470_3P.java" startline="1" endline="14" pcid="64863"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03816_3P.java" startline="1" endline="16" pcid="48544"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_3P.java" startline="1" endline="14" pcid="66548"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03816_3P.java" startline="1" endline="16" pcid="48544"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_2P.java" startline="1" endline="16" pcid="66547"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03816_3P.java" startline="1" endline="16" pcid="48544"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_1P.java" startline="1" endline="16" pcid="66546"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_0P.java" startline="1" endline="14" pcid="37319"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_3P.java" startline="1" endline="14" pcid="66548"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_1P.java" startline="1" endline="14" pcid="37320"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_3P.java" startline="1" endline="14" pcid="66548"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_2P.java" startline="1" endline="14" pcid="37323"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_3P.java" startline="1" endline="14" pcid="66548"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_0P.java" startline="1" endline="14" pcid="37319"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_2P.java" startline="1" endline="16" pcid="66547"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_1P.java" startline="1" endline="14" pcid="37320"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_2P.java" startline="1" endline="16" pcid="66547"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_2P.java" startline="1" endline="14" pcid="37323"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_2P.java" startline="1" endline="16" pcid="66547"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_0P.java" startline="1" endline="14" pcid="37319"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_1P.java" startline="1" endline="16" pcid="66546"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_1P.java" startline="1" endline="14" pcid="37320"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_1P.java" startline="1" endline="16" pcid="66546"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p02701_2P.java" startline="1" endline="14" pcid="37323"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03470_1P.java" startline="1" endline="16" pcid="66546"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_3P.java" startline="1" endline="13" pcid="57686"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_0P.java" startline="1" endline="12" pcid="65390"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_2P.java" startline="1" endline="13" pcid="57685"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_0P.java" startline="1" endline="12" pcid="65390"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_1P.java" startline="1" endline="12" pcid="57684"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_0P.java" startline="1" endline="12" pcid="65390"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_0P.java" startline="1" endline="12" pcid="42507"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_0P.java" startline="1" endline="12" pcid="65390"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_2P.java" startline="1" endline="14" pcid="42509"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_0P.java" startline="1" endline="12" pcid="65390"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_3P.java" startline="1" endline="12" pcid="42510"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_0P.java" startline="1" endline="12" pcid="65390"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_4P.java" startline="1" endline="12" pcid="42511"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_0P.java" startline="1" endline="12" pcid="65390"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_3P.java" startline="1" endline="13" pcid="57686"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_1P.java" startline="1" endline="12" pcid="65391"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_2P.java" startline="1" endline="13" pcid="57685"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_1P.java" startline="1" endline="12" pcid="65391"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_1P.java" startline="1" endline="12" pcid="57684"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_1P.java" startline="1" endline="12" pcid="65391"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_0P.java" startline="1" endline="12" pcid="42507"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_1P.java" startline="1" endline="12" pcid="65391"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_2P.java" startline="1" endline="14" pcid="42509"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_1P.java" startline="1" endline="12" pcid="65391"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_3P.java" startline="1" endline="12" pcid="42510"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_1P.java" startline="1" endline="12" pcid="65391"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_4P.java" startline="1" endline="12" pcid="42511"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_1P.java" startline="1" endline="12" pcid="65391"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_3P.java" startline="1" endline="13" pcid="57686"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_2P.java" startline="1" endline="12" pcid="65392"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_2P.java" startline="1" endline="13" pcid="57685"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_2P.java" startline="1" endline="12" pcid="65392"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_1P.java" startline="1" endline="12" pcid="57684"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_2P.java" startline="1" endline="12" pcid="65392"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_0P.java" startline="1" endline="12" pcid="42507"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_2P.java" startline="1" endline="12" pcid="65392"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_2P.java" startline="1" endline="14" pcid="42509"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_2P.java" startline="1" endline="12" pcid="65392"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_3P.java" startline="1" endline="12" pcid="42510"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_2P.java" startline="1" endline="12" pcid="65392"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_4P.java" startline="1" endline="12" pcid="42511"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_2P.java" startline="1" endline="12" pcid="65392"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_3P.java" startline="1" endline="13" pcid="57686"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_4P.java" startline="1" endline="12" pcid="65394"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_2P.java" startline="1" endline="13" pcid="57685"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_4P.java" startline="1" endline="12" pcid="65394"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_1P.java" startline="1" endline="12" pcid="57684"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_4P.java" startline="1" endline="12" pcid="65394"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_0P.java" startline="1" endline="12" pcid="42507"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_4P.java" startline="1" endline="12" pcid="65394"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_2P.java" startline="1" endline="14" pcid="42509"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_4P.java" startline="1" endline="12" pcid="65394"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_3P.java" startline="1" endline="12" pcid="42510"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_4P.java" startline="1" endline="12" pcid="65394"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_4P.java" startline="1" endline="12" pcid="42511"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p02657_4P.java" startline="1" endline="12" pcid="65394"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03817_1P.java" startline="1" endline="14" pcid="48548"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03815_0P.java" startline="1" endline="14" pcid="65855"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_3P.java" startline="1" endline="13" pcid="57686"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_4P.java" startline="1" endline="12" pcid="67077"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_2P.java" startline="1" endline="13" pcid="57685"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_4P.java" startline="1" endline="12" pcid="67077"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_1P.java" startline="1" endline="12" pcid="57684"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_4P.java" startline="1" endline="12" pcid="67077"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_0P.java" startline="1" endline="12" pcid="42507"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_4P.java" startline="1" endline="12" pcid="67077"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_2P.java" startline="1" endline="14" pcid="42509"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_4P.java" startline="1" endline="12" pcid="67077"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_3P.java" startline="1" endline="12" pcid="42510"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_4P.java" startline="1" endline="12" pcid="67077"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_4P.java" startline="1" endline="12" pcid="42511"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_4P.java" startline="1" endline="12" pcid="67077"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_3P.java" startline="1" endline="13" pcid="57686"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_3P.java" startline="1" endline="12" pcid="67076"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_2P.java" startline="1" endline="13" pcid="57685"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_3P.java" startline="1" endline="12" pcid="67076"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_1P.java" startline="1" endline="12" pcid="57684"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_3P.java" startline="1" endline="12" pcid="67076"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_0P.java" startline="1" endline="12" pcid="42507"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_3P.java" startline="1" endline="12" pcid="67076"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_2P.java" startline="1" endline="14" pcid="42509"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_3P.java" startline="1" endline="12" pcid="67076"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_3P.java" startline="1" endline="12" pcid="42510"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_3P.java" startline="1" endline="12" pcid="67076"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_4P.java" startline="1" endline="12" pcid="42511"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_3P.java" startline="1" endline="12" pcid="67076"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_3P.java" startline="1" endline="13" pcid="57686"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_2P.java" startline="1" endline="12" pcid="67075"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_2P.java" startline="1" endline="13" pcid="57685"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_2P.java" startline="1" endline="12" pcid="67075"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_1P.java" startline="1" endline="12" pcid="57684"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_2P.java" startline="1" endline="12" pcid="67075"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_0P.java" startline="1" endline="12" pcid="42507"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_2P.java" startline="1" endline="12" pcid="67075"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_2P.java" startline="1" endline="14" pcid="42509"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_2P.java" startline="1" endline="12" pcid="67075"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_3P.java" startline="1" endline="12" pcid="42510"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_2P.java" startline="1" endline="12" pcid="67075"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_4P.java" startline="1" endline="12" pcid="42511"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_2P.java" startline="1" endline="12" pcid="67075"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_3P.java" startline="1" endline="13" pcid="57686"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_1P.java" startline="1" endline="12" pcid="67074"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_2P.java" startline="1" endline="13" pcid="57685"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_1P.java" startline="1" endline="12" pcid="67074"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p00290_1P.java" startline="1" endline="12" pcid="57684"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_1P.java" startline="1" endline="12" pcid="67074"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_0P.java" startline="1" endline="12" pcid="42507"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_1P.java" startline="1" endline="12" pcid="67074"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_2P.java" startline="1" endline="14" pcid="42509"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_1P.java" startline="1" endline="12" pcid="67074"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_3P.java" startline="1" endline="12" pcid="42510"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_1P.java" startline="1" endline="12" pcid="67074"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p00290_4P.java" startline="1" endline="12" pcid="42511"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p02657_1P.java" startline="1" endline="12" pcid="67074"></source>
+</clone>
+
+</clones>

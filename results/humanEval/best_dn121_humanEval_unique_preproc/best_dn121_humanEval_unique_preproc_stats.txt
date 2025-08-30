@@ -1,0 +1,29 @@
+Best model saved at epoch 5 with accuracy: 80.00%
+
+
+
+=== METRICS STATS ===
+
+Model: best_dn121_humanEval_unique_preproc
+------------------------------
+ROC AUC: 0.8450
+MCC score: 0.4270
+F1 Score: 0.7447
+Recall: 0.8750
+Precision: 0.6481
+Accuracy: 70.00%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label    Samples  Average Confidence Max Confidence Min Confidence
+-----------------------------------------------------------------------------------------
+best_dn121_humanEval_unique_preproc Student  21       0.765              0.986          0.532         
+best_dn121_humanEval_unique_preproc AI       35       0.892              0.995          0.594         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+=== TRAINING TIME ===
+
+Total training time: 116.02 seconds
+Optimal training time: 30.15 seconds

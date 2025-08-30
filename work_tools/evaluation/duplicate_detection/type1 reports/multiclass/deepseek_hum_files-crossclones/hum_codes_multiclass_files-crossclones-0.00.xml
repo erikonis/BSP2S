@@ -1,0 +1,51 @@
+<clones>
+<systeminfo processor="nicad6" system="hum_codes_multiclass" system2="ai_codes/deepseek" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16892" npairs="9"/>
+<runinfo ncompares="2354779" cputime="379908"/>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s061879748P.java" startline="1" endline="21" pcid="540"></source>
+<source file="../ai_codes/deepseek/deepseek_p03302_4P.java" startline="1" endline="18" pcid="14445"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s061879748P.java" startline="1" endline="21" pcid="540"></source>
+<source file="../ai_codes/deepseek/deepseek_p03302_3P.java" startline="1" endline="18" pcid="14444"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s061879748P.java" startline="1" endline="21" pcid="540"></source>
+<source file="../ai_codes/deepseek/deepseek_p03302_2P.java" startline="1" endline="18" pcid="14443"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s061879748P.java" startline="1" endline="21" pcid="540"></source>
+<source file="../ai_codes/deepseek/deepseek_p03302_1P.java" startline="1" endline="18" pcid="14442"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s061879748P.java" startline="1" endline="21" pcid="540"></source>
+<source file="../ai_codes/deepseek/deepseek_p03302_0P.java" startline="1" endline="18" pcid="14441"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../hum_codes_multiclass/s110563723P.java" startline="1" endline="17" pcid="915"></source>
+<source file="../ai_codes/deepseek/deepseek_p03759_4P.java" startline="1" endline="17" pcid="16058"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../hum_codes_multiclass/s110563723P.java" startline="1" endline="17" pcid="915"></source>
+<source file="../ai_codes/deepseek/deepseek_p03759_2P.java" startline="1" endline="17" pcid="16056"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_multiclass/s726306509P.java" startline="1" endline="17" pcid="6105"></source>
+<source file="../ai_codes/deepseek/deepseek_p02957_1P.java" startline="1" endline="16" pcid="13118"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_multiclass/s798126232P.java" startline="1" endline="14" pcid="6724"></source>
+<source file="../ai_codes/deepseek/deepseek_p03997_0P.java" startline="1" endline="13" pcid="16683"></source>
+</clone>
+
+</clones>

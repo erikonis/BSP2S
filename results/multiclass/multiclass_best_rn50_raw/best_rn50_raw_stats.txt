@@ -1,0 +1,33 @@
+Best model saved at epoch 16 with accuracy: 88.95%
+
+
+
+=== METRICS STATS ===
+
+Model: best_rn50_raw
+------------------------------
+ROC AUC: 0.9854
+MCC score: 0.8622
+F1 Score: 0.8898
+Recall: 0.8897
+Precision: 0.8901
+Accuracy: 88.97%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label            Samples  Average Confidence Max Confidence Min Confidence
+-------------------------------------------------------------------------------------------------
+best_rn50_raw          human            802      0.980              1.000          0.402         
+best_rn50_raw          chatgpt          728      0.880              1.000          0.277         
+best_rn50_raw          claude           787      0.956              1.000          0.375         
+best_rn50_raw          gemini           772      0.935              1.000          0.448         
+best_rn50_raw          deepseek         679      0.915              1.000          0.349         
+
+Table: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+
+=== TRAINING TIME ===
+
+Total training time: 6775.98 seconds
+Optimal training time: 3537.38 seconds

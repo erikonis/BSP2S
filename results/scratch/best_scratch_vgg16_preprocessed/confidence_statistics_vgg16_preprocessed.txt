@@ -1,0 +1,6 @@
+Model      Dataset      Label    Samples  Average Confidence Max Confidence Min Confidence
+------------------------------------------------------------------------------------------
+vgg16      preprocessed Student  3191     0.984              1.000          0.509         
+vgg16      preprocessed AI       3302     0.959              1.000          0.504         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes

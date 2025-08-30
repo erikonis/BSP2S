@@ -1,0 +1,31 @@
+<clones>
+<systeminfo processor="nicad6" system="hum_codes_multiclass" system2="ai_codes/claude" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16922" npairs="5"/>
+<runinfo ncompares="2434675" cputime="428715"/>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_multiclass/s726306509P.java" startline="1" endline="17" pcid="6105"></source>
+<source file="../ai_codes/claude/claude_p02957_1P.java" startline="1" endline="16" pcid="13138"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_multiclass/s617909226P.java" startline="1" endline="18" pcid="5183"></source>
+<source file="../ai_codes/claude/claude_p02676_4P.java" startline="1" endline="16" pcid="11976"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_multiclass/s617909226P.java" startline="1" endline="18" pcid="5183"></source>
+<source file="../ai_codes/claude/claude_p02676_3P.java" startline="1" endline="16" pcid="11975"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_multiclass/s617909226P.java" startline="1" endline="18" pcid="5183"></source>
+<source file="../ai_codes/claude/claude_p02676_1P.java" startline="1" endline="16" pcid="11973"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_multiclass/s726306509P.java" startline="1" endline="17" pcid="6105"></source>
+<source file="../ai_codes/claude/claude_p02957_2P.java" startline="1" endline="16" pcid="13139"></source>
+</clone>
+
+</clones>

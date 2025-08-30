@@ -1,0 +1,1131 @@
+<clones>
+<systeminfo processor="nicad6" system="hum_codes" system2="ai_codes" granularity="files-blind" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="67612" npairs="846"/>
+<runinfo ncompares="37118346" cputime="1959472"/>
+<classinfo nclasses="134"/>
+
+<class classid="1" nclones="5" nlines="19" similarity="100">
+<source file="../hum_codes/s616926222P.java" startline="1" endline="25" pcid="218"></source>
+<source file="../ai_codes/claude_p02886_1P.java" startline="1" endline="24" pcid="37015"></source>
+<source file="../ai_codes/claude_p02886_2P.java" startline="1" endline="24" pcid="37016"></source>
+<source file="../ai_codes/claude_p02886_4P.java" startline="1" endline="24" pcid="37018"></source>
+<source file="../ai_codes/claude_p02886_0P.java" startline="1" endline="24" pcid="37014"></source>
+</class>
+
+<class classid="2" nclones="5" nlines="14" similarity="100">
+<source file="../hum_codes/s621888968P.java" startline="1" endline="18" pcid="371"></source>
+<source file="../ai_codes/deepseek_p02765_4P.java" startline="1" endline="16" pcid="44929"></source>
+<source file="../ai_codes/claude_p02765_0P.java" startline="1" endline="16" pcid="36520"></source>
+<source file="../hum_codes/s563326320P.java" startline="1" endline="17" pcid="9334"></source>
+<source file="../hum_codes/s197501754P.java" startline="1" endline="14" pcid="24844"></source>
+</class>
+
+<class classid="3" nclones="6" nlines="10" similarity="100">
+<source file="../hum_codes/s624782978P.java" startline="1" endline="14" pcid="462"></source>
+<source file="../ai_codes/deepseek_p03997_0P.java" startline="1" endline="13" pcid="49248"></source>
+<source file="../hum_codes/s734792783P.java" startline="1" endline="14" pcid="2033"></source>
+<source file="../hum_codes/s300046550P.java" startline="1" endline="16" pcid="13164"></source>
+<source file="../hum_codes/s854014023P.java" startline="1" endline="13" pcid="8947"></source>
+<source file="../hum_codes/s789025168P.java" startline="1" endline="13" pcid="3619"></source>
+</class>
+
+<class classid="4" nclones="8" nlines="10" similarity="100">
+<source file="../hum_codes/s590174077P.java" startline="1" endline="12" pcid="1010"></source>
+<source file="../ai_codes/claude_p02717_4P.java" startline="1" endline="13" pcid="36329"></source>
+<source file="../ai_codes/chatgpt_p02717_1P.java" startline="1" endline="12" pcid="58246"></source>
+<source file="../ai_codes/claude_p02717_0P.java" startline="1" endline="13" pcid="36325"></source>
+<source file="../hum_codes/s684353770P.java" startline="1" endline="14" pcid="8395"></source>
+<source file="../hum_codes/s836767047P.java" startline="1" endline="17" pcid="4972"></source>
+<source file="../hum_codes/s571118289P.java" startline="1" endline="14" pcid="8171"></source>
+<source file="../hum_codes/s507674046P.java" startline="1" endline="12" pcid="22158"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="14" similarity="100">
+<source file="../hum_codes/s603980384P.java" startline="1" endline="17" pcid="1161"></source>
+<source file="../ai_codes/claude_p03624_0P.java" startline="1" endline="18" pcid="39738"></source>
+</class>
+
+<class classid="6" nclones="11" nlines="12" similarity="100">
+<source file="../hum_codes/s604284019P.java" startline="1" endline="16" pcid="1170"></source>
+<source file="../ai_codes/deepseek_p03501_2P.java" startline="1" endline="16" pcid="47778"></source>
+<source file="../ai_codes/deepseek_p03501_4P.java" startline="1" endline="16" pcid="47780"></source>
+<source file="../ai_codes/deepseek_p03501_1P.java" startline="1" endline="16" pcid="47777"></source>
+<source file="../ai_codes/chatgpt_p03501_0P.java" startline="1" endline="16" pcid="58799"></source>
+<source file="../ai_codes/chatgpt_p03501_2P.java" startline="1" endline="15" pcid="58801"></source>
+<source file="../ai_codes/chatgpt_p03501_3P.java" startline="1" endline="14" pcid="58802"></source>
+<source file="../ai_codes/deepseek_p03501_0P.java" startline="1" endline="16" pcid="47776"></source>
+<source file="../ai_codes/claude_p02981_2P.java" startline="1" endline="16" pcid="37370"></source>
+<source file="../ai_codes/claude_p02981_4P.java" startline="1" endline="16" pcid="37372"></source>
+<source file="../ai_codes/chatgpt_p03501_4P.java" startline="1" endline="16" pcid="58803"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="17" similarity="100">
+<source file="../hum_codes/s605517720P.java" startline="1" endline="21" pcid="1219"></source>
+<source file="../ai_codes/claude_p03547_1P.java" startline="1" endline="18" pcid="39445"></source>
+</class>
+
+<class classid="8" nclones="6" nlines="15" similarity="100">
+<source file="../hum_codes/s605769058P.java" startline="1" endline="21" pcid="1234"></source>
+<source file="../ai_codes/deepseek_p02396_0P.java" startline="1" endline="18" pcid="43802"></source>
+<source file="../ai_codes/deepseek_p02396_1P.java" startline="1" endline="17" pcid="43803"></source>
+<source file="../ai_codes/deepseek_p02396_3P.java" startline="1" endline="17" pcid="43805"></source>
+<source file="../ai_codes/deepseek_p02396_4P.java" startline="1" endline="17" pcid="43806"></source>
+<source file="../hum_codes/s587693812P.java" startline="1" endline="18" pcid="10765"></source>
+</class>
+
+<class classid="9" nclones="3" nlines="17" similarity="100">
+<source file="../hum_codes/s607266260P.java" startline="1" endline="18" pcid="1290"></source>
+<source file="../ai_codes/deepseek_p03149_2P.java" startline="1" endline="18" pcid="46408"></source>
+<source file="../ai_codes/deepseek_p03149_1P.java" startline="1" endline="20" pcid="46407"></source>
+</class>
+
+<class classid="10" nclones="2" nlines="11" similarity="100">
+<source file="../hum_codes/s642138155P.java" startline="1" endline="15" pcid="1437"></source>
+<source file="../ai_codes/claude_p03992_2P.java" startline="1" endline="16" pcid="40835"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="10" similarity="100">
+<source file="../hum_codes/s732523424P.java" startline="1" endline="12" pcid="1971"></source>
+<source file="../ai_codes/gemini_p03047_3P.java" startline="1" endline="12" pcid="54453"></source>
+</class>
+
+<class classid="12" nclones="6" nlines="13" similarity="100">
+<source file="../hum_codes/s744818167P.java" startline="1" endline="16" pcid="2332"></source>
+<source file="../ai_codes/chatgpt_p03605_3P.java" startline="1" endline="14" pcid="59051"></source>
+<source file="../ai_codes/chatgpt_p03605_2P.java" startline="1" endline="14" pcid="59050"></source>
+<source file="../ai_codes/chatgpt_p03605_1P.java" startline="1" endline="15" pcid="59049"></source>
+<source file="../ai_codes/chatgpt_p03605_0P.java" startline="1" endline="14" pcid="63288"></source>
+<source file="../ai_codes/chatgpt_p03605_4P.java" startline="1" endline="15" pcid="59052"></source>
+</class>
+
+<class classid="13" nclones="6" nlines="12" similarity="100">
+<source file="../hum_codes/s751284673P.java" startline="1" endline="14" pcid="2503"></source>
+<source file="../ai_codes/deepseek_p03155_1P.java" startline="1" endline="15" pcid="46427"></source>
+<source file="../ai_codes/deepseek_p03155_3P.java" startline="1" endline="15" pcid="46429"></source>
+<source file="../ai_codes/claude_p03155_4P.java" startline="1" endline="16" pcid="38030"></source>
+<source file="../ai_codes/claude_p03155_2P.java" startline="1" endline="16" pcid="38028"></source>
+<source file="../ai_codes/deepseek_p03155_0P.java" startline="1" endline="15" pcid="46426"></source>
+</class>
+
+<class classid="14" nclones="6" nlines="19" similarity="100">
+<source file="../hum_codes/s754229896P.java" startline="1" endline="24" pcid="2583"></source>
+<source file="../ai_codes/deepseek_p02628_1P.java" startline="1" endline="21" pcid="44394"></source>
+<source file="../ai_codes/deepseek_p02628_2P.java" startline="1" endline="22" pcid="44395"></source>
+<source file="../ai_codes/deepseek_p02628_3P.java" startline="1" endline="21" pcid="44396"></source>
+<source file="../ai_codes/deepseek_p02628_0P.java" startline="1" endline="21" pcid="44393"></source>
+<source file="../hum_codes/s077863331P.java" startline="1" endline="30" pcid="10520"></source>
+</class>
+
+<class classid="15" nclones="8" nlines="14" similarity="100">
+<source file="../hum_codes/s767231133P.java" startline="1" endline="15" pcid="2938"></source>
+<source file="../ai_codes/deepseek_p02933_0P.java" startline="1" endline="16" pcid="45599"></source>
+<source file="../ai_codes/deepseek_p02933_2P.java" startline="1" endline="15" pcid="45601"></source>
+<source file="../ai_codes/claude_p02933_0P.java" startline="1" endline="16" pcid="37198"></source>
+<source file="../ai_codes/claude_p02933_4P.java" startline="1" endline="16" pcid="37202"></source>
+<source file="../ai_codes/claude_p02933_1P.java" startline="1" endline="16" pcid="37199"></source>
+<source file="../ai_codes/deepseek_p02933_3P.java" startline="1" endline="16" pcid="45602"></source>
+<source file="../ai_codes/claude_p02933_3P.java" startline="1" endline="16" pcid="37201"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="12" similarity="100">
+<source file="../hum_codes/s767751827P.java" startline="1" endline="13" pcid="2950"></source>
+<source file="../ai_codes/deepseek_p03671_3P.java" startline="1" endline="14" pcid="48317"></source>
+</class>
+
+<class classid="17" nclones="13" nlines="10" similarity="100">
+<source file="../hum_codes/s769706248P.java" startline="1" endline="15" pcid="3010"></source>
+<source file="../ai_codes/chatgpt_p00310_0P.java" startline="1" endline="12" pcid="62065"></source>
+<source file="../ai_codes/deepseek_p00310_1P.java" startline="1" endline="12" pcid="42150"></source>
+<source file="../ai_codes/chatgpt_p00310_1P.java" startline="1" endline="12" pcid="62066"></source>
+<source file="../ai_codes/deepseek_p00310_0P.java" startline="1" endline="12" pcid="42149"></source>
+<source file="../ai_codes/deepseek_p00310_2P.java" startline="1" endline="12" pcid="42151"></source>
+<source file="../ai_codes/deepseek_p00310_4P.java" startline="1" endline="12" pcid="42153"></source>
+<source file="../ai_codes/chatgpt_p00310_4P.java" startline="1" endline="12" pcid="62069"></source>
+<source file="../ai_codes/deepseek_p00310_3P.java" startline="1" endline="12" pcid="42152"></source>
+<source file="../ai_codes/chatgpt_p00310_3P.java" startline="1" endline="12" pcid="62068"></source>
+<source file="../hum_codes/s347097212P.java" startline="1" endline="12" pcid="17898"></source>
+<source file="../hum_codes/s375558306P.java" startline="1" endline="12" pcid="21281"></source>
+<source file="../hum_codes/s087756048P.java" startline="1" endline="14" pcid="33720"></source>
+</class>
+
+<class classid="18" nclones="5" nlines="20" similarity="100">
+<source file="../hum_codes/s770481328P.java" startline="1" endline="20" pcid="3030"></source>
+<source file="../ai_codes/deepseek_p03419_1P.java" startline="1" endline="20" pcid="47468"></source>
+<source file="../ai_codes/deepseek_p03419_0P.java" startline="1" endline="20" pcid="47467"></source>
+<source file="../ai_codes/deepseek_p03419_4P.java" startline="1" endline="20" pcid="47471"></source>
+<source file="../ai_codes/deepseek_p03417_2P.java" startline="1" endline="20" pcid="47459"></source>
+</class>
+
+<class classid="19" nclones="9" nlines="10" similarity="100">
+<source file="../hum_codes/s785389756P.java" startline="1" endline="15" pcid="3494"></source>
+<source file="../ai_codes/gemini_p03834_1P.java" startline="1" endline="12" pcid="57265"></source>
+<source file="../ai_codes/gemini_p03834_0P.java" startline="1" endline="12" pcid="57264"></source>
+<source file="../ai_codes/claude_p03834_4P.java" startline="1" endline="15" pcid="40504"></source>
+<source file="../ai_codes/claude_p03834_3P.java" startline="1" endline="15" pcid="40503"></source>
+<source file="../ai_codes/claude_p03834_1P.java" startline="1" endline="14" pcid="40501"></source>
+<source file="../ai_codes/gemini_p03834_2P.java" startline="1" endline="13" pcid="57266"></source>
+<source file="../ai_codes/gemini_p03834_3P.java" startline="1" endline="13" pcid="57267"></source>
+<source file="../ai_codes/gemini_p03834_4P.java" startline="1" endline="12" pcid="57268"></source>
+</class>
+
+<class classid="20" nclones="7" nlines="12" similarity="100">
+<source file="../hum_codes/s792237191P.java" startline="1" endline="14" pcid="3732"></source>
+<source file="../ai_codes/deepseek_p02390_1P.java" startline="1" endline="16" pcid="43778"></source>
+<source file="../ai_codes/chatgpt_p02390_1P.java" startline="1" endline="14" pcid="66752"></source>
+<source file="../ai_codes/deepseek_p02390_4P.java" startline="1" endline="16" pcid="43781"></source>
+<source file="../ai_codes/deepseek_p02390_3P.java" startline="1" endline="16" pcid="43780"></source>
+<source file="../ai_codes/deepseek_p02390_2P.java" startline="1" endline="16" pcid="43779"></source>
+<source file="../ai_codes/deepseek_p02390_0P.java" startline="1" endline="16" pcid="43777"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="10" similarity="100">
+<source file="../hum_codes/s796974856P.java" startline="1" endline="15" pcid="3861"></source>
+<source file="../ai_codes/deepseek_p03548_4P.java" startline="1" endline="13" pcid="47850"></source>
+</class>
+
+<class classid="22" nclones="9" nlines="14" similarity="100">
+<source file="../hum_codes/s807680878P.java" startline="1" endline="18" pcid="4166"></source>
+<source file="../ai_codes/deepseek_p02699_2P.java" startline="1" endline="16" pcid="44654"></source>
+<source file="../ai_codes/deepseek_p02699_0P.java" startline="1" endline="16" pcid="44652"></source>
+<source file="../ai_codes/claude_p02699_0P.java" startline="1" endline="16" pcid="36247"></source>
+<source file="../ai_codes/chatgpt_p02699_3P.java" startline="1" endline="15" pcid="58170"></source>
+<source file="../ai_codes/claude_p02699_2P.java" startline="1" endline="16" pcid="36249"></source>
+<source file="../ai_codes/chatgpt_p02699_2P.java" startline="1" endline="15" pcid="58169"></source>
+<source file="../hum_codes/s545031296P.java" startline="1" endline="19" pcid="18411"></source>
+<source file="../hum_codes/s250950440P.java" startline="1" endline="19" pcid="21841"></source>
+</class>
+
+<class classid="23" nclones="5" nlines="15" similarity="100">
+<source file="../hum_codes/s817243344P.java" startline="1" endline="18" pcid="4410"></source>
+<source file="../ai_codes/claude_p02835_4P.java" startline="1" endline="17" pcid="36818"></source>
+<source file="../ai_codes/claude_p02835_2P.java" startline="1" endline="17" pcid="36816"></source>
+<source file="../ai_codes/claude_p02835_1P.java" startline="1" endline="17" pcid="36815"></source>
+<source file="../hum_codes/s862774890P.java" startline="1" endline="20" pcid="5764"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="13" similarity="100">
+<source file="../hum_codes/s823160211P.java" startline="1" endline="21" pcid="4556"></source>
+<source file="../ai_codes/chatgpt_p02934_1P.java" startline="1" endline="15" pcid="65720"></source>
+</class>
+
+<class classid="25" nclones="3" nlines="20" similarity="100">
+<source file="../hum_codes/s823896143P.java" startline="1" endline="25" pcid="4583"></source>
+<source file="../ai_codes/deepseek_p03807_3P.java" startline="1" endline="23" pcid="48800"></source>
+<source file="../ai_codes/deepseek_p03807_2P.java" startline="1" endline="23" pcid="48799"></source>
+</class>
+
+<class classid="26" nclones="9" nlines="15" similarity="100">
+<source file="../hum_codes/s847820479P.java" startline="1" endline="27" pcid="5305"></source>
+<source file="../ai_codes/claude_p03587_1P.java" startline="1" endline="19" pcid="39595"></source>
+<source file="../ai_codes/gemini_p03493_1P.java" startline="1" endline="19" pcid="56124"></source>
+<source file="../ai_codes/gemini_p03493_2P.java" startline="1" endline="17" pcid="56125"></source>
+<source file="../ai_codes/claude_p03192_0P.java" startline="1" endline="19" pcid="38183"></source>
+<source file="../ai_codes/gemini_p03587_4P.java" startline="1" endline="17" pcid="56366"></source>
+<source file="../ai_codes/gemini_p03493_4P.java" startline="1" endline="19" pcid="56127"></source>
+<source file="../ai_codes/claude_p03587_4P.java" startline="1" endline="19" pcid="39598"></source>
+<source file="../hum_codes/s161035731P.java" startline="1" endline="21" pcid="25315"></source>
+</class>
+
+<class classid="27" nclones="2" nlines="14" similarity="100">
+<source file="../hum_codes/s852432047P.java" startline="1" endline="17" pcid="5465"></source>
+<source file="../ai_codes/deepseek_p03606_0P.java" startline="1" endline="18" pcid="48059"></source>
+</class>
+
+<class classid="28" nclones="3" nlines="18" similarity="100">
+<source file="../hum_codes/s855233400P.java" startline="1" endline="23" pcid="5535"></source>
+<source file="../ai_codes/deepseek_p03193_2P.java" startline="1" endline="22" pcid="46591"></source>
+<source file="../ai_codes/deepseek_p03193_0P.java" startline="1" endline="22" pcid="46589"></source>
+</class>
+
+<class classid="29" nclones="6" nlines="15" similarity="100">
+<source file="../hum_codes/s861601091P.java" startline="1" endline="19" pcid="5725"></source>
+<source file="../ai_codes/deepseek_p03844_2P.java" startline="1" endline="17" pcid="48938"></source>
+<source file="../ai_codes/deepseek_p03844_3P.java" startline="1" endline="17" pcid="48939"></source>
+<source file="../ai_codes/deepseek_p03844_4P.java" startline="1" endline="17" pcid="48940"></source>
+<source file="../ai_codes/deepseek_p03844_0P.java" startline="1" endline="17" pcid="48936"></source>
+<source file="../hum_codes/s422743068P.java" startline="1" endline="17" pcid="28054"></source>
+</class>
+
+<class classid="30" nclones="25" nlines="13" similarity="100">
+<source file="../hum_codes/s862470563P.java" startline="1" endline="14" pcid="5752"></source>
+<source file="../ai_codes/gemini_p02687_0P.java" startline="1" endline="14" pcid="52996"></source>
+<source file="../ai_codes/chatgpt_p02687_1P.java" startline="1" endline="14" pcid="58108"></source>
+<source file="../ai_codes/chatgpt_p03591_4P.java" startline="1" endline="14" pcid="63280"></source>
+<source file="../ai_codes/chatgpt_p02687_2P.java" startline="1" endline="14" pcid="58109"></source>
+<source file="../ai_codes/chatgpt_p03567_3P.java" startline="1" endline="14" pcid="63272"></source>
+<source file="../ai_codes/chatgpt_p02687_4P.java" startline="1" endline="14" pcid="58111"></source>
+<source file="../ai_codes/chatgpt_p03543_2P.java" startline="1" endline="15" pcid="58842"></source>
+<source file="../ai_codes/chatgpt_p02993_4P.java" startline="1" endline="14" pcid="63152"></source>
+<source file="../ai_codes/chatgpt_p03567_0P.java" startline="1" endline="14" pcid="58938"></source>
+<source file="../ai_codes/deepseek_p02687_3P.java" startline="1" endline="14" pcid="44595"></source>
+<source file="../ai_codes/chatgpt_p03567_4P.java" startline="1" endline="15" pcid="58941"></source>
+<source file="../ai_codes/chatgpt_p03591_0P.java" startline="1" endline="14" pcid="59009"></source>
+<source file="../ai_codes/deepseek_p02687_2P.java" startline="1" endline="14" pcid="44594"></source>
+<source file="../ai_codes/chatgpt_p03591_2P.java" startline="1" endline="15" pcid="59011"></source>
+<source file="../ai_codes/claude_p02711_4P.java" startline="1" endline="15" pcid="36300"></source>
+<source file="../ai_codes/deepseek_p02687_1P.java" startline="1" endline="14" pcid="44593"></source>
+<source file="../ai_codes/claude_p02687_0P.java" startline="1" endline="15" pcid="36187"></source>
+<source file="../ai_codes/claude_p02711_0P.java" startline="1" endline="15" pcid="36296"></source>
+<source file="../ai_codes/claude_p02711_2P.java" startline="1" endline="15" pcid="36298"></source>
+<source file="../ai_codes/claude_p02711_1P.java" startline="1" endline="15" pcid="36297"></source>
+<source file="../hum_codes/s096359768P.java" startline="1" endline="15" pcid="27871"></source>
+<source file="../hum_codes/s943061498P.java" startline="1" endline="15" pcid="17334"></source>
+<source file="../hum_codes/s228573371P.java" startline="1" endline="15" pcid="28914"></source>
+<source file="../hum_codes/s526399829P.java" startline="1" endline="18" pcid="28440"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="11" similarity="100">
+<source file="../hum_codes/s869505315P.java" startline="1" endline="19" pcid="5957"></source>
+<source file="../ai_codes/deepseek_p03059_2P.java" startline="1" endline="14" pcid="46090"></source>
+</class>
+
+<class classid="32" nclones="3" nlines="15" similarity="100">
+<source file="../hum_codes/s872990972P.java" startline="1" endline="19" pcid="6034"></source>
+<source file="../ai_codes/chatgpt_p03975_1P.java" startline="1" endline="17" pcid="60082"></source>
+<source file="../ai_codes/chatgpt_p03975_0P.java" startline="1" endline="19" pcid="60081"></source>
+</class>
+
+<class classid="33" nclones="3" nlines="14" similarity="100">
+<source file="../hum_codes/s876667565P.java" startline="1" endline="17" pcid="6132"></source>
+<source file="../ai_codes/chatgpt_p02933_3P.java" startline="1" endline="15" pcid="65717"></source>
+<source file="../ai_codes/chatgpt_p02933_4P.java" startline="1" endline="15" pcid="65718"></source>
+</class>
+
+<class classid="34" nclones="14" nlines="15" similarity="100">
+<source file="../hum_codes/s880760952P.java" startline="1" endline="17" pcid="6224"></source>
+<source file="../ai_codes/deepseek_p02392_4P.java" startline="1" endline="17" pcid="43791"></source>
+<source file="../ai_codes/deepseek_p02392_3P.java" startline="1" endline="17" pcid="43790"></source>
+<source file="../ai_codes/deepseek_p02392_2P.java" startline="1" endline="17" pcid="43789"></source>
+<source file="../ai_codes/deepseek_p02392_1P.java" startline="1" endline="17" pcid="43788"></source>
+<source file="../ai_codes/chatgpt_p02392_3P.java" startline="1" endline="16" pcid="66764"></source>
+<source file="../ai_codes/gemini_p02392_3P.java" startline="1" endline="18" pcid="52199"></source>
+<source file="../ai_codes/chatgpt_p02392_0P.java" startline="1" endline="16" pcid="66761"></source>
+<source file="../ai_codes/chatgpt_p02392_2P.java" startline="1" endline="16" pcid="66763"></source>
+<source file="../hum_codes/s681438131P.java" startline="1" endline="18" pcid="26128"></source>
+<source file="../hum_codes/s136337930P.java" startline="1" endline="17" pcid="30652"></source>
+<source file="../hum_codes/s695793285P.java" startline="1" endline="17" pcid="14164"></source>
+<source file="../hum_codes/s991534137P.java" startline="1" endline="20" pcid="11682"></source>
+<source file="../hum_codes/s227320733P.java" startline="1" endline="15" pcid="23854"></source>
+</class>
+
+<class classid="35" nclones="5" nlines="13" similarity="100">
+<source file="../hum_codes/s881248582P.java" startline="1" endline="15" pcid="6243"></source>
+<source file="../ai_codes/deepseek_p03694_4P.java" startline="1" endline="15" pcid="48407"></source>
+<source file="../hum_codes/s173705798P.java" startline="1" endline="15" pcid="30183"></source>
+<source file="../hum_codes/s108978232P.java" startline="1" endline="16" pcid="27542"></source>
+<source file="../hum_codes/s925507872P.java" startline="1" endline="14" pcid="7569"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="14" similarity="100">
+<source file="../hum_codes/s906898160P.java" startline="1" endline="16" pcid="7009"></source>
+<source file="../ai_codes/chatgpt_p02233_0P.java" startline="1" endline="16" pcid="66139"></source>
+</class>
+
+<class classid="37" nclones="8" nlines="15" similarity="100">
+<source file="../hum_codes/s914417854P.java" startline="1" endline="16" pcid="7203"></source>
+<source file="../ai_codes/chatgpt_p03407_1P.java" startline="1" endline="16" pcid="64135"></source>
+<source file="../ai_codes/deepseek_p03407_4P.java" startline="1" endline="17" pcid="47427"></source>
+<source file="../ai_codes/chatgpt_p03407_4P.java" startline="1" endline="16" pcid="64138"></source>
+<source file="../ai_codes/chatgpt_p03407_3P.java" startline="1" endline="17" pcid="64137"></source>
+<source file="../ai_codes/deepseek_p03407_3P.java" startline="1" endline="17" pcid="47426"></source>
+<source file="../hum_codes/s401751248P.java" startline="1" endline="19" pcid="26007"></source>
+<source file="../hum_codes/s063975139P.java" startline="1" endline="18" pcid="33820"></source>
+</class>
+
+<class classid="38" nclones="3" nlines="14" similarity="100">
+<source file="../hum_codes/s916722559P.java" startline="1" endline="16" pcid="7287"></source>
+<source file="../ai_codes/claude_p02783_1P.java" startline="1" endline="18" pcid="36606"></source>
+<source file="../ai_codes/claude_p02783_2P.java" startline="1" endline="18" pcid="36607"></source>
+</class>
+
+<class classid="39" nclones="4" nlines="10" similarity="100">
+<source file="../hum_codes/s933072200P.java" startline="1" endline="14" pcid="7804"></source>
+<source file="../ai_codes/gemini_p00330_0P.java" startline="1" endline="12" pcid="50553"></source>
+<source file="../ai_codes/gemini_p00330_4P.java" startline="1" endline="12" pcid="50557"></source>
+<source file="../hum_codes/s274344490P.java" startline="1" endline="14" pcid="19905"></source>
+</class>
+
+<class classid="40" nclones="5" nlines="10" similarity="100">
+<source file="../hum_codes/s940353793P.java" startline="1" endline="13" pcid="7963"></source>
+<source file="../ai_codes/gemini_p03047_1P.java" startline="1" endline="13" pcid="54451"></source>
+<source file="../ai_codes/gemini_p03047_2P.java" startline="1" endline="13" pcid="54452"></source>
+<source file="../ai_codes/gemini_p03047_4P.java" startline="1" endline="13" pcid="54454"></source>
+<source file="../ai_codes/gemini_p03047_0P.java" startline="1" endline="13" pcid="54450"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="14" similarity="100">
+<source file="../hum_codes/s522928524P.java" startline="1" endline="20" pcid="8075"></source>
+<source file="../ai_codes/gemini_p03671_0P.java" startline="1" endline="16" pcid="56683"></source>
+</class>
+
+<class classid="42" nclones="19" nlines="16" similarity="100">
+<source file="../hum_codes/s588835222P.java" startline="1" endline="19" pcid="8178"></source>
+<source file="../ai_codes/chatgpt_p02398_4P.java" startline="1" endline="18" pcid="67268"></source>
+<source file="../ai_codes/claude_p02606_2P.java" startline="1" endline="20" pcid="35886"></source>
+<source file="../ai_codes/claude_p02606_4P.java" startline="1" endline="20" pcid="35888"></source>
+<source file="../ai_codes/claude_p02606_0P.java" startline="1" endline="20" pcid="35884"></source>
+<source file="../ai_codes/claude_p02398_4P.java" startline="1" endline="20" pcid="35408"></source>
+<source file="../ai_codes/claude_p02398_2P.java" startline="1" endline="20" pcid="35406"></source>
+<source file="../ai_codes/gemini_p02398_4P.java" startline="1" endline="20" pcid="52225"></source>
+<source file="../ai_codes/deepseek_p02398_1P.java" startline="1" endline="21" pcid="43813"></source>
+<source file="../ai_codes/gemini_p02398_3P.java" startline="1" endline="19" pcid="52224"></source>
+<source file="../ai_codes/deepseek_p02398_2P.java" startline="1" endline="19" pcid="43814"></source>
+<source file="../ai_codes/gemini_p02398_2P.java" startline="1" endline="19" pcid="52223"></source>
+<source file="../ai_codes/gemini_p02398_1P.java" startline="1" endline="19" pcid="52222"></source>
+<source file="../ai_codes/deepseek_p02606_3P.java" startline="1" endline="18" pcid="44291"></source>
+<source file="../ai_codes/deepseek_p02606_0P.java" startline="1" endline="19" pcid="44288"></source>
+<source file="../ai_codes/deepseek_p02606_1P.java" startline="1" endline="19" pcid="44289"></source>
+<source file="../ai_codes/deepseek_p02606_4P.java" startline="1" endline="19" pcid="44292"></source>
+<source file="../hum_codes/s214318907P.java" startline="1" endline="21" pcid="27951"></source>
+<source file="../hum_codes/s365868240P.java" startline="1" endline="24" pcid="17152"></source>
+</class>
+
+<class classid="43" nclones="4" nlines="15" similarity="100">
+<source file="../hum_codes/s717835628P.java" startline="1" endline="18" pcid="8444"></source>
+<source file="../ai_codes/deepseek_p03631_2P.java" startline="1" endline="18" pcid="48166"></source>
+<source file="../ai_codes/deepseek_p03631_0P.java" startline="1" endline="18" pcid="48164"></source>
+<source file="../ai_codes/chatgpt_p03631_3P.java" startline="1" endline="17" pcid="59142"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="15" similarity="100">
+<source file="../hum_codes/s599647969P.java" startline="1" endline="19" pcid="9510"></source>
+<source file="../ai_codes/gemini_p02694_2P.java" startline="1" endline="20" pcid="53032"></source>
+</class>
+
+<class classid="45" nclones="13" nlines="15" similarity="100">
+<source file="../hum_codes/s062924103P.java" startline="1" endline="17" pcid="10053"></source>
+<source file="../ai_codes/deepseek_p03079_2P.java" startline="1" endline="17" pcid="46170"></source>
+<source file="../ai_codes/deepseek_p03079_4P.java" startline="1" endline="17" pcid="46172"></source>
+<source file="../ai_codes/deepseek_p03079_1P.java" startline="1" endline="17" pcid="46169"></source>
+<source file="../ai_codes/deepseek_p03079_0P.java" startline="1" endline="17" pcid="46168"></source>
+<source file="../ai_codes/chatgpt_p03079_3P.java" startline="1" endline="16" pcid="64622"></source>
+<source file="../ai_codes/chatgpt_p03079_4P.java" startline="1" endline="17" pcid="64623"></source>
+<source file="../ai_codes/deepseek_p03079_3P.java" startline="1" endline="17" pcid="46171"></source>
+<source file="../ai_codes/chatgpt_p03079_2P.java" startline="1" endline="17" pcid="65551"></source>
+<source file="../ai_codes/chatgpt_p03079_1P.java" startline="1" endline="17" pcid="65550"></source>
+<source file="../ai_codes/chatgpt_p03079_0P.java" startline="1" endline="16" pcid="65549"></source>
+<source file="../hum_codes/s458009596P.java" startline="1" endline="17" pcid="21426"></source>
+<source file="../hum_codes/s182223420P.java" startline="1" endline="19" pcid="23772"></source>
+</class>
+
+<class classid="46" nclones="9" nlines="14" similarity="100">
+<source file="../hum_codes/s075256580P.java" startline="1" endline="17" pcid="10435"></source>
+<source file="../ai_codes/chatgpt_p02694_1P.java" startline="1" endline="16" pcid="58143"></source>
+<source file="../ai_codes/chatgpt_p02694_2P.java" startline="1" endline="16" pcid="58144"></source>
+<source file="../ai_codes/chatgpt_p02694_0P.java" startline="1" endline="16" pcid="58142"></source>
+<source file="../ai_codes/chatgpt_p02694_3P.java" startline="1" endline="16" pcid="58145"></source>
+<source file="../ai_codes/deepseek_p02694_4P.java" startline="1" endline="18" pcid="44631"></source>
+<source file="../ai_codes/deepseek_p02694_3P.java" startline="1" endline="18" pcid="44630"></source>
+<source file="../ai_codes/deepseek_p02694_0P.java" startline="1" endline="18" pcid="44627"></source>
+<source file="../ai_codes/deepseek_p02694_2P.java" startline="1" endline="18" pcid="44629"></source>
+</class>
+
+<class classid="47" nclones="8" nlines="18" similarity="100">
+<source file="../hum_codes/s565471129P.java" startline="1" endline="19" pcid="10711"></source>
+<source file="../ai_codes/deepseek_p03573_4P.java" startline="1" endline="19" pcid="47949"></source>
+<source file="../ai_codes/deepseek_p03573_3P.java" startline="1" endline="19" pcid="47948"></source>
+<source file="../ai_codes/deepseek_p03573_2P.java" startline="1" endline="19" pcid="47947"></source>
+<source file="../ai_codes/deepseek_p03573_0P.java" startline="1" endline="19" pcid="47945"></source>
+<source file="../ai_codes/deepseek_p03573_1P.java" startline="1" endline="19" pcid="47946"></source>
+<source file="../hum_codes/s550435952P.java" startline="1" endline="21" pcid="18551"></source>
+<source file="../hum_codes/s226358701P.java" startline="1" endline="20" pcid="30368"></source>
+</class>
+
+<class classid="48" nclones="12" nlines="15" similarity="100">
+<source file="../hum_codes/s977474547P.java" startline="1" endline="20" pcid="11332"></source>
+<source file="../ai_codes/claude_p02771_4P.java" startline="1" endline="17" pcid="36554"></source>
+<source file="../ai_codes/chatgpt_p02771_2P.java" startline="1" endline="17" pcid="58472"></source>
+<source file="../ai_codes/chatgpt_p02771_0P.java" startline="1" endline="17" pcid="58470"></source>
+<source file="../ai_codes/claude_p02771_3P.java" startline="1" endline="17" pcid="36553"></source>
+<source file="../ai_codes/claude_p02771_1P.java" startline="1" endline="17" pcid="36551"></source>
+<source file="../ai_codes/claude_p02771_0P.java" startline="1" endline="17" pcid="36550"></source>
+<source file="../ai_codes/chatgpt_p02771_3P.java" startline="1" endline="17" pcid="58473"></source>
+<source file="../ai_codes/deepseek_p02771_4P.java" startline="1" endline="17" pcid="44959"></source>
+<source file="../ai_codes/deepseek_p02771_3P.java" startline="1" endline="17" pcid="44958"></source>
+<source file="../ai_codes/deepseek_p02771_1P.java" startline="1" endline="17" pcid="44956"></source>
+<source file="../ai_codes/deepseek_p02771_0P.java" startline="1" endline="17" pcid="44955"></source>
+</class>
+
+<class classid="49" nclones="8" nlines="18" similarity="100">
+<source file="../hum_codes/s980051365P.java" startline="1" endline="24" pcid="11364"></source>
+<source file="../ai_codes/deepseek_p02886_0P.java" startline="1" endline="21" pcid="45415"></source>
+<source file="../ai_codes/chatgpt_p02886_2P.java" startline="1" endline="20" pcid="64417"></source>
+<source file="../ai_codes/chatgpt_p02886_0P.java" startline="1" endline="20" pcid="64415"></source>
+<source file="../ai_codes/deepseek_p02886_4P.java" startline="1" endline="21" pcid="45419"></source>
+<source file="../ai_codes/deepseek_p02886_1P.java" startline="1" endline="21" pcid="45416"></source>
+<source file="../ai_codes/deepseek_p02886_3P.java" startline="1" endline="20" pcid="45418"></source>
+<source file="../ai_codes/deepseek_p02886_2P.java" startline="1" endline="21" pcid="45417"></source>
+</class>
+
+<class classid="50" nclones="7" nlines="15" similarity="100">
+<source file="../hum_codes/s981773885P.java" startline="1" endline="15" pcid="11383"></source>
+<source file="../ai_codes/deepseek_p03759_4P.java" startline="1" endline="17" pcid="48626"></source>
+<source file="../ai_codes/deepseek_p03759_3P.java" startline="1" endline="17" pcid="48625"></source>
+<source file="../ai_codes/deepseek_p03759_2P.java" startline="1" endline="17" pcid="48624"></source>
+<source file="../ai_codes/deepseek_p03759_1P.java" startline="1" endline="17" pcid="48623"></source>
+<source file="../ai_codes/chatgpt_p03759_1P.java" startline="1" endline="17" pcid="59558"></source>
+<source file="../ai_codes/chatgpt_p03759_3P.java" startline="1" endline="16" pcid="59560"></source>
+</class>
+
+<class classid="51" nclones="5" nlines="19" similarity="100">
+<source file="../hum_codes/s076124869P.java" startline="1" endline="23" pcid="12039"></source>
+<source file="../ai_codes/deepseek_p01376_2P.java" startline="1" endline="24" pcid="43226"></source>
+<source file="../ai_codes/deepseek_p01376_1P.java" startline="1" endline="23" pcid="43225"></source>
+<source file="../ai_codes/deepseek_p01376_0P.java" startline="1" endline="24" pcid="43224"></source>
+<source file="../ai_codes/deepseek_p01376_3P.java" startline="1" endline="23" pcid="43227"></source>
+</class>
+
+<class classid="52" nclones="5" nlines="14" similarity="100">
+<source file="../hum_codes/s311953910P.java" startline="1" endline="19" pcid="13245"></source>
+<source file="../ai_codes/claude_p02594_2P.java" startline="1" endline="17" pcid="35826"></source>
+<source file="../ai_codes/gemini_p02594_0P.java" startline="1" endline="15" pcid="52639"></source>
+<source file="../ai_codes/gemini_p02594_1P.java" startline="1" endline="15" pcid="52640"></source>
+<source file="../ai_codes/gemini_p02594_3P.java" startline="1" endline="15" pcid="52642"></source>
+</class>
+
+<class classid="53" nclones="11" nlines="14" similarity="100">
+<source file="../hum_codes/s574808787P.java" startline="1" endline="17" pcid="13355"></source>
+<source file="../ai_codes/chatgpt_p03657_0P.java" startline="1" endline="16" pcid="59234"></source>
+<source file="../ai_codes/chatgpt_p03657_1P.java" startline="1" endline="16" pcid="59235"></source>
+<source file="../ai_codes/chatgpt_p03657_4P.java" startline="1" endline="16" pcid="59238"></source>
+<source file="../ai_codes/deepseek_p03657_1P.java" startline="1" endline="16" pcid="48270"></source>
+<source file="../ai_codes/deepseek_p03657_4P.java" startline="1" endline="16" pcid="48273"></source>
+<source file="../ai_codes/chatgpt_p03657_3P.java" startline="1" endline="16" pcid="59237"></source>
+<source file="../ai_codes/deepseek_p03657_3P.java" startline="1" endline="16" pcid="48272"></source>
+<source file="../ai_codes/deepseek_p03657_2P.java" startline="1" endline="16" pcid="48271"></source>
+<source file="../ai_codes/deepseek_p03657_0P.java" startline="1" endline="16" pcid="48269"></source>
+<source file="../hum_codes/s192590654P.java" startline="1" endline="15" pcid="28257"></source>
+</class>
+
+<class classid="54" nclones="9" nlines="16" similarity="100">
+<source file="../hum_codes/s949879453P.java" startline="1" endline="16" pcid="13532"></source>
+<source file="../ai_codes/deepseek_p03288_1P.java" startline="1" endline="17" pcid="46960"></source>
+<source file="../ai_codes/deepseek_p03288_3P.java" startline="1" endline="17" pcid="46961"></source>
+<source file="../ai_codes/deepseek_p03288_4P.java" startline="1" endline="17" pcid="46962"></source>
+<source file="../ai_codes/deepseek_p03288_0P.java" startline="1" endline="17" pcid="46959"></source>
+<source file="../ai_codes/chatgpt_p03288_4P.java" startline="1" endline="17" pcid="63916"></source>
+<source file="../ai_codes/chatgpt_p03288_3P.java" startline="1" endline="16" pcid="63915"></source>
+<source file="../ai_codes/chatgpt_p03288_2P.java" startline="1" endline="16" pcid="63914"></source>
+<source file="../ai_codes/chatgpt_p03288_0P.java" startline="1" endline="16" pcid="63912"></source>
+</class>
+
+<class classid="55" nclones="6" nlines="15" similarity="100">
+<source file="../hum_codes/s687685805P.java" startline="1" endline="17" pcid="13878"></source>
+<source file="../ai_codes/deepseek_p03943_0P.java" startline="1" endline="17" pcid="49079"></source>
+<source file="../ai_codes/chatgpt_p03943_3P.java" startline="1" endline="17" pcid="59978"></source>
+<source file="../ai_codes/chatgpt_p03943_4P.java" startline="1" endline="17" pcid="59979"></source>
+<source file="../ai_codes/deepseek_p03943_3P.java" startline="1" endline="17" pcid="49082"></source>
+<source file="../ai_codes/deepseek_p03943_4P.java" startline="1" endline="17" pcid="49083"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="20" similarity="100">
+<source file="../hum_codes/s688520647P.java" startline="1" endline="24" pcid="13912"></source>
+<source file="../ai_codes/deepseek_p00456_0P.java" startline="1" endline="27" pcid="42312"></source>
+</class>
+
+<class classid="57" nclones="3" nlines="15" similarity="100">
+<source file="../hum_codes/s695302754P.java" startline="1" endline="18" pcid="14148"></source>
+<source file="../ai_codes/claude_p03719_4P.java" startline="1" endline="17" pcid="40106"></source>
+<source file="../hum_codes/s178446332P.java" startline="1" endline="19" pcid="21747"></source>
+</class>
+
+<class classid="58" nclones="6" nlines="12" similarity="100">
+<source file="../hum_codes/s698691854P.java" startline="1" endline="14" pcid="14258"></source>
+<source file="../ai_codes/gemini_p02389_2P.java" startline="1" endline="18" pcid="52183"></source>
+<source file="../ai_codes/gemini_p02389_3P.java" startline="1" endline="18" pcid="52184"></source>
+<source file="../ai_codes/claude_p02389_1P.java" startline="1" endline="16" pcid="35365"></source>
+<source file="../ai_codes/claude_p02389_0P.java" startline="1" endline="16" pcid="35364"></source>
+<source file="../hum_codes/s419404211P.java" startline="1" endline="13" pcid="26984"></source>
+</class>
+
+<class classid="59" nclones="3" nlines="20" similarity="100">
+<source file="../hum_codes/s699978176P.java" startline="1" endline="25" pcid="14305"></source>
+<source file="../ai_codes/gemini_p02628_0P.java" startline="1" endline="22" pcid="52802"></source>
+<source file="../ai_codes/gemini_p02628_3P.java" startline="1" endline="22" pcid="52805"></source>
+</class>
+
+<class classid="60" nclones="7" nlines="16" similarity="100">
+<source file="../hum_codes/s713257220P.java" startline="1" endline="18" pcid="14729"></source>
+<source file="../ai_codes/deepseek_p03693_3P.java" startline="1" endline="19" pcid="48401"></source>
+<source file="../ai_codes/deepseek_p03693_1P.java" startline="1" endline="18" pcid="48399"></source>
+<source file="../ai_codes/deepseek_p03693_2P.java" startline="1" endline="18" pcid="48400"></source>
+<source file="../ai_codes/chatgpt_p03693_0P.java" startline="1" endline="17" pcid="59353"></source>
+<source file="../ai_codes/chatgpt_p03693_4P.java" startline="1" endline="17" pcid="59356"></source>
+<source file="../ai_codes/chatgpt_p03693_1P.java" startline="1" endline="18" pcid="59354"></source>
+</class>
+
+<class classid="61" nclones="13" nlines="11" similarity="100">
+<source file="../hum_codes/s715004840P.java" startline="1" endline="13" pcid="14785"></source>
+<source file="../ai_codes/deepseek_p03671_4P.java" startline="1" endline="14" pcid="48318"></source>
+<source file="../ai_codes/deepseek_p03011_1P.java" startline="1" endline="14" pcid="45904"></source>
+<source file="../ai_codes/chatgpt_p03671_3P.java" startline="1" endline="14" pcid="59277"></source>
+<source file="../ai_codes/claude_p03011_0P.java" startline="1" endline="14" pcid="37503"></source>
+<source file="../ai_codes/deepseek_p03671_0P.java" startline="1" endline="14" pcid="48314"></source>
+<source file="../ai_codes/chatgpt_p03011_0P.java" startline="1" endline="14" pcid="63694"></source>
+<source file="../ai_codes/deepseek_p03011_2P.java" startline="1" endline="14" pcid="45905"></source>
+<source file="../ai_codes/claude_p03011_1P.java" startline="1" endline="14" pcid="37504"></source>
+<source file="../ai_codes/chatgpt_p03011_1P.java" startline="1" endline="13" pcid="63695"></source>
+<source file="../ai_codes/chatgpt_p03011_2P.java" startline="1" endline="13" pcid="63696"></source>
+<source file="../ai_codes/chatgpt_p03011_3P.java" startline="1" endline="13" pcid="63697"></source>
+<source file="../ai_codes/chatgpt_p03011_4P.java" startline="1" endline="13" pcid="63698"></source>
+</class>
+
+<class classid="62" nclones="9" nlines="16" similarity="100">
+<source file="../hum_codes/s715594277P.java" startline="1" endline="21" pcid="14806"></source>
+<source file="../ai_codes/gemini_p03079_0P.java" startline="1" endline="21" pcid="54565"></source>
+<source file="../ai_codes/gemini_p03079_1P.java" startline="1" endline="18" pcid="54566"></source>
+<source file="../ai_codes/claude_p03079_4P.java" startline="1" endline="19" pcid="37772"></source>
+<source file="../ai_codes/gemini_p03079_2P.java" startline="1" endline="18" pcid="54567"></source>
+<source file="../ai_codes/claude_p03079_3P.java" startline="1" endline="19" pcid="37771"></source>
+<source file="../ai_codes/claude_p03079_2P.java" startline="1" endline="19" pcid="37770"></source>
+<source file="../ai_codes/claude_p03079_1P.java" startline="1" endline="19" pcid="37769"></source>
+<source file="../ai_codes/claude_p03079_0P.java" startline="1" endline="19" pcid="37768"></source>
+</class>
+
+<class classid="63" nclones="4" nlines="12" similarity="100">
+<source file="../hum_codes/s201671102P.java" startline="1" endline="15" pcid="15546"></source>
+<source file="../ai_codes/chatgpt_p04029_3P.java" startline="1" endline="14" pcid="60241"></source>
+<source file="../hum_codes/s649818130P.java" startline="1" endline="19" pcid="19712"></source>
+<source file="../hum_codes/s316178368P.java" startline="1" endline="13" pcid="17723"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="11" similarity="100">
+<source file="../hum_codes/s263546170P.java" startline="1" endline="16" pcid="15599"></source>
+<source file="../ai_codes/chatgpt_p03145_4P.java" startline="1" endline="14" pcid="65248"></source>
+</class>
+
+<class classid="65" nclones="3" nlines="14" similarity="100">
+<source file="../hum_codes/s263720106P.java" startline="1" endline="14" pcid="15604"></source>
+<source file="../ai_codes/claude_p02681_0P.java" startline="1" endline="16" pcid="36157"></source>
+<source file="../ai_codes/claude_p02681_2P.java" startline="1" endline="16" pcid="36159"></source>
+</class>
+
+<class classid="66" nclones="3" nlines="14" similarity="100">
+<source file="../hum_codes/s538338705P.java" startline="1" endline="20" pcid="16044"></source>
+<source file="../ai_codes/deepseek_p03481_0P.java" startline="1" endline="17" pcid="47701"></source>
+<source file="../ai_codes/deepseek_p03479_3P.java" startline="1" endline="18" pcid="47694"></source>
+</class>
+
+<class classid="67" nclones="6" nlines="14" similarity="100">
+<source file="../hum_codes/s539998510P.java" startline="1" endline="16" pcid="16091"></source>
+<source file="../ai_codes/deepseek_p03323_0P.java" startline="1" endline="16" pcid="47108"></source>
+<source file="../ai_codes/deepseek_p03323_2P.java" startline="1" endline="16" pcid="57893"></source>
+<source file="../ai_codes/deepseek_p03323_1P.java" startline="1" endline="16" pcid="47109"></source>
+<source file="../ai_codes/chatgpt_p03323_0P.java" startline="1" endline="16" pcid="66348"></source>
+<source file="../ai_codes/chatgpt_p03323_4P.java" startline="1" endline="16" pcid="66352"></source>
+</class>
+
+<class classid="68" nclones="5" nlines="10" similarity="100">
+<source file="../hum_codes/s541928534P.java" startline="1" endline="12" pcid="16161"></source>
+<source file="../ai_codes/claude_p03264_4P.java" startline="1" endline="14" pcid="38460"></source>
+<source file="../ai_codes/deepseek_p03264_4P.java" startline="1" endline="14" pcid="46859"></source>
+<source file="../ai_codes/deepseek_p03264_1P.java" startline="1" endline="12" pcid="46856"></source>
+<source file="../ai_codes/claude_p03264_0P.java" startline="1" endline="14" pcid="38456"></source>
+</class>
+
+<class classid="69" nclones="5" nlines="14" similarity="100">
+<source file="../hum_codes/s876459454P.java" startline="1" endline="15" pcid="16525"></source>
+<source file="../ai_codes/claude_p02789_4P.java" startline="1" endline="16" pcid="36639"></source>
+<source file="../ai_codes/claude_p02789_3P.java" startline="1" endline="16" pcid="36638"></source>
+<source file="../ai_codes/deepseek_p02789_4P.java" startline="1" endline="16" pcid="45044"></source>
+<source file="../ai_codes/deepseek_p02789_3P.java" startline="1" endline="16" pcid="45043"></source>
+</class>
+
+<class classid="70" nclones="2" nlines="11" similarity="100">
+<source file="../hum_codes/s341913616P.java" startline="1" endline="15" pcid="16897"></source>
+<source file="../ai_codes/chatgpt_p03399_0P.java" startline="1" endline="14" pcid="64104"></source>
+</class>
+
+<class classid="71" nclones="7" nlines="15" similarity="100">
+<source file="../hum_codes/s349179831P.java" startline="1" endline="15" pcid="16965"></source>
+<source file="../ai_codes/gemini_p02789_1P.java" startline="1" endline="16" pcid="53443"></source>
+<source file="../ai_codes/gemini_p02789_0P.java" startline="1" endline="16" pcid="53442"></source>
+<source file="../ai_codes/claude_p02789_0P.java" startline="1" endline="18" pcid="36635"></source>
+<source file="../ai_codes/gemini_p02789_2P.java" startline="1" endline="16" pcid="53444"></source>
+<source file="../ai_codes/gemini_p02789_3P.java" startline="1" endline="16" pcid="53445"></source>
+<source file="../ai_codes/claude_p02789_2P.java" startline="1" endline="18" pcid="36637"></source>
+</class>
+
+<class classid="72" nclones="8" nlines="14" similarity="100">
+<source file="../hum_codes/s363447928P.java" startline="1" endline="17" pcid="17099"></source>
+<source file="../ai_codes/chatgpt_p03125_0P.java" startline="1" endline="15" pcid="65761"></source>
+<source file="../ai_codes/chatgpt_p03125_1P.java" startline="1" endline="15" pcid="65200"></source>
+<source file="../ai_codes/deepseek_p03125_3P.java" startline="1" endline="16" pcid="46300"></source>
+<source file="../ai_codes/chatgpt_p03125_4P.java" startline="1" endline="15" pcid="65203"></source>
+<source file="../ai_codes/deepseek_p03125_2P.java" startline="1" endline="16" pcid="46299"></source>
+<source file="../ai_codes/deepseek_p03125_1P.java" startline="1" endline="16" pcid="46298"></source>
+<source file="../ai_codes/deepseek_p03125_0P.java" startline="1" endline="16" pcid="46297"></source>
+</class>
+
+<class classid="73" nclones="3" nlines="13" similarity="100">
+<source file="../hum_codes/s594321194P.java" startline="1" endline="15" pcid="17301"></source>
+<source file="../ai_codes/gemini_p02439_3P.java" startline="1" endline="16" pcid="52382"></source>
+<source file="../ai_codes/deepseek_p02439_0P.java" startline="1" endline="15" pcid="43969"></source>
+</class>
+
+<class classid="74" nclones="2" nlines="27" similarity="100">
+<source file="../hum_codes/s660396653P.java" startline="1" endline="28" pcid="17308"></source>
+<source file="../ai_codes/chatgpt_p03738_1P.java" startline="1" endline="27" pcid="63342"></source>
+</class>
+
+<class classid="75" nclones="11" nlines="17" similarity="100">
+<source file="../hum_codes/s041273348P.java" startline="1" endline="18" pcid="17444"></source>
+<source file="../ai_codes/deepseek_p02391_4P.java" startline="1" endline="18" pcid="43786"></source>
+<source file="../ai_codes/deepseek_p02391_1P.java" startline="1" endline="18" pcid="43783"></source>
+<source file="../ai_codes/deepseek_p02391_3P.java" startline="1" endline="18" pcid="43785"></source>
+<source file="../ai_codes/chatgpt_p02391_3P.java" startline="1" endline="18" pcid="66759"></source>
+<source file="../ai_codes/chatgpt_p02391_0P.java" startline="1" endline="17" pcid="66756"></source>
+<source file="../ai_codes/deepseek_p02391_2P.java" startline="1" endline="18" pcid="43784"></source>
+<source file="../ai_codes/chatgpt_p02391_2P.java" startline="1" endline="17" pcid="66758"></source>
+<source file="../ai_codes/chatgpt_p02391_4P.java" startline="1" endline="17" pcid="66760"></source>
+<source file="../ai_codes/chatgpt_p02391_1P.java" startline="1" endline="17" pcid="66757"></source>
+<source file="../ai_codes/deepseek_p02391_0P.java" startline="1" endline="18" pcid="43782"></source>
+</class>
+
+<class classid="76" nclones="3" nlines="14" similarity="100">
+<source file="../hum_codes/s389295353P.java" startline="1" endline="19" pcid="18327"></source>
+<source file="../ai_codes/deepseek_p03005_1P.java" startline="1" endline="16" pcid="45884"></source>
+<source file="../ai_codes/deepseek_p03005_2P.java" startline="1" endline="16" pcid="45885"></source>
+</class>
+
+<class classid="77" nclones="4" nlines="12" similarity="100">
+<source file="../hum_codes/s548676108P.java" startline="1" endline="16" pcid="18493"></source>
+<source file="../ai_codes/chatgpt_p03101_3P.java" startline="1" endline="14" pcid="65172"></source>
+<source file="../ai_codes/chatgpt_p03101_1P.java" startline="1" endline="16" pcid="65170"></source>
+<source file="../hum_codes/s168145309P.java" startline="1" endline="19" pcid="25868"></source>
+</class>
+
+<class classid="78" nclones="4" nlines="13" similarity="100">
+<source file="../hum_codes/s284203300P.java" startline="1" endline="15" pcid="18951"></source>
+<source file="../ai_codes/chatgpt_p02594_3P.java" startline="1" endline="14" pcid="65645"></source>
+<source file="../ai_codes/claude_p02594_4P.java" startline="1" endline="15" pcid="35828"></source>
+<source file="../hum_codes/s454947461P.java" startline="1" endline="16" pcid="31034"></source>
+</class>
+
+<class classid="79" nclones="6" nlines="10" similarity="100">
+<source file="../hum_codes/s336037258P.java" startline="1" endline="12" pcid="19057"></source>
+<source file="../ai_codes/gemini_p02388_2P.java" startline="1" endline="13" pcid="52178"></source>
+<source file="../ai_codes/claude_p02388_3P.java" startline="1" endline="12" pcid="35362"></source>
+<source file="../ai_codes/gemini_p02388_4P.java" startline="1" endline="12" pcid="52180"></source>
+<source file="../ai_codes/claude_p02388_4P.java" startline="1" endline="12" pcid="35363"></source>
+<source file="../ai_codes/claude_p02915_2P.java" startline="1" endline="14" pcid="37120"></source>
+</class>
+
+<class classid="80" nclones="3" nlines="14" similarity="100">
+<source file="../hum_codes/s458628710P.java" startline="1" endline="17" pcid="19428"></source>
+<source file="../ai_codes/deepseek_p03455_3P.java" startline="1" endline="16" pcid="47600"></source>
+<source file="../hum_codes/s269532901P.java" startline="1" endline="17" pcid="21903"></source>
+</class>
+
+<class classid="81" nclones="5" nlines="15" similarity="100">
+<source file="../hum_codes/s504071591P.java" startline="1" endline="19" pcid="19619"></source>
+<source file="../ai_codes/deepseek_p03719_0P.java" startline="1" endline="17" pcid="48497"></source>
+<source file="../ai_codes/deepseek_p03719_2P.java" startline="1" endline="17" pcid="48499"></source>
+<source file="../ai_codes/deepseek_p03719_4P.java" startline="1" endline="17" pcid="48501"></source>
+<source file="../ai_codes/chatgpt_p03719_3P.java" startline="1" endline="16" pcid="63334"></source>
+</class>
+
+<class classid="82" nclones="2" nlines="14" similarity="100">
+<source file="../hum_codes/s281381182P.java" startline="1" endline="21" pcid="19948"></source>
+<source file="../ai_codes/deepseek_p03447_1P.java" startline="1" endline="18" pcid="47563"></source>
+</class>
+
+<class classid="83" nclones="10" nlines="18" similarity="100">
+<source file="../hum_codes/s324897960P.java" startline="1" endline="21" pcid="20023"></source>
+<source file="../ai_codes/chatgpt_p02628_1P.java" startline="1" endline="20" pcid="65484"></source>
+<source file="../ai_codes/claude_p02628_2P.java" startline="1" endline="24" pcid="35991"></source>
+<source file="../ai_codes/chatgpt_p02628_2P.java" startline="1" endline="20" pcid="65485"></source>
+<source file="../ai_codes/claude_p02628_0P.java" startline="1" endline="24" pcid="35989"></source>
+<source file="../ai_codes/chatgpt_p02628_3P.java" startline="1" endline="20" pcid="65486"></source>
+<source file="../ai_codes/claude_p02628_1P.java" startline="1" endline="24" pcid="35990"></source>
+<source file="../ai_codes/deepseek_p02628_4P.java" startline="1" endline="20" pcid="44397"></source>
+<source file="../ai_codes/claude_p02628_4P.java" startline="1" endline="24" pcid="35993"></source>
+<source file="../ai_codes/claude_p02628_3P.java" startline="1" endline="24" pcid="35992"></source>
+</class>
+
+<class classid="84" nclones="3" nlines="10" similarity="100">
+<source file="../hum_codes/s477717062P.java" startline="1" endline="16" pcid="20233"></source>
+<source file="../ai_codes/chatgpt_p00094_3P.java" startline="1" endline="12" pcid="61449"></source>
+<source file="../ai_codes/chatgpt_p00094_1P.java" startline="1" endline="12" pcid="61447"></source>
+</class>
+
+<class classid="85" nclones="2" nlines="16" similarity="100">
+<source file="../hum_codes/s488608014P.java" startline="1" endline="21" pcid="20566"></source>
+<source file="../ai_codes/claude_p03463_0P.java" startline="1" endline="19" pcid="39233"></source>
+</class>
+
+<class classid="86" nclones="3" nlines="18" similarity="100">
+<source file="../hum_codes/s490846604P.java" startline="1" endline="24" pcid="20626"></source>
+<source file="../ai_codes/deepseek_p03107_2P.java" startline="1" endline="21" pcid="46269"></source>
+<source file="../ai_codes/deepseek_p03107_1P.java" startline="1" endline="21" pcid="46268"></source>
+</class>
+
+<class classid="87" nclones="3" nlines="11" similarity="100">
+<source file="../hum_codes/s512228473P.java" startline="1" endline="13" pcid="20917"></source>
+<source file="../ai_codes/deepseek_p02945_0P.java" startline="1" endline="15" pcid="45638"></source>
+<source file="../ai_codes/deepseek_p03337_0P.java" startline="1" endline="15" pcid="47162"></source>
+</class>
+
+<class classid="88" nclones="2" nlines="15" similarity="100">
+<source file="../hum_codes/s203624842P.java" startline="1" endline="19" pcid="21103"></source>
+<source file="../ai_codes/deepseek_p04043_4P.java" startline="1" endline="19" pcid="49425"></source>
+</class>
+
+<class classid="89" nclones="2" nlines="13" similarity="100">
+<source file="../hum_codes/s178396848P.java" startline="1" endline="14" pcid="21745"></source>
+<source file="../ai_codes/deepseek_p03591_1P.java" startline="1" endline="15" pcid="48006"></source>
+</class>
+
+<class classid="90" nclones="3" nlines="14" similarity="100">
+<source file="../hum_codes/s262074899P.java" startline="1" endline="21" pcid="21894"></source>
+<source file="../ai_codes/chatgpt_p03587_0P.java" startline="1" endline="16" pcid="58996"></source>
+<source file="../ai_codes/deepseek_p03493_2P.java" startline="1" endline="16" pcid="47748"></source>
+</class>
+
+<class classid="91" nclones="2" nlines="10" similarity="100">
+<source file="../hum_codes/s506107926P.java" startline="1" endline="16" pcid="22150"></source>
+<source file="../ai_codes/claude_p02951_2P.java" startline="1" endline="13" pcid="37265"></source>
+</class>
+
+<class classid="92" nclones="5" nlines="14" similarity="100">
+<source file="../hum_codes/s509338669P.java" startline="1" endline="18" pcid="22773"></source>
+<source file="../ai_codes/chatgpt_p02811_2P.java" startline="1" endline="15" pcid="58640"></source>
+<source file="../ai_codes/chatgpt_p02811_0P.java" startline="1" endline="15" pcid="58638"></source>
+<source file="../ai_codes/claude_p02811_2P.java" startline="1" endline="16" pcid="36722"></source>
+<source file="../ai_codes/claude_p02811_0P.java" startline="1" endline="16" pcid="36720"></source>
+</class>
+
+<class classid="93" nclones="2" nlines="15" similarity="100">
+<source file="../hum_codes/s383350482P.java" startline="1" endline="21" pcid="23102"></source>
+<source file="../ai_codes/deepseek_p02898_1P.java" startline="1" endline="17" pcid="45455"></source>
+</class>
+
+<class classid="94" nclones="9" nlines="13" similarity="100">
+<source file="../hum_codes/s240636420P.java" startline="1" endline="15" pcid="23862"></source>
+<source file="../ai_codes/chatgpt_p03210_1P.java" startline="1" endline="14" pcid="67208"></source>
+<source file="../ai_codes/deepseek_p03210_0P.java" startline="1" endline="14" pcid="46653"></source>
+<source file="../ai_codes/chatgpt_p03210_2P.java" startline="1" endline="14" pcid="67209"></source>
+<source file="../ai_codes/deepseek_p03210_2P.java" startline="1" endline="14" pcid="46655"></source>
+<source file="../ai_codes/chatgpt_p03210_4P.java" startline="1" endline="14" pcid="67211"></source>
+<source file="../ai_codes/deepseek_p03210_4P.java" startline="1" endline="14" pcid="46657"></source>
+<source file="../ai_codes/chatgpt_p03210_3P.java" startline="1" endline="14" pcid="67210"></source>
+<source file="../ai_codes/deepseek_p03210_3P.java" startline="1" endline="14" pcid="46656"></source>
+</class>
+
+<class classid="95" nclones="6" nlines="18" similarity="100">
+<source file="../hum_codes/s475611669P.java" startline="1" endline="25" pcid="24138"></source>
+<source file="../ai_codes/deepseek_p03075_4P.java" startline="1" endline="20" pcid="46152"></source>
+<source file="../ai_codes/deepseek_p03075_2P.java" startline="1" endline="20" pcid="46150"></source>
+<source file="../ai_codes/deepseek_p03075_0P.java" startline="1" endline="20" pcid="46148"></source>
+<source file="../ai_codes/deepseek_p03075_1P.java" startline="1" endline="20" pcid="46149"></source>
+<source file="../ai_codes/deepseek_p03075_3P.java" startline="1" endline="20" pcid="46151"></source>
+</class>
+
+<class classid="96" nclones="4" nlines="11" similarity="100">
+<source file="../hum_codes/s445599916P.java" startline="1" endline="18" pcid="24566"></source>
+<source file="../ai_codes/chatgpt_p03597_4P.java" startline="1" endline="13" pcid="59026"></source>
+<source file="../ai_codes/chatgpt_p03597_3P.java" startline="1" endline="13" pcid="59025"></source>
+<source file="../ai_codes/chatgpt_p03597_2P.java" startline="1" endline="13" pcid="59024"></source>
+</class>
+
+<class classid="97" nclones="3" nlines="14" similarity="100">
+<source file="../hum_codes/s530107246P.java" startline="1" endline="14" pcid="24651"></source>
+<source file="../ai_codes/gemini_p02993_2P.java" startline="1" endline="15" pcid="54227"></source>
+<source file="../ai_codes/gemini_p02993_1P.java" startline="1" endline="15" pcid="54226"></source>
+</class>
+
+<class classid="98" nclones="9" nlines="13" similarity="100">
+<source file="../hum_codes/s169803313P.java" startline="1" endline="15" pcid="24800"></source>
+<source file="../ai_codes/deepseek_p03852_2P.java" startline="1" endline="14" pcid="48968"></source>
+<source file="../ai_codes/deepseek_p03852_1P.java" startline="1" endline="15" pcid="48967"></source>
+<source file="../ai_codes/deepseek_p03852_0P.java" startline="1" endline="15" pcid="48966"></source>
+<source file="../ai_codes/deepseek_p03852_4P.java" startline="1" endline="14" pcid="48970"></source>
+<source file="../ai_codes/deepseek_p03852_3P.java" startline="1" endline="14" pcid="48969"></source>
+<source file="../ai_codes/chatgpt_p03852_4P.java" startline="1" endline="15" pcid="59877"></source>
+<source file="../ai_codes/chatgpt_p03852_0P.java" startline="1" endline="14" pcid="59874"></source>
+<source file="../ai_codes/chatgpt_p03852_1P.java" startline="1" endline="14" pcid="59875"></source>
+</class>
+
+<class classid="99" nclones="3" nlines="17" similarity="100">
+<source file="../hum_codes/s181955994P.java" startline="1" endline="22" pcid="24814"></source>
+<source file="../ai_codes/gemini_p02606_0P.java" startline="1" endline="19" pcid="52697"></source>
+<source file="../ai_codes/gemini_p02398_0P.java" startline="1" endline="20" pcid="52221"></source>
+</class>
+
+<class classid="100" nclones="6" nlines="16" similarity="100">
+<source file="../hum_codes/s262516864P.java" startline="1" endline="20" pcid="24913"></source>
+<source file="../ai_codes/claude_p03759_1P.java" startline="1" endline="19" pcid="40227"></source>
+<source file="../ai_codes/gemini_p03759_2P.java" startline="1" endline="19" pcid="56992"></source>
+<source file="../ai_codes/claude_p03759_0P.java" startline="1" endline="19" pcid="40226"></source>
+<source file="../ai_codes/claude_p03759_2P.java" startline="1" endline="19" pcid="40228"></source>
+<source file="../ai_codes/gemini_p03759_3P.java" startline="1" endline="19" pcid="56993"></source>
+</class>
+
+<class classid="101" nclones="6" nlines="16" similarity="100">
+<source file="../hum_codes/s532221006P.java" startline="1" endline="20" pcid="25125"></source>
+<source file="../ai_codes/claude_p02909_0P.java" startline="1" endline="17" pcid="37089"></source>
+<source file="../ai_codes/chatgpt_p02909_3P.java" startline="1" endline="16" pcid="63570"></source>
+<source file="../ai_codes/chatgpt_p02909_1P.java" startline="1" endline="16" pcid="65899"></source>
+<source file="../ai_codes/claude_p02909_2P.java" startline="1" endline="17" pcid="37091"></source>
+<source file="../ai_codes/claude_p02909_1P.java" startline="1" endline="17" pcid="37090"></source>
+</class>
+
+<class classid="102" nclones="6" nlines="14" similarity="100">
+<source file="../hum_codes/s434984501P.java" startline="1" endline="15" pcid="25483"></source>
+<source file="../ai_codes/claude_p03555_1P.java" startline="1" endline="18" pcid="39480"></source>
+<source file="../ai_codes/deepseek_p03555_4P.java" startline="1" endline="18" pcid="47880"></source>
+<source file="../ai_codes/deepseek_p03555_0P.java" startline="1" endline="18" pcid="47876"></source>
+<source file="../ai_codes/deepseek_p03555_1P.java" startline="1" endline="18" pcid="47877"></source>
+<source file="../ai_codes/deepseek_p03555_3P.java" startline="1" endline="18" pcid="47879"></source>
+</class>
+
+<class classid="103" nclones="2" nlines="14" similarity="100">
+<source file="../hum_codes/s648642543P.java" startline="1" endline="18" pcid="25601"></source>
+<source file="../ai_codes/gemini_p03567_3P.java" startline="1" endline="17" pcid="56301"></source>
+</class>
+
+<class classid="104" nclones="2" nlines="12" similarity="100">
+<source file="../hum_codes/s672351134P.java" startline="1" endline="14" pcid="25619"></source>
+<source file="../ai_codes/chatgpt_p02945_1P.java" startline="1" endline="14" pcid="64481"></source>
+</class>
+
+<class classid="105" nclones="3" nlines="25" similarity="100">
+<source file="../hum_codes/s188619622P.java" startline="1" endline="32" pcid="25896"></source>
+<source file="../ai_codes/gemini_p02923_1P.java" startline="1" endline="29" pcid="53962"></source>
+<source file="../ai_codes/gemini_p02923_3P.java" startline="1" endline="29" pcid="53964"></source>
+</class>
+
+<class classid="106" nclones="4" nlines="10" similarity="100">
+<source file="../hum_codes/s193837816P.java" startline="1" endline="14" pcid="26405"></source>
+<source file="../ai_codes/chatgpt_p03293_1P.java" startline="1" endline="12" pcid="63937"></source>
+<source file="../ai_codes/chatgpt_p02418_3P.java" startline="1" endline="12" pcid="66853"></source>
+<source file="../ai_codes/chatgpt_p02418_2P.java" startline="1" endline="12" pcid="66852"></source>
+</class>
+
+<class classid="107" nclones="11" nlines="15" similarity="100">
+<source file="../hum_codes/s206723592P.java" startline="1" endline="18" pcid="26429"></source>
+<source file="../ai_codes/chatgpt_p03377_2P.java" startline="1" endline="17" pcid="64031"></source>
+<source file="../ai_codes/chatgpt_p03377_0P.java" startline="1" endline="16" pcid="64029"></source>
+<source file="../ai_codes/deepseek_p03377_4P.java" startline="1" endline="17" pcid="47320"></source>
+<source file="../ai_codes/deepseek_p03377_3P.java" startline="1" endline="17" pcid="47319"></source>
+<source file="../ai_codes/chatgpt_p03377_3P.java" startline="1" endline="17" pcid="64032"></source>
+<source file="../ai_codes/deepseek_p03377_1P.java" startline="1" endline="17" pcid="47317"></source>
+<source file="../ai_codes/deepseek_p03377_2P.java" startline="1" endline="17" pcid="47318"></source>
+<source file="../ai_codes/chatgpt_p03377_1P.java" startline="1" endline="17" pcid="64030"></source>
+<source file="../ai_codes/deepseek_p03377_0P.java" startline="1" endline="17" pcid="47316"></source>
+<source file="../ai_codes/claude_p03377_4P.java" startline="1" endline="17" pcid="38923"></source>
+</class>
+
+<class classid="108" nclones="3" nlines="10" similarity="100">
+<source file="../hum_codes/s021326800P.java" startline="1" endline="11" pcid="27106"></source>
+<source file="../ai_codes/chatgpt_p03272_1P.java" startline="1" endline="12" pcid="63843"></source>
+<source file="../ai_codes/chatgpt_p03272_4P.java" startline="1" endline="12" pcid="63846"></source>
+</class>
+
+<class classid="109" nclones="3" nlines="22" similarity="100">
+<source file="../hum_codes/s681643147P.java" startline="1" endline="24" pcid="27466"></source>
+<source file="../ai_codes/deepseek_p03486_3P.java" startline="1" endline="27" pcid="47724"></source>
+<source file="../ai_codes/deepseek_p03486_1P.java" startline="1" endline="28" pcid="47722"></source>
+</class>
+
+<class classid="110" nclones="2" nlines="10" similarity="100">
+<source file="../hum_codes/s206925504P.java" startline="1" endline="15" pcid="27643"></source>
+<source file="../ai_codes/chatgpt_p03860_2P.java" startline="1" endline="12" pcid="59902"></source>
+</class>
+
+<class classid="111" nclones="3" nlines="23" similarity="100">
+<source file="../hum_codes/s339507586P.java" startline="1" endline="24" pcid="27711"></source>
+<source file="../ai_codes/deepseek_p02405_3P.java" startline="1" endline="25" pcid="43850"></source>
+<source file="../ai_codes/deepseek_p02405_2P.java" startline="1" endline="25" pcid="43849"></source>
+</class>
+
+<class classid="112" nclones="2" nlines="10" similarity="100">
+<source file="../hum_codes/s150857248P.java" startline="1" endline="17" pcid="27906"></source>
+<source file="../ai_codes/gemini_p02999_2P.java" startline="1" endline="12" pcid="54257"></source>
+</class>
+
+<class classid="113" nclones="4" nlines="13" similarity="100">
+<source file="../hum_codes/s585051508P.java" startline="1" endline="16" pcid="28121"></source>
+<source file="../ai_codes/claude_p03036_4P.java" startline="1" endline="16" pcid="37602"></source>
+<source file="../ai_codes/claude_p03036_2P.java" startline="1" endline="16" pcid="37600"></source>
+<source file="../ai_codes/claude_p03036_1P.java" startline="1" endline="16" pcid="37599"></source>
+</class>
+
+<class classid="114" nclones="11" nlines="17" similarity="100">
+<source file="../hum_codes/s180691434P.java" startline="1" endline="23" pcid="28254"></source>
+<source file="../ai_codes/chatgpt_p03302_1P.java" startline="1" endline="18" pcid="66866"></source>
+<source file="../ai_codes/deepseek_p03302_3P.java" startline="1" endline="18" pcid="47016"></source>
+<source file="../ai_codes/deepseek_p03302_2P.java" startline="1" endline="18" pcid="47015"></source>
+<source file="../ai_codes/deepseek_p03302_4P.java" startline="1" endline="18" pcid="47017"></source>
+<source file="../ai_codes/chatgpt_p03302_0P.java" startline="1" endline="18" pcid="67589"></source>
+<source file="../ai_codes/deepseek_p03302_1P.java" startline="1" endline="18" pcid="47014"></source>
+<source file="../ai_codes/chatgpt_p03302_3P.java" startline="1" endline="18" pcid="67310"></source>
+<source file="../ai_codes/chatgpt_p03302_4P.java" startline="1" endline="18" pcid="67101"></source>
+<source file="../ai_codes/deepseek_p03302_0P.java" startline="1" endline="18" pcid="47013"></source>
+<source file="../hum_codes/s035027406P.java" startline="1" endline="19" pcid="32103"></source>
+</class>
+
+<class classid="115" nclones="4" nlines="15" similarity="100">
+<source file="../hum_codes/s513495220P.java" startline="1" endline="17" pcid="29014"></source>
+<source file="../ai_codes/deepseek_p03970_0P.java" startline="1" endline="18" pcid="49179"></source>
+<source file="../ai_codes/deepseek_p03970_4P.java" startline="1" endline="17" pcid="49183"></source>
+<source file="../ai_codes/deepseek_p03970_1P.java" startline="1" endline="19" pcid="49180"></source>
+</class>
+
+<class classid="116" nclones="5" nlines="14" similarity="100">
+<source file="../hum_codes/s145869012P.java" startline="1" endline="18" pcid="29577"></source>
+<source file="../ai_codes/deepseek_p03493_4P.java" startline="1" endline="16" pcid="47750"></source>
+<source file="../ai_codes/deepseek_p03587_4P.java" startline="1" endline="16" pcid="47994"></source>
+<source file="../ai_codes/deepseek_p03587_1P.java" startline="1" endline="16" pcid="47991"></source>
+<source file="../ai_codes/deepseek_p03587_3P.java" startline="1" endline="16" pcid="47993"></source>
+</class>
+
+<class classid="117" nclones="2" nlines="26" similarity="100">
+<source file="../hum_codes/s226684783P.java" startline="1" endline="29" pcid="29821"></source>
+<source file="../ai_codes/gemini_p03451_0P.java" startline="1" endline="31" pcid="55961"></source>
+</class>
+
+<class classid="118" nclones="10" nlines="13" similarity="100">
+<source file="../hum_codes/s003706791P.java" startline="1" endline="19" pcid="29924"></source>
+<source file="../ai_codes/deepseek_p03327_2P.java" startline="1" endline="15" pcid="47129"></source>
+<source file="../ai_codes/deepseek_p03327_1P.java" startline="1" endline="14" pcid="47128"></source>
+<source file="../ai_codes/chatgpt_p03327_1P.java" startline="1" endline="14" pcid="66369"></source>
+<source file="../ai_codes/chatgpt_p03327_2P.java" startline="1" endline="14" pcid="66370"></source>
+<source file="../ai_codes/chatgpt_p03327_3P.java" startline="1" endline="14" pcid="66371"></source>
+<source file="../ai_codes/chatgpt_p03327_0P.java" startline="1" endline="14" pcid="66368"></source>
+<source file="../ai_codes/chatgpt_p03327_4P.java" startline="1" endline="14" pcid="66372"></source>
+<source file="../ai_codes/deepseek_p03327_0P.java" startline="1" endline="14" pcid="47127"></source>
+<source file="../ai_codes/deepseek_p03327_4P.java" startline="1" endline="15" pcid="47131"></source>
+</class>
+
+<class classid="119" nclones="5" nlines="15" similarity="100">
+<source file="../hum_codes/s662894756P.java" startline="1" endline="20" pcid="30102"></source>
+<source file="../ai_codes/chatgpt_p03238_1P.java" startline="1" endline="16" pcid="65833"></source>
+<source file="../ai_codes/deepseek_p03238_4P.java" startline="1" endline="17" pcid="46749"></source>
+<source file="../ai_codes/chatgpt_p03238_3P.java" startline="1" endline="17" pcid="65835"></source>
+<source file="../ai_codes/chatgpt_p03238_4P.java" startline="1" endline="16" pcid="65836"></source>
+</class>
+
+<class classid="120" nclones="7" nlines="16" similarity="100">
+<source file="../hum_codes/s256843157P.java" startline="1" endline="20" pcid="30226"></source>
+<source file="../ai_codes/gemini_p03719_2P.java" startline="1" endline="18" pcid="56867"></source>
+<source file="../ai_codes/gemini_p03719_4P.java" startline="1" endline="19" pcid="56869"></source>
+<source file="../ai_codes/gemini_p03719_1P.java" startline="1" endline="19" pcid="56866"></source>
+<source file="../ai_codes/gemini_p03719_3P.java" startline="1" endline="18" pcid="56868"></source>
+<source file="../ai_codes/claude_p03719_0P.java" startline="1" endline="19" pcid="40102"></source>
+<source file="../ai_codes/gemini_p03719_0P.java" startline="1" endline="18" pcid="56865"></source>
+</class>
+
+<class classid="121" nclones="6" nlines="11" similarity="100">
+<source file="../hum_codes/s671022740P.java" startline="1" endline="16" pcid="30289"></source>
+<source file="../ai_codes/deepseek_p03145_0P.java" startline="1" endline="14" pcid="46386"></source>
+<source file="../ai_codes/deepseek_p03145_2P.java" startline="1" endline="14" pcid="46388"></source>
+<source file="../ai_codes/claude_p03145_1P.java" startline="1" endline="15" pcid="37988"></source>
+<source file="../ai_codes/deepseek_p03145_3P.java" startline="1" endline="14" pcid="46389"></source>
+<source file="../ai_codes/deepseek_p03145_4P.java" startline="1" endline="14" pcid="46390"></source>
+</class>
+
+<class classid="122" nclones="7" nlines="10" similarity="100">
+<source file="../hum_codes/s152944647P.java" startline="1" endline="12" pcid="31088"></source>
+<source file="../ai_codes/chatgpt_p03485_0P.java" startline="1" endline="12" pcid="58743"></source>
+<source file="../ai_codes/chatgpt_p03485_1P.java" startline="1" endline="12" pcid="58744"></source>
+<source file="../ai_codes/claude_p03485_2P.java" startline="1" endline="14" pcid="39321"></source>
+<source file="../ai_codes/chatgpt_p03485_4P.java" startline="1" endline="12" pcid="58747"></source>
+<source file="../ai_codes/chatgpt_p03485_3P.java" startline="1" endline="12" pcid="58746"></source>
+<source file="../ai_codes/chatgpt_p03485_2P.java" startline="1" endline="12" pcid="58745"></source>
+</class>
+
+<class classid="123" nclones="12" nlines="14" similarity="100">
+<source file="../hum_codes/s254298597P.java" startline="1" endline="16" pcid="31127"></source>
+<source file="../ai_codes/claude_p03591_2P.java" startline="1" endline="17" pcid="39611"></source>
+<source file="../ai_codes/claude_p03591_0P.java" startline="1" endline="17" pcid="39609"></source>
+<source file="../ai_codes/claude_p03591_3P.java" startline="1" endline="17" pcid="39612"></source>
+<source file="../ai_codes/claude_p03567_4P.java" startline="1" endline="17" pcid="39533"></source>
+<source file="../ai_codes/claude_p03591_4P.java" startline="1" endline="17" pcid="39613"></source>
+<source file="../ai_codes/gemini_p02687_2P.java" startline="1" endline="15" pcid="52998"></source>
+<source file="../ai_codes/gemini_p02687_4P.java" startline="1" endline="15" pcid="53000"></source>
+<source file="../ai_codes/claude_p02687_4P.java" startline="1" endline="17" pcid="36191"></source>
+<source file="../ai_codes/gemini_p03567_2P.java" startline="1" endline="17" pcid="56300"></source>
+<source file="../ai_codes/claude_p02687_1P.java" startline="1" endline="17" pcid="36188"></source>
+<source file="../ai_codes/gemini_p03567_4P.java" startline="1" endline="17" pcid="56302"></source>
+</class>
+
+<class classid="124" nclones="4" nlines="12" similarity="100">
+<source file="../hum_codes/s027788865P.java" startline="1" endline="13" pcid="31191"></source>
+<source file="../ai_codes/claude_p02379_1P.java" startline="1" endline="15" pcid="35320"></source>
+<source file="../ai_codes/chatgpt_p02379_1P.java" startline="1" endline="15" pcid="66709"></source>
+<source file="../ai_codes/chatgpt_p02379_4P.java" startline="1" endline="14" pcid="66712"></source>
+</class>
+
+<class classid="125" nclones="3" nlines="11" similarity="100">
+<source file="../hum_codes/s467157914P.java" startline="1" endline="19" pcid="31287"></source>
+<source file="../ai_codes/chatgpt_p03101_4P.java" startline="1" endline="14" pcid="65173"></source>
+<source file="../ai_codes/deepseek_p03101_2P.java" startline="1" endline="13" pcid="46240"></source>
+</class>
+
+<class classid="126" nclones="6" nlines="14" similarity="100">
+<source file="../hum_codes/s146459526P.java" startline="1" endline="21" pcid="31444"></source>
+<source file="../ai_codes/deepseek_p02957_1P.java" startline="1" endline="16" pcid="45694"></source>
+<source file="../ai_codes/deepseek_p02957_3P.java" startline="1" endline="16" pcid="45696"></source>
+<source file="../ai_codes/deepseek_p02957_4P.java" startline="1" endline="16" pcid="45697"></source>
+<source file="../ai_codes/claude_p02957_2P.java" startline="1" endline="16" pcid="37295"></source>
+<source file="../ai_codes/claude_p02957_1P.java" startline="1" endline="16" pcid="37294"></source>
+</class>
+
+<class classid="127" nclones="2" nlines="15" similarity="100">
+<source file="../hum_codes/s136687196P.java" startline="1" endline="22" pcid="31550"></source>
+<source file="../ai_codes/chatgpt_p03729_4P.java" startline="1" endline="18" pcid="59484"></source>
+</class>
+
+<class classid="128" nclones="9" nlines="14" similarity="100">
+<source file="../hum_codes/s025417333P.java" startline="1" endline="16" pcid="31627"></source>
+<source file="../ai_codes/chatgpt_p03260_3P.java" startline="1" endline="16" pcid="63793"></source>
+<source file="../ai_codes/chatgpt_p03260_2P.java" startline="1" endline="16" pcid="63792"></source>
+<source file="../ai_codes/chatgpt_p03260_0P.java" startline="1" endline="16" pcid="63790"></source>
+<source file="../ai_codes/claude_p03260_2P.java" startline="1" endline="16" pcid="38438"></source>
+<source file="../ai_codes/chatgpt_p03260_4P.java" startline="1" endline="16" pcid="63794"></source>
+<source file="../ai_codes/claude_p03260_1P.java" startline="1" endline="16" pcid="38437"></source>
+<source file="../ai_codes/claude_p03260_0P.java" startline="1" endline="16" pcid="38436"></source>
+<source file="../ai_codes/deepseek_p03260_3P.java" startline="1" endline="16" pcid="46838"></source>
+</class>
+
+<class classid="129" nclones="2" nlines="26" similarity="100">
+<source file="../hum_codes/s028943169P.java" startline="1" endline="30" pcid="32026"></source>
+<source file="../ai_codes/gemini_p03699_4P.java" startline="1" endline="33" pcid="56799"></source>
+</class>
+
+<class classid="130" nclones="2" nlines="18" similarity="100">
+<source file="../hum_codes/s153206395P.java" startline="1" endline="22" pcid="32690"></source>
+<source file="../ai_codes/deepseek_p00353_2P.java" startline="1" endline="19" pcid="42181"></source>
+</class>
+
+<class classid="131" nclones="5" nlines="15" similarity="100">
+<source file="../hum_codes/s215008297P.java" startline="1" endline="20" pcid="32777"></source>
+<source file="../ai_codes/deepseek_p03238_0P.java" startline="1" endline="17" pcid="46745"></source>
+<source file="../ai_codes/chatgpt_p03238_0P.java" startline="1" endline="18" pcid="65832"></source>
+<source file="../ai_codes/deepseek_p03238_2P.java" startline="1" endline="17" pcid="46747"></source>
+<source file="../ai_codes/deepseek_p03238_3P.java" startline="1" endline="17" pcid="46748"></source>
+</class>
+
+<class classid="132" nclones="8" nlines="18" similarity="100">
+<source file="../hum_codes/s124403888P.java" startline="1" endline="26" pcid="33519"></source>
+<source file="../ai_codes/deepseek_p02777_2P.java" startline="1" endline="20" pcid="44982"></source>
+<source file="../ai_codes/chatgpt_p02777_0P.java" startline="1" endline="22" pcid="58493"></source>
+<source file="../ai_codes/chatgpt_p02777_2P.java" startline="1" endline="21" pcid="58495"></source>
+<source file="../ai_codes/chatgpt_p02777_3P.java" startline="1" endline="20" pcid="58496"></source>
+<source file="../ai_codes/deepseek_p02777_1P.java" startline="1" endline="21" pcid="44981"></source>
+<source file="../ai_codes/claude_p02777_2P.java" startline="1" endline="21" pcid="36577"></source>
+<source file="../ai_codes/chatgpt_p02777_4P.java" startline="1" endline="22" pcid="58497"></source>
+</class>
+
+<class classid="133" nclones="2" nlines="18" similarity="100">
+<source file="../hum_codes/s086859680P.java" startline="1" endline="20" pcid="33547"></source>
+<source file="../ai_codes/deepseek_p03679_2P.java" startline="1" endline="19" pcid="48350"></source>
+</class>
+
+<class classid="134" nclones="2" nlines="13" similarity="100">
+<source file="../hum_codes/s148097669P.java" startline="1" endline="22" pcid="33731"></source>
+<source file="../ai_codes/claude_p02724_3P.java" startline="1" endline="19" pcid="36363"></source>
+</class>
+
+</clones>

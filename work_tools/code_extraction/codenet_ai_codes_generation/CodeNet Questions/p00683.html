@@ -1,0 +1,121 @@
+
+<H1>A Simple Offline Text Editor</H1>
+<P>A text editor is a useful software tool that can help people in various situations including writing and programming. Your job in this problem is to construct an offline text editor, i.e., to write a program that first reads a given text and a sequence of editing commands and finally reports the text obtained by performing successively the commands in the given sequence.</P>
+<P>The editor has a text buffer and a cursor. The target text is stored in the text buffer and most editing commands are performed around the cursor. The cursor has its position that is either the beginning of the text, the end of the text, or between two consecutive characters in the text. The initial cursor position (i.e., the cursor position just after reading the initial text) is the beginning of the text.</P> 
+<P>A text manipulated by the editor is a single line consisting of a sequence of characters, each of which must be one of the following: 'a' through 'z', 'A' through 'Z', '0' through '9', '.' (period), ',' (comma), and ' ' (blank). You can assume that any other characters never occur in the text buffer. You can also assume that the target text consists of at most 1,000 characters at any time. The definition of words in this problem is a little strange: a word is a non-empty character sequence delimited by not only blank characters but also the cursor. For instance, in the following text with a cursor represented as '^', </P><DIR>
+<DIR>
+
+<P>He^llo, World.</P></DIR>
+</DIR>
+
+<P>the words are the following.</P><DIR>
+<DIR>
+
+<P>He</P>
+<P>llo,</P>
+<P>World.</P></DIR>
+</DIR>
+
+<P>Notice that punctuation characters may appear in words as shown in this example.</P>
+<P>The editor accepts the following set of commands. In the command list, "<I>any-text</I>" represents any text surrounded by a pair of double quotation marks such as "abc" and "Co., Ltd.".</P>
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=1 CELLPADDING=6 WIDTH=584>
+<TR><TD WIDTH="23%" VALIGN="TOP">
+<P><B>Command</B></TD>
+<TD WIDTH="77%" VALIGN="TOP">
+<B><P>Descriptions</B></TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP">
+<P>forward char</TD>
+<TD WIDTH="77%" VALIGN="TOP">
+<P>Move the cursor by one character to the right, unless the cursor is already at the end of the text.</TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP">
+<P>forward word</TD>
+<TD WIDTH="77%" VALIGN="TOP">
+<P>Move the cursor to the end of the leftmost word in the right. If no words occur in the right, move it to the end of the text.</TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP">
+<P>backward char</TD>
+<TD WIDTH="77%" VALIGN="TOP">
+<P>Move the cursor by one character to the left, unless the cursor is already at the beginning of the text.</TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP">
+<P>backward word</TD>
+<TD WIDTH="77%" VALIGN="TOP">
+<P>Move the cursor to the beginning of the rightmost word in the left. If no words occur in the left, move it to the beginning of the text.</TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP">
+<P>insert "<I>any-text</I>"</TD>
+<TD WIDTH="77%" VALIGN="TOP">
+<P>Insert <I>any-text</I> (excluding double quotation marks) at the position specified by the cursor. After performing this command, the new cursor position is at the end of the inserted text. The length of <I>any-text</I> is less than or equal to 100.</TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP">
+<P>delete char</TD>
+<TD WIDTH="77%" VALIGN="TOP">
+<P>Delete the character that is right next to the cursor, if it exists.</TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP">
+<P>delete word</TD>
+<TD WIDTH="77%" VALIGN="TOP">
+<P>Delete the leftmost word in the right of the cursor. If one or more blank characters occur between the cursor and the word before performing this command, delete these blanks, too.  If no words occur in the right, delete no characters in the text buffer.</TD>
+</TR>
+</TABLE>
+</CENTER></P>
+
+   
+<H2>Input</H2>
+<P>The first input line contains a positive integer, which represents the number of texts the editor will edit. For each text, the input contains the following descriptions:</P>
+
+<UL>
+
+<UL>
+<LI>The first line is an initial text whose length is at most 100.</LI>
+<LI>The second line contains an integer <I>M</I> representing the number of editing commands.</LI>
+<LI>Each of the third through the <I>M</I>+2nd lines contains an editing command.</LI></UL>
+</UL>
+
+<P>You can assume that every input line is in a proper format or has no syntax errors. You can also assume that every input line has no leading or trailing spaces and that just a single blank character occurs between a command name (e.g., forward) and its argument (e.g., char).</P>  
+
+<H2>Output</H2>
+<P>For each input text, print the final text with a character '^' representing the cursor position.  Each output line shall contain exactly a single text with a character '^'.</P>
+<H2>Sample Input</H2>
+<FONT FACE="Courier New">
+<pre>
+3
+A sample input
+9
+forward word
+delete char
+forward word
+delete char
+forward word
+delete char
+backward word
+backward word
+forward word
+Hallow, Word.
+7
+forward char
+delete word
+insert "ello, "
+forward word
+backward char
+backward char
+insert "l"
+
+3
+forward word
+backward word
+delete word
+</pre>
+</FONT>
+
+<H2>Output for the Sample Input</H2>
+<FONT FACE="Courier New">
+<pre>
+Asampleinput^
+Hello,  Worl^d.
+^
+</pre>
+</FONT>
+

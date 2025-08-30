@@ -1,0 +1,612 @@
+<clones>
+<systeminfo processor="nicad6" system="AIvsSTD_std_preproc" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="4173" npairs="4797"/>
+<runinfo ncompares="113982" cputime="113447"/>
+<classinfo nclasses="63"/>
+
+<class classid="1" nclones="40" nlines="49" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student1/exercise3/DiskP.java" startline="1" endline="59" pcid="7"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student3/exercise3/DiskP.java" startline="1" endline="59" pcid="300"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student22/exercise3/DiskP.java" startline="1" endline="59" pcid="193"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student36/exercise3/DiskP.java" startline="1" endline="59" pcid="396"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student34/exercise3/DiskP.java" startline="1" endline="59" pcid="370"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student18/exercise3/DiskP.java" startline="1" endline="59" pcid="117"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student37/exercise3/DiskP.java" startline="1" endline="59" pcid="411"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student23/exercise3/DiskP.java" startline="1" endline="59" pcid="204"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student33/exercise3/DiskP.java" startline="1" endline="59" pcid="361"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student10/exercise3/DiskP.java" startline="1" endline="59" pcid="16"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student43/exercise3/DiskP.java" startline="1" endline="59" pcid="529"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student9/exercise3/DiskP.java" startline="1" endline="59" pcid="590"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student38/exercise3/DiskP.java" startline="1" endline="59" pcid="429"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student35/exercise3/DiskP.java" startline="1" endline="59" pcid="384"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student32/exercise3/DiskP.java" startline="1" endline="59" pcid="346"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student2/exercise3/DiskP.java" startline="1" endline="59" pcid="154"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student11/exercise3/DiskP.java" startline="1" endline="59" pcid="26"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student41/exercise3/DiskP.java" startline="1" endline="59" pcid="495"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student17/exercise3/DiskP.java" startline="1" endline="59" pcid="104"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student42/exercise3/DiskP.java" startline="1" endline="59" pcid="509"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student13/exercise3/DiskP.java" startline="1" endline="59" pcid="56"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student8/exercise3/DiskP.java" startline="1" endline="59" pcid="578"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student20/exercise3/DiskP.java" startline="1" endline="59" pcid="166"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student24/exercise3/DiskP.java" startline="1" endline="59" pcid="219"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student39/exercise3/DiskP.java" startline="1" endline="59" pcid="441"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student19/exercise3/DiskP.java" startline="1" endline="59" pcid="137"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student7/exercise3/DiskP.java" startline="1" endline="59" pcid="569"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student27/exercise3/DiskP.java" startline="1" endline="59" pcid="257"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student4/exercise3/DiskP.java" startline="1" endline="59" pcid="454"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student12/exercise3/DiskP.java" startline="1" endline="59" pcid="42"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student16/exercise3/DiskP.java" startline="1" endline="59" pcid="91"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student25/exercise3/DiskP.java" startline="1" endline="59" pcid="233"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student30/exercise3/DiskP.java" startline="1" endline="59" pcid="317"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student21/exercise3/DiskP.java" startline="1" endline="59" pcid="180"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student15/exercise3/DiskP.java" startline="1" endline="59" pcid="81"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student6/exercise3/DiskP.java" startline="1" endline="59" pcid="555"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student31/exercise3/DiskP.java" startline="1" endline="59" pcid="335"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student5/exercise3/DiskP.java" startline="1" endline="59" pcid="542"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student40/exercise3/DiskP.java" startline="1" endline="59" pcid="469"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student26/exercise3/DiskP.java" startline="1" endline="59" pcid="242"></source>
+</class>
+
+<class classid="2" nclones="41" nlines="49" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student1/exercise3/SoftwareP.java" startline="1" endline="61" pcid="10"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student11/exercise3/SoftwareP.java" startline="1" endline="61" pcid="29"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student19/exercise3/SoftwareP.java" startline="1" endline="61" pcid="140"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student31/exercise3/SoftwareP.java" startline="1" endline="61" pcid="339"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student34/exercise3/SoftwareP.java" startline="1" endline="61" pcid="373"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student27/exercise3/SoftwareP.java" startline="1" endline="61" pcid="262"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student2/exercise3/SoftwareP.java" startline="1" endline="61" pcid="158"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student41/exercise3/SoftwareP.java" startline="1" endline="61" pcid="500"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student22/exercise3/SoftwareP.java" startline="1" endline="61" pcid="197"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student18/exercise3/SoftwareP.java" startline="1" endline="61" pcid="123"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student13/exercise3/SoftwareP.java" startline="1" endline="61" pcid="60"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student43/exercise3/SoftwareP.java" startline="1" endline="61" pcid="535"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student36/exercise3/SoftwareP.java" startline="1" endline="61" pcid="399"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student12/exercise3/SoftwareP.java" startline="1" endline="61" pcid="49"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student3/exercise3/SoftwareP.java" startline="1" endline="61" pcid="304"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student35/exercise3/SoftwareP.java" startline="1" endline="61" pcid="389"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student28/exercise3/SoftwareP.java" startline="1" endline="61" pcid="280"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student26/exercise3/SoftwareP.java" startline="1" endline="61" pcid="245"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student5/exercise3/SoftwareP.java" startline="1" endline="61" pcid="545"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student6/exercise3/SoftwareP.java" startline="1" endline="61" pcid="562"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student42/exercise3/SoftwareP.java" startline="1" endline="61" pcid="515"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student40/exercise3/SoftwareP.java" startline="1" endline="61" pcid="474"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student33/exercise3/SoftwareP.java" startline="1" endline="61" pcid="364"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student9/exercise3/SoftwareP.java" startline="1" endline="61" pcid="595"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student20/exercise3/SoftwareP.java" startline="1" endline="61" pcid="172"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student25/exercise3/SoftwareP.java" startline="1" endline="61" pcid="236"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student37/exercise3/SoftwareP.java" startline="1" endline="61" pcid="418"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student23/exercise3/SoftwareP.java" startline="1" endline="61" pcid="207"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student30/exercise3/SoftwareP.java" startline="1" endline="61" pcid="323"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student15/exercise3/SoftwareP.java" startline="1" endline="61" pcid="84"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student32/exercise3/SoftwareP.java" startline="1" endline="61" pcid="349"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student17/exercise3/SoftwareP.java" startline="1" endline="61" pcid="107"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student24/exercise3/SoftwareP.java" startline="1" endline="61" pcid="225"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student7/exercise3/SoftwareP.java" startline="1" endline="61" pcid="572"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student21/exercise3/SoftwareP.java" startline="1" endline="61" pcid="185"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student4/exercise3/SoftwareP.java" startline="1" endline="61" pcid="457"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student8/exercise3/SoftwareP.java" startline="1" endline="61" pcid="582"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student16/exercise3/SoftwareP.java" startline="1" endline="61" pcid="97"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student38/exercise3/SoftwareP.java" startline="1" endline="61" pcid="432"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student39/exercise3/SoftwareP.java" startline="1" endline="61" pcid="447"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student10/exercise3/SoftwareP.java" startline="1" endline="61" pcid="19"></source>
+</class>
+
+<class classid="3" nclones="41" nlines="43" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student1/exercise3/UserP.java" startline="1" endline="56" pcid="11"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student11/exercise3/UserP.java" startline="1" endline="56" pcid="30"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student40/exercise3/UserP.java" startline="1" endline="56" pcid="476"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student10/exercise3/UserP.java" startline="1" endline="56" pcid="20"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student33/exercise3/UserP.java" startline="1" endline="56" pcid="365"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student9/exercise3/UserP.java" startline="1" endline="56" pcid="598"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student14/exercise3/UserP.java" startline="1" endline="56" pcid="73"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student30/exercise3/UserP.java" startline="1" endline="56" pcid="325"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student3/exercise3/UserP.java" startline="1" endline="56" pcid="306"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student25/exercise3/UserP.java" startline="1" endline="56" pcid="237"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student35/exercise3/UserP.java" startline="1" endline="56" pcid="391"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student27/exercise3/UserP.java" startline="1" endline="56" pcid="264"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student21/exercise3/UserP.java" startline="1" endline="56" pcid="187"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student12/exercise3/UserP.java" startline="1" endline="56" pcid="51"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student15/exercise3/UserP.java" startline="1" endline="56" pcid="85"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student32/exercise3/UserP.java" startline="1" endline="56" pcid="350"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student43/exercise3/UserP.java" startline="1" endline="56" pcid="537"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student26/exercise3/UserP.java" startline="1" endline="56" pcid="246"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student42/exercise3/UserP.java" startline="1" endline="56" pcid="517"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student18/exercise3/UserP.java" startline="1" endline="56" pcid="125"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student19/exercise3/UserP.java" startline="1" endline="56" pcid="141"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student22/exercise3/UserP.java" startline="1" endline="56" pcid="199"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student24/exercise3/UserP.java" startline="1" endline="56" pcid="227"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student39/exercise3/UserP.java" startline="1" endline="56" pcid="449"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student5/exercise3/UserP.java" startline="1" endline="56" pcid="546"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student37/exercise3/UserP.java" startline="1" endline="56" pcid="420"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student38/exercise3/UserP.java" startline="1" endline="56" pcid="433"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student17/exercise3/UserP.java" startline="1" endline="56" pcid="108"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student34/exercise3/UserP.java" startline="1" endline="56" pcid="374"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student6/exercise3/UserP.java" startline="1" endline="56" pcid="564"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student23/exercise3/UserP.java" startline="1" endline="56" pcid="208"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student20/exercise3/UserP.java" startline="1" endline="56" pcid="174"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student41/exercise3/UserP.java" startline="1" endline="56" pcid="502"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student2/exercise3/UserP.java" startline="1" endline="56" pcid="159"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student16/exercise3/UserP.java" startline="1" endline="56" pcid="99"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student36/exercise3/UserP.java" startline="1" endline="56" pcid="400"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student4/exercise3/UserP.java" startline="1" endline="56" pcid="458"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student28/exercise3/UserP.java" startline="1" endline="56" pcid="282"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student13/exercise3/UserP.java" startline="1" endline="56" pcid="62"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student7/exercise3/UserP.java" startline="1" endline="56" pcid="573"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student8/exercise3/UserP.java" startline="1" endline="56" pcid="584"></source>
+</class>
+
+<class classid="4" nclones="23" nlines="37" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student10/exercise1/CharacterP.java" startline="1" endline="48" pcid="12"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student31/exercise1/CharacterP.java" startline="1" endline="48" pcid="326"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student12/exercise1/CharacterP.java" startline="1" endline="48" pcid="32"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student3/exercise1/CharacterP.java" startline="1" endline="48" pcid="296"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student11/exercise1/CharacterP.java" startline="1" endline="48" pcid="21"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student40/exercise1/CharacterP.java" startline="1" endline="48" pcid="459"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student27/exercise1/CharacterP.java" startline="1" endline="48" pcid="247"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student25/exercise1/CharacterP.java" startline="1" endline="48" pcid="228"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student37/exercise1/CharacterP.java" startline="1" endline="48" pcid="401"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student23/exercise1/CharacterP.java" startline="1" endline="48" pcid="200"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student21/exercise1/CharacterP.java" startline="1" endline="48" pcid="175"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student34/exercise1/CharacterP.java" startline="1" endline="48" pcid="366"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student22/exercise1/CharacterP.java" startline="1" endline="48" pcid="189"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student36/exercise1/CharacterP.java" startline="1" endline="48" pcid="392"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student7/exercise1/CharacterP.java" startline="1" endline="48" pcid="565"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student26/exercise1/CharacterP.java" startline="1" endline="48" pcid="238"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student17/exercise1/CharacterP.java" startline="1" endline="48" pcid="100"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student2/exercise1/CharacterP.java" startline="1" endline="48" pcid="142"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student8/exercise1/CharacterP.java" startline="1" endline="48" pcid="574"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student5/exercise1/CharacterP.java" startline="1" endline="48" pcid="538"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student32/exercise1/CharacterP.java" startline="1" endline="48" pcid="342"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student16/exercise1/CharacterP.java" startline="1" endline="48" pcid="86"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student4/exercise1/CharacterP.java" startline="1" endline="48" pcid="450"></source>
+</class>
+
+<class classid="5" nclones="9" nlines="18" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student10/exercise1/PartyP.java" startline="1" endline="24" pcid="15"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student5/exercise1/PartyP.java" startline="1" endline="24" pcid="541"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student23/exercise1/PartyP.java" startline="1" endline="24" pcid="203"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student34/exercise1/PartyP.java" startline="1" endline="24" pcid="369"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student7/exercise1/PartyP.java" startline="1" endline="24" pcid="568"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student36/exercise1/PartyP.java" startline="1" endline="24" pcid="395"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student26/exercise1/PartyP.java" startline="1" endline="24" pcid="241"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student17/exercise1/PartyP.java" startline="1" endline="24" pcid="103"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab10-submissions/student4/exercise1/PartyP.java" startline="1" endline="24" pcid="453"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="22" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab2-submissions/student14/exercise4/DivisibleByThreeP.java" startline="1" endline="26" pcid="662"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab2-submissions/student49/ex4/DivisibleByThreeP.java" startline="1" endline="26" pcid="1102"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="115" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab2-submissions/student14/exercise6/TimeP.java" startline="1" endline="117" pcid="665"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab2-submissions/student49/ex6/TimeP.java" startline="1" endline="113" pcid="1105"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="27" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab3-submissions/student14/Exercise3/StatisticsP.java" startline="1" endline="29" pcid="1348"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab3-submissions/student46/ex3/StatisticsP.java" startline="1" endline="29" pcid="1647"></source>
+</class>
+
+<class classid="9" nclones="2" nlines="27" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab3-submissions/student14/exercise4/lu/uni/programming1/lab3/exercise4/DivThreeMoreDigitsP.java" startline="1" endline="30" pcid="1349"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab3-submissions/student46/ex4/DivThreeMoreDigitsP.java" startline="1" endline="29" pcid="1648"></source>
+</class>
+
+<class classid="10" nclones="46" nlines="52" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student1/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1785"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student17/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1816"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student2/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1828"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student37/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1915"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student29/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1867"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student10/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1793"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student34/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1900"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student36/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1909"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student45/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1949"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student13/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1800"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student14/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1804"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student11/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1794"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student3/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1873"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student16/exercise1/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1813"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student51/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1998"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student7/exercise1/BeveragesP.java" startline="1" endline="55" pcid="2025"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student28/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1862"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student23/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1843"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student50/exercise1/BeveragesP.java" startline="1" endline="54" pcid="1988"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student5/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1984"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student46/ex1/BeveragesP.java" startline="1" endline="55" pcid="1951"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student20/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1831"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student39/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1924"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student35/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1905"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student12/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1795"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student31/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1881"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student15/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1808"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student40/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1932"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student49/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1980"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student6/exercise1/BeveragesP.java" startline="1" endline="55" pcid="2021"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student33/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1895"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student21/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1833"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student24/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1847"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student52/exercise1/BeveragesP.java" startline="1" endline="55" pcid="2004"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student44/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1945"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student48/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1971"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student54/exercise1/BeveragesP.java" startline="1" endline="55" pcid="2017"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student41/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1935"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student25/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1849"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student46/exercise1/BeveragesP.java" startline="1" endline="50" pcid="1961"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student53/exercise1/BeveragesP.java" startline="1" endline="55" pcid="2012"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student47/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1966"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student32/exercise1/Exercise1/Exercise1/Exercise1/BeveragesP.java" startline="1" endline="55" pcid="1891"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student22/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1838"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student8/exercise1/BeveragesP.java" startline="1" endline="55" pcid="2026"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student42/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1937"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="31" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student14/Exercise3/PalindromeCaseInsensitiveP.java" startline="1" endline="35" pcid="1805"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student46/exercise3/PalindromeCaseInsensitiveP.java" startline="1" endline="35" pcid="1962"></source>
+</class>
+
+<class classid="12" nclones="2" nlines="30" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student14/Exercise3/PalindromeP.java" startline="1" endline="32" pcid="1806"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student46/exercise3/PalindromeP.java" startline="1" endline="32" pcid="1963"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="117" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student14/Exersice5/TicTacToe3X3P.java" startline="1" endline="120" pcid="1807"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student46/exercise5/TicTacToe3X3P.java" startline="1" endline="120" pcid="1964"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="95" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student18/ex5/TicTacToeP.java" startline="1" endline="101" pcid="1822"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student18/ex7/TicTacToeP.java" startline="1" endline="101" pcid="1823"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="52" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student19/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1826"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab4-submissions/student27/exercise1/BeveragesP.java" startline="1" endline="55" pcid="1858"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="27" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab5-submissions/student20/exercise2/FlightP.java" startline="1" endline="31" pcid="2080"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student9/lab6/exercise2/FlightP.java" startline="1" endline="29" pcid="2698"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="10" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab5-submissions/student20/exercise2/PassengerP.java" startline="1" endline="14" pcid="2081"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student38/Exercise2/PassengerP.java" startline="1" endline="16" pcid="2525"></source>
+</class>
+
+<class classid="18" nclones="3" nlines="13" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab5-submissions/student20/exercise2/PilotP.java" startline="1" endline="19" pcid="2083"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student46/lab6/exercise2/UML/PilotP.java" startline="1" endline="19" pcid="2625"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student46/lab6/exercise2/implementation/PilotP.java" startline="1" endline="19" pcid="2619"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="14" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab5-submissions/student23/exercise3/PersonP.java" startline="1" endline="14" pcid="2096"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab5-submissions/student47/exercise3/PersonP.java" startline="1" endline="19" pcid="2252"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="25" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab5-submissions/student31/exercise1/QuadraticP.java" startline="1" endline="31" pcid="2152"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab5-submissions/student35/Exercise1/QuadraticP.java" startline="1" endline="33" pcid="2172"></source>
+</class>
+
+<class classid="21" nclones="4" nlines="19" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab5-submissions/student31/exercise2/ColorsP.java" startline="1" endline="21" pcid="2153"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student3/exercise2/ColorsP.java" startline="1" endline="21" pcid="3354"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student3/exercise1/ColorsP.java" startline="1" endline="21" pcid="3349"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student3/exercise4/ColorsP.java" startline="1" endline="21" pcid="3358"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="13" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab5-submissions/student49/Exercise3/PersonP.java" startline="1" endline="18" pcid="2264"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student47/Exercise2/PersonP.java" startline="1" endline="18" pcid="3082"></source>
+</class>
+
+<class classid="23" nclones="9" nlines="14" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student1/exercise1/PavilionP.java" startline="1" endline="18" pcid="2304"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student46/lab6/exercise1/PavilionP.java" startline="1" endline="15" pcid="2611"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student11/Exercises/exercise1/PavilionP.java" startline="1" endline="17" pcid="2324"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student51/exercise1/PavilionP.java" startline="1" endline="18" pcid="2664"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student27/exercise1/PavilionP.java" startline="1" endline="18" pcid="2452"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student17/ex1/PavilionP.java" startline="1" endline="20" pcid="2385"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student9/lab6/exercise1/PavilionP.java" startline="1" endline="19" pcid="2695"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student16/Exercise1/PavilionP.java" startline="1" endline="20" pcid="2375"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/ex1/PavilionP.java" startline="1" endline="18" pcid="2575"></source>
+</class>
+
+<class classid="24" nclones="9" nlines="19" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student1/exercise2/AirportP.java" startline="1" endline="21" pcid="2307"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student14/exercise2/AirportP.java" startline="1" endline="27" pcid="2358"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/exercise2/AirportP.java" startline="1" endline="25" pcid="2593"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student6/exercise2/AirportP.java" startline="1" endline="25" pcid="2687"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student13/Exercise2/AirportP.java" startline="1" endline="26" pcid="2347"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student11/Exercises/exercise2/AirportP.java" startline="1" endline="25" pcid="2326"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student3/exercise2/AirportP.java" startline="1" endline="23" pcid="2479"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student35/Exercise2/AirportP.java" startline="1" endline="25" pcid="2509"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student46/lab6/exercise2/UML/AirportP.java" startline="1" endline="26" pcid="2620"></source>
+</class>
+
+<class classid="25" nclones="6" nlines="28" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student1/exercise2/FlightP.java" startline="1" endline="37" pcid="2308"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student14/exercise2/FlightP.java" startline="1" endline="39" pcid="2359"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student20/Exercise2/FlightP.java" startline="1" endline="38" pcid="2398"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student32/Exercise2/FlightP.java" startline="1" endline="32" pcid="2487"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student46/lab6/exercise2/UML/FlightP.java" startline="1" endline="38" pcid="2621"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student35/Exercise2/FlightP.java" startline="1" endline="37" pcid="2510"></source>
+</class>
+
+<class classid="26" nclones="15" nlines="10" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student1/exercise2/PassengerP.java" startline="1" endline="11" pcid="2310"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student46/lab6/exercise2/implementation/PassengerP.java" startline="1" endline="15" pcid="2617"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student47/exercise2/PassengerP.java" startline="1" endline="15" pcid="2633"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student29/exercise2/PassengerP.java" startline="1" endline="15" pcid="2468"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student25/exercise2/PassengerP.java" startline="1" endline="13" pcid="2437"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student3/exercise2/PassengerP.java" startline="1" endline="14" pcid="2481"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student14/exercise2/PassengerP.java" startline="1" endline="15" pcid="2360"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student4/Exercise2/PassengerP.java" startline="1" endline="15" pcid="2546"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student23/exercise2/PassengerP.java" startline="1" endline="13" pcid="2418"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student26/exercise2/PassengerP.java" startline="1" endline="13" pcid="2448"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student35/Exercise2/PassengerP.java" startline="1" endline="14" pcid="2511"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/exercise2/PassengerP.java" startline="1" endline="15" pcid="2597"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student13/Exercise2/PassengerP.java" startline="1" endline="14" pcid="2351"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student6/exercise2/PassengerP.java" startline="1" endline="13" pcid="2691"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student46/lab6/exercise2/UML/PassengerP.java" startline="1" endline="15" pcid="2623"></source>
+</class>
+
+<class classid="27" nclones="12" nlines="17" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student1/exercise2/PersonP.java" startline="1" endline="24" pcid="2311"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student23/exercise2/PersonP.java" startline="1" endline="23" pcid="2419"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student46/lab6/exercise2/implementation/PersonP.java" startline="1" endline="23" pcid="2618"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student14/exercise2/PersonP.java" startline="1" endline="24" pcid="2361"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student6/exercise2/PersonP.java" startline="1" endline="23" pcid="2692"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/exercise2/PersonP.java" startline="1" endline="23" pcid="2598"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student3/exercise2/PersonP.java" startline="1" endline="20" pcid="2482"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student20/Exercise2/PersonP.java" startline="1" endline="23" pcid="2401"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student46/lab6/exercise2/UML/PersonP.java" startline="1" endline="23" pcid="2624"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student29/exercise2/PersonP.java" startline="1" endline="24" pcid="2469"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student13/Exercise2/PersonP.java" startline="1" endline="24" pcid="2352"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student35/Exercise2/PersonP.java" startline="1" endline="23" pcid="2512"></source>
+</class>
+
+<class classid="28" nclones="13" nlines="13" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student1/exercise2/PilotP.java" startline="1" endline="15" pcid="2312"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student20/Exercise2/PilotP.java" startline="1" endline="19" pcid="2402"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student4/Exercise2/PilotP.java" startline="1" endline="19" pcid="2548"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student14/exercise2/PilotP.java" startline="1" endline="19" pcid="2362"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student13/Exercise2/PilotP.java" startline="1" endline="19" pcid="2353"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student26/exercise2/PilotP.java" startline="1" endline="17" pcid="2450"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student35/Exercise2/PilotP.java" startline="1" endline="18" pcid="2513"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student3/exercise2/PilotP.java" startline="1" endline="18" pcid="2483"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student29/exercise2/PilotP.java" startline="1" endline="19" pcid="2470"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student24/exercise2/PilotP.java" startline="1" endline="18" pcid="2429"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student6/exercise2/PilotP.java" startline="1" endline="18" pcid="2693"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student47/exercise2/PilotP.java" startline="1" endline="19" pcid="2635"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/exercise2/PilotP.java" startline="1" endline="18" pcid="2599"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="24" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student13/Exercise1/groupTicketP.java" startline="1" endline="30" pcid="2343"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/exercise1/groupTicketP.java" startline="1" endline="28" pcid="2589"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="14" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student13/Exercise1/PavilionP.java" startline="1" endline="19" pcid="2345"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/exercise1/PavilionP.java" startline="1" endline="19" pcid="2591"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="39" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student13/Exercise1/TicketP.java" startline="1" endline="44" pcid="2346"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/exercise1/TicketP.java" startline="1" endline="44" pcid="2592"></source>
+</class>
+
+<class classid="32" nclones="3" nlines="28" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student13/Exercise2/FlightP.java" startline="1" endline="37" pcid="2348"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/exercise2/FlightP.java" startline="1" endline="37" pcid="2594"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student6/exercise2/FlightP.java" startline="1" endline="36" pcid="2688"></source>
+</class>
+
+<class classid="33" nclones="3" nlines="14" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student14/exercise1/PavilionP.java" startline="1" endline="17" pcid="2356"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student29/exercise1/PavilionP.java" startline="1" endline="21" pcid="2463"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student50/Exercise1/PavilionP.java" startline="1" endline="19" pcid="2647"></source>
+</class>
+
+<class classid="34" nclones="5" nlines="17" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student16/Exercise2/AirportP.java" startline="1" endline="26" pcid="2377"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student26/exercise2/AirportP.java" startline="1" endline="22" pcid="2444"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student47/exercise2/AirportP.java" startline="1" endline="23" pcid="2630"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student24/exercise2/AirportP.java" startline="1" endline="23" pcid="2425"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student22/exercise2/AirportP.java" startline="1" endline="22" pcid="2407"></source>
+</class>
+
+<class classid="35" nclones="3" nlines="16" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student16/Exercise2/PersonP.java" startline="1" endline="24" pcid="2381"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student24/exercise2/PersonP.java" startline="1" endline="22" pcid="2428"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student26/exercise2/PersonP.java" startline="1" endline="21" pcid="2449"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="14" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student22/exercise1/PavillonP.java" startline="1" endline="19" pcid="2405"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student26/exercise1/PavillonP.java" startline="1" endline="18" pcid="2442"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="27" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student24/exercise2/FlightP.java" startline="1" endline="34" pcid="2426"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student26/exercise2/FlightP.java" startline="1" endline="29" pcid="2445"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="13" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student35/Exercise3/PageP.java" startline="1" endline="18" pcid="2515"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/ex3/PageP.java" startline="1" endline="18" pcid="2586"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="40" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student35/Exercise3/ProfileP.java" startline="1" endline="51" pcid="2516"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab6-submissions/student43/ex3/ProfileP.java" startline="1" endline="51" pcid="2587"></source>
+</class>
+
+<class classid="40" nclones="3" nlines="12" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student30/Exercise1/actionP.java" startline="1" endline="16" pcid="2923"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student7/Exercise1/actionP.java" startline="1" endline="16" pcid="3137"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student36/Exercise1/actionP.java" startline="1" endline="16" pcid="2946"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="28" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student30/Exercise1/moveP.java" startline="1" endline="31" pcid="2925"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student36/Exercise1/moveP.java" startline="1" endline="33" pcid="2948"></source>
+</class>
+
+<class classid="42" nclones="3" nlines="17" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student30/Exercise1/takePicP.java" startline="1" endline="19" pcid="2928"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student36/Exercise1/takePicP.java" startline="1" endline="19" pcid="2951"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student7/Exercise1/takePicP.java" startline="1" endline="19" pcid="3142"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="38" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student36/Exercise4/personP.java" startline="1" endline="45" pcid="2954"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student7/Exercise4/personP.java" startline="1" endline="45" pcid="3145"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="16" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student47/Exercise1/ActionP.java" startline="1" endline="29" pcid="3069"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student47/Exercise1simple/ActionP.java" startline="1" endline="29" pcid="3075"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="21" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student47/Exercise4a/DateP.java" startline="1" endline="28" pcid="3095"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student47/Exercise4b/DateP.java" startline="1" endline="28" pcid="3105"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="31" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student47/Exercise4a/PersonP.java" startline="1" endline="44" pcid="3100"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab7-submissions/student47/Exercise4b/PersonP.java" startline="1" endline="44" pcid="3108"></source>
+</class>
+
+<class classid="47" nclones="4" nlines="18" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student10/Exercises/exercise2/LauncherP.java" startline="1" endline="22" pcid="3175"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student35/exercise2/LauncherP.java" startline="1" endline="22" pcid="3403"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student43/exercise2/LauncherP.java" startline="1" endline="22" pcid="3462"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student47/Exercise2/LauncherP.java" startline="1" endline="23" pcid="3497"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="14" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student12/Exercise2/launcherP.java" startline="1" endline="16" pcid="3196"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student7/Exercise2/launcherP.java" startline="1" endline="16" pcid="3517"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="36" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student12/Exercise2/orderP.java" startline="1" endline="42" pcid="3198"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student7/Exercise2/orderP.java" startline="1" endline="42" pcid="3519"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="17" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student3/exercise1/ShippingP.java" startline="1" endline="24" pcid="3353"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student47/Exercise1/ShippingP.java" startline="1" endline="24" pcid="3496"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="13" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student47/Exercise1/ItemP.java" startline="1" endline="18" pcid="3494"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab8-submissions/student5/exercise1/ItemP.java" startline="1" endline="17" pcid="3506"></source>
+</class>
+
+<class classid="52" nclones="36" nlines="28" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student1/exercise3/MageP.java" startline="1" endline="39" pcid="3548"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student37/exercise3/MageP.java" startline="1" endline="39" pcid="3967"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student3/exercise3/MageP.java" startline="1" endline="39" pcid="3869"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student5/exercise3/MageP.java" startline="1" endline="39" pcid="4101"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student29/exercise3/MageP.java" startline="1" endline="39" pcid="3853"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student6/exercise3/MageP.java" startline="1" endline="39" pcid="4126"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student10/exercise3/MageP.java" startline="1" endline="39" pcid="3559"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student18/exercise3/MageP.java" startline="1" endline="39" pcid="3678"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student2/exercise3/MageP.java" startline="1" endline="39" pcid="3713"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student9/exercise3/MageP.java" startline="1" endline="39" pcid="4172"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student12/exercise3/MageP.java" startline="1" endline="39" pcid="3597"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student23/exercise3/MageP.java" startline="1" endline="39" pcid="3774"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student8/exercise3/MageP.java" startline="1" endline="39" pcid="4141"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student44/exercise3/MageP.java" startline="1" endline="39" pcid="4086"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student36/exercise3/MageP.java" startline="1" endline="39" pcid="3964"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student19/exercise3/MageP.java" startline="1" endline="39" pcid="3696"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student35/exercise3/MageP.java" startline="1" endline="39" pcid="3946"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student15/exercise3/MageP.java" startline="1" endline="39" pcid="3631"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student41/exercise3/MageP.java" startline="1" endline="39" pcid="4034"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student31/exercise3/MageP.java" startline="1" endline="39" pcid="3904"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student7/exercise3/MageP.java" startline="1" endline="39" pcid="4138"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student40/exercise3/MageP.java" startline="1" endline="39" pcid="4015"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student28/exercise3/MageP.java" startline="1" endline="39" pcid="3839"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student26/exercise3/MageP.java" startline="1" endline="39" pcid="3822"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student11/exercise3/MageP.java" startline="1" endline="39" pcid="3577"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student13/exercise3/MageP.java" startline="1" endline="39" pcid="3614"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student16/exercise3/MageP.java" startline="1" endline="39" pcid="3646"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student22/exercise3/MageP.java" startline="1" endline="39" pcid="3765"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student38/exercise3/MageP.java" startline="1" endline="39" pcid="3984"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student4/exercise3/MageP.java" startline="1" endline="39" pcid="3998"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student39/exercise3/MageP.java" startline="1" endline="39" pcid="3993"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student25/exercise3/MageP.java" startline="1" endline="39" pcid="3812"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise3/MageP.java" startline="1" endline="39" pcid="3795"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student20/exercise3/MageP.java" startline="1" endline="39" pcid="3727"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student34/exercise3/MageP.java" startline="1" endline="39" pcid="3931"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student17/exercise3/MageP.java" startline="1" endline="39" pcid="3662"></source>
+</class>
+
+<class classid="53" nclones="3" nlines="24" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student10/exercise2/characterP.java" startline="1" endline="29" pcid="3553"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student35/exercise2/characterP.java" startline="1" endline="29" pcid="3940"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student5/exercise2/characterP.java" startline="1" endline="29" pcid="4095"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="17" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student10/exercise2/launcherP.java" startline="1" endline="18" pcid="3555"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student35/exercise2/launcherP.java" startline="1" endline="18" pcid="3942"></source>
+</class>
+
+<class classid="55" nclones="3" nlines="17" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student10/exercise2/logP.java" startline="1" endline="22" pcid="3556"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student35/exercise2/logP.java" startline="1" endline="22" pcid="3943"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student5/exercise2/logP.java" startline="1" endline="22" pcid="4098"></source>
+</class>
+
+<class classid="56" nclones="3" nlines="31" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student10/exercise2/targetableP.java" startline="1" endline="32" pcid="3557"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student5/exercise2/targetableP.java" startline="1" endline="32" pcid="4099"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student35/exercise2/targetableP.java" startline="1" endline="32" pcid="3944"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="16" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise1/ConsumableItemP.java" startline="1" endline="20" pcid="3776"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise1/exercise1/ConsumableItemP.java" startline="1" endline="20" pcid="3777"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="36" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise1/exercise1/GearItemP.java" startline="1" endline="41" pcid="3778"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise1/GearItemP.java" startline="1" endline="41" pcid="3783"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="102" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise1/exercise1/InventoryP.java" startline="1" endline="114" pcid="3779"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise1/InventoryP.java" startline="1" endline="114" pcid="3784"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="30" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise1/exercise1/ItemP.java" startline="1" endline="40" pcid="3780"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise1/ItemP.java" startline="1" endline="40" pcid="3785"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="62" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise2/ActionP.java" startline="1" endline="74" pcid="3788"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise2/exercise2/ActionP.java" startline="1" endline="74" pcid="3790"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="40" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise2/CharacterP.java" startline="1" endline="52" pcid="3789"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise2/exercise2/CharacterP.java" startline="1" endline="52" pcid="3791"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="14" similarity="100">
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise2/exercise2/LoggerP.java" startline="1" endline="20" pcid="3792"></source>
+<source file="../AIvsSTD_std_preproc/prog1-2021-lab9-submissions/student24/exercise2/LoggerP.java" startline="1" endline="20" pcid="3793"></source>
+</class>
+
+</clones>

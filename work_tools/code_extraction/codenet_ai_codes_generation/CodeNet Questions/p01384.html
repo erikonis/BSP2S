@@ -1,0 +1,117 @@
+
+
+
+<div>
+<h1 class="title">問題 I : ビット演算</h1>
+
+<p>いよいよ G○○gle Code Jam の世界大会が始まろうとしている．
+前では P○tr, t○mek, SnapDrag○n をはじめとする，
+G○○gle の誇る最強のコーダー達が睨みを利かせている．
+妙な動きを見せれば，命はないだろう．
+目をつむり，コンテスト開始をじっと待つ．</p>
+<p>…妙だ，コンテストが始まらない．
+目を開けてみると…なんということだ．部屋の全ての人間が，倒れている．
+いや違う，全てではない．一人の男，wata を除いてだ．</p>
+<dl class="docutils">
+<dt>wata</dt>
+<dd>「やっと話せるぞ． 久しぶりだな，(iwi)」</dd>
+<dt>(iwi)</dt>
+<dd>「…お前は何者だ？ 俺の知る wata は幼なじみ系美少女のはずが…」</dd>
+<dt>wata</dt>
+<dd>「まだそんな妄想に取り憑かれているのか!! 思い出せ!! 受け止めろ!! 彼はもうこの世界には居ないんだ!!」</dd>
+</dl>
+<p>はっ…!! 僕は全てを思い出していた．
+僕は世界で最初にプログラミングコンテストで人を殺めたのだ．
+そして，僕が殺したのは他でもなく，最も仲の良かった友人の一人，kita_masa であった．</p>
+<p>kita_masa は自らをビット演算の達人と言い，
+あらゆる関数はビット演算で記述できると言う，少し変わった奴だった．
+そういえば今，ビット演算を用いて作成したい関数があるが，
+kita_masa にそれをお願いすることはできない．
+そこで，kita_masa の代わりになるプログラムを作成することにした．</p>
+<div>
+<h1>問題</h1>
+<p><span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 個の整数の組 <span style="font-size:110%;font-family:times new roman;">(<i>x</i><sub><i>i</i></sub>,&nbsp;<i>y</i><sub><i>i</i></sub>)</span> が与えられる．
+全ての組に対して <span style="font-size:110%;font-family:times new roman;"><i>y</i><sub><i>i</i></sub>&nbsp;=&nbsp;<i>f</i>(<i>x</i><sub><i>i</i></sub>)</span> なる関数 <span style="font-size:110%;font-family:times new roman;"><i>f</i></span> を制約の下で作ることを考える．</p>
+<p>関数 <span style="font-size:110%;font-family:times new roman;"><i>f</i></span> は，C 言語のソースコードとして以下のように表現できるものとする:</p>
+<pre class="literal-block">
+uint32_t f(uint32_t x) {
+  return 式;
+}
+</pre>
+<p>ここで，uint32_t は 32 ビット符号無し整数を表す．
+また，式は以下の BNF で表現できるものとする:</p>
+<pre class="literal-block">
+&lt;expr&gt; ::= &quot;x&quot;
+         | &lt;num&gt;
+         | &quot;(~&quot; &lt;expr&gt; &quot;)&quot;
+         | &quot;(&quot; &lt;expr&gt; &lt;op2&gt; &lt;expr&gt; &quot;)&quot;
+&lt;op2&gt; ::= &quot;&amp;&quot; | &quot;|&quot; | &quot;^&quot; | &quot;+&quot; | &quot;-&quot; | &quot;*&quot;
+</pre>
+<p>&lt;num&gt; は 32 ビット符号無し整数で表現できる非負の整数を
+10 進数で自然に (leading-zero 等を持たず) 表現したものとする．</p>
+<p>このような関数の式を出力するプログラムを作成せよ．</p>
+</div>
+<div>
+<h1>入力</h1>
+<p>入力の最初の行は 1 つの整数 <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> を含む．</p>
+<p>続く <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 行の <span style="font-size:110%;font-family:times new roman;"><i>i</i></span> 行目は 2 つの整数 <span style="font-size:110%;font-family:times new roman;"><i>x</i><sub><i>i</i></sub>,&nbsp;<i>y</i><sub><i>i</i></sub></span> を含む．</p>
+</div>
+<div>
+<h1>出力</h1>
+<p>条件を満たす式を出力せよ．</p>
+</div>
+<div>
+<h1>制約</h1>
+<ul class="simple">
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>N</i>&nbsp;&le;&nbsp;8</span></li>
+<li><span style="font-size:110%;font-family:times new roman;">0&nbsp;&le;&nbsp;<i>x</i><sub><i>i</i></sub>,&nbsp;<i>y</i><sub><i>i</i></sub>&nbsp;&lt;&nbsp;256</span></li>
+<li>式は必ず，上記の BNF に従う書式で出力せよ．例え C 言語の表現として妥当であったとしても，空白や改行の挿入や括弧の削除などはしてはならない．</li>
+<li>出力は 100000 文字を越えてはならない．</li>
+<li>条件を満たす関数 <span style="font-size:110%;font-family:times new roman;"><i>f</i></span> が常に存在するような入力が与えられる．</li>
+</ul>
+</div>
+<div>
+<h1>部分点</h1>
+<p>この問題の判定には，20 点分のテストケースのグループが設定されている．
+このグループに含まれるテストケースの入力は以下を満たす．</p>
+<ul class="simple">
+<li>'+', '-', '*' を用いないような正しい出力が存在する</li>
+</ul>
+</div>
+<div>
+<h1>入出力例</h1>
+<p>入力例1:</p>
+<pre class="literal-block">
+8
+1 1
+2 2
+3 3
+4 0
+5 1
+6 2
+7 3
+8 0
+</pre>
+<p>入力例 1 に対する出力の例:</p>
+<pre class="literal-block">
+(x&amp;3)
+</pre>
+<p>入力例2:</p>
+<pre class="literal-block">
+8
+1 0
+2 0
+3 2
+4 0
+5 4
+6 4
+7 6
+8 0
+</pre>
+<p>入力例 2 に対する出力の例:</p>
+<pre class="literal-block">
+(x&amp;(x-1))
+</pre>
+<p>良く知られる最右の 1 ビットをオフにする操作である．</p>
+</div>
+</div>

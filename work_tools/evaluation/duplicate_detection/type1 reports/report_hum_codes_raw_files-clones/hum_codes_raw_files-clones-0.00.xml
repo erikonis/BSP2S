@@ -1,0 +1,1891 @@
+<clones>
+<systeminfo processor="nicad6" system="hum_codes_raw" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="33864" npairs="377"/>
+<runinfo ncompares="6690223" cputime="1644428"/>
+
+<clone nlines="1237" similarity="100">
+<source file="../hum_codes_raw/s406917789.java" startline="1" endline="1567" pcid="13700"></source>
+<source file="../hum_codes_raw/s613685593.java" startline="1" endline="1566" pcid="20610"></source>
+</clone>
+
+<clone nlines="1077" similarity="100">
+<source file="../hum_codes_raw/s081663604.java" startline="1" endline="1232" pcid="2728"></source>
+<source file="../hum_codes_raw/s496837774.java" startline="1" endline="1232" pcid="16674"></source>
+</clone>
+
+<clone nlines="1007" similarity="100">
+<source file="../hum_codes_raw/s492478736.java" startline="1" endline="674" pcid="16541"></source>
+<source file="../hum_codes_raw/s893599862.java" startline="1" endline="674" pcid="30055"></source>
+</clone>
+
+<clone nlines="484" similarity="100">
+<source file="../hum_codes_raw/s667004134.java" startline="1" endline="645" pcid="22407"></source>
+<source file="../hum_codes_raw/s743962494.java" startline="1" endline="645" pcid="24990"></source>
+</clone>
+
+<clone nlines="475" similarity="100">
+<source file="../hum_codes_raw/s898792213.java" startline="1" endline="548" pcid="30243"></source>
+<source file="../hum_codes_raw/s297470456.java" startline="1" endline="548" pcid="9996"></source>
+</clone>
+
+<clone nlines="434" similarity="100">
+<source file="../hum_codes_raw/s039503237.java" startline="1" endline="407" pcid="1331"></source>
+<source file="../hum_codes_raw/s268695582.java" startline="1" endline="407" pcid="8996"></source>
+</clone>
+
+<clone nlines="428" similarity="100">
+<source file="../hum_codes_raw/s037905705.java" startline="1" endline="522" pcid="1275"></source>
+<source file="../hum_codes_raw/s226367837.java" startline="1" endline="522" pcid="7653"></source>
+</clone>
+
+<clone nlines="436" similarity="100">
+<source file="../hum_codes_raw/s769774624.java" startline="1" endline="487" pcid="25845"></source>
+<source file="../hum_codes_raw/s064541745.java" startline="1" endline="488" pcid="2161"></source>
+</clone>
+
+<clone nlines="417" similarity="100">
+<source file="../hum_codes_raw/s428749243.java" startline="1" endline="484" pcid="14407"></source>
+<source file="../hum_codes_raw/s330468875.java" startline="1" endline="484" pcid="11063"></source>
+</clone>
+
+<clone nlines="387" similarity="100">
+<source file="../hum_codes_raw/s048659297.java" startline="1" endline="472" pcid="1615"></source>
+<source file="../hum_codes_raw/s569549516.java" startline="1" endline="472" pcid="19155"></source>
+</clone>
+
+<clone nlines="362" similarity="100">
+<source file="../hum_codes_raw/s770870772.java" startline="1" endline="445" pcid="25878"></source>
+<source file="../hum_codes_raw/s035539207.java" startline="1" endline="445" pcid="1198"></source>
+</clone>
+
+<clone nlines="340" similarity="100">
+<source file="../hum_codes_raw/s365509257.java" startline="1" endline="405" pcid="12274"></source>
+<source file="../hum_codes_raw/s726195920.java" startline="1" endline="410" pcid="24421"></source>
+</clone>
+
+<clone nlines="351" similarity="100">
+<source file="../hum_codes_raw/s437788072.java" startline="1" endline="434" pcid="14685"></source>
+<source file="../hum_codes_raw/s470221652.java" startline="1" endline="435" pcid="15801"></source>
+</clone>
+
+<clone nlines="318" similarity="100">
+<source file="../hum_codes_raw/s988807814.java" startline="1" endline="375" pcid="33254"></source>
+<source file="../hum_codes_raw/s566789840.java" startline="1" endline="375" pcid="19062"></source>
+</clone>
+
+<clone nlines="324" similarity="100">
+<source file="../hum_codes_raw/s274100373.java" startline="1" endline="408" pcid="9166"></source>
+<source file="../hum_codes_raw/s765718955.java" startline="1" endline="408" pcid="25717"></source>
+</clone>
+
+<clone nlines="284" similarity="100">
+<source file="../hum_codes_raw/s062380094.java" startline="1" endline="336" pcid="2083"></source>
+<source file="../hum_codes_raw/s087113353.java" startline="1" endline="336" pcid="2891"></source>
+</clone>
+
+<clone nlines="247" similarity="100">
+<source file="../hum_codes_raw/s271055260.java" startline="1" endline="296" pcid="9063"></source>
+<source file="../hum_codes_raw/s323487421.java" startline="1" endline="296" pcid="10845"></source>
+</clone>
+
+<clone nlines="242" similarity="100">
+<source file="../hum_codes_raw/s195610269.java" startline="1" endline="290" pcid="6594"></source>
+<source file="../hum_codes_raw/s045421668.java" startline="1" endline="290" pcid="1506"></source>
+</clone>
+
+<clone nlines="242" similarity="100">
+<source file="../hum_codes_raw/s106468442.java" startline="1" endline="282" pcid="3546"></source>
+<source file="../hum_codes_raw/s723652719.java" startline="1" endline="282" pcid="24336"></source>
+</clone>
+
+<clone nlines="209" similarity="100">
+<source file="../hum_codes_raw/s371628418.java" startline="1" endline="176" pcid="12500"></source>
+<source file="../hum_codes_raw/s467195810.java" startline="1" endline="176" pcid="15678"></source>
+</clone>
+
+<clone nlines="229" similarity="100">
+<source file="../hum_codes_raw/s516269670.java" startline="1" endline="281" pcid="17326"></source>
+<source file="../hum_codes_raw/s578019056.java" startline="1" endline="281" pcid="19411"></source>
+</clone>
+
+<clone nlines="220" similarity="100">
+<source file="../hum_codes_raw/s034727591.java" startline="1" endline="265" pcid="1156"></source>
+<source file="../hum_codes_raw/s160294044.java" startline="1" endline="265" pcid="5378"></source>
+</clone>
+
+<clone nlines="221" similarity="100">
+<source file="../hum_codes_raw/s837746292.java" startline="1" endline="262" pcid="28123"></source>
+<source file="../hum_codes_raw/s423699023.java" startline="1" endline="262" pcid="14246"></source>
+</clone>
+
+<clone nlines="209" similarity="100">
+<source file="../hum_codes_raw/s892434344.java" startline="1" endline="251" pcid="30016"></source>
+<source file="../hum_codes_raw/s418980822.java" startline="1" endline="251" pcid="14081"></source>
+</clone>
+
+<clone nlines="208" similarity="100">
+<source file="../hum_codes_raw/s940481462.java" startline="1" endline="252" pcid="31621"></source>
+<source file="../hum_codes_raw/s004280841.java" startline="1" endline="252" pcid="143"></source>
+</clone>
+
+<clone nlines="193" similarity="100">
+<source file="../hum_codes_raw/s057521857.java" startline="1" endline="229" pcid="1929"></source>
+<source file="../hum_codes_raw/s781367822.java" startline="1" endline="229" pcid="26234"></source>
+</clone>
+
+<clone nlines="196" similarity="100">
+<source file="../hum_codes_raw/s570316752.java" startline="1" endline="235" pcid="19178"></source>
+<source file="../hum_codes_raw/s976414384.java" startline="1" endline="235" pcid="32855"></source>
+</clone>
+
+<clone nlines="185" similarity="100">
+<source file="../hum_codes_raw/s888621240.java" startline="1" endline="230" pcid="29881"></source>
+<source file="../hum_codes_raw/s322188556.java" startline="1" endline="230" pcid="10799"></source>
+</clone>
+
+<clone nlines="185" similarity="100">
+<source file="../hum_codes_raw/s365157941.java" startline="1" endline="230" pcid="12263"></source>
+<source file="../hum_codes_raw/s888621240.java" startline="1" endline="230" pcid="29881"></source>
+</clone>
+
+<clone nlines="185" similarity="100">
+<source file="../hum_codes_raw/s365157941.java" startline="1" endline="230" pcid="12263"></source>
+<source file="../hum_codes_raw/s322188556.java" startline="1" endline="230" pcid="10799"></source>
+</clone>
+
+<clone nlines="186" similarity="100">
+<source file="../hum_codes_raw/s749602919.java" startline="1" endline="201" pcid="25183"></source>
+<source file="../hum_codes_raw/s200363083.java" startline="1" endline="201" pcid="6755"></source>
+</clone>
+
+<clone nlines="194" similarity="100">
+<source file="../hum_codes_raw/s621444911.java" startline="1" endline="237" pcid="20868"></source>
+<source file="../hum_codes_raw/s459791849.java" startline="1" endline="237" pcid="15431"></source>
+</clone>
+
+<clone nlines="185" similarity="100">
+<source file="../hum_codes_raw/s787765746.java" startline="1" endline="259" pcid="26448"></source>
+<source file="../hum_codes_raw/s405233405.java" startline="1" endline="259" pcid="13648"></source>
+</clone>
+
+<clone nlines="186" similarity="100">
+<source file="../hum_codes_raw/s825806369.java" startline="1" endline="222" pcid="27702"></source>
+<source file="../hum_codes_raw/s289533688.java" startline="1" endline="222" pcid="9691"></source>
+</clone>
+
+<clone nlines="194" similarity="100">
+<source file="../hum_codes_raw/s953973035.java" startline="1" endline="192" pcid="32059"></source>
+<source file="../hum_codes_raw/s676825637.java" startline="1" endline="192" pcid="22742"></source>
+</clone>
+
+<clone nlines="193" similarity="100">
+<source file="../hum_codes_raw/s343584397.java" startline="1" endline="191" pcid="11528"></source>
+<source file="../hum_codes_raw/s425716661.java" startline="1" endline="191" pcid="14314"></source>
+</clone>
+
+<clone nlines="180" similarity="100">
+<source file="../hum_codes_raw/s851321599.java" startline="1" endline="218" pcid="28601"></source>
+<source file="../hum_codes_raw/s280908225.java" startline="1" endline="218" pcid="9404"></source>
+</clone>
+
+<clone nlines="179" similarity="100">
+<source file="../hum_codes_raw/s790111644.java" startline="1" endline="228" pcid="26530"></source>
+<source file="../hum_codes_raw/s830003646.java" startline="1" endline="228" pcid="27841"></source>
+</clone>
+
+<clone nlines="173" similarity="100">
+<source file="../hum_codes_raw/s002901400.java" startline="1" endline="207" pcid="92"></source>
+<source file="../hum_codes_raw/s770657796.java" startline="1" endline="207" pcid="25873"></source>
+</clone>
+
+<clone nlines="173" similarity="100">
+<source file="../hum_codes_raw/s002901400.java" startline="1" endline="207" pcid="92"></source>
+<source file="../hum_codes_raw/s451652701.java" startline="1" endline="207" pcid="15146"></source>
+</clone>
+
+<clone nlines="178" similarity="100">
+<source file="../hum_codes_raw/s047739433.java" startline="1" endline="219" pcid="1581"></source>
+<source file="../hum_codes_raw/s998465037.java" startline="1" endline="219" pcid="33615"></source>
+</clone>
+
+<clone nlines="173" similarity="100">
+<source file="../hum_codes_raw/s451652701.java" startline="1" endline="207" pcid="15146"></source>
+<source file="../hum_codes_raw/s770657796.java" startline="1" endline="207" pcid="25873"></source>
+</clone>
+
+<clone nlines="180" similarity="100">
+<source file="../hum_codes_raw/s591135494.java" startline="1" endline="225" pcid="19833"></source>
+<source file="../hum_codes_raw/s365181821.java" startline="1" endline="225" pcid="12264"></source>
+</clone>
+
+<clone nlines="169" similarity="100">
+<source file="../hum_codes_raw/s218869781.java" startline="1" endline="249" pcid="7383"></source>
+<source file="../hum_codes_raw/s441715290.java" startline="1" endline="249" pcid="14801"></source>
+</clone>
+
+<clone nlines="169" similarity="100">
+<source file="../hum_codes_raw/s218869781.java" startline="1" endline="249" pcid="7383"></source>
+<source file="../hum_codes_raw/s220987916.java" startline="1" endline="249" pcid="7473"></source>
+</clone>
+
+<clone nlines="169" similarity="100">
+<source file="../hum_codes_raw/s218869781.java" startline="1" endline="249" pcid="7383"></source>
+<source file="../hum_codes_raw/s161310507.java" startline="1" endline="249" pcid="5407"></source>
+</clone>
+
+<clone nlines="169" similarity="100">
+<source file="../hum_codes_raw/s441715290.java" startline="1" endline="249" pcid="14801"></source>
+<source file="../hum_codes_raw/s220987916.java" startline="1" endline="249" pcid="7473"></source>
+</clone>
+
+<clone nlines="169" similarity="100">
+<source file="../hum_codes_raw/s441715290.java" startline="1" endline="249" pcid="14801"></source>
+<source file="../hum_codes_raw/s161310507.java" startline="1" endline="249" pcid="5407"></source>
+</clone>
+
+<clone nlines="169" similarity="100">
+<source file="../hum_codes_raw/s161310507.java" startline="1" endline="249" pcid="5407"></source>
+<source file="../hum_codes_raw/s220987916.java" startline="1" endline="249" pcid="7473"></source>
+</clone>
+
+<clone nlines="163" similarity="100">
+<source file="../hum_codes_raw/s647109273.java" startline="1" endline="198" pcid="21720"></source>
+<source file="../hum_codes_raw/s254255566.java" startline="1" endline="203" pcid="8554"></source>
+</clone>
+
+<clone nlines="161" similarity="100">
+<source file="../hum_codes_raw/s872592449.java" startline="1" endline="220" pcid="29334"></source>
+<source file="../hum_codes_raw/s234525574.java" startline="1" endline="220" pcid="7926"></source>
+</clone>
+
+<clone nlines="165" similarity="100">
+<source file="../hum_codes_raw/s691517963.java" startline="1" endline="213" pcid="23266"></source>
+<source file="../hum_codes_raw/s049532884.java" startline="1" endline="213" pcid="1653"></source>
+</clone>
+
+<clone nlines="171" similarity="100">
+<source file="../hum_codes_raw/s499329413.java" startline="1" endline="199" pcid="16743"></source>
+<source file="../hum_codes_raw/s007084036.java" startline="1" endline="199" pcid="236"></source>
+</clone>
+
+<clone nlines="161" similarity="100">
+<source file="../hum_codes_raw/s119112870.java" startline="1" endline="207" pcid="3984"></source>
+<source file="../hum_codes_raw/s739849216.java" startline="1" endline="209" pcid="24854"></source>
+</clone>
+
+<clone nlines="154" similarity="100">
+<source file="../hum_codes_raw/s804874321.java" startline="1" endline="157" pcid="27036"></source>
+<source file="../hum_codes_raw/s249685457.java" startline="1" endline="157" pcid="8404"></source>
+</clone>
+
+<clone nlines="152" similarity="100">
+<source file="../hum_codes_raw/s799283876.java" startline="1" endline="196" pcid="26857"></source>
+<source file="../hum_codes_raw/s376338679.java" startline="1" endline="196" pcid="12657"></source>
+</clone>
+
+<clone nlines="158" similarity="100">
+<source file="../hum_codes_raw/s862939736.java" startline="1" endline="205" pcid="29021"></source>
+<source file="../hum_codes_raw/s395339830.java" startline="1" endline="205" pcid="13293"></source>
+</clone>
+
+<clone nlines="165" similarity="100">
+<source file="../hum_codes_raw/s569121349.java" startline="1" endline="190" pcid="19140"></source>
+<source file="../hum_codes_raw/s165832489.java" startline="1" endline="187" pcid="5556"></source>
+</clone>
+
+<clone nlines="150" similarity="100">
+<source file="../hum_codes_raw/s348638788.java" startline="1" endline="157" pcid="11702"></source>
+<source file="../hum_codes_raw/s861226215.java" startline="1" endline="157" pcid="28954"></source>
+</clone>
+
+<clone nlines="162" similarity="100">
+<source file="../hum_codes_raw/s723913417.java" startline="1" endline="202" pcid="24348"></source>
+<source file="../hum_codes_raw/s306147031.java" startline="1" endline="180" pcid="10309"></source>
+</clone>
+
+<clone nlines="149" similarity="100">
+<source file="../hum_codes_raw/s846270822.java" startline="1" endline="194" pcid="28423"></source>
+<source file="../hum_codes_raw/s715753651.java" startline="1" endline="192" pcid="24056"></source>
+</clone>
+
+<clone nlines="149" similarity="100">
+<source file="../hum_codes_raw/s626787143.java" startline="1" endline="181" pcid="21034"></source>
+<source file="../hum_codes_raw/s838965784.java" startline="1" endline="182" pcid="28167"></source>
+</clone>
+
+<clone nlines="145" similarity="100">
+<source file="../hum_codes_raw/s477615844.java" startline="1" endline="219" pcid="16044"></source>
+<source file="../hum_codes_raw/s923583382.java" startline="1" endline="219" pcid="31056"></source>
+</clone>
+
+<clone nlines="143" similarity="100">
+<source file="../hum_codes_raw/s497904534.java" startline="1" endline="174" pcid="16704"></source>
+<source file="../hum_codes_raw/s034088895.java" startline="1" endline="174" pcid="1134"></source>
+</clone>
+
+<clone nlines="140" similarity="100">
+<source file="../hum_codes_raw/s185507055.java" startline="1" endline="151" pcid="6250"></source>
+<source file="../hum_codes_raw/s012414151.java" startline="1" endline="151" pcid="424"></source>
+</clone>
+
+<clone nlines="143" similarity="100">
+<source file="../hum_codes_raw/s226173606.java" startline="1" endline="163" pcid="7646"></source>
+<source file="../hum_codes_raw/s023291288.java" startline="1" endline="165" pcid="797"></source>
+</clone>
+
+<clone nlines="133" similarity="100">
+<source file="../hum_codes_raw/s698904588.java" startline="1" endline="151" pcid="23504"></source>
+<source file="../hum_codes_raw/s192571646.java" startline="1" endline="143" pcid="6480"></source>
+</clone>
+
+<clone nlines="133" similarity="100">
+<source file="../hum_codes_raw/s698904588.java" startline="1" endline="151" pcid="23504"></source>
+<source file="../hum_codes_raw/s708674639.java" startline="1" endline="156" pcid="23826"></source>
+</clone>
+
+<clone nlines="133" similarity="100">
+<source file="../hum_codes_raw/s192571646.java" startline="1" endline="143" pcid="6480"></source>
+<source file="../hum_codes_raw/s708674639.java" startline="1" endline="156" pcid="23826"></source>
+</clone>
+
+<clone nlines="136" similarity="100">
+<source file="../hum_codes_raw/s799573041.java" startline="1" endline="153" pcid="26863"></source>
+<source file="../hum_codes_raw/s050821645.java" startline="1" endline="153" pcid="1688"></source>
+</clone>
+
+<clone nlines="136" similarity="100">
+<source file="../hum_codes_raw/s799573041.java" startline="1" endline="153" pcid="26863"></source>
+<source file="../hum_codes_raw/s639372154.java" startline="1" endline="153" pcid="21449"></source>
+</clone>
+
+<clone nlines="136" similarity="100">
+<source file="../hum_codes_raw/s799573041.java" startline="1" endline="153" pcid="26863"></source>
+<source file="../hum_codes_raw/s224566516.java" startline="1" endline="162" pcid="7586"></source>
+</clone>
+
+<clone nlines="140" similarity="100">
+<source file="../hum_codes_raw/s724609023.java" startline="1" endline="157" pcid="24370"></source>
+<source file="../hum_codes_raw/s964356831.java" startline="1" endline="157" pcid="32408"></source>
+</clone>
+
+<clone nlines="136" similarity="100">
+<source file="../hum_codes_raw/s639372154.java" startline="1" endline="153" pcid="21449"></source>
+<source file="../hum_codes_raw/s050821645.java" startline="1" endline="153" pcid="1688"></source>
+</clone>
+
+<clone nlines="136" similarity="100">
+<source file="../hum_codes_raw/s224566516.java" startline="1" endline="162" pcid="7586"></source>
+<source file="../hum_codes_raw/s050821645.java" startline="1" endline="153" pcid="1688"></source>
+</clone>
+
+<clone nlines="136" similarity="100">
+<source file="../hum_codes_raw/s639372154.java" startline="1" endline="153" pcid="21449"></source>
+<source file="../hum_codes_raw/s224566516.java" startline="1" endline="162" pcid="7586"></source>
+</clone>
+
+<clone nlines="135" similarity="100">
+<source file="../hum_codes_raw/s322425265.java" startline="1" endline="171" pcid="10803"></source>
+<source file="../hum_codes_raw/s054668339.java" startline="1" endline="171" pcid="1824"></source>
+</clone>
+
+<clone nlines="128" similarity="100">
+<source file="../hum_codes_raw/s154876882.java" startline="1" endline="161" pcid="5197"></source>
+<source file="../hum_codes_raw/s004280554.java" startline="1" endline="161" pcid="142"></source>
+</clone>
+
+<clone nlines="123" similarity="100">
+<source file="../hum_codes_raw/s150933663.java" startline="1" endline="153" pcid="5051"></source>
+<source file="../hum_codes_raw/s035477307.java" startline="1" endline="153" pcid="1194"></source>
+</clone>
+
+<clone nlines="125" similarity="100">
+<source file="../hum_codes_raw/s138854748.java" startline="1" endline="158" pcid="4639"></source>
+<source file="../hum_codes_raw/s117325689.java" startline="1" endline="158" pcid="3918"></source>
+</clone>
+
+<clone nlines="126" similarity="100">
+<source file="../hum_codes_raw/s125047483.java" startline="1" endline="149" pcid="4175"></source>
+<source file="../hum_codes_raw/s521951523.java" startline="1" endline="165" pcid="17551"></source>
+</clone>
+
+<clone nlines="120" similarity="100">
+<source file="../hum_codes_raw/s308183422.java" startline="1" endline="135" pcid="10382"></source>
+<source file="../hum_codes_raw/s623980376.java" startline="1" endline="135" pcid="20945"></source>
+</clone>
+
+<clone nlines="127" similarity="100">
+<source file="../hum_codes_raw/s519233826.java" startline="1" endline="146" pcid="17448"></source>
+<source file="../hum_codes_raw/s142354620.java" startline="1" endline="146" pcid="4766"></source>
+</clone>
+
+<clone nlines="122" similarity="100">
+<source file="../hum_codes_raw/s467750820.java" startline="1" endline="135" pcid="15698"></source>
+<source file="../hum_codes_raw/s457663140.java" startline="1" endline="135" pcid="15349"></source>
+</clone>
+
+<clone nlines="118" similarity="100">
+<source file="../hum_codes_raw/s809415687.java" startline="1" endline="174" pcid="27193"></source>
+<source file="../hum_codes_raw/s250783456.java" startline="1" endline="153" pcid="8447"></source>
+</clone>
+
+<clone nlines="100" similarity="100">
+<source file="../hum_codes_raw/s043441489.java" startline="1" endline="104" pcid="1446"></source>
+<source file="../hum_codes_raw/s760882476.java" startline="1" endline="104" pcid="25563"></source>
+</clone>
+
+<clone nlines="116" similarity="100">
+<source file="../hum_codes_raw/s965431320.java" startline="1" endline="143" pcid="32455"></source>
+<source file="../hum_codes_raw/s992552471.java" startline="1" endline="143" pcid="33393"></source>
+</clone>
+
+<clone nlines="116" similarity="100">
+<source file="../hum_codes_raw/s965431320.java" startline="1" endline="143" pcid="32455"></source>
+<source file="../hum_codes_raw/s982466613.java" startline="1" endline="143" pcid="33041"></source>
+</clone>
+
+<clone nlines="116" similarity="100">
+<source file="../hum_codes_raw/s982466613.java" startline="1" endline="143" pcid="33041"></source>
+<source file="../hum_codes_raw/s992552471.java" startline="1" endline="143" pcid="33393"></source>
+</clone>
+
+<clone nlines="113" similarity="100">
+<source file="../hum_codes_raw/s153560595.java" startline="1" endline="143" pcid="5149"></source>
+<source file="../hum_codes_raw/s739900039.java" startline="1" endline="143" pcid="24856"></source>
+</clone>
+
+<clone nlines="113" similarity="100">
+<source file="../hum_codes_raw/s137158279.java" startline="1" endline="151" pcid="4590"></source>
+<source file="../hum_codes_raw/s723032876.java" startline="1" endline="151" pcid="24309"></source>
+</clone>
+
+<clone nlines="117" similarity="100">
+<source file="../hum_codes_raw/s400496604.java" startline="1" endline="135" pcid="13478"></source>
+<source file="../hum_codes_raw/s766389190.java" startline="1" endline="136" pcid="25737"></source>
+</clone>
+
+<clone nlines="111" similarity="100">
+<source file="../hum_codes_raw/s121471839.java" startline="1" endline="148" pcid="4051"></source>
+<source file="../hum_codes_raw/s432137159.java" startline="1" endline="147" pcid="14511"></source>
+</clone>
+
+<clone nlines="117" similarity="100">
+<source file="../hum_codes_raw/s003348081.java" startline="1" endline="143" pcid="109"></source>
+<source file="../hum_codes_raw/s974382719.java" startline="1" endline="142" pcid="32792"></source>
+</clone>
+
+<clone nlines="111" similarity="100">
+<source file="../hum_codes_raw/s263937011.java" startline="1" endline="153" pcid="8869"></source>
+<source file="../hum_codes_raw/s977055145.java" startline="1" endline="152" pcid="32875"></source>
+</clone>
+
+<clone nlines="121" similarity="100">
+<source file="../hum_codes_raw/s258318295.java" startline="1" endline="184" pcid="8680"></source>
+<source file="../hum_codes_raw/s148459095.java" startline="1" endline="183" pcid="4956"></source>
+</clone>
+
+<clone nlines="121" similarity="100">
+<source file="../hum_codes_raw/s258318295.java" startline="1" endline="184" pcid="8680"></source>
+<source file="../hum_codes_raw/s951882746.java" startline="1" endline="183" pcid="31973"></source>
+</clone>
+
+<clone nlines="121" similarity="100">
+<source file="../hum_codes_raw/s951882746.java" startline="1" endline="183" pcid="31973"></source>
+<source file="../hum_codes_raw/s148459095.java" startline="1" endline="183" pcid="4956"></source>
+</clone>
+
+<clone nlines="105" similarity="100">
+<source file="../hum_codes_raw/s908069064.java" startline="1" endline="126" pcid="30554"></source>
+<source file="../hum_codes_raw/s275374216.java" startline="1" endline="127" pcid="9203"></source>
+</clone>
+
+<clone nlines="123" similarity="100">
+<source file="../hum_codes_raw/s988324026.java" startline="1" endline="145" pcid="33241"></source>
+<source file="../hum_codes_raw/s268173447.java" startline="1" endline="145" pcid="8973"></source>
+</clone>
+
+<clone nlines="111" similarity="100">
+<source file="../hum_codes_raw/s027059550.java" startline="1" endline="117" pcid="898"></source>
+<source file="../hum_codes_raw/s132834697.java" startline="1" endline="117" pcid="4430"></source>
+</clone>
+
+<clone nlines="112" similarity="100">
+<source file="../hum_codes_raw/s018652122.java" startline="1" endline="128" pcid="635"></source>
+<source file="../hum_codes_raw/s413172553.java" startline="1" endline="128" pcid="13893"></source>
+</clone>
+
+<clone nlines="102" similarity="100">
+<source file="../hum_codes_raw/s565613690.java" startline="1" endline="119" pcid="19029"></source>
+<source file="../hum_codes_raw/s997922792.java" startline="1" endline="119" pcid="33598"></source>
+</clone>
+
+<clone nlines="97" similarity="100">
+<source file="../hum_codes_raw/s747884507.java" startline="1" endline="111" pcid="25126"></source>
+<source file="../hum_codes_raw/s737451188.java" startline="1" endline="111" pcid="24791"></source>
+</clone>
+
+<clone nlines="97" similarity="100">
+<source file="../hum_codes_raw/s388764829.java" startline="1" endline="173" pcid="13070"></source>
+<source file="../hum_codes_raw/s767521242.java" startline="1" endline="173" pcid="25770"></source>
+</clone>
+
+<clone nlines="97" similarity="100">
+<source file="../hum_codes_raw/s767521242.java" startline="1" endline="173" pcid="25770"></source>
+<source file="../hum_codes_raw/s414697717.java" startline="1" endline="114" pcid="13940"></source>
+</clone>
+
+<clone nlines="97" similarity="100">
+<source file="../hum_codes_raw/s388764829.java" startline="1" endline="173" pcid="13070"></source>
+<source file="../hum_codes_raw/s414697717.java" startline="1" endline="114" pcid="13940"></source>
+</clone>
+
+<clone nlines="109" similarity="100">
+<source file="../hum_codes_raw/s666412542.java" startline="1" endline="132" pcid="22378"></source>
+<source file="../hum_codes_raw/s447540612.java" startline="1" endline="132" pcid="14997"></source>
+</clone>
+
+<clone nlines="103" similarity="100">
+<source file="../hum_codes_raw/s253685459.java" startline="1" endline="129" pcid="8533"></source>
+<source file="../hum_codes_raw/s532315066.java" startline="1" endline="129" pcid="17922"></source>
+</clone>
+
+<clone nlines="91" similarity="100">
+<source file="../hum_codes_raw/s983391347.java" startline="1" endline="135" pcid="33069"></source>
+<source file="../hum_codes_raw/s133051952.java" startline="1" endline="135" pcid="4440"></source>
+</clone>
+
+<clone nlines="91" similarity="100">
+<source file="../hum_codes_raw/s043913838.java" startline="1" endline="135" pcid="1462"></source>
+<source file="../hum_codes_raw/s133051952.java" startline="1" endline="135" pcid="4440"></source>
+</clone>
+
+<clone nlines="99" similarity="100">
+<source file="../hum_codes_raw/s930221836.java" startline="1" endline="149" pcid="31299"></source>
+<source file="../hum_codes_raw/s514785616.java" startline="1" endline="149" pcid="17272"></source>
+</clone>
+
+<clone nlines="91" similarity="100">
+<source file="../hum_codes_raw/s234632500.java" startline="1" endline="196" pcid="7929"></source>
+<source file="../hum_codes_raw/s373167882.java" startline="1" endline="196" pcid="12550"></source>
+</clone>
+
+<clone nlines="91" similarity="100">
+<source file="../hum_codes_raw/s043913838.java" startline="1" endline="135" pcid="1462"></source>
+<source file="../hum_codes_raw/s983391347.java" startline="1" endline="135" pcid="33069"></source>
+</clone>
+
+<clone nlines="99" similarity="100">
+<source file="../hum_codes_raw/s667272876.java" startline="1" endline="136" pcid="22414"></source>
+<source file="../hum_codes_raw/s881270089.java" startline="1" endline="116" pcid="29617"></source>
+</clone>
+
+<clone nlines="99" similarity="100">
+<source file="../hum_codes_raw/s782975474.java" startline="1" endline="109" pcid="26288"></source>
+<source file="../hum_codes_raw/s548942549.java" startline="1" endline="109" pcid="18497"></source>
+</clone>
+
+<clone nlines="85" similarity="100">
+<source file="../hum_codes_raw/s199319317.java" startline="1" endline="106" pcid="6717"></source>
+<source file="../hum_codes_raw/s778145644.java" startline="1" endline="119" pcid="26130"></source>
+</clone>
+
+<clone nlines="92" similarity="100">
+<source file="../hum_codes_raw/s635452209.java" startline="1" endline="122" pcid="21315"></source>
+<source file="../hum_codes_raw/s583890283.java" startline="1" endline="122" pcid="19588"></source>
+</clone>
+
+<clone nlines="86" similarity="100">
+<source file="../hum_codes_raw/s797920347.java" startline="1" endline="103" pcid="26808"></source>
+<source file="../hum_codes_raw/s598183861.java" startline="1" endline="103" pcid="20073"></source>
+</clone>
+
+<clone nlines="91" similarity="100">
+<source file="../hum_codes_raw/s686809997.java" startline="1" endline="106" pcid="23074"></source>
+<source file="../hum_codes_raw/s647488374.java" startline="1" endline="108" pcid="21738"></source>
+</clone>
+
+<clone nlines="88" similarity="100">
+<source file="../hum_codes_raw/s694646836.java" startline="1" endline="96" pcid="23370"></source>
+<source file="../hum_codes_raw/s098922862.java" startline="1" endline="96" pcid="3291"></source>
+</clone>
+
+<clone nlines="86" similarity="100">
+<source file="../hum_codes_raw/s250879105.java" startline="1" endline="99" pcid="8449"></source>
+<source file="../hum_codes_raw/s563038916.java" startline="1" endline="100" pcid="18952"></source>
+</clone>
+
+<clone nlines="98" similarity="100">
+<source file="../hum_codes_raw/s599466638.java" startline="1" endline="123" pcid="33713"></source>
+<source file="../hum_codes_raw/s532090911.java" startline="1" endline="122" pcid="17910"></source>
+</clone>
+
+<clone nlines="88" similarity="100">
+<source file="../hum_codes_raw/s005012101.java" startline="1" endline="108" pcid="165"></source>
+<source file="../hum_codes_raw/s002237166.java" startline="1" endline="108" pcid="62"></source>
+</clone>
+
+<clone nlines="86" similarity="100">
+<source file="../hum_codes_raw/s247757307.java" startline="1" endline="96" pcid="8339"></source>
+<source file="../hum_codes_raw/s643937992.java" startline="1" endline="96" pcid="21607"></source>
+</clone>
+
+<clone nlines="83" similarity="100">
+<source file="../hum_codes_raw/s760553625.java" startline="1" endline="96" pcid="25556"></source>
+<source file="../hum_codes_raw/s134378982.java" startline="1" endline="96" pcid="4487"></source>
+</clone>
+
+<clone nlines="82" similarity="100">
+<source file="../hum_codes_raw/s972659004.java" startline="1" endline="100" pcid="32725"></source>
+<source file="../hum_codes_raw/s870448175.java" startline="1" endline="100" pcid="29277"></source>
+</clone>
+
+<clone nlines="84" similarity="100">
+<source file="../hum_codes_raw/s836232524.java" startline="1" endline="89" pcid="28074"></source>
+<source file="../hum_codes_raw/s411393121.java" startline="1" endline="89" pcid="13832"></source>
+</clone>
+
+<clone nlines="84" similarity="100">
+<source file="../hum_codes_raw/s603191053.java" startline="1" endline="52" pcid="20253"></source>
+<source file="../hum_codes_raw/s814948591.java" startline="1" endline="52" pcid="27373"></source>
+</clone>
+
+<clone nlines="81" similarity="100">
+<source file="../hum_codes_raw/s285786399.java" startline="1" endline="97" pcid="9584"></source>
+<source file="../hum_codes_raw/s112957949.java" startline="1" endline="97" pcid="3756"></source>
+</clone>
+
+<clone nlines="88" similarity="100">
+<source file="../hum_codes_raw/s715389482.java" startline="1" endline="100" pcid="24044"></source>
+<source file="../hum_codes_raw/s727772113.java" startline="1" endline="108" pcid="24469"></source>
+</clone>
+
+<clone nlines="83" similarity="100">
+<source file="../hum_codes_raw/s957996237.java" startline="1" endline="123" pcid="32198"></source>
+<source file="../hum_codes_raw/s639169281.java" startline="1" endline="123" pcid="21437"></source>
+</clone>
+
+<clone nlines="83" similarity="100">
+<source file="../hum_codes_raw/s239204937.java" startline="1" endline="86" pcid="8079"></source>
+<source file="../hum_codes_raw/s034131919.java" startline="1" endline="86" pcid="1136"></source>
+</clone>
+
+<clone nlines="88" similarity="100">
+<source file="../hum_codes_raw/s828654204.java" startline="1" endline="62" pcid="27801"></source>
+<source file="../hum_codes_raw/s346647414.java" startline="1" endline="62" pcid="11634"></source>
+</clone>
+
+<clone nlines="80" similarity="100">
+<source file="../hum_codes_raw/s548480030.java" startline="1" endline="99" pcid="18468"></source>
+<source file="../hum_codes_raw/s925499938.java" startline="1" endline="152" pcid="31129"></source>
+</clone>
+
+<clone nlines="81" similarity="100">
+<source file="../hum_codes_raw/s196089839.java" startline="1" endline="87" pcid="6612"></source>
+<source file="../hum_codes_raw/s318994732.java" startline="1" endline="87" pcid="10703"></source>
+</clone>
+
+<clone nlines="77" similarity="100">
+<source file="../hum_codes_raw/s690494390.java" startline="1" endline="96" pcid="23222"></source>
+<source file="../hum_codes_raw/s906574798.java" startline="1" endline="97" pcid="30501"></source>
+</clone>
+
+<clone nlines="71" similarity="100">
+<source file="../hum_codes_raw/s094370522.java" startline="1" endline="84" pcid="3132"></source>
+<source file="../hum_codes_raw/s526440712.java" startline="1" endline="84" pcid="17705"></source>
+</clone>
+
+<clone nlines="75" similarity="100">
+<source file="../hum_codes_raw/s668721837.java" startline="1" endline="91" pcid="22472"></source>
+<source file="../hum_codes_raw/s273328080.java" startline="1" endline="92" pcid="9141"></source>
+</clone>
+
+<clone nlines="76" similarity="100">
+<source file="../hum_codes_raw/s928209330.java" startline="1" endline="95" pcid="31231"></source>
+<source file="../hum_codes_raw/s844951879.java" startline="1" endline="95" pcid="28370"></source>
+</clone>
+
+<clone nlines="78" similarity="100">
+<source file="../hum_codes_raw/s546530291.java" startline="1" endline="87" pcid="18403"></source>
+<source file="../hum_codes_raw/s406457629.java" startline="1" endline="91" pcid="13683"></source>
+</clone>
+
+<clone nlines="74" similarity="100">
+<source file="../hum_codes_raw/s084168880.java" startline="1" endline="117" pcid="2806"></source>
+<source file="../hum_codes_raw/s621658693.java" startline="1" endline="118" pcid="20874"></source>
+</clone>
+
+<clone nlines="74" similarity="100">
+<source file="../hum_codes_raw/s084168880.java" startline="1" endline="117" pcid="2806"></source>
+<source file="../hum_codes_raw/s709835362.java" startline="1" endline="118" pcid="23872"></source>
+</clone>
+
+<clone nlines="73" similarity="100">
+<source file="../hum_codes_raw/s224294059.java" startline="1" endline="93" pcid="7576"></source>
+<source file="../hum_codes_raw/s225899038.java" startline="1" endline="93" pcid="7638"></source>
+</clone>
+
+<clone nlines="69" similarity="100">
+<source file="../hum_codes_raw/s590523901.java" startline="1" endline="76" pcid="19813"></source>
+<source file="../hum_codes_raw/s615785556.java" startline="1" endline="77" pcid="20693"></source>
+</clone>
+
+<clone nlines="74" similarity="100">
+<source file="../hum_codes_raw/s621658693.java" startline="1" endline="118" pcid="20874"></source>
+<source file="../hum_codes_raw/s709835362.java" startline="1" endline="118" pcid="23872"></source>
+</clone>
+
+<clone nlines="77" similarity="100">
+<source file="../hum_codes_raw/s905058124.java" startline="1" endline="97" pcid="30460"></source>
+<source file="../hum_codes_raw/s063720635.java" startline="1" endline="97" pcid="2130"></source>
+</clone>
+
+<clone nlines="64" similarity="100">
+<source file="../hum_codes_raw/s749145584.java" startline="1" endline="73" pcid="25166"></source>
+<source file="../hum_codes_raw/s455106067.java" startline="1" endline="73" pcid="15265"></source>
+</clone>
+
+<clone nlines="66" similarity="100">
+<source file="../hum_codes_raw/s555688246.java" startline="1" endline="79" pcid="18724"></source>
+<source file="../hum_codes_raw/s653475569.java" startline="1" endline="79" pcid="21932"></source>
+</clone>
+
+<clone nlines="71" similarity="100">
+<source file="../hum_codes_raw/s798822729.java" startline="1" endline="76" pcid="26835"></source>
+<source file="../hum_codes_raw/s456667608.java" startline="1" endline="73" pcid="15314"></source>
+</clone>
+
+<clone nlines="67" similarity="100">
+<source file="../hum_codes_raw/s488982935.java" startline="1" endline="88" pcid="16426"></source>
+<source file="../hum_codes_raw/s030330886.java" startline="1" endline="88" pcid="1002"></source>
+</clone>
+
+<clone nlines="72" similarity="100">
+<source file="../hum_codes_raw/s409947235.java" startline="1" endline="98" pcid="13786"></source>
+<source file="../hum_codes_raw/s742365105.java" startline="1" endline="98" pcid="24944"></source>
+</clone>
+
+<clone nlines="63" similarity="100">
+<source file="../hum_codes_raw/s518337227.java" startline="1" endline="65" pcid="17415"></source>
+<source file="../hum_codes_raw/s552692819.java" startline="1" endline="65" pcid="18630"></source>
+</clone>
+
+<clone nlines="63" similarity="100">
+<source file="../hum_codes_raw/s500506438.java" startline="1" endline="92" pcid="16774"></source>
+<source file="../hum_codes_raw/s043731904.java" startline="1" endline="92" pcid="1453"></source>
+</clone>
+
+<clone nlines="61" similarity="100">
+<source file="../hum_codes_raw/s775842977.java" startline="1" endline="61" pcid="26044"></source>
+<source file="../hum_codes_raw/s459917263.java" startline="1" endline="61" pcid="15434"></source>
+</clone>
+
+<clone nlines="59" similarity="100">
+<source file="../hum_codes_raw/s703249395.java" startline="1" endline="71" pcid="23656"></source>
+<source file="../hum_codes_raw/s734381119.java" startline="1" endline="71" pcid="24685"></source>
+</clone>
+
+<clone nlines="59" similarity="100">
+<source file="../hum_codes_raw/s310504887.java" startline="1" endline="71" pcid="10450"></source>
+<source file="../hum_codes_raw/s734381119.java" startline="1" endline="71" pcid="24685"></source>
+</clone>
+
+<clone nlines="59" similarity="100">
+<source file="../hum_codes_raw/s734381119.java" startline="1" endline="71" pcid="24685"></source>
+<source file="../hum_codes_raw/s058915520.java" startline="1" endline="71" pcid="1977"></source>
+</clone>
+
+<clone nlines="59" similarity="100">
+<source file="../hum_codes_raw/s310504887.java" startline="1" endline="71" pcid="10450"></source>
+<source file="../hum_codes_raw/s703249395.java" startline="1" endline="71" pcid="23656"></source>
+</clone>
+
+<clone nlines="59" similarity="100">
+<source file="../hum_codes_raw/s703249395.java" startline="1" endline="71" pcid="23656"></source>
+<source file="../hum_codes_raw/s058915520.java" startline="1" endline="71" pcid="1977"></source>
+</clone>
+
+<clone nlines="67" similarity="100">
+<source file="../hum_codes_raw/s687849691.java" startline="1" endline="70" pcid="23106"></source>
+<source file="../hum_codes_raw/s031315623.java" startline="1" endline="70" pcid="1042"></source>
+</clone>
+
+<clone nlines="59" similarity="100">
+<source file="../hum_codes_raw/s310504887.java" startline="1" endline="71" pcid="10450"></source>
+<source file="../hum_codes_raw/s058915520.java" startline="1" endline="71" pcid="1977"></source>
+</clone>
+
+<clone nlines="65" similarity="100">
+<source file="../hum_codes_raw/s998246257.java" startline="1" endline="64" pcid="33607"></source>
+<source file="../hum_codes_raw/s577710680.java" startline="1" endline="64" pcid="19397"></source>
+</clone>
+
+<clone nlines="58" similarity="100">
+<source file="../hum_codes_raw/s934297997.java" startline="1" endline="64" pcid="31419"></source>
+<source file="../hum_codes_raw/s225400136.java" startline="1" endline="64" pcid="7629"></source>
+</clone>
+
+<clone nlines="62" similarity="100">
+<source file="../hum_codes_raw/s787185351.java" startline="1" endline="110" pcid="26429"></source>
+<source file="../hum_codes_raw/s489483606.java" startline="1" endline="106" pcid="16442"></source>
+</clone>
+
+<clone nlines="61" similarity="100">
+<source file="../hum_codes_raw/s414915935.java" startline="1" endline="73" pcid="13948"></source>
+<source file="../hum_codes_raw/s464589311.java" startline="1" endline="69" pcid="15581"></source>
+</clone>
+
+<clone nlines="58" similarity="100">
+<source file="../hum_codes_raw/s277875295.java" startline="1" endline="75" pcid="9301"></source>
+<source file="../hum_codes_raw/s462178555.java" startline="1" endline="75" pcid="15515"></source>
+</clone>
+
+<clone nlines="60" similarity="100">
+<source file="../hum_codes_raw/s088292499.java" startline="1" endline="68" pcid="2932"></source>
+<source file="../hum_codes_raw/s978370901.java" startline="1" endline="68" pcid="33732"></source>
+</clone>
+
+<clone nlines="56" similarity="100">
+<source file="../hum_codes_raw/s740463383.java" startline="1" endline="68" pcid="24881"></source>
+<source file="../hum_codes_raw/s836157593.java" startline="1" endline="68" pcid="28070"></source>
+</clone>
+
+<clone nlines="56" similarity="100">
+<source file="../hum_codes_raw/s667781206.java" startline="1" endline="72" pcid="22431"></source>
+<source file="../hum_codes_raw/s788167550.java" startline="1" endline="72" pcid="26460"></source>
+</clone>
+
+<clone nlines="56" similarity="100">
+<source file="../hum_codes_raw/s135223040.java" startline="1" endline="64" pcid="4520"></source>
+<source file="../hum_codes_raw/s943957762.java" startline="1" endline="64" pcid="31732"></source>
+</clone>
+
+<clone nlines="56" similarity="100">
+<source file="../hum_codes_raw/s502182318.java" startline="1" endline="99" pcid="16824"></source>
+<source file="../hum_codes_raw/s628337290.java" startline="1" endline="99" pcid="21081"></source>
+</clone>
+
+<clone nlines="64" similarity="100">
+<source file="../hum_codes_raw/s446409773.java" startline="1" endline="79" pcid="14954"></source>
+<source file="../hum_codes_raw/s363586947.java" startline="1" endline="79" pcid="12204"></source>
+</clone>
+
+<clone nlines="55" similarity="100">
+<source file="../hum_codes_raw/s577181364.java" startline="1" endline="71" pcid="19379"></source>
+<source file="../hum_codes_raw/s762004113.java" startline="1" endline="71" pcid="25595"></source>
+</clone>
+
+<clone nlines="52" similarity="100">
+<source file="../hum_codes_raw/s318955333.java" startline="1" endline="58" pcid="10702"></source>
+<source file="../hum_codes_raw/s584602577.java" startline="1" endline="58" pcid="19615"></source>
+</clone>
+
+<clone nlines="53" similarity="100">
+<source file="../hum_codes_raw/s563727636.java" startline="1" endline="74" pcid="18976"></source>
+<source file="../hum_codes_raw/s368238428.java" startline="1" endline="74" pcid="12376"></source>
+</clone>
+
+<clone nlines="56" similarity="100">
+<source file="../hum_codes_raw/s884803887.java" startline="1" endline="69" pcid="29747"></source>
+<source file="../hum_codes_raw/s602264455.java" startline="1" endline="69" pcid="20223"></source>
+</clone>
+
+<clone nlines="51" similarity="100">
+<source file="../hum_codes_raw/s966835667.java" startline="1" endline="84" pcid="32511"></source>
+<source file="../hum_codes_raw/s672841375.java" startline="1" endline="78" pcid="22607"></source>
+</clone>
+
+<clone nlines="51" similarity="100">
+<source file="../hum_codes_raw/s764844827.java" startline="1" endline="78" pcid="25684"></source>
+<source file="../hum_codes_raw/s672841375.java" startline="1" endline="78" pcid="22607"></source>
+</clone>
+
+<clone nlines="51" similarity="100">
+<source file="../hum_codes_raw/s764844827.java" startline="1" endline="78" pcid="25684"></source>
+<source file="../hum_codes_raw/s966835667.java" startline="1" endline="84" pcid="32511"></source>
+</clone>
+
+<clone nlines="57" similarity="100">
+<source file="../hum_codes_raw/s840836143.java" startline="1" endline="55" pcid="28235"></source>
+<source file="../hum_codes_raw/s547285486.java" startline="1" endline="55" pcid="18424"></source>
+</clone>
+
+<clone nlines="53" similarity="100">
+<source file="../hum_codes_raw/s448593795.java" startline="1" endline="61" pcid="15035"></source>
+<source file="../hum_codes_raw/s919592382.java" startline="1" endline="61" pcid="30927"></source>
+</clone>
+
+<clone nlines="51" similarity="100">
+<source file="../hum_codes_raw/s589090521.java" startline="1" endline="72" pcid="19776"></source>
+<source file="../hum_codes_raw/s136786538.java" startline="1" endline="72" pcid="4578"></source>
+</clone>
+
+<clone nlines="53" similarity="100">
+<source file="../hum_codes_raw/s366179451.java" startline="1" endline="63" pcid="12302"></source>
+<source file="../hum_codes_raw/s189078226.java" startline="1" endline="63" pcid="6371"></source>
+</clone>
+
+<clone nlines="48" similarity="100">
+<source file="../hum_codes_raw/s607267764.java" startline="1" endline="52" pcid="20404"></source>
+<source file="../hum_codes_raw/s467690671.java" startline="1" endline="53" pcid="15695"></source>
+</clone>
+
+<clone nlines="49" similarity="100">
+<source file="../hum_codes_raw/s022887755.java" startline="1" endline="48" pcid="780"></source>
+<source file="../hum_codes_raw/s191365573.java" startline="1" endline="66" pcid="6443"></source>
+</clone>
+
+<clone nlines="50" similarity="100">
+<source file="../hum_codes_raw/s723939010.java" startline="1" endline="48" pcid="24349"></source>
+<source file="../hum_codes_raw/s473121306.java" startline="1" endline="49" pcid="15888"></source>
+</clone>
+
+<clone nlines="51" similarity="100">
+<source file="../hum_codes_raw/s276733936.java" startline="1" endline="59" pcid="9254"></source>
+<source file="../hum_codes_raw/s352963618.java" startline="1" endline="59" pcid="11850"></source>
+</clone>
+
+<clone nlines="52" similarity="100">
+<source file="../hum_codes_raw/s147924630.java" startline="1" endline="64" pcid="4943"></source>
+<source file="../hum_codes_raw/s650556080.java" startline="1" endline="64" pcid="21836"></source>
+</clone>
+
+<clone nlines="52" similarity="100">
+<source file="../hum_codes_raw/s147924630.java" startline="1" endline="64" pcid="4943"></source>
+<source file="../hum_codes_raw/s673267797.java" startline="1" endline="64" pcid="22618"></source>
+</clone>
+
+<clone nlines="44" similarity="100">
+<source file="../hum_codes_raw/s771420354.java" startline="1" endline="58" pcid="25897"></source>
+<source file="../hum_codes_raw/s200353596.java" startline="1" endline="58" pcid="6754"></source>
+</clone>
+
+<clone nlines="45" similarity="100">
+<source file="../hum_codes_raw/s194476548.java" startline="1" endline="48" pcid="6548"></source>
+<source file="../hum_codes_raw/s544941511.java" startline="1" endline="48" pcid="18362"></source>
+</clone>
+
+<clone nlines="52" similarity="100">
+<source file="../hum_codes_raw/s673267797.java" startline="1" endline="64" pcid="22618"></source>
+<source file="../hum_codes_raw/s650556080.java" startline="1" endline="64" pcid="21836"></source>
+</clone>
+
+<clone nlines="54" similarity="100">
+<source file="../hum_codes_raw/s984250523.java" startline="1" endline="58" pcid="33097"></source>
+<source file="../hum_codes_raw/s747076084.java" startline="1" endline="59" pcid="25089"></source>
+</clone>
+
+<clone nlines="44" similarity="100">
+<source file="../hum_codes_raw/s984361698.java" startline="1" endline="48" pcid="33104"></source>
+<source file="../hum_codes_raw/s791655230.java" startline="1" endline="48" pcid="26597"></source>
+</clone>
+
+<clone nlines="44" similarity="100">
+<source file="../hum_codes_raw/s531092135.java" startline="1" endline="48" pcid="17876"></source>
+<source file="../hum_codes_raw/s791655230.java" startline="1" endline="48" pcid="26597"></source>
+</clone>
+
+<clone nlines="45" similarity="100">
+<source file="../hum_codes_raw/s699035761.java" startline="1" endline="55" pcid="23511"></source>
+<source file="../hum_codes_raw/s821492058.java" startline="1" endline="55" pcid="27576"></source>
+</clone>
+
+<clone nlines="47" similarity="100">
+<source file="../hum_codes_raw/s033141889.java" startline="1" endline="57" pcid="1101"></source>
+<source file="../hum_codes_raw/s740915416.java" startline="1" endline="57" pcid="24899"></source>
+</clone>
+
+<clone nlines="44" similarity="100">
+<source file="../hum_codes_raw/s984361698.java" startline="1" endline="48" pcid="33104"></source>
+<source file="../hum_codes_raw/s531092135.java" startline="1" endline="48" pcid="17876"></source>
+</clone>
+
+<clone nlines="45" similarity="100">
+<source file="../hum_codes_raw/s008973744.java" startline="1" endline="56" pcid="296"></source>
+<source file="../hum_codes_raw/s953865763.java" startline="1" endline="56" pcid="32055"></source>
+</clone>
+
+<clone nlines="44" similarity="100">
+<source file="../hum_codes_raw/s160342270.java" startline="1" endline="46" pcid="5380"></source>
+<source file="../hum_codes_raw/s295257878.java" startline="1" endline="46" pcid="9900"></source>
+</clone>
+
+<clone nlines="49" similarity="100">
+<source file="../hum_codes_raw/s856221251.java" startline="1" endline="65" pcid="28780"></source>
+<source file="../hum_codes_raw/s742846647.java" startline="1" endline="66" pcid="24959"></source>
+</clone>
+
+<clone nlines="46" similarity="100">
+<source file="../hum_codes_raw/s323090943.java" startline="1" endline="58" pcid="10837"></source>
+<source file="../hum_codes_raw/s973271954.java" startline="1" endline="52" pcid="32754"></source>
+</clone>
+
+<clone nlines="46" similarity="100">
+<source file="../hum_codes_raw/s165602118.java" startline="1" endline="49" pcid="5545"></source>
+<source file="../hum_codes_raw/s181026918.java" startline="1" endline="49" pcid="6100"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../hum_codes_raw/s280856904.java" startline="1" endline="49" pcid="9399"></source>
+<source file="../hum_codes_raw/s223434161.java" startline="1" endline="49" pcid="7548"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../hum_codes_raw/s730888198.java" startline="1" endline="49" pcid="24568"></source>
+<source file="../hum_codes_raw/s223434161.java" startline="1" endline="49" pcid="7548"></source>
+</clone>
+
+<clone nlines="43" similarity="100">
+<source file="../hum_codes_raw/s917564111.java" startline="1" endline="54" pcid="30857"></source>
+<source file="../hum_codes_raw/s515777634.java" startline="1" endline="59" pcid="17315"></source>
+</clone>
+
+<clone nlines="40" similarity="100">
+<source file="../hum_codes_raw/s769338576.java" startline="1" endline="46" pcid="25831"></source>
+<source file="../hum_codes_raw/s330022854.java" startline="1" endline="46" pcid="11042"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../hum_codes_raw/s730888198.java" startline="1" endline="49" pcid="24568"></source>
+<source file="../hum_codes_raw/s280856904.java" startline="1" endline="49" pcid="9399"></source>
+</clone>
+
+<clone nlines="40" similarity="100">
+<source file="../hum_codes_raw/s983166256.java" startline="1" endline="57" pcid="33063"></source>
+<source file="../hum_codes_raw/s100508872.java" startline="1" endline="57" pcid="3352"></source>
+</clone>
+
+<clone nlines="40" similarity="100">
+<source file="../hum_codes_raw/s687838170.java" startline="1" endline="42" pcid="23105"></source>
+<source file="../hum_codes_raw/s494089730.java" startline="1" endline="42" pcid="16597"></source>
+</clone>
+
+<clone nlines="39" similarity="100">
+<source file="../hum_codes_raw/s210510115.java" startline="1" endline="36" pcid="7101"></source>
+<source file="../hum_codes_raw/s379237304.java" startline="1" endline="36" pcid="12754"></source>
+</clone>
+
+<clone nlines="39" similarity="100">
+<source file="../hum_codes_raw/s507253512.java" startline="1" endline="45" pcid="16995"></source>
+<source file="../hum_codes_raw/s228857483.java" startline="1" endline="45" pcid="7726"></source>
+</clone>
+
+<clone nlines="42" similarity="100">
+<source file="../hum_codes_raw/s370099020.java" startline="1" endline="55" pcid="12442"></source>
+<source file="../hum_codes_raw/s264763781.java" startline="1" endline="52" pcid="8888"></source>
+</clone>
+
+<clone nlines="41" similarity="100">
+<source file="../hum_codes_raw/s007673167.java" startline="1" endline="45" pcid="255"></source>
+<source file="../hum_codes_raw/s742875524.java" startline="1" endline="45" pcid="24961"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../hum_codes_raw/s934430464.java" startline="1" endline="52" pcid="31422"></source>
+<source file="../hum_codes_raw/s751521433.java" startline="1" endline="54" pcid="25254"></source>
+</clone>
+
+<clone nlines="39" similarity="100">
+<source file="../hum_codes_raw/s975590468.java" startline="1" endline="39" pcid="32830"></source>
+<source file="../hum_codes_raw/s018327802.java" startline="1" endline="39" pcid="619"></source>
+</clone>
+
+<clone nlines="39" similarity="100">
+<source file="../hum_codes_raw/s272561156.java" startline="1" endline="44" pcid="9115"></source>
+<source file="../hum_codes_raw/s744183787.java" startline="1" endline="44" pcid="24997"></source>
+</clone>
+
+<clone nlines="39" similarity="100">
+<source file="../hum_codes_raw/s437483033.java" startline="1" endline="43" pcid="14672"></source>
+<source file="../hum_codes_raw/s345464736.java" startline="1" endline="42" pcid="11599"></source>
+</clone>
+
+<clone nlines="39" similarity="100">
+<source file="../hum_codes_raw/s260575609.java" startline="1" endline="50" pcid="8751"></source>
+<source file="../hum_codes_raw/s982251484.java" startline="1" endline="50" pcid="33031"></source>
+</clone>
+
+<clone nlines="40" similarity="100">
+<source file="../hum_codes_raw/s665449186.java" startline="1" endline="51" pcid="22347"></source>
+<source file="../hum_codes_raw/s641161060.java" startline="1" endline="51" pcid="21507"></source>
+</clone>
+
+<clone nlines="40" similarity="100">
+<source file="../hum_codes_raw/s762799528.java" startline="1" endline="41" pcid="25622"></source>
+<source file="../hum_codes_raw/s923869292.java" startline="1" endline="42" pcid="31067"></source>
+</clone>
+
+<clone nlines="40" similarity="100">
+<source file="../hum_codes_raw/s510751196.java" startline="1" endline="45" pcid="17122"></source>
+<source file="../hum_codes_raw/s450059172.java" startline="1" endline="45" pcid="15085"></source>
+</clone>
+
+<clone nlines="42" similarity="100">
+<source file="../hum_codes_raw/s666083294.java" startline="1" endline="40" pcid="22366"></source>
+<source file="../hum_codes_raw/s325955835.java" startline="1" endline="40" pcid="10919"></source>
+</clone>
+
+<clone nlines="34" similarity="100">
+<source file="../hum_codes_raw/s525519255.java" startline="1" endline="45" pcid="17671"></source>
+<source file="../hum_codes_raw/s306713968.java" startline="1" endline="37" pcid="10327"></source>
+</clone>
+
+<clone nlines="41" similarity="100">
+<source file="../hum_codes_raw/s381324116.java" startline="1" endline="44" pcid="12815"></source>
+<source file="../hum_codes_raw/s217045508.java" startline="1" endline="44" pcid="7328"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../hum_codes_raw/s766888933.java" startline="1" endline="42" pcid="25755"></source>
+<source file="../hum_codes_raw/s154166749.java" startline="1" endline="41" pcid="5164"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../hum_codes_raw/s660414641.java" startline="1" endline="42" pcid="22175"></source>
+<source file="../hum_codes_raw/s766888933.java" startline="1" endline="42" pcid="25755"></source>
+</clone>
+
+<clone nlines="37" similarity="100">
+<source file="../hum_codes_raw/s314955233.java" startline="1" endline="50" pcid="10595"></source>
+<source file="../hum_codes_raw/s490587696.java" startline="1" endline="50" pcid="16477"></source>
+</clone>
+
+<clone nlines="40" similarity="100">
+<source file="../hum_codes_raw/s773259980.java" startline="1" endline="50" pcid="25964"></source>
+<source file="../hum_codes_raw/s985822988.java" startline="1" endline="50" pcid="33163"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../hum_codes_raw/s660414641.java" startline="1" endline="42" pcid="22175"></source>
+<source file="../hum_codes_raw/s154166749.java" startline="1" endline="41" pcid="5164"></source>
+</clone>
+
+<clone nlines="42" similarity="100">
+<source file="../hum_codes_raw/s979472434.java" startline="1" endline="45" pcid="32938"></source>
+<source file="../hum_codes_raw/s429139656.java" startline="1" endline="45" pcid="14422"></source>
+</clone>
+
+<clone nlines="34" similarity="100">
+<source file="../hum_codes_raw/s480713764.java" startline="1" endline="38" pcid="16140"></source>
+<source file="../hum_codes_raw/s861914098.java" startline="1" endline="44" pcid="28984"></source>
+</clone>
+
+<clone nlines="36" similarity="100">
+<source file="../hum_codes_raw/s227668620.java" startline="1" endline="42" pcid="7702"></source>
+<source file="../hum_codes_raw/s190038159.java" startline="1" endline="43" pcid="6407"></source>
+</clone>
+
+<clone nlines="38" similarity="100">
+<source file="../hum_codes_raw/s575133689.java" startline="1" endline="51" pcid="19332"></source>
+<source file="../hum_codes_raw/s863451359.java" startline="1" endline="51" pcid="29036"></source>
+</clone>
+
+<clone nlines="40" similarity="100">
+<source file="../hum_codes_raw/s951909513.java" startline="1" endline="55" pcid="31975"></source>
+<source file="../hum_codes_raw/s843749289.java" startline="1" endline="53" pcid="28334"></source>
+</clone>
+
+<clone nlines="35" similarity="100">
+<source file="../hum_codes_raw/s510671027.java" startline="1" endline="43" pcid="17121"></source>
+<source file="../hum_codes_raw/s461870565.java" startline="1" endline="43" pcid="15500"></source>
+</clone>
+
+<clone nlines="37" similarity="100">
+<source file="../hum_codes_raw/s286777872.java" startline="1" endline="50" pcid="9615"></source>
+<source file="../hum_codes_raw/s608277077.java" startline="1" endline="51" pcid="20442"></source>
+</clone>
+
+<clone nlines="35" similarity="100">
+<source file="../hum_codes_raw/s309722984.java" startline="1" endline="38" pcid="10426"></source>
+<source file="../hum_codes_raw/s821004732.java" startline="1" endline="38" pcid="27555"></source>
+</clone>
+
+<clone nlines="36" similarity="100">
+<source file="../hum_codes_raw/s226968743.java" startline="1" endline="42" pcid="7677"></source>
+<source file="../hum_codes_raw/s607330585.java" startline="1" endline="46" pcid="20406"></source>
+</clone>
+
+<clone nlines="33" similarity="100">
+<source file="../hum_codes_raw/s615983931.java" startline="1" endline="39" pcid="20702"></source>
+<source file="../hum_codes_raw/s366950302.java" startline="1" endline="45" pcid="12332"></source>
+</clone>
+
+<clone nlines="34" similarity="100">
+<source file="../hum_codes_raw/s606960694.java" startline="1" endline="51" pcid="20391"></source>
+<source file="../hum_codes_raw/s792253704.java" startline="1" endline="51" pcid="26618"></source>
+</clone>
+
+<clone nlines="39" similarity="100">
+<source file="../hum_codes_raw/s434195997.java" startline="1" endline="47" pcid="14577"></source>
+<source file="../hum_codes_raw/s514961353.java" startline="1" endline="43" pcid="17278"></source>
+</clone>
+
+<clone nlines="32" similarity="100">
+<source file="../hum_codes_raw/s289066775.java" startline="1" endline="38" pcid="9678"></source>
+<source file="../hum_codes_raw/s199979698.java" startline="1" endline="39" pcid="6739"></source>
+</clone>
+
+<clone nlines="36" similarity="100">
+<source file="../hum_codes_raw/s143124304.java" startline="1" endline="40" pcid="4790"></source>
+<source file="../hum_codes_raw/s724292859.java" startline="1" endline="46" pcid="24362"></source>
+</clone>
+
+<clone nlines="37" similarity="100">
+<source file="../hum_codes_raw/s207613195.java" startline="1" endline="45" pcid="6998"></source>
+<source file="../hum_codes_raw/s040949687.java" startline="1" endline="45" pcid="1377"></source>
+</clone>
+
+<clone nlines="32" similarity="100">
+<source file="../hum_codes_raw/s608386792.java" startline="1" endline="46" pcid="20447"></source>
+<source file="../hum_codes_raw/s198093778.java" startline="1" endline="46" pcid="6669"></source>
+</clone>
+
+<clone nlines="34" similarity="100">
+<source file="../hum_codes_raw/s029203789.java" startline="1" endline="37" pcid="968"></source>
+<source file="../hum_codes_raw/s904246863.java" startline="1" endline="37" pcid="30430"></source>
+</clone>
+
+<clone nlines="34" similarity="100">
+<source file="../hum_codes_raw/s777160410.java" startline="1" endline="40" pcid="26091"></source>
+<source file="../hum_codes_raw/s275165787.java" startline="1" endline="40" pcid="9200"></source>
+</clone>
+
+<clone nlines="33" similarity="100">
+<source file="../hum_codes_raw/s561966545.java" startline="1" endline="37" pcid="18920"></source>
+<source file="../hum_codes_raw/s561705604.java" startline="1" endline="37" pcid="18911"></source>
+</clone>
+
+<clone nlines="32" similarity="100">
+<source file="../hum_codes_raw/s994582133.java" startline="1" endline="43" pcid="33470"></source>
+<source file="../hum_codes_raw/s283215821.java" startline="1" endline="43" pcid="9489"></source>
+</clone>
+
+<clone nlines="35" similarity="100">
+<source file="../hum_codes_raw/s126567478.java" startline="1" endline="48" pcid="4226"></source>
+<source file="../hum_codes_raw/s420320317.java" startline="1" endline="50" pcid="14125"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../hum_codes_raw/s699620841.java" startline="1" endline="35" pcid="23531"></source>
+<source file="../hum_codes_raw/s374155861.java" startline="1" endline="35" pcid="12587"></source>
+</clone>
+
+<clone nlines="37" similarity="100">
+<source file="../hum_codes_raw/s336149885.java" startline="1" endline="41" pcid="11275"></source>
+<source file="../hum_codes_raw/s770812123.java" startline="1" endline="41" pcid="25876"></source>
+</clone>
+
+<clone nlines="34" similarity="100">
+<source file="../hum_codes_raw/s318845272.java" startline="1" endline="35" pcid="10699"></source>
+<source file="../hum_codes_raw/s196107800.java" startline="1" endline="35" pcid="6613"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../hum_codes_raw/s643016294.java" startline="1" endline="35" pcid="21571"></source>
+<source file="../hum_codes_raw/s551783329.java" startline="1" endline="34" pcid="18595"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../hum_codes_raw/s866706293.java" startline="1" endline="46" pcid="29152"></source>
+<source file="../hum_codes_raw/s586575169.java" startline="1" endline="46" pcid="19689"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../hum_codes_raw/s277064174.java" startline="1" endline="49" pcid="9269"></source>
+<source file="../hum_codes_raw/s586575169.java" startline="1" endline="46" pcid="19689"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../hum_codes_raw/s474294531.java" startline="1" endline="55" pcid="15918"></source>
+<source file="../hum_codes_raw/s896704308.java" startline="1" endline="94" pcid="30177"></source>
+</clone>
+
+<clone nlines="29" similarity="100">
+<source file="../hum_codes_raw/s187784404.java" startline="1" endline="33" pcid="6320"></source>
+<source file="../hum_codes_raw/s892475806.java" startline="1" endline="32" pcid="30017"></source>
+</clone>
+
+<clone nlines="33" similarity="100">
+<source file="../hum_codes_raw/s683051354.java" startline="1" endline="37" pcid="22951"></source>
+<source file="../hum_codes_raw/s730872863.java" startline="1" endline="41" pcid="24566"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../hum_codes_raw/s866706293.java" startline="1" endline="46" pcid="29152"></source>
+<source file="../hum_codes_raw/s277064174.java" startline="1" endline="49" pcid="9269"></source>
+</clone>
+
+<clone nlines="34" similarity="100">
+<source file="../hum_codes_raw/s762139857.java" startline="1" endline="47" pcid="25599"></source>
+<source file="../hum_codes_raw/s075686162.java" startline="1" endline="47" pcid="2530"></source>
+</clone>
+
+<clone nlines="30" similarity="100">
+<source file="../hum_codes_raw/s772727847.java" startline="1" endline="34" pcid="25942"></source>
+<source file="../hum_codes_raw/s820968583.java" startline="1" endline="35" pcid="27552"></source>
+</clone>
+
+<clone nlines="33" similarity="100">
+<source file="../hum_codes_raw/s390338757.java" startline="1" endline="37" pcid="13121"></source>
+<source file="../hum_codes_raw/s446577061.java" startline="1" endline="39" pcid="14961"></source>
+</clone>
+
+<clone nlines="30" similarity="100">
+<source file="../hum_codes_raw/s059024828.java" startline="1" endline="44" pcid="1983"></source>
+<source file="../hum_codes_raw/s862432766.java" startline="1" endline="44" pcid="28998"></source>
+</clone>
+
+<clone nlines="29" similarity="100">
+<source file="../hum_codes_raw/s864941032.java" startline="1" endline="33" pcid="29074"></source>
+<source file="../hum_codes_raw/s845515756.java" startline="1" endline="33" pcid="28394"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../hum_codes_raw/s385381357.java" startline="1" endline="33" pcid="12959"></source>
+<source file="../hum_codes_raw/s689084658.java" startline="1" endline="33" pcid="23163"></source>
+</clone>
+
+<clone nlines="33" similarity="100">
+<source file="../hum_codes_raw/s146622168.java" startline="1" endline="40" pcid="4901"></source>
+<source file="../hum_codes_raw/s413840969.java" startline="1" endline="39" pcid="13913"></source>
+</clone>
+
+<clone nlines="29" similarity="100">
+<source file="../hum_codes_raw/s921794084.java" startline="1" endline="51" pcid="31005"></source>
+<source file="../hum_codes_raw/s972797820.java" startline="1" endline="51" pcid="32733"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../hum_codes_raw/s401410685.java" startline="1" endline="39" pcid="13519"></source>
+<source file="../hum_codes_raw/s807880419.java" startline="1" endline="39" pcid="27147"></source>
+</clone>
+
+<clone nlines="27" similarity="100">
+<source file="../hum_codes_raw/s398975488.java" startline="1" endline="34" pcid="13415"></source>
+<source file="../hum_codes_raw/s182127508.java" startline="1" endline="34" pcid="6140"></source>
+</clone>
+
+<clone nlines="31" similarity="100">
+<source file="../hum_codes_raw/s863917875.java" startline="1" endline="26" pcid="29046"></source>
+<source file="../hum_codes_raw/s959716567.java" startline="1" endline="33" pcid="32257"></source>
+</clone>
+
+<clone nlines="27" similarity="100">
+<source file="../hum_codes_raw/s232142104.java" startline="1" endline="30" pcid="7836"></source>
+<source file="../hum_codes_raw/s610653046.java" startline="1" endline="58" pcid="20511"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../hum_codes_raw/s836953497.java" startline="1" endline="32" pcid="28096"></source>
+<source file="../hum_codes_raw/s150255228.java" startline="1" endline="33" pcid="5021"></source>
+</clone>
+
+<clone nlines="28" similarity="100">
+<source file="../hum_codes_raw/s655257449.java" startline="1" endline="29" pcid="21998"></source>
+<source file="../hum_codes_raw/s777478378.java" startline="1" endline="29" pcid="26102"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../hum_codes_raw/s738552783.java" startline="1" endline="28" pcid="24827"></source>
+<source file="../hum_codes_raw/s513737318.java" startline="1" endline="28" pcid="17236"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../hum_codes_raw/s767590340.java" startline="1" endline="33" pcid="25773"></source>
+<source file="../hum_codes_raw/s609863463.java" startline="1" endline="33" pcid="20490"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../hum_codes_raw/s302989808.java" startline="1" endline="26" pcid="10203"></source>
+<source file="../hum_codes_raw/s544542918.java" startline="1" endline="26" pcid="18345"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../hum_codes_raw/s440260687.java" startline="1" endline="29" pcid="14765"></source>
+<source file="../hum_codes_raw/s709290021.java" startline="1" endline="28" pcid="23847"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../hum_codes_raw/s863726903.java" startline="1" endline="29" pcid="29043"></source>
+<source file="../hum_codes_raw/s842681883.java" startline="1" endline="2" pcid="28297"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../hum_codes_raw/s510125076.java" startline="1" endline="31" pcid="17099"></source>
+<source file="../hum_codes_raw/s901192790.java" startline="1" endline="31" pcid="30328"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../hum_codes_raw/s235438384.java" startline="1" endline="28" pcid="7948"></source>
+<source file="../hum_codes_raw/s660376524.java" startline="1" endline="28" pcid="22171"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../hum_codes_raw/s037591628.java" startline="1" endline="27" pcid="1268"></source>
+<source file="../hum_codes_raw/s248723278.java" startline="1" endline="27" pcid="8362"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../hum_codes_raw/s605728998.java" startline="1" endline="29" pcid="20344"></source>
+<source file="../hum_codes_raw/s539285290.java" startline="1" endline="29" pcid="18157"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../hum_codes_raw/s170645507.java" startline="1" endline="26" pcid="5735"></source>
+<source file="../hum_codes_raw/s685662628.java" startline="1" endline="26" pcid="23033"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../hum_codes_raw/s588971163.java" startline="1" endline="28" pcid="19770"></source>
+<source file="../hum_codes_raw/s743508109.java" startline="1" endline="28" pcid="24978"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../hum_codes_raw/s270545487.java" startline="1" endline="27" pcid="9050"></source>
+<source file="../hum_codes_raw/s743508109.java" startline="1" endline="28" pcid="24978"></source>
+</clone>
+
+<clone nlines="25" similarity="100">
+<source file="../hum_codes_raw/s384917989.java" startline="1" endline="31" pcid="12943"></source>
+<source file="../hum_codes_raw/s699958608.java" startline="1" endline="31" pcid="23541"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../hum_codes_raw/s855876782.java" startline="1" endline="54" pcid="28772"></source>
+<source file="../hum_codes_raw/s215591855.java" startline="1" endline="54" pcid="7278"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../hum_codes_raw/s270545487.java" startline="1" endline="27" pcid="9050"></source>
+<source file="../hum_codes_raw/s588971163.java" startline="1" endline="28" pcid="19770"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../hum_codes_raw/s009927387.java" startline="1" endline="26" pcid="326"></source>
+<source file="../hum_codes_raw/s330442435.java" startline="1" endline="25" pcid="11060"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../hum_codes_raw/s141112005.java" startline="1" endline="24" pcid="4706"></source>
+<source file="../hum_codes_raw/s967294600.java" startline="1" endline="24" pcid="32526"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../hum_codes_raw/s411025858.java" startline="1" endline="27" pcid="13819"></source>
+<source file="../hum_codes_raw/s065444897.java" startline="1" endline="27" pcid="2195"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../hum_codes_raw/s039841887.java" startline="1" endline="25" pcid="1344"></source>
+<source file="../hum_codes_raw/s717718126.java" startline="1" endline="24" pcid="24128"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../hum_codes_raw/s651263458.java" startline="1" endline="23" pcid="21862"></source>
+<source file="../hum_codes_raw/s916398522.java" startline="1" endline="25" pcid="30816"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../hum_codes_raw/s275725695.java" startline="1" endline="25" pcid="9219"></source>
+<source file="../hum_codes_raw/s848354165.java" startline="1" endline="26" pcid="28498"></source>
+</clone>
+
+<clone nlines="23" similarity="100">
+<source file="../hum_codes_raw/s677108130.java" startline="1" endline="26" pcid="22757"></source>
+<source file="../hum_codes_raw/s356499693.java" startline="1" endline="26" pcid="11965"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../hum_codes_raw/s685966054.java" startline="1" endline="27" pcid="23047"></source>
+<source file="../hum_codes_raw/s137266061.java" startline="1" endline="28" pcid="4595"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../hum_codes_raw/s268738325.java" startline="1" endline="25" pcid="8999"></source>
+<source file="../hum_codes_raw/s512387774.java" startline="1" endline="23" pcid="17193"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../hum_codes_raw/s790607735.java" startline="1" endline="36" pcid="26559"></source>
+<source file="../hum_codes_raw/s157691451.java" startline="1" endline="33" pcid="5292"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../hum_codes_raw/s184441056.java" startline="1" endline="23" pcid="6214"></source>
+<source file="../hum_codes_raw/s558855756.java" startline="1" endline="23" pcid="18834"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../hum_codes_raw/s356478895.java" startline="1" endline="41" pcid="11963"></source>
+<source file="../hum_codes_raw/s768585881.java" startline="1" endline="24" pcid="25800"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../hum_codes_raw/s190641646.java" startline="1" endline="25" pcid="6426"></source>
+<source file="../hum_codes_raw/s145256498.java" startline="1" endline="26" pcid="4868"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../hum_codes_raw/s792996112.java" startline="1" endline="27" pcid="26638"></source>
+<source file="../hum_codes_raw/s493465821.java" startline="1" endline="27" pcid="16579"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../hum_codes_raw/s759993942.java" startline="1" endline="29" pcid="25541"></source>
+<source file="../hum_codes_raw/s502913181.java" startline="1" endline="26" pcid="16846"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../hum_codes_raw/s456003682.java" startline="1" endline="24" pcid="15297"></source>
+<source file="../hum_codes_raw/s167771213.java" startline="1" endline="24" pcid="5627"></source>
+</clone>
+
+<clone nlines="22" similarity="100">
+<source file="../hum_codes_raw/s895881206.java" startline="1" endline="32" pcid="30147"></source>
+<source file="../hum_codes_raw/s881835494.java" startline="1" endline="31" pcid="29635"></source>
+</clone>
+
+<clone nlines="21" similarity="100">
+<source file="../hum_codes_raw/s372355840.java" startline="1" endline="21" pcid="12520"></source>
+<source file="../hum_codes_raw/s367208360.java" startline="1" endline="21" pcid="12342"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../hum_codes_raw/s156731543.java" startline="1" endline="23" pcid="5256"></source>
+<source file="../hum_codes_raw/s277078962.java" startline="1" endline="23" pcid="9270"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../hum_codes_raw/s888664655.java" startline="1" endline="25" pcid="29883"></source>
+<source file="../hum_codes_raw/s803034229.java" startline="1" endline="25" pcid="26971"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../hum_codes_raw/s124268953.java" startline="1" endline="24" pcid="4145"></source>
+<source file="../hum_codes_raw/s282464824.java" startline="1" endline="22" pcid="9460"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../hum_codes_raw/s906415007.java" startline="1" endline="26" pcid="30498"></source>
+<source file="../hum_codes_raw/s701832384.java" startline="1" endline="26" pcid="23609"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../hum_codes_raw/s229096843.java" startline="1" endline="32" pcid="7736"></source>
+<source file="../hum_codes_raw/s259696948.java" startline="1" endline="21" pcid="8724"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../hum_codes_raw/s955858894.java" startline="1" endline="18" pcid="32128"></source>
+<source file="../hum_codes_raw/s079945584.java" startline="1" endline="18" pcid="2676"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../hum_codes_raw/s584967724.java" startline="1" endline="24" pcid="19633"></source>
+<source file="../hum_codes_raw/s171383036.java" startline="1" endline="25" pcid="5767"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../hum_codes_raw/s098211726.java" startline="1" endline="24" pcid="3264"></source>
+<source file="../hum_codes_raw/s725029473.java" startline="1" endline="22" pcid="24382"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../hum_codes_raw/s450531715.java" startline="1" endline="22" pcid="15104"></source>
+<source file="../hum_codes_raw/s233405311.java" startline="1" endline="22" pcid="7882"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../hum_codes_raw/s379155896.java" startline="1" endline="23" pcid="12746"></source>
+<source file="../hum_codes_raw/s541624732.java" startline="1" endline="22" pcid="18228"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_raw/s532333220.java" startline="1" endline="19" pcid="17923"></source>
+<source file="../hum_codes_raw/s941253588.java" startline="1" endline="20" pcid="31647"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../hum_codes_raw/s565471129.java" startline="1" endline="19" pcid="19026"></source>
+<source file="../hum_codes_raw/s226358701.java" startline="1" endline="21" pcid="7652"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_raw/s251188564.java" startline="1" endline="21" pcid="8457"></source>
+<source file="../hum_codes_raw/s459257377.java" startline="1" endline="21" pcid="15409"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_raw/s746654939.java" startline="1" endline="21" pcid="25068"></source>
+<source file="../hum_codes_raw/s241036746.java" startline="1" endline="21" pcid="8127"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_raw/s933896254.java" startline="1" endline="23" pcid="31403"></source>
+<source file="../hum_codes_raw/s098592178.java" startline="1" endline="23" pcid="3275"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_raw/s020151971.java" startline="1" endline="30" pcid="693"></source>
+<source file="../hum_codes_raw/s111684299.java" startline="1" endline="30" pcid="3720"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_raw/s466374966.java" startline="1" endline="24" pcid="15652"></source>
+<source file="../hum_codes_raw/s102867034.java" startline="1" endline="23" pcid="3426"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_raw/s466374966.java" startline="1" endline="24" pcid="15652"></source>
+<source file="../hum_codes_raw/s853953365.java" startline="1" endline="23" pcid="28705"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_raw/s853953365.java" startline="1" endline="23" pcid="28705"></source>
+<source file="../hum_codes_raw/s102867034.java" startline="1" endline="23" pcid="3426"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_raw/s122330494.java" startline="1" endline="20" pcid="4069"></source>
+<source file="../hum_codes_raw/s773187572.java" startline="1" endline="21" pcid="25960"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_raw/s180691434.java" startline="1" endline="28" pcid="6087"></source>
+<source file="../hum_codes_raw/s035027406.java" startline="1" endline="19" pcid="1176"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../hum_codes_raw/s006695439.java" startline="1" endline="18" pcid="220"></source>
+<source file="../hum_codes_raw/s697108891.java" startline="1" endline="18" pcid="23447"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_raw/s004448131.java" startline="1" endline="17" pcid="148"></source>
+<source file="../hum_codes_raw/s302006164.java" startline="1" endline="17" pcid="10174"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../hum_codes_raw/s681438131.java" startline="1" endline="19" pcid="22901"></source>
+<source file="../hum_codes_raw/s991534137.java" startline="1" endline="24" pcid="33362"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_raw/s345660098.java" startline="1" endline="25" pcid="11608"></source>
+<source file="../hum_codes_raw/s010329415.java" startline="1" endline="14" pcid="343"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../hum_codes_raw/s136337930.java" startline="1" endline="18" pcid="4556"></source>
+<source file="../hum_codes_raw/s227320733.java" startline="1" endline="15" pcid="7685"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../hum_codes_raw/s862774890.java" startline="1" endline="20" pcid="29015"></source>
+<source file="../hum_codes_raw/s817243344.java" startline="1" endline="18" pcid="27444"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../hum_codes_raw/s422743068.java" startline="1" endline="17" pcid="14201"></source>
+<source file="../hum_codes_raw/s861601091.java" startline="1" endline="19" pcid="28969"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../hum_codes_raw/s401751248.java" startline="1" endline="19" pcid="13531"></source>
+<source file="../hum_codes_raw/s063975139.java" startline="1" endline="18" pcid="2141"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_raw/s956305632.java" startline="1" endline="16" pcid="32145"></source>
+<source file="../hum_codes_raw/s934462189.java" startline="1" endline="18" pcid="31424"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_raw/s041632907.java" startline="1" endline="16" pcid="1396"></source>
+<source file="../hum_codes_raw/s659265746.java" startline="1" endline="17" pcid="22140"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../hum_codes_raw/s168074770.java" startline="1" endline="19" pcid="5634"></source>
+<source file="../hum_codes_raw/s157938525.java" startline="1" endline="19" pcid="5302"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../hum_codes_raw/s881248582.java" startline="1" endline="15" pcid="29614"></source>
+<source file="../hum_codes_raw/s925507872.java" startline="1" endline="14" pcid="31131"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_raw/s197501754.java" startline="1" endline="14" pcid="6662"></source>
+<source file="../hum_codes_raw/s621888968.java" startline="1" endline="18" pcid="20885"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_raw/s574808787.java" startline="1" endline="17" pcid="19321"></source>
+<source file="../hum_codes_raw/s192590654.java" startline="1" endline="15" pcid="6481"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../hum_codes_raw/s419404211.java" startline="1" endline="13" pcid="14093"></source>
+<source file="../hum_codes_raw/s698691854.java" startline="1" endline="14" pcid="23495"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_raw/s269532901.java" startline="1" endline="17" pcid="9022"></source>
+<source file="../hum_codes_raw/s458628710.java" startline="1" endline="17" pcid="15382"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../hum_codes_raw/s526399829.java" startline="1" endline="21" pcid="17703"></source>
+<source file="../hum_codes_raw/s228573371.java" startline="1" endline="15" pcid="7721"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../hum_codes_raw/s096359768.java" startline="1" endline="15" pcid="3200"></source>
+<source file="../hum_codes_raw/s526399829.java" startline="1" endline="21" pcid="17703"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../hum_codes_raw/s590993918.java" startline="1" endline="16" pcid="19826"></source>
+<source file="../hum_codes_raw/s391050410.java" startline="1" endline="15" pcid="13145"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../hum_codes_raw/s096359768.java" startline="1" endline="15" pcid="3200"></source>
+<source file="../hum_codes_raw/s228573371.java" startline="1" endline="15" pcid="7721"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../hum_codes_raw/s630000050.java" startline="1" endline="14" pcid="21131"></source>
+<source file="../hum_codes_raw/s351618051.java" startline="1" endline="13" pcid="11799"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../hum_codes_raw/s630000050.java" startline="1" endline="14" pcid="21131"></source>
+<source file="../hum_codes_raw/s122353815.java" startline="1" endline="17" pcid="4070"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../hum_codes_raw/s351618051.java" startline="1" endline="13" pcid="11799"></source>
+<source file="../hum_codes_raw/s122353815.java" startline="1" endline="17" pcid="4070"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../hum_codes_raw/s466772245.java" startline="1" endline="14" pcid="15666"></source>
+<source file="../hum_codes_raw/s474958041.java" startline="1" endline="18" pcid="15940"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s716387324.java" startline="1" endline="14" pcid="24081"></source>
+<source file="../hum_codes_raw/s783566823.java" startline="1" endline="15" pcid="26313"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s597822515.java" startline="1" endline="13" pcid="20059"></source>
+<source file="../hum_codes_raw/s811477541.java" startline="1" endline="11" pcid="27264"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s597822515.java" startline="1" endline="13" pcid="20059"></source>
+<source file="../hum_codes_raw/s189048146.java" startline="1" endline="16" pcid="6368"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s720895574.java" startline="1" endline="17" pcid="24229"></source>
+<source file="../hum_codes_raw/s465667606.java" startline="1" endline="16" pcid="15628"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s327150544.java" startline="1" endline="20" pcid="10951"></source>
+<source file="../hum_codes_raw/s720895574.java" startline="1" endline="17" pcid="24229"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s110992293.java" startline="1" endline="19" pcid="3688"></source>
+<source file="../hum_codes_raw/s720895574.java" startline="1" endline="17" pcid="24229"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s031103200.java" startline="1" endline="17" pcid="1029"></source>
+<source file="../hum_codes_raw/s720895574.java" startline="1" endline="17" pcid="24229"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s957275050.java" startline="1" endline="20" pcid="32171"></source>
+<source file="../hum_codes_raw/s945990009.java" startline="1" endline="15" pcid="31792"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s327150544.java" startline="1" endline="20" pcid="10951"></source>
+<source file="../hum_codes_raw/s465667606.java" startline="1" endline="16" pcid="15628"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s110992293.java" startline="1" endline="19" pcid="3688"></source>
+<source file="../hum_codes_raw/s465667606.java" startline="1" endline="16" pcid="15628"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s031103200.java" startline="1" endline="17" pcid="1029"></source>
+<source file="../hum_codes_raw/s465667606.java" startline="1" endline="16" pcid="15628"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s274344490.java" startline="1" endline="14" pcid="9175"></source>
+<source file="../hum_codes_raw/s933072200.java" startline="1" endline="14" pcid="31376"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s327150544.java" startline="1" endline="20" pcid="10951"></source>
+<source file="../hum_codes_raw/s110992293.java" startline="1" endline="19" pcid="3688"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s327150544.java" startline="1" endline="20" pcid="10951"></source>
+<source file="../hum_codes_raw/s031103200.java" startline="1" endline="17" pcid="1029"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s189048146.java" startline="1" endline="16" pcid="6368"></source>
+<source file="../hum_codes_raw/s811477541.java" startline="1" endline="11" pcid="27264"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s734792783.java" startline="1" endline="14" pcid="24696"></source>
+<source file="../hum_codes_raw/s300046550.java" startline="1" endline="16" pcid="10105"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../hum_codes_raw/s739842892.java" startline="1" endline="10" pcid="24853"></source>
+<source file="../hum_codes_raw/s953989737.java" startline="1" endline="20" pcid="32060"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../hum_codes_raw/s764964207.java" startline="1" endline="14" pcid="25689"></source>
+<source file="../hum_codes_raw/s239362552.java" startline="1" endline="15" pcid="8085"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s684353770.java" startline="1" endline="14" pcid="22993"></source>
+<source file="../hum_codes_raw/s590174077.java" startline="1" endline="12" pcid="19803"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s624782978.java" startline="1" endline="16" pcid="20976"></source>
+<source file="../hum_codes_raw/s789025168.java" startline="1" endline="17" pcid="26490"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s854014023.java" startline="1" endline="13" pcid="28709"></source>
+<source file="../hum_codes_raw/s789025168.java" startline="1" endline="17" pcid="26490"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s854014023.java" startline="1" endline="13" pcid="28709"></source>
+<source file="../hum_codes_raw/s624782978.java" startline="1" endline="16" pcid="20976"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../hum_codes_raw/s031103200.java" startline="1" endline="17" pcid="1029"></source>
+<source file="../hum_codes_raw/s110992293.java" startline="1" endline="19" pcid="3688"></source>
+</clone>
+
+</clones>

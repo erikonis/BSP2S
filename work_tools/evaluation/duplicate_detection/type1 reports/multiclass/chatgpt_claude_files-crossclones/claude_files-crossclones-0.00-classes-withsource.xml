@@ -1,0 +1,3768 @@
+<clones>
+<systeminfo processor="nicad6" system="claude" system2="chatgpt" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16914" npairs="210"/>
+<runinfo ncompares="3223712" cputime="401062"/>
+<classinfo nclasses="43"/>
+
+<class classid="1" nclones="4" nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p00094_1P.java" startline="1" endline="15" pcid="472">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        double area = a * b;
+        double tsubo = area / 3.305785;
+
+        System.out.println(tsubo);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p00094_2P.java" startline="1" endline="13" pcid="8929">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        double area = a * b;
+        double tsubo = area / 3.305785;
+        System.out.println(tsubo);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p00094_4P.java" startline="1" endline="13" pcid="8931">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        double area = a * b;
+        double tsubo = area / 3.305785;
+        System.out.println(tsubo);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p00094_4P.java" startline="1" endline="15" pcid="475">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        double area = a * b;
+        double tsubo = area / 3.305785;
+
+        System.out.println(tsubo);
+    }
+}
+
+</source>
+</class>
+
+<class classid="2" nclones="6" nlines="26" similarity="100">
+<source file="../ai_codes/claude/claude_p00241_0P.java" startline="1" endline="33" pcid="1006">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+
+            for (int i = 0; i < n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1*x2 - y1*y2 - z1*z2 - w1*w2;
+                int y3 = x1*y2 + y1*x2 + z1*w2 - w1*z2;
+                int z3 = x1*z2 - y1*w2 + z1*x2 + w1*y2;
+                int w3 = x1*w2 + y1*z2 - z1*y2 + w1*x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p00241_0P.java" startline="1" endline="31" pcid="9466">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+            for (int i = 0; i < n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1 * x2 - y1 * y2 - z1 * z2 - w1 * w2;
+                int y3 = x1 * y2 + y1 * x2 + z1 * w2 - w1 * z2;
+                int z3 = x1 * z2 - y1 * w2 + z1 * x2 + w1 * y2;
+                int w3 = x1 * w2 + y1 * z2 - z1 * y2 + w1 * x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p00241_1P.java" startline="1" endline="33" pcid="1007">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+
+            for (int i = 0; i < n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1 * x2 - y1 * y2 - z1 * z2 - w1 * w2;
+                int y3 = x1 * y2 + y1 * x2 + z1 * w2 - w1 * z2;
+                int z3 = x1 * z2 - y1 * w2 + z1 * x2 + w1 * y2;
+                int w3 = x1 * w2 + y1 * z2 - z1 * y2 + w1 * x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p00241_4P.java" startline="1" endline="33" pcid="1010">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+
+            for (int i = 0; i < n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1*x2 - y1*y2 - z1*z2 - w1*w2;
+                int y3 = x1*y2 + y1*x2 + z1*w2 - w1*z2;
+                int z3 = x1*z2 - y1*w2 + z1*x2 + w1*y2;
+                int w3 = x1*w2 + y1*z2 - z1*y2 + w1*x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p00241_2P.java" startline="1" endline="33" pcid="1008">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+
+            for (int i = 0; i < n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1*x2 - y1*y2 - z1*z2 - w1*w2;
+                int y3 = x1*y2 + y1*x2 + z1*w2 - w1*z2;
+                int z3 = x1*z2 - y1*w2 + z1*x2 + w1*y2;
+                int w3 = x1*w2 + y1*z2 - z1*y2 + w1*x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p00241_3P.java" startline="1" endline="33" pcid="1009">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) break;
+
+            for (int i = 0; i < n; i++) {
+                int x1 = sc.nextInt();
+                int y1 = sc.nextInt();
+                int z1 = sc.nextInt();
+                int w1 = sc.nextInt();
+                int x2 = sc.nextInt();
+                int y2 = sc.nextInt();
+                int z2 = sc.nextInt();
+                int w2 = sc.nextInt();
+
+                int x3 = x1 * x2 - y1 * y2 - z1 * z2 - w1 * w2;
+                int y3 = x1 * y2 + y1 * x2 + z1 * w2 - w1 * z2;
+                int z3 = x1 * z2 - y1 * w2 + z1 * x2 + w1 * y2;
+                int w3 = x1 * w2 + y1 * z2 - z1 * y2 + w1 * x2;
+
+                System.out.println(x3 + " " + y3 + " " + z3 + " " + w3);
+            }
+        }
+
+        sc.close();
+    }
+}
+
+</source>
+</class>
+
+<class classid="3" nclones="2" nlines="19" similarity="100">
+<source file="../ai_codes/claude/claude_p00444_1P.java" startline="1" endline="26" pcid="1212">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] coins = {500, 100, 50, 10, 5, 1};
+
+        while (true) {
+            int price = sc.nextInt();
+            if (price == 0) break;
+
+            int change = 1000 - price;
+            int count = 0;
+
+            for (int coin : coins) {
+                count += change / coin;
+                change %= coin;
+            }
+
+            System.out.println(count);
+        }
+
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p00444_0P.java" startline="1" endline="21" pcid="9671">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] coins = {500, 100, 50, 10, 5, 1};
+        while (true) {
+            int price = sc.nextInt();
+            if (price == 0) break;
+            int change = 1000 - price;
+            int count = 0;
+            for (int coin : coins) {
+                count += change / coin;
+                change %= coin;
+            }
+            System.out.println(count);
+        }
+        sc.close();
+    }
+}
+
+</source>
+</class>
+
+<class classid="4" nclones="6" nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p02394_0P.java" startline="1" endline="19" pcid="2762">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_2P.java" startline="1" endline="19" pcid="11224">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_3P.java" startline="1" endline="19" pcid="11225">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_4P.java" startline="1" endline="19" pcid="11226">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02394_4P.java" startline="1" endline="19" pcid="2766">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02394_1P.java" startline="1" endline="19" pcid="2763">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int W = sc.nextInt();
+        int H = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int r = sc.nextInt();
+
+        if (x - r >= 0 && x + r <= W && y - r >= 0 && y + r <= H) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="5" nclones="2" nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02398_4P.java" startline="1" endline="20" pcid="2781">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int count = 0;
+        for (int i = a; i <= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02398_4P.java" startline="1" endline="18" pcid="11241">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int count = 0;
+        for (int i = a; i <= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</source>
+</class>
+
+<class classid="6" nclones="5" nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02570_0P.java" startline="1" endline="17" pcid="3107">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int D = sc.nextInt();
+        int T = sc.nextInt();
+        int S = sc.nextInt();
+
+        if (D <= T * S) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02570_4P.java" startline="1" endline="16" pcid="11570">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int D = sc.nextInt();
+        int T = sc.nextInt();
+        int S = sc.nextInt();
+        if (D <= T * S) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02570_2P.java" startline="1" endline="16" pcid="11568">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int D = sc.nextInt();
+        int T = sc.nextInt();
+        int S = sc.nextInt();
+        if (D <= T * S) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02570_1P.java" startline="1" endline="17" pcid="3108">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int D = sc.nextInt();
+        int T = sc.nextInt();
+        int S = sc.nextInt();
+
+        if (D <= T * S) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02570_2P.java" startline="1" endline="17" pcid="3109">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int D = sc.nextInt();
+        int T = sc.nextInt();
+        int S = sc.nextInt();
+
+        if (D <= T * S) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="7" nclones="4" nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02612_3P.java" startline="1" endline="15" pcid="3285">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int bills = (N + 999) / 1000;
+
+        int change = bills * 1000 - N;
+
+        System.out.println(change);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02612_3P.java" startline="1" endline="12" pcid="11743">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int bills = (N + 999) / 1000;
+        int change = bills * 1000 - N;
+        System.out.println(change);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02612_4P.java" startline="1" endline="12" pcid="11744">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int bills = (N + 999) / 1000;
+        int change = bills * 1000 - N;
+        System.out.println(change);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02612_4P.java" startline="1" endline="15" pcid="3286">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int bills = (N + 999) / 1000;
+
+        int change = bills * 1000 - N;
+
+        System.out.println(change);
+    }
+}
+
+</source>
+</class>
+
+<class classid="8" nclones="5" nlines="13" similarity="100">
+<source file="../ai_codes/claude/claude_p02627_0P.java" startline="1" endline="15" pcid="3357">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02627_1P.java" startline="1" endline="14" pcid="11816">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02627_2P.java" startline="1" endline="15" pcid="3359">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02627_3P.java" startline="1" endline="15" pcid="3360">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02627_1P.java" startline="1" endline="15" pcid="3358">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char alpha = sc.next().charAt(0);
+
+        if (Character.isUpperCase(alpha)) {
+            System.out.println("A");
+        } else {
+            System.out.println("a");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="9" nclones="2" nlines="13" similarity="100">
+<source file="../ai_codes/claude/claude_p02657_3P.java" startline="1" endline="17" pcid="3450">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int result = 0;
+        for (int i = 0; i < B; i++) {
+            result += A;
+        }
+
+        System.out.println(result);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02657_1P.java" startline="1" endline="15" pcid="11906">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int result = 0;
+        for (int i = 0; i < B; i++) {
+            result += A;
+        }
+        System.out.println(result);
+    }
+}
+
+</source>
+</class>
+
+<class classid="10" nclones="4" nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02681_1P.java" startline="1" endline="16" pcid="3533">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        String T = sc.nextLine();
+
+        if (T.startsWith(S) && T.length() == S.length() + 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02681_1P.java" startline="1" endline="15" pcid="11991">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        String T = sc.nextLine();
+        if (T.startsWith(S) && T.length() == S.length() + 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02681_4P.java" startline="1" endline="16" pcid="3536">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        String T = sc.nextLine();
+
+        if (T.startsWith(S) && T.length() == S.length() + 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02681_3P.java" startline="1" endline="16" pcid="3535">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        String T = sc.nextLine();
+
+        if (T.startsWith(S) && T.length() == S.length() + 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="11" nclones="4" nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02694_1P.java" startline="1" endline="19" pcid="3598">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long X = sc.nextLong();
+
+        long balance = 100;
+        int years = 0;
+
+        while (balance < X) {
+            balance = balance + balance / 100;
+            years++;
+        }
+
+        System.out.println(years);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02694_4P.java" startline="1" endline="16" pcid="12059">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long X = sc.nextLong();
+        long balance = 100;
+        int years = 0;
+        while (balance < X) {
+            balance = balance + balance / 100;
+            years++;
+        }
+        System.out.println(years);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02694_3P.java" startline="1" endline="19" pcid="3600">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long X = sc.nextLong();
+
+        long balance = 100;
+        int years = 0;
+
+        while (balance < X) {
+            balance = balance + balance / 100;
+            years++;
+        }
+
+        System.out.println(years);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02694_2P.java" startline="1" endline="19" pcid="3599">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long X = sc.nextLong();
+
+        long balance = 100;
+        int years = 0;
+
+        while (balance < X) {
+            balance = balance + balance / 100;
+            years++;
+        }
+
+        System.out.println(years);
+    }
+}
+
+</source>
+</class>
+
+<class classid="12" nclones="4" nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02699_0P.java" startline="1" endline="16" pcid="3622">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int S = sc.nextInt();
+        int W = sc.nextInt();
+
+        if (W >= S) {
+            System.out.println("unsafe");
+        } else {
+            System.out.println("safe");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02699_2P.java" startline="1" endline="15" pcid="12082">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int S = sc.nextInt();
+        int W = sc.nextInt();
+        if (W >= S) {
+            System.out.println("unsafe");
+        } else {
+            System.out.println("safe");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02699_3P.java" startline="1" endline="15" pcid="12083">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int S = sc.nextInt();
+        int W = sc.nextInt();
+        if (W >= S) {
+            System.out.println("unsafe");
+        } else {
+            System.out.println("safe");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02699_2P.java" startline="1" endline="16" pcid="3624">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int S = sc.nextInt();
+        int W = sc.nextInt();
+
+        if (W >= S) {
+            System.out.println("unsafe");
+        } else {
+            System.out.println("safe");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="13" nclones="5" nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02700_0P.java" startline="1" endline="21" pcid="3627">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns <= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02700_3P.java" startline="1" endline="21" pcid="12088">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns <= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02700_0P.java" startline="1" endline="21" pcid="12085">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns <= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02700_4P.java" startline="1" endline="21" pcid="12089">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns <= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02700_1P.java" startline="1" endline="21" pcid="3628">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int takahashiTurns = (C + B - 1) / B;
+        int aokiTurns = (A + D - 1) / D;
+
+        if (takahashiTurns <= aokiTurns) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="14" nclones="3" nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02717_0P.java" startline="1" endline="13" pcid="3702">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        System.out.println(Z + " " + X + " " + Y);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02717_1P.java" startline="1" endline="12" pcid="12161">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+        System.out.println(Z + " " + X + " " + Y);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02717_4P.java" startline="1" endline="13" pcid="3706">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        System.out.println(Z + " " + X + " " + Y);
+    }
+}
+
+</source>
+</class>
+
+<class classid="15" nclones="6" nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p02729_0P.java" startline="1" endline="16" pcid="3762">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+
+        int oddPairs = M * (M - 1) / 2;
+
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_2P.java" startline="1" endline="13" pcid="12222">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+        int evenPairs = N * (N - 1) / 2;
+        int oddPairs = M * (M - 1) / 2;
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_0P.java" startline="1" endline="13" pcid="12220">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+        int evenPairs = N * (N - 1) / 2;
+        int oddPairs = M * (M - 1) / 2;
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_3P.java" startline="1" endline="14" pcid="12223">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+        int oddPairs = M * (M - 1) / 2;
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02729_1P.java" startline="1" endline="15" pcid="3763">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+        int oddPairs = M * (M - 1) / 2;
+
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02729_2P.java" startline="1" endline="16" pcid="3764">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+
+        int evenPairs = N * (N - 1) / 2;
+
+        int oddPairs = M * (M - 1) / 2;
+
+        System.out.println(evenPairs + oddPairs);
+    }
+}
+
+</source>
+</class>
+
+<class classid="16" nclones="7" nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_1P.java" startline="1" endline="19" pcid="3898">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_0P.java" startline="1" endline="17" pcid="12355">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_2P.java" startline="1" endline="17" pcid="12357">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_4P.java" startline="1" endline="17" pcid="12359">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02765_2P.java" startline="1" endline="19" pcid="3899">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02765_4P.java" startline="1" endline="19" pcid="3901">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02765_3P.java" startline="1" endline="19" pcid="3900">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int R = sc.nextInt();
+
+        int innerRating;
+        if (N >= 10) {
+            innerRating = R;
+        } else {
+            innerRating = R + 100 * (10 - N);
+        }
+
+        System.out.println(innerRating);
+    }
+}
+
+</source>
+</class>
+
+<class classid="17" nclones="4" nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02777_2P.java" startline="1" endline="21" pcid="3954">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.next();
+        String T = sc.next();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        String U = sc.next();
+
+        if (U.equals(S)) {
+            A--;
+        } else {
+            B--;
+        }
+
+        System.out.println(A + " " + B);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02777_4P.java" startline="1" endline="22" pcid="12414">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String S = sc.next();
+        String T = sc.next();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        String U = sc.next();
+
+        if (U.equals(S)) {
+            A--;
+        } else {
+            B--;
+        }
+
+        System.out.println(A + " " + B);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02777_3P.java" startline="1" endline="20" pcid="12413">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.next();
+        String T = sc.next();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        String U = sc.next();
+
+        if (U.equals(S)) {
+            A--;
+        } else {
+            B--;
+        }
+        System.out.println(A + " " + B);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02777_0P.java" startline="1" endline="22" pcid="12410">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String S = sc.next();
+        String T = sc.next();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        String U = sc.next();
+
+        if (U.equals(S)) {
+            A--;
+        } else {
+            B--;
+        }
+
+        System.out.println(A + " " + B);
+    }
+}
+
+</source>
+</class>
+
+<class classid="18" nclones="8" nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_0P.java" startline="1" endline="13" pcid="3982">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_4P.java" startline="1" endline="12" pcid="12444">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_3P.java" startline="1" endline="12" pcid="12443">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_2P.java" startline="1" endline="12" pcid="12442">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_1P.java" startline="1" endline="12" pcid="12441">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_0P.java" startline="1" endline="12" pcid="12440">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+        int attacks = (H + A - 1) / A;
+        System.out.println(attacks);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02783_3P.java" startline="1" endline="14" pcid="3985">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+
+        int attacks = (H + A - 1) / A;
+
+        System.out.println(attacks);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02783_4P.java" startline="1" endline="14" pcid="3986">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int H = sc.nextInt();
+        int A = sc.nextInt();
+
+        int attacks = (H + A - 1) / A;
+
+        System.out.println(attacks);
+    }
+}
+
+</source>
+</class>
+
+<class classid="19" nclones="4" nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02811_0P.java" startline="1" endline="16" pcid="4097">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (K * 500 >= X) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02811_2P.java" startline="1" endline="15" pcid="12557">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        int X = sc.nextInt();
+        if (K * 500 >= X) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02811_0P.java" startline="1" endline="15" pcid="12555">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        int X = sc.nextInt();
+        if (K * 500 >= X) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02811_2P.java" startline="1" endline="16" pcid="4099">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (K * 500 >= X) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="20" nclones="9" nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_0P.java" startline="1" endline="17" pcid="4162">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i <= 3; i++) {
+            if (i != A && i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_3P.java" startline="1" endline="16" pcid="12623">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        for (int i = 1; i <= 3; i++) {
+            if (i != A && i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_2P.java" startline="1" endline="17" pcid="12622">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i <= 3; i++) {
+            if (i != A && i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_4P.java" startline="1" endline="16" pcid="12624">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        for (int i = 1; i <= 3; i++) {
+            if (i != A && i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_0P.java" startline="1" endline="16" pcid="12620">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        for (int i = 1; i <= 3; i++) {
+            if (i != A && i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02829_3P.java" startline="1" endline="17" pcid="4165">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i <= 3; i++) {
+            if (i != A && i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02829_4P.java" startline="1" endline="17" pcid="4166">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i <= 3; i++) {
+            if (i != A && i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02829_2P.java" startline="1" endline="17" pcid="4164">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i <= 3; i++) {
+            if (i != A && i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02829_1P.java" startline="1" endline="17" pcid="4163">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        for (int i = 1; i <= 3; i++) {
+            if (i != A && i != B) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="21" nclones="2" nlines="20" similarity="100">
+<source file="../ai_codes/claude/claude_p02860_2P.java" startline="1" endline="24" pcid="4299">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        String S = sc.next();
+
+        if (N % 2 != 0) {
+            System.out.println("No");
+            return;
+        }
+
+        String firstHalf = S.substring(0, N/2);
+        String secondHalf = S.substring(N/2);
+
+        if (firstHalf.equals(secondHalf)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02860_1P.java" startline="1" endline="21" pcid="12756">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        String S = sc.next();
+        if (N % 2 != 0) {
+            System.out.println("No");
+            return;
+        }
+        String firstHalf = S.substring(0, N/2);
+        String secondHalf = S.substring(N/2);
+        if (firstHalf.equals(secondHalf)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="22" nclones="7" nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_0P.java" startline="1" endline="16" pcid="4357">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A >= 1 && A <= 9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_2P.java" startline="1" endline="15" pcid="12817">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        if (A >= 1 && A <=9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_4P.java" startline="1" endline="15" pcid="12819">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        if (A >= 1 && A <= 9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_1P.java" startline="1" endline="15" pcid="12816">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        if (A >= 1 && A <= 9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_0P.java" startline="1" endline="15" pcid="12815">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        if (A >= 1 && A <= 9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02879_3P.java" startline="1" endline="16" pcid="4360">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A >= 1 && A <= 9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02879_1P.java" startline="1" endline="16" pcid="4358">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A >= 1 && A <= 9 && B >= 1 && B <= 9) {
+            System.out.println(A * B);
+        } else {
+            System.out.println(-1);
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="23" nclones="4" nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02880_0P.java" startline="1" endline="20" pcid="4362">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= 9; j++) {
+                if (i * j == N) {
+                    System.out.println("Yes");
+                    return;
+                }
+            }
+        }
+
+        System.out.println("No");
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02880_3P.java" startline="1" endline="18" pcid="12823">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= 9; j++) {
+                if (i * j == N) {
+                    System.out.println("Yes");
+                    return;
+                }
+            }
+        }
+        System.out.println("No");
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02880_2P.java" startline="1" endline="20" pcid="4364">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= 9; j++) {
+                if (i * j == N) {
+                    System.out.println("Yes");
+                    return;
+                }
+            }
+        }
+
+        System.out.println("No");
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02880_3P.java" startline="1" endline="20" pcid="4365">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= 9; j++) {
+                if (i * j == N) {
+                    System.out.println("Yes");
+                    return;
+                }
+            }
+        }
+
+        System.out.println("No");
+    }
+}
+
+</source>
+</class>
+
+<class classid="24" nclones="5" nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02887_0P.java" startline="1" endline="19" pcid="4397">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = sc.next();
+
+        int count = 1;
+        for (int i = 1; i < n; i++) {
+            if (s.charAt(i) != s.charAt(i - 1)) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02887_4P.java" startline="1" endline="17" pcid="12859">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = sc.next();
+        int count = 1;
+        for (int i = 1; i < n; i++) {
+            if (s.charAt(i) != s.charAt(i - 1)) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02887_3P.java" startline="1" endline="20" pcid="4400">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = sc.next();
+
+        int count = 1;
+
+        for (int i = 1; i < n; i++) {
+            if (s.charAt(i) != s.charAt(i-1)) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02887_1P.java" startline="1" endline="19" pcid="4398">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = sc.next();
+
+        int count = 1;
+        for (int i = 1; i < n; i++) {
+            if (s.charAt(i) != s.charAt(i-1)) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02887_4P.java" startline="1" endline="19" pcid="4401">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = sc.next();
+
+        int count = 1;
+        for (int i = 1; i < n; i++) {
+            if (s.charAt(i) != s.charAt(i-1)) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+</class>
+
+<class classid="25" nclones="7" nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_0P.java" startline="1" endline="14" pcid="4427">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_3P.java" startline="1" endline="12" pcid="12888">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_4P.java" startline="1" endline="12" pcid="12889">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02897_1P.java" startline="1" endline="14" pcid="4428">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02897_2P.java" startline="1" endline="14" pcid="4429">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02897_4P.java" startline="1" endline="14" pcid="4431">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02897_3P.java" startline="1" endline="14" pcid="4430">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int oddCount = (N + 1) / 2;
+        double probability = (double) oddCount / N;
+
+        System.out.printf("%.10f\n", probability);
+    }
+}
+
+</source>
+</class>
+
+<class classid="26" nclones="3" nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02915_4P.java" startline="1" endline="20" pcid="4501">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int count = 0;
+        for (int i = 1; i <= N; i++) {
+            for (int j = 1; j <= N; j++) {
+                for (int k = 1; k <= N; k++) {
+                    count++;
+                }
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02915_0P.java" startline="1" endline="18" pcid="12955">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int count = 0;
+        for (int i = 1; i <= N; i++) {
+            for (int j = 1; j <= N; j++) {
+                for (int k = 1; k <= N; k++) {
+                    count++;
+                }
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02915_3P.java" startline="1" endline="18" pcid="12958">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int count = 0;
+        for (int i = 1; i <= N; i++) {
+            for (int j = 1; j <= N; j++) {
+                for (int k = 1; k <= N; k++) {
+                    count++;
+                }
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</source>
+</class>
+
+<class classid="27" nclones="2" nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02945_4P.java" startline="1" endline="21" pcid="4621">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int[] results = {A + B, A - B, A * B};
+        int max = results[0];
+
+        for (int i = 1; i < results.length; i++) {
+            if (results[i] > max) {
+                max = results[i];
+            }
+        }
+
+        System.out.println(max);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02945_0P.java" startline="1" endline="19" pcid="13075">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int[] results = {A + B, A - B, A * B};
+        int max = results[0];
+        for (int i = 1; i < results.length; i++) {
+            if (results[i] > max) {
+                max = results[i];
+            }
+        }
+        System.out.println(max);
+    }
+}
+
+</source>
+</class>
+
+<class classid="28" nclones="6" nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02999_0P.java" startline="1" endline="16" pcid="4837">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+
+        if (X < A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02999_1P.java" startline="1" endline="15" pcid="13294">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+        if (X < A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p02999_4P.java" startline="1" endline="15" pcid="13297">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+        if (X < A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02999_1P.java" startline="1" endline="16" pcid="4838">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+
+        if (X < A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02999_2P.java" startline="1" endline="16" pcid="4839">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+
+        if (X < A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02999_4P.java" startline="1" endline="16" pcid="4841">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int A = sc.nextInt();
+
+        if (X < A) {
+            System.out.println(0);
+        } else {
+            System.out.println(10);
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="29" nclones="5" nlines="19" similarity="100">
+<source file="../ai_codes/claude/claude_p03035_0P.java" startline="1" endline="21" pcid="4972">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int cost;
+        if (A >= 13) {
+            cost = B;
+        } else if (A >= 6) {
+            cost = B / 2;
+        } else {
+            cost = 0;
+        }
+
+        System.out.println(cost);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03035_4P.java" startline="1" endline="21" pcid="13432">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int cost;
+        if (A >= 13) {
+            cost = B;
+        } else if (A >= 6) {
+            cost = B / 2;
+        } else {
+            cost = 0;
+        }
+
+        System.out.println(cost);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03035_2P.java" startline="1" endline="19" pcid="13430">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int cost;
+        if (A >= 13) {
+            cost = B;
+        } else if (A >= 6) {
+            cost = B / 2;
+        } else {
+            cost = 0;
+        }
+        System.out.println(cost);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03035_1P.java" startline="1" endline="19" pcid="13429">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int cost;
+        if (A >= 13) {
+            cost = B;
+        } else if (A >= 6) {
+            cost = B / 2;
+        } else {
+            cost = 0;
+        }
+        System.out.println(cost);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03035_2P.java" startline="1" endline="21" pcid="4974">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int cost;
+        if (A >= 13) {
+            cost = B;
+        } else if (A >= 6) {
+            cost = B / 2;
+        } else {
+            cost = 0;
+        }
+
+        System.out.println(cost);
+    }
+}
+
+</source>
+</class>
+
+<class classid="30" nclones="3" nlines="24" similarity="100">
+<source file="../ai_codes/claude/claude_p03228_1P.java" startline="1" endline="27" pcid="5707">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long A = sc.nextLong();
+        long B = sc.nextLong();
+        int K = sc.nextInt();
+
+        for (int i = 0; i < K; i++) {
+            if (i % 2 == 0) {
+                if (A % 2 == 1) A--;
+                long give = A / 2;
+                A -= give;
+                B += give;
+            } else {
+                if (B % 2 == 1) B--;
+                long give = B / 2;
+                B -= give;
+                A += give;
+            }
+        }
+
+        System.out.println(A + " " + B);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03228_2P.java" startline="1" endline="27" pcid="14163">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        long A = sc.nextLong();
+        long B = sc.nextLong();
+        int K = sc.nextInt();
+
+        for (int i = 0; i < K; i++) {
+            if (i % 2 == 0) {
+                if (A % 2 == 1) A--;
+                long give = A / 2;
+                A -= give;
+                B += give;
+            } else {
+                if (B % 2 == 1) B--;
+                long give = B / 2;
+                B -= give;
+                A += give;
+            }
+        }
+        System.out.println(A + " " + B);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03228_1P.java" startline="1" endline="26" pcid="14162">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long A = sc.nextLong();
+        long B = sc.nextLong();
+        int K = sc.nextInt();
+
+        for (int i = 0; i < K; i++) {
+            if (i % 2 == 0) {
+                if (A % 2 == 1) A--;
+                long give = A / 2;
+                A -= give;
+                B += give;
+            } else {
+                if (B % 2 == 1) B--;
+                long give = B / 2;
+                B -= give;
+                A += give;
+            }
+        }
+        System.out.println(A + " " + B);
+    }
+}
+
+</source>
+</class>
+
+<class classid="31" nclones="7" nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_0P.java" startline="1" endline="16" pcid="5821">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_3P.java" startline="1" endline="16" pcid="14279">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_2P.java" startline="1" endline="16" pcid="14278">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_4P.java" startline="1" endline="16" pcid="14280">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_0P.java" startline="1" endline="16" pcid="14276">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03260_2P.java" startline="1" endline="16" pcid="5823">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03260_1P.java" startline="1" endline="16" pcid="5822">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if (A % 2 == 1 && B % 2 == 1) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="32" nclones="5" nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03265_0P.java" startline="1" endline="23" pcid="5846">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03265_3P.java" startline="1" endline="23" pcid="14304">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03265_1P.java" startline="1" endline="23" pcid="14302">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03265_4P.java" startline="1" endline="22" pcid="5850">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03265_1P.java" startline="1" endline="23" pcid="5847">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
+
+        int dx = x2 - x1;
+        int dy = y2 - y1;
+
+        int x3 = x2 - dy;
+        int y3 = y2 + dx;
+
+        int x4 = x1 - dy;
+        int y4 = y1 + dx;
+
+        System.out.println(x3 + " " + y3 + " " + x4 + " " + y4);
+    }
+}
+
+</source>
+</class>
+
+<class classid="33" nclones="5" nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p03377_4P.java" startline="1" endline="17" pcid="6310">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X >= A && X <= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03377_3P.java" startline="1" endline="17" pcid="14763">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X >= A && X <= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03377_1P.java" startline="1" endline="17" pcid="14761">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X >= A && X <= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03377_2P.java" startline="1" endline="17" pcid="14762">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+
+        if (X >= A && X <= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03377_0P.java" startline="1" endline="16" pcid="14760">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int X = sc.nextInt();
+        if (X >= A && X <= A + B) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="34" nclones="2" nlines="20" similarity="100">
+<source file="../ai_codes/claude/claude_p03416_0P.java" startline="1" endline="25" pcid="6446">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        int count = 0;
+
+        for (int a = 1; a <= 9; a++) {
+            for (int b = 0; b <= 9; b++) {
+                for (int c = 0; c <= 9; c++) {
+                    int palindrome = a * 10000 + b * 1000 + c * 100 + b * 10 + a;
+                    if (palindrome >= A && palindrome <= B) {
+                        count++;
+                    }
+                }
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03416_0P.java" startline="1" endline="24" pcid="14900">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int count = 0;
+
+        for (int a = 1; a <= 9; a++) {
+            for (int b = 0; b <= 9; b++) {
+                for (int c = 0; c <= 9; c++) {
+                    int palindrome = a * 10000 + b * 1000 + c * 100 + b * 10 + a;
+                    if (palindrome >= A && palindrome <= B) {
+                        count++;
+                    }
+                }
+            }
+        }
+
+        System.out.println(count);
+    }
+}
+
+</source>
+</class>
+
+<class classid="35" nclones="4" nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03485_2P.java" startline="1" endline="14" pcid="6710">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int result = (a + b + 1) / 2;
+
+        System.out.println(result);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03485_4P.java" startline="1" endline="12" pcid="15169">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int result = (a + b + 1) / 2;
+        System.out.println(result);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03485_1P.java" startline="1" endline="12" pcid="15166">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int result = (a + b + 1) / 2;
+        System.out.println(result);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03485_2P.java" startline="1" endline="12" pcid="15167">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int result = (a + b + 1) / 2;
+        System.out.println(result);
+    }
+}
+
+</source>
+</class>
+
+<class classid="36" nclones="2" nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p03548_1P.java" startline="1" endline="15" pcid="6839">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        int maxPeople = (X - Z) / (Y + Z);
+
+        System.out.println(maxPeople);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03548_1P.java" startline="1" endline="15" pcid="15296">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int Z = sc.nextInt();
+
+        int maxPeople = (X - Z) / (Y + Z);
+
+        System.out.println(maxPeople);
+    }
+}
+
+</source>
+</class>
+
+<class classid="37" nclones="4" nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03563_4P.java" startline="1" endline="14" pcid="6902">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int R = sc.nextInt();
+        int G = sc.nextInt();
+
+        int performance = 2 * G - R;
+
+        System.out.println(performance);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03563_4P.java" startline="1" endline="12" pcid="15359">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int R = sc.nextInt();
+        int G = sc.nextInt();
+        int performance = 2 * G - R;
+        System.out.println(performance);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03563_3P.java" startline="1" endline="12" pcid="15358">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int R = sc.nextInt();
+        int G = sc.nextInt();
+        int performance = 2 * G - R;
+        System.out.println(performance);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03563_0P.java" startline="1" endline="12" pcid="15355">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int R = sc.nextInt();
+        int G = sc.nextInt();
+        int performance = 2 * G - R;
+        System.out.println(performance);
+    }
+}
+
+</source>
+</class>
+
+<class classid="38" nclones="3" nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03632_0P.java" startline="1" endline="19" pcid="7163">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03632_4P.java" startline="1" endline="19" pcid="15624">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03632_1P.java" startline="1" endline="20" pcid="15621">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+
+        int start = Math.max(A, C);
+        int end = Math.min(B, D);
+
+        int overlap = Math.max(0, end - start);
+
+        System.out.println(overlap);
+    }
+}
+
+</source>
+</class>
+
+<class classid="39" nclones="5" nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03719_2P.java" startline="1" endline="20" pcid="7495">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        int min = Math.min(A, B);
+        int max = Math.max(A, B);
+
+        if (C >= min && C <= max) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03719_2P.java" startline="1" endline="20" pcid="15952">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        int min = Math.min(A, B);
+        int max = Math.max(A, B);
+
+        if (C >= min && C <= max) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03719_0P.java" startline="1" endline="20" pcid="15950">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        int min = Math.min(A, B);
+        int max = Math.max(A, B);
+
+        if (C >= min && C <= max) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03719_1P.java" startline="1" endline="18" pcid="15951">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int min = Math.min(A, B);
+        int max = Math.max(A, B);
+        if (C >= min && C <= max) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03719_3P.java" startline="1" endline="20" pcid="7496">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+
+        int min = Math.min(A, B);
+        int max = Math.max(A, B);
+
+        if (C >= min && C <= max) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="40" nclones="3" nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03777_0P.java" startline="1" endline="16" pcid="7683">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char a = sc.next().charAt(0);
+        char b = sc.next().charAt(0);
+
+        if (a == 'H') {
+            System.out.println(b);
+        } else {
+            System.out.println(b == 'H' ? 'D' : 'H');
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03777_0P.java" startline="1" endline="16" pcid="16140">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char a = sc.next().charAt(0);
+        char b = sc.next().charAt(0);
+
+        if (a == 'H') {
+            System.out.println(b);
+        } else {
+            System.out.println(b == 'H' ? 'D' : 'H');
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03777_2P.java" startline="1" endline="16" pcid="7685">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char a = sc.next().charAt(0);
+        char b = sc.next().charAt(0);
+
+        if (a == 'H') {
+            System.out.println(b);
+        } else {
+            System.out.println(b == 'H' ? 'D' : 'H');
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="41" nclones="3" nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03795_2P.java" startline="1" endline="14" pcid="7740">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int x = N * 800;
+        int y = (N / 15) * 200;
+
+        System.out.println(x - y);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03795_4P.java" startline="1" endline="12" pcid="16199">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int x = N * 800;
+        int y = (N / 15) * 200;
+        System.out.println(x - y);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03795_2P.java" startline="1" endline="14" pcid="16197">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        int x = N * 800;
+        int y = (N / 15) * 200;
+
+        System.out.println(x - y);
+    }
+}
+
+</source>
+</class>
+
+<class classid="42" nclones="3" nlines="12" similarity="100">
+<source file="../ai_codes/claude/claude_p03861_1P.java" startline="1" endline="16" pcid="7999">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long a = sc.nextLong();
+        long b = sc.nextLong();
+        long x = sc.nextLong();
+
+        long countB = b / x;
+        long countA = (a == 0) ? 0 : (a - 1) / x;
+
+        System.out.println(countB - countA);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p03861_2P.java" startline="1" endline="16" pcid="16457">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long a = sc.nextLong();
+        long b = sc.nextLong();
+        long x = sc.nextLong();
+
+        long countB = b / x;
+        long countA = (a == 0) ? 0 : (a - 1) / x;
+
+        System.out.println(countB - countA);
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p03861_4P.java" startline="1" endline="16" pcid="8002">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long a = sc.nextLong();
+        long b = sc.nextLong();
+        long x = sc.nextLong();
+
+        long countB = b / x;
+        long countA = (a == 0) ? 0 : (a - 1) / x;
+
+        System.out.println(countB - countA);
+    }
+}
+
+</source>
+</class>
+
+<class classid="43" nclones="2" nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p04047_1P.java" startline="1" endline="23" pcid="8444">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int[] L = new int[2 * N];
+
+        for (int i = 0; i < 2 * N; i++) {
+            L[i] = sc.nextInt();
+        }
+
+        Arrays.sort(L);
+
+        int total = 0;
+        for (int i = 0; i < 2 * N; i += 2) {
+            total += L[i];
+        }
+
+        System.out.println(total);
+    }
+}
+
+</source>
+<source file="../ai_codes/chatgpt/chatgpt_p04047_4P.java" startline="1" endline="19" pcid="16904">
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int[] L = new int[2 * N];
+        for (int i = 0; i < 2 * N; i++) {
+            L[i] = sc.nextInt();
+        }
+        Arrays.sort(L);
+        int total = 0;
+        for (int i = 0; i < 2 * N; i += 2) {
+            total += L[i];
+        }
+        System.out.println(total);
+    }
+}
+
+</source>
+</class>
+
+</clones>

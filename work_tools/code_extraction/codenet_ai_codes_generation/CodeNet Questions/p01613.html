@@ -1,0 +1,83 @@
+
+
+
+    <h1>A: Grid Mori / グリッド森</h1>
+
+
+
+    <p>とある富豪の森さんが，グリッド状に区分けされた土地の <em>n</em> 区画を買って， 4つの工場 A, B, C, D を建てようとしている．</p>
+
+    <p>まず，土地全体の幅 <em>w</em> を1以上 <em>n</em> 以下の値で決定する． この土地の 1 番左上の区画を (0, 0) とする． そして， (0, 0) の区画を1番目に， (1, 0) の区画を2番目に購入する． このように， <em>i</em> 番目に (<em>x</em>, <em>y</em>) の区画を購入した後に， <em>i</em> + 1 番目に (<em>x</em> + 1, <em>y</em>) の区画を購入していく． もし， (<em>w</em>, <em>y</em>) の区画を購入しようとしたときは， 代わりに (0, <em>y</em> + 1) の区画を購入する．</p>
+
+    <p>さらに森さんは，土地を購入する前に占い師に次のようなことを言われていた．</p>
+
+    <p>「<em>a</em> 番目に購入するグリッドの土地に工場Aを，<em>b</em> 番目に購入するグリッドに工場Bを，<em>c</em> 番目のグリッドに工場Cを，<em>d</em> 番目のグリッドに工場Dを建てるとよいぞ．」</p>
+
+    <p>森さんは，非常に占い好きであり，必ず占い師の助言を守りたいと考えている． しかし，AとB，CとDの2つのペアは関連のある工場であるため，できるだけ近くにあった方がよい． 自分の土地の買い方と占い師の助言を両方守りつつ，関連する工場同士をなるべく近くしたいのである．</p>
+
+    <p>ここで，2つの土地が (<em>x</em><sub>1</sub>, <em>y</em><sub>1</sub>)，(<em>x</em><sub>2</sub>, <em>y</em><sub>2</sub>) にあるとき， 距離は，|<em>x</em><sub>1</sub> - <em>x</em><sub>2</sub> |+ |<em>y</em><sub>1</sub> - <em>y</em><sub>2</sub> | で求めることができる． |<em>x</em>| は， <em>x</em> の絶対値を表している．</p>
+
+    <p>あなたの仕事は， (工場AとBの距離) ＋ (工場CとDの距離) の値が最小になるように土地を購入したときの距離の合計を求めるプログラムを作成することである．</p>
+
+    <p>図1はサンプルの1番目における，すべての工場の配置の組み合わせである．幅3で土地を購入したとき，距離の合計が最小となる．</p>
+
+    <div align="center">
+      <img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE3_Rits_Camp13_Day3_A_A_sample1" style="margin-bottom: 8px" alt="A_sample1.png" />
+      <img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE3_Rits_Camp13_Day3_A_A_sample2" alt="A_sample2.png" />
+      <p><strong>図1:</strong> サンプル1の工場の配置</p>
+    </div>
+
+
+    <div>
+      <h1>Input</h1>
+
+      <p>入力は次の形式で表される．</p>
+
+      <div>
+        <em>n</em><br />
+        <em>a</em> <em>b</em><br />
+        <em>c</em> <em>d</em><br />
+      </div>
+
+<br/>
+
+      <p>入力は，全て整数値である． <em>n</em> (4 ≦ <em>n</em> ≦ 100) はこれから購入する土地のグリッド数を表す． <em>a</em>, <em>b</em>, <em>c</em>, <em>d</em> (1 ≦ <em>a</em>, <em>b</em>, <em>c</em>, <em>d</em> ≦ <em>n</em>) は，それぞれ工場A, B, C, Dを何番目に購入したグリッドの土地に建てるかを表す． このとき，<em>a</em>, <em>b</em>, <em>c</em>, <em>d</em>は全て，異なる数が入力される．</p>
+    </div>
+
+    <div>
+      <h1>Output</h1>
+
+      <p>森さんが，<em>a, b</em> 間と <em>c, d</em> 間の距離の合計が最小となるように土地を購入したときの合計値を1行で出力せよ．</p>
+    </div>
+    
+    <div>
+      <h1>Sample Input 1</h1>
+      <pre>
+5
+1 4
+2 5
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Output 1</h1>
+      <pre>
+2
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Input 2</h1>
+      <pre>
+16
+2 9
+14 8
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Output 2</h1>
+      <pre>
+3
+</pre>
+    </div>

@@ -1,0 +1,79 @@
+<style type="text/css">
+    blockquote {
+        font-family: Menlo, Monaco, "Courier New", monospace;
+        display: block;
+        margin: 10px 0 10px 30px;
+        font-size: 16px;
+        line-height: 18px;
+        white-space: pre;
+        white-space: pre-wrap;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    table.ioexample {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    table.ioexample td {
+        width: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        vertical-align: top;
+        padding: 5px;
+    }
+    .no-page-break {
+        page-break-inside: avoid;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+</style>
+
+
+<h3>Problem Statement</h3>
+<p>JAG land is a country, which is represented as an $M \times M$ grid. Its top-left cell is $(1, 1)$ and its bottom-right cell is $(M, M)$.</p>
+<p>Suddenly, a bomber invaded JAG land and dropped bombs to the country. Its bombing pattern is always fixed and represented by an $N \times N$ grid. Each symbol in the bombing pattern is either <code>X</code> or <code>.</code>. The meaning of each symbol is as follows.</p>
+<ul>
+<li><code>X</code>: Bomb </li>
+<li><code>.</code>: Empty</li>
+</ul>
+<p>Here, suppose that a bomber is in $(br, bc)$ in the land and drops a bomb. The cell $(br + i - 1, bc + j - 1)$ will be damaged if the symbol in the $i$-th row and the $j$-th column of the bombing pattern is <code>X</code> ($1 \le i, j \le N$).</p>
+<p>Initially, the bomber reached $(1, 1)$ in JAG land. The bomber repeated to move to either of $4$-directions and then dropped a bomb just $L$ times. During this attack, the values of the coordinates of the bomber were between $1$ and $M - N + 1$, inclusive, while it dropped bombs. Finally, the bomber left the country.</p>
+<p>The moving pattern of the bomber is described as $L$ characters. The $i$-th character corresponds to the $i$-th move and the meaning of each character is as follows.</p>
+<ul>
+<li><code>U</code>: Up</li>
+<li><code>D</code>: Down</li>
+<li><code>L</code>: Left</li>
+<li><code>R</code>: Right</li>
+</ul>
+<p>Your task is to write a program to analyze the damage situation in JAG land. To investigate damage overview in the land, calculate the number of cells which were damaged by the bomber at least $K$ times.</p>
+<hr />
+<h3>Input</h3>
+<p>The input consists of a single test case in the format below.</p>
+<blockquote>$N$ $M$ $K$ $L$
+$B_{1}$
+$\vdots$
+$B_{N}$
+$S$</blockquote>
+<p>The first line contains four integers $N$, $M$, $K$ and $L$($1 \le N &lt; M \le 500$, $1 \le K \le L \le 2 \times 10^{5}$).
+The following $N$ lines represent the bombing pattern.
+$B_i$ is a string of length $N$. Each character of $B_i$ is either <code>X</code> or <code>.</code>. The last line denotes the moving pattern. 
+$S$ is a string of length $L$, which consists of either <code>U</code>, <code>D</code>, <code>L</code> or <code>R</code>. 
+It's guaranteed that the values of the coordinates of the bomber are between $1$ and $M - N + 1$, inclusive, while it drops bombs in the country.</p>
+<h3>Output</h3>
+<p>Print the number of cells which were damaged by the bomber at least $K$ times.</p>
+<p><div class="no-page-break"><h3>Examples</h3><table class="ioexample"><tr><th>Input</th><th>Output</th></tr><tr><td><pre>2 3 2 4
+XX
+X.
+RDLU
+</pre></td><td><pre>3
+</pre></td></tr><tr><td><pre>7 8 3 5
+.XXX.X.
+X..X.X.
+...XX.X
+XX.XXXX
+..XXXX.
+X.X....
+..XXXXX
+DRULD
+</pre></td><td><pre>26
+</pre></td></tr></table></div></p>

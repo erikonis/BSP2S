@@ -1,0 +1,29 @@
+Best model saved at epoch 13 with accuracy: 96.13%
+
+
+
+=== METRICS STATS ===
+
+Model: best_dn121_preproc_sheetSplit
+------------------------------
+ROC AUC: 0.9913
+MCC score: 0.9172
+F1 Score: 0.9587
+Recall: 0.9615
+Precision: 0.9559
+Accuracy: 95.86%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label    Samples  Average Confidence Max Confidence Min Confidence
+-----------------------------------------------------------------------------------------
+best_dn121_preproc_sheetSplit Student  3230     0.986              1.000          0.519         
+best_dn121_preproc_sheetSplit AI       3250     0.967              1.000          0.502         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+=== TRAINING TIME ===
+
+Total training time: 11107.36 seconds
+Optimal training time: 5018.16 seconds

@@ -1,0 +1,78 @@
+<span class="lang-en">
+<p>Score : <var>500</var> points</p>
+<div class="part">
+<section>
+<h3>Problem Statement</h3><p><font color="red"><strong>This is an interactive task.</strong></font></p>
+<p>Let <var>N</var> be an odd number at least <var>3</var>.</p>
+<p>There are <var>N</var> seats arranged in a circle.
+The seats are numbered <var>0</var> through <var>N-1</var>.
+For each <var>i</var> (<var>0 ≤ i ≤ N - 2</var>), Seat <var>i</var> and Seat <var>i + 1</var> are adjacent.
+Also, Seat <var>N - 1</var> and Seat <var>0</var> are adjacent.</p>
+<p>Each seat is either vacant, or oppupied by a man or a woman.
+However, no two adjacent seats are occupied by two people of the same sex.
+It can be shown that there is at least one empty seat where <var>N</var> is an odd number at least <var>3</var>.</p>
+<p>You are given <var>N</var>, but the states of the seats are not given.
+Your objective is to correctly guess the ID number of any one of the empty seats.
+To do so, you can repeatedly send the following query:</p>
+<ul>
+<li>Choose an integer <var>i</var> (<var>0 ≤ i ≤ N - 1</var>). If Seat <var>i</var> is empty, the problem is solved. Otherwise, you are notified of the sex of the person in Seat <var>i</var>.</li>
+</ul>
+<p>Guess the ID number of an empty seat by sending at most <var>20</var> queries.</p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Constraints</h3><ul>
+<li><var>N</var> is an odd number.</li>
+<li><var>3 ≤ N ≤ 99</var> <var>999</var></li>
+</ul>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Input and Output</h3><p>First, <var>N</var> is given from Standard Input in the following format:</p>
+<pre><var>N</var>
+</pre>
+<p>Then, you should send queries.
+A query should be printed to Standart Output in the following format.
+Print a newline at the end.</p>
+<pre><var>i</var>
+</pre>
+<p>The response to the query is given from Standard Input in the following format:</p>
+<pre><var>s</var>
+</pre>
+<p>Here, <var>s</var> is <code>Vacant</code>, <code>Male</code> or <code>Female</code>.
+Each of these means that Seat <var>i</var> is empty, occupied by a man and occupied by a woman, respectively.</p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Notice</h3><ul>
+<li>Flush Standard Output each time you print something. Failure to do so may result in <code>TLE</code>.</li>
+<li>Immediately terminate the program when <var>s</var> is <code>Vacant</code>. Otherwise, the verdict is indeterminate.</li>
+<li>The verdict is indeterminate if more than <var>20</var> queries or ill-formatted queries are sent.</li>
+</ul>
+</section>
+</div>
+<hr/>
+<div class="part">
+<section>
+<h3>Sample Input / Output 1</h3>
+<p>In this sample, <var>N = 3</var>, and Seat <var>0</var>, <var>1</var>, <var>2</var> are occupied by a man, occupied by a woman and vacant, respectively.</p>
+<table class="table-striped table-bordered table-condensed">
+<thead>
+<tr><th width="200">Input</th><th width="200">Output</th></tr>
+</thead>
+<tbody>
+<tr><td>3</td><td></td></tr>
+<tr><td></td><td>0</td></tr>
+<tr><td>Male</td><td></td></tr>
+<tr><td></td><td>1</td></tr>
+<tr><td>Female</td><td></td></tr>
+<tr><td></td><td>2</td></tr>
+<tr><td>Vacant</td><td></td></tr>
+</tbody>
+</table>
+</section>
+</div>
+</span>

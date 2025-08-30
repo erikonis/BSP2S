@@ -1,0 +1,682 @@
+<html>
+<head>
+    <title>NiCad6 Clone Report</title>
+    <style type="text/css">
+        body {font-family:sans-serif;}
+        table {background-color:white; border:0px; padding:0px; border-spacing:4px; width:auto; margin-left:30px; margin-right:auto;}
+        td {background-color:rgba(192,212,238,0.8); border:0px; padding:8px; width:auto; vertical-align:top; border-radius:8px}
+        pre {background-color:white; padding:4px;}
+        a {color:darkblue;}
+    </style>
+</head>
+<body>
+<h2>NiCad6 Clone Report</h2>
+<table>
+<tr style="font-size:14pt">
+<td><b>System 1:</b> &nbsp; deepseek</td>
+<td><b>System 2:</b> &nbsp; gemini</td>
+<td><b>Clone pairs:</b> &nbsp; 15</td>
+<td><b>Clone classes:</b> &nbsp; 5</td>
+</tr>
+<tr style="font-size:12pt">
+<td style="background-color:white">Clone type: &nbsp; 1</td>
+<td style="background-color:white">Granularity: &nbsp; files</td>
+<td style="background-color:white">Max diff threshold: &nbsp; 0%</td>
+<td style="background-color:white">Clone size: &nbsp; 10 - 2500 lines</td>
+<td style="background-color:white">Total files: &nbsp; 16835</td>
+</tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 1:</b> &nbsp; 2 fragments, nominal size 16 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2763')" href="javascript:;">
+deepseek/deepseek_p02398_2P.java: 1-19
+</a>
+<div class="mid" id="frag2763" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        int count = 0;
+        for (int i = a; i &lt;= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11210')" href="javascript:;">
+gemini/gemini_p02398_4P.java: 1-20
+</a>
+<div class="mid" id="frag11210" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        int count = 0;
+        for (int i = a; i &lt;= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 2:</b> &nbsp; 5 fragments, nominal size 26 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag2795')" href="javascript:;">
+deepseek/deepseek_p02404_4P.java: 1-27
+</a>
+<div class="mid" id="frag2795" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            if (H == 0 &amp;&amp; W == 0) {
+                break;
+            }
+            for (int i = 0; i &lt; H; i++) {
+                for (int j = 0; j &lt; W; j++) {
+                    if (i == 0 || i == H - 1 || j == 0 || j == W - 1) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11235')" href="javascript:;">
+gemini/gemini_p02404_0P.java: 1-27
+</a>
+<div class="mid" id="frag11235" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            if (H == 0 &amp;&amp; W == 0) {
+                break;
+            }
+            for (int i = 0; i &lt; H; i++) {
+                for (int j = 0; j &lt; W; j++) {
+                    if (i == 0 || i == H - 1 || j == 0 || j == W - 1) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11237')" href="javascript:;">
+gemini/gemini_p02404_2P.java: 1-27
+</a>
+<div class="mid" id="frag11237" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            if (H == 0 &amp;&amp; W == 0) {
+                break;
+            }
+            for (int i = 0; i &lt; H; i++) {
+                for (int j = 0; j &lt; W; j++) {
+                    if (i == 0 || i == H - 1 || j == 0 || j == W - 1) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11239')" href="javascript:;">
+gemini/gemini_p02404_4P.java: 1-27
+</a>
+<div class="mid" id="frag11239" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            if (H == 0 &amp;&amp; W == 0) {
+                break;
+            }
+            for (int i = 0; i &lt; H; i++) {
+                for (int j = 0; j &lt; W; j++) {
+                    if (i == 0 || i == H - 1 || j == 0 || j == W - 1) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag11238')" href="javascript:;">
+gemini/gemini_p02404_3P.java: 1-27
+</a>
+<div class="mid" id="frag11238" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            if (H == 0 &amp;&amp; W == 0) {
+                break;
+            }
+            for (int i = 0; i &lt; H; i++) {
+                for (int j = 0; j &lt; W; j++) {
+                    if (i == 0 || i == H - 1 || j == 0 || j == W - 1) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 3:</b> &nbsp; 5 fragments, nominal size 17 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag4414')" href="javascript:;">
+deepseek/deepseek_p02898_2P.java: 1-21
+</a>
+<div class="mid" id="frag4414" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int count = 0;
+
+        for (int i = 0; i &lt; N; i++) {
+            int h = sc.nextInt();
+            if (h &gt;= K) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12853')" href="javascript:;">
+gemini/gemini_p02898_2P.java: 1-20
+</a>
+<div class="mid" id="frag12853" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int count = 0;
+        for (int i = 0; i &lt; N; i++) {
+            int h = sc.nextInt();
+            if (h &gt;= K) {
+                count++;
+            }
+        }
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12852')" href="javascript:;">
+gemini/gemini_p02898_1P.java: 1-19
+</a>
+<div class="mid" id="frag12852" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int count = 0;
+        for (int i = 0; i &lt; N; i++) {
+            int h = sc.nextInt();
+            if (h &gt;= K) {
+                count++;
+            }
+        }
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12854')" href="javascript:;">
+gemini/gemini_p02898_3P.java: 1-19
+</a>
+<div class="mid" id="frag12854" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int count = 0;
+        for (int i = 0; i &lt; N; i++) {
+            int h = sc.nextInt();
+            if (h &gt;= K) {
+                count++;
+            }
+        }
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag12855')" href="javascript:;">
+gemini/gemini_p02898_4P.java: 1-19
+</a>
+<div class="mid" id="frag12855" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int count = 0;
+        for (int i = 0; i &lt; N; i++) {
+            int h = sc.nextInt();
+            if (h &gt;= K) {
+                count++;
+            }
+        }
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 4:</b> &nbsp; 4 fragments, nominal size 16 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag5709')" href="javascript:;">
+deepseek/deepseek_p03238_1P.java: 1-18
+</a>
+<div class="mid" id="frag5709" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        if (N == 1) {
+            System.out.println("Hello World");
+        } else if (N == 2) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            System.out.println(A + B);
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14140')" href="javascript:;">
+gemini/gemini_p03238_0P.java: 1-18
+</a>
+<div class="mid" id="frag14140" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        if (N == 1) {
+            System.out.println("Hello World");
+        } else if (N == 2) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            System.out.println(A + B);
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14143')" href="javascript:;">
+gemini/gemini_p03238_3P.java: 1-18
+</a>
+<div class="mid" id="frag14143" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        if (N == 1) {
+            System.out.println("Hello World");
+        } else if (N == 2) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            System.out.println(A + B);
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag14141')" href="javascript:;">
+gemini/gemini_p03238_1P.java: 1-18
+</a>
+<div class="mid" id="frag14141" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        if (N == 1) {
+            System.out.println("Hello World");
+        } else if (N == 2) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            System.out.println(A + B);
+        }
+        sc.close();
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<br>
+<table style="width:1000px; border:2px solid lightgrey; border-radius:8px;">
+<tr><td style="background-color:white">
+<p style="font-size:14pt"><b>Class 5:</b> &nbsp; 4 fragments, nominal size 21 lines, similarity 100%</p>
+<table cellpadding=4 border=2>
+<tr>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag8360')" href="javascript:;">
+deepseek/deepseek_p04032_2P.java: 1-26
+</a>
+<div class="mid" id="frag8360" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = s.length();
+
+        for (int i = 0; i &lt; n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                System.out.println((i + 1) + " " + (i + 2));
+                return;
+            }
+        }
+
+        for (int i = 0; i &lt; n - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 2)) {
+                System.out.println((i + 1) + " " + (i + 3));
+                return;
+            }
+        }
+
+        System.out.println("-1 -1");
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16770')" href="javascript:;">
+gemini/gemini_p04032_4P.java: 1-26
+</a>
+<div class="mid" id="frag16770" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = s.length();
+
+        for (int i = 0; i &lt; n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                System.out.println((i + 1) + " " + (i + 2));
+                return;
+            }
+        }
+
+        for (int i = 0; i &lt; n - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 2)) {
+                System.out.println((i + 1) + " " + (i + 3));
+                return;
+            }
+        }
+
+        System.out.println("-1 -1");
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16767')" href="javascript:;">
+gemini/gemini_p04032_1P.java: 1-26
+</a>
+<div class="mid" id="frag16767" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = s.length();
+
+        for (int i = 0; i &lt; n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                System.out.println((i + 1) + " " + (i + 2));
+                return;
+            }
+        }
+
+        for (int i = 0; i &lt; n - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 2)) {
+                System.out.println((i + 1) + " " + (i + 3));
+                return;
+            }
+        }
+
+        System.out.println("-1 -1");
+    }
+}
+
+</pre></div>
+</td>
+<td width="auto">
+<a onclick="javascript:ShowHide('frag16738')" href="javascript:;">
+gemini/gemini_p04026_2P.java: 1-26
+</a>
+<div class="mid" id="frag16738" style="display:none"><pre>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = s.length();
+
+        for (int i = 0; i &lt; n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                System.out.println((i + 1) + " " + (i + 2));
+                return;
+            }
+        }
+
+        for (int i = 0; i &lt; n - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 2)) {
+                System.out.println((i + 1) + " " + (i + 3));
+                return;
+            }
+        }
+
+        System.out.println("-1 -1");
+    }
+}
+
+</pre></div>
+</td>
+</tr><tr>
+</tr>
+</table>
+</td></tr>
+</table>
+<script language="JavaScript">
+function ShowHide(divId) { 
+    if(document.getElementById(divId).style.display == 'none') {
+        document.getElementById(divId).style.display='block';
+    } else { 
+        document.getElementById(divId).style.display = 'none';
+    } 
+}
+</script>
+</body>
+</html>

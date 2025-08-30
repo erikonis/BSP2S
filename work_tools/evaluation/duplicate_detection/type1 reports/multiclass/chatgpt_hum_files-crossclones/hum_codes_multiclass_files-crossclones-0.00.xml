@@ -1,0 +1,66 @@
+<clones>
+<systeminfo processor="nicad6" system="hum_codes_multiclass" system2="ai_codes/chatgpt" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16922" npairs="12"/>
+<runinfo ncompares="2349306" cputime="398455"/>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_multiclass/s739632520P.java" startline="1" endline="23" pcid="6227"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02693_1P.java" startline="1" endline="18" pcid="12059"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../hum_codes_multiclass/s739632520P.java" startline="1" endline="23" pcid="6227"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02693_2P.java" startline="1" endline="18" pcid="12060"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s061879748P.java" startline="1" endline="21" pcid="540"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03302_4P.java" startline="1" endline="18" pcid="14467"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s061879748P.java" startline="1" endline="21" pcid="540"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03302_3P.java" startline="1" endline="18" pcid="14466"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s061879748P.java" startline="1" endline="21" pcid="540"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03302_1P.java" startline="1" endline="18" pcid="14465"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s061879748P.java" startline="1" endline="21" pcid="540"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03302_0P.java" startline="1" endline="18" pcid="14464"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s977728628P.java" startline="1" endline="17" pcid="8281"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02391_4P.java" startline="1" endline="17" pcid="11219"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s977728628P.java" startline="1" endline="17" pcid="8281"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02391_3P.java" startline="1" endline="18" pcid="11218"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s977728628P.java" startline="1" endline="17" pcid="8281"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02391_2P.java" startline="1" endline="17" pcid="11217"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s977728628P.java" startline="1" endline="17" pcid="8281"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02391_1P.java" startline="1" endline="17" pcid="11216"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s977728628P.java" startline="1" endline="17" pcid="8281"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02391_0P.java" startline="1" endline="17" pcid="11215"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../hum_codes_multiclass/s008309870P.java" startline="1" endline="19" pcid="77"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02398_1P.java" startline="1" endline="16" pcid="11246"></source>
+</clone>
+
+</clones>

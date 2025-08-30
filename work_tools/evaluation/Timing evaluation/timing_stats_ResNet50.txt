@@ -1,0 +1,21 @@
+TIMING STATISTICS FOR ResNet50:
+=== PREPROCESS ===
+Mean: 0.0096 s
+Worst: 0.2845 s
+Best: 0.0006 s
+=== RESCALE IMAGE ===
+Mean: 0.0222 s
+Worst: 0.7487 s
+Best: 0.0048 s
+=== LOAD MODEL ===
+Mean: 0.4512 s
+Worst: 2.5070 s
+Best: 0.3358 s
+=== PREDICTION ===
+Mean: 0.0964 s
+Worst: 1.8975 s
+Best: 0.0553 s
+=== TOTAL ===
+Mean: 0.5794 s
+Worst: 2.9765 s
+Best: 0.4183 s

@@ -1,0 +1,109 @@
+
+
+
+ <h2>K - encode/decode</h2>
+<p>
+以下の２条件を全て満たす文字列Tの事を「良い」文字列と呼ぶことにする
+<ul>
+<li>TはABCDEFGHIの9種類の文字列からなる</li>
+<li>T上の連続する２文字は次のグラフ上でも隣接している
+</ul>
+	<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_KUPC2013_graph">
+<p>「良い」文字列の例</p>
+<ul>
+<li>BEB</li>
+<li>ABCDCBEFGHI</li>
+</ul>
+<p>「良い」文字列ではない例</p>
+<ul>
+<li>AC(AとCは隣接していない)</li>
+<li>AABCD(同じ文字はグラフ上では隣接していないとみなす)</li>
+</ul>
+
+<p>
+以下の条件を満たすような２つの関数,encodeとdecodeを実装せよ.
+</p>
+<ul>
+<li>任意の01列Sに対し,encode(S)は「良い」文字列である</li>
+<li>任意の01列Sに対し,decode(encode(S))=Sを満たす</li>
+</ul>
+
+
+
+
+<h2>入出力形式</h2>
+<p>この問題にはencodeフェーズとdecodeフェーズがあり, それぞれ独立にプログラムが実行される.</p>
+<p>encodeフェーズのとき, 入力は以下の形式で与えられる.</p>
+<pre>
+encode
+<var>N</var>
+<var>S</var>
+</pre>
+
+<p>
+<var>N</var>は与えられる01列<var>S</var>の長さである.
+<var>S</var>はあなたがencodeするべき01列である.
+この時の,あなたが提出するプログラムの出力を<var>T</var>とする. <var>T</var>が良い文字列でない場合は不正解となり,decodeフェーズは実行されない.
+decodeフェーズのとき,入力は以下の形式で与えられる.
+
+</p>
+
+<pre>
+decode
+<var>M</var>
+<var>T</var>
+</pre>
+<p>
+<var>T</var>はencodeフェーズにおけるあなたの出力である.
+<var>M</var>は文字列<var>T</var>の長さである.
+この時の,あなたが提出するプログラムの出力がencodeフェーズにおけるSと一致する場合,正解となる
+</p>
+
+<h2>採点方式</h2>
+
+<p>この問題では入力<var>S</var>に対する出力encode(S)の長さに応じて得点が決まる.</p>
+<p>全てのテストケースについて, |encode(S)| ≦ |S| + 10 を満たすときこの問題に対する得点が満点となる.</p>
+<p>また, |encode(S)| ≦ 2×|S| + 10 を満たす場合, この問題に対する得点は50点となる.</p>
+
+
+<!--
+<p>この問題では入力<var>S</var>に対する出力encode(S)の長さに応じて得点が決まる.</p>
+<p>全てのテストケースについて, |encode(S)| ≦ |S| + 10 を満たすときこの問題に対する得点は満点の1000点となる.</p>
+<p>また, |encode(S)| ≦ 2×|S| + 10 を満たす場合, この問題に対する得点は50点となる.</p>
+-->
+
+<h2>制約</h2>
+<ul>
+<li><var>1 &le; N &le; 300000</var> </li>
+</ul>
+
+
+
+<h2>入出力例</h2>
+<h3>encodeフェーズ</h3>
+<p>入力</p>
+<pre>
+encode
+6
+001100
+</pre>
+<p>出力</p>
+<pre>
+ABCBE
+</pre>
+
+<p>encodeフェーズの終了後あなたのプログラムは一旦終了し,次にdecodeフェーズが開始する</p>
+
+<h3>decodeフェーズ</h3>
+<p>入力</p>
+<pre>
+decode
+5
+ABCBE
+</pre>
+
+<p>出力</p>
+
+<pre>
+001100
+</pre>

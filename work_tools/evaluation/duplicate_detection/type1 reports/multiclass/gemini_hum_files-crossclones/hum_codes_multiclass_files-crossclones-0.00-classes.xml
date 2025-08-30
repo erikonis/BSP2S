@@ -1,0 +1,15 @@
+<clones>
+<systeminfo processor="nicad6" system="hum_codes_multiclass" system2="ai_codes/gemini" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16873" npairs="4"/>
+<runinfo ncompares="2280816" cputime="520229"/>
+<classinfo nclasses="1"/>
+
+<class classid="1" nclones="5" nlines="18" similarity="100">
+<source file="../hum_codes_multiclass/s108038645P.java" startline="1" endline="18" pcid="900"></source>
+<source file="../ai_codes/gemini/gemini_p02391_0P.java" startline="1" endline="20" pcid="11214"></source>
+<source file="../ai_codes/gemini/gemini_p02391_3P.java" startline="1" endline="19" pcid="11217"></source>
+<source file="../ai_codes/gemini/gemini_p02391_2P.java" startline="1" endline="21" pcid="11216"></source>
+<source file="../ai_codes/gemini/gemini_p02391_4P.java" startline="1" endline="20" pcid="11218"></source>
+</class>
+
+</clones>

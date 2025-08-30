@@ -1,0 +1,158 @@
+
+
+
+    <h1>F: Opeartion training for BYDOL / BYDOLの操作訓練</h1>
+
+    <p>u'sというスクールアイドルを結成した私達は，さらなる高みを目指すため，部室にあったDVDで憧れの841プロダクションに所属するアイドル達を見ていた． このアイドル達は今でこそ輝くステージの上で活躍しているが，以前はBYDOLと呼ばれるロボットに乗り込み，隕石の撤去作業をしていたらしい． そこで，トップアイドルになるために，BYDOLの操縦技術が必要であることを知った私達は，急遽BYDOLを入手し，他校のスクールアイドルとBYDOLを用いた模擬戦をすることにした．</p>
+
+    <p>この模擬戦では，白の軍と赤の軍に分かれ，BYDOLに積まれている弾により撃ち合いを行う． 各軍のメンバは，それぞれBYDOLに乗り込み，合図が出ると同時に<strong>「1度だけ」</strong>弾を撃つ． 合図が出る時点での全てのBYDOLの座標は決まっており，BYDOL同士はレーダーによって互いの座標を把握できる． 同じ座標にBYDOLが2台以上現れることはない．</p>
+
+    <p>BYDOLが移動できるフィールドは2次元平面で表され，非常に広くフィールド全体を囲む壁はないものとして考える． しかし，フィールド内部にいくつかの円形の壁が用意されている． この壁の内側は，コンクリートで塗り固められているため，BYDOLが侵入することはできない． 壁を構成する円は，互いに接したり交差したり内包関係になったりすることはなく，BYDOLがいる座標上に壁は存在しない．</p>
+
+    <p>各BYDOLには，合図が出る時点で位置する座標，射程，1度に発射できる弾数，壁で反射する弾を積んでいるか，倒された時に敵軍が得る点数の5つのパラメータが設定されている．</p>
+
+    <p>弾は，BYDOLがいる位置から360度どの方向へも発射することができ，一直線状に進む． 発射されてから進んだ弾の距離が射程の値以下である間，かつ他のBYDOLや壁に弾が当たらない間であれば，弾は進み続ける． フィールド上を動く全ての弾は，弾道が交差していても衝突しないものとする．</p>
+
+    <p>BYDOLによっては壁で反射する弾を積んでいる場合がある． この場合のBYDOLの弾は全て，1回のみ壁で反射する． ただし，自分のBYDOLから壁の反射した地点までの距離と，反射した地点から相手のBYDOLまでの距離の合計が，射程の値以下でなければ，相手に当たったことにはならない． 壁で反射するときは図1のように，弾が壁に当たった地点に対して接線を引き，この線を基準に入射角<em>&theta;</em><sub>1</sub>と反射角<em>&theta;</em><sub>2</sub>が等しくなるように反射する． 弾道が壁を構成する円に接する場合，そのまままっすぐ弾は進み，壁で反射したことにはならない．</p>
+
+    <div align="center">
+      <img  src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE3_Rits_Camp13_Day3_F_F_fig_sabage1" alt="弾の反射"/>
+
+      <p><strong>図1:</strong> 弾の反射</p>
+    </div>
+
+    <p>あるBYDOLは，発射できる弾数の範囲で，1度に複数の弾を撃ち，複数のBYDOLに当てることができる．ただし，同じBYDOLが，全く同じ方向へ向かって弾を2発以上撃つことは許されない．</p>
+
+    <p>各BYDOLには，倒された時に敵軍が得る点数が設定されている． この撃ち合いでは，より多くの点数を得た軍が勝者となる． 同じ点数を得た場合は，引き分けとする． BYDOLは1発弾を当てれば倒れるため，同じBYDOLに何発撃ち込もうが，得られる点数は1度きりである． 味方のBYDOLを撃った場合，失格になってしまうため絶対に撃ってはいけない． 自滅することも許されない．</p>
+
+    <p>u'sにおける作戦指揮担当であるあなたの仕事は，各軍が最大の点数をとれるように行動したときの点数を求め，どちらの軍が勝つことができるのかを判定することである． これができれば，u'sはトップアイドルへ一歩近づくことができるだろう．</p>
+
+    <div>
+      <h1>Input</h1>
+
+      <p>入力は次の形式で表される．</p>
+
+      <div>
+        <em>n</em> <em>m</em> <em>o</em><br />
+        <em>ax</em><sub>1</sub> <em>ay</em><sub>1</sub> <em>ap</em><sub>1</sub> <em>aq</em><sub>1</sub> <em>ar</em><sub>1</sub> <em>as</em><sub>1</sub><br />
+        ...<br />
+        <em>ax</em><sub>n</sub> <em>ay</em><sub>n</sub> <em>ap</em><sub>n</sub> <em>aq</em><sub>n</sub> <em>ar</em><sub>n</sub> <em>as</em><sub>n</sub><br />
+        <em>bx</em><sub>1</sub> <em>by</em><sub>1</sub> <em>bp</em><sub>1</sub> <em>bq</em><sub>1</sub> <em>br</em><sub>1</sub> <em>bs</em><sub>1</sub><br />
+        ...<br />
+        <em>bx</em><sub>m</sub> <em>by</em><sub>m</sub> <em>bp</em><sub>m</sub> <em>bq</em><sub>m</sub> <em>br</em><sub>m</sub> <em>bs</em><sub>m</sub><br />
+        <em>wx</em><sub>1</sub> <em>wy</em><sub>1</sub> <em>wr</em><sub>1</sub><br />
+        ...<br />
+        <em>wx</em><sub>o</sub> <em>wy</em><sub>o</sub> <em>wr</em><sub>o</sub><br />
+      </div>
+
+<br/>
+
+      <p>全ての数値は整数で入力される． <em>n</em>, <em>m</em> (1 ≦ <em>n</em>, <em>m</em> ≦ 50) は白の軍と赤の軍のBYDOLの数，<em>o</em> (0 ≦ <em>o</em> ≦ 15) は壁の数を表す． <em>ax</em><sub>i</sub>, <em>ay</em><sub>i</sub> (0 ≦ <em>ax</em><sub>i</sub>, <em>ay</em><sub>i</sub> ≦ 100) はi番目の白の軍のBYDOLの座標，<em>ap</em><sub>i</sub> (0 ≦ <em>ap</em><sub>i</sub> ≦ 200) は射程，<em>aq</em><sub>i</sub> (1 ≦ <em>aq</em><sub>i</sub> ≦ 5) は1度に発射できる弾の数，<em>ar</em><sub>i</sub> (0 &lt;= <em>ar</em><sub>i</sub> &lt;= 1) は壁で反射する弾を積んでいるかどうか，<em>as</em><sub>i</sub> (0≦ <em>as</em><sub>i</sub> ≦ 100) は倒された時に，敵軍が得る点数である． <em>ar</em><sub>i</sub> が，0であるときは所持している弾が反射できないこと，1であるときは反射できることを表している． 赤の軍のBYDOLの情報も同様に与えられる．</p>
+
+      <p>その後，壁の中心座標(<em>wx</em><sub>i</sub>, <em>wy</em><sub>i</sub>)と半径 <em>wr</em><sub>i</sub> が与えられる(0 ≦ <em>wx</em><sub>i</sub>, <em>wy</em><sub>i</sub> ≦ 100, 1 ≦ <em>wr</em><sub>i</sub> ≦ 30) ．</p>
+    </div>
+
+    <div>
+      <h1>Output</h1>
+
+      <p>白の軍と赤の軍それぞれが，最も点数が得られるように弾を発射したときの点数を空白区切りで1行目に出力せよ． さらに，白の軍が勝つ場合はwin，負ける場合はlose，引き分けの場合はdrawを2行目に出力せよ． 出力には，これら以外の文字があってはならない．</p>
+    </div>
+
+    <div>
+      <h1>Sample Input 1</h1>
+      <pre>
+2 2 0
+0 0 5 1 0 0
+1 0 5 1 0 0
+0 1 5 1 0 10
+1 1 5 1 0 10
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Output 1</h1>
+      <pre>
+20 0
+win
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Input 2</h1>
+      <pre>
+2 3 0
+0 0 5 1 0 20
+1 0 5 1 0 10
+10 10 4 1 0 100
+10 0 1 1 0 50
+4 0 5 1 0 10
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Output 2</h1>
+      <pre>
+10 10
+draw
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Input 3</h1>
+      <pre>
+1 1 2
+0 0 20 1 1 20
+10 0 20 1 0 20
+5 0 2
+5 8 2
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Output 3</h1>
+      <pre>
+20 0
+win
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Input 4</h1>
+      <pre>
+1 1 1
+0 0 5 1 0 5
+5 0 5 1 0 10
+1 1 1
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Output 4</h1>
+      <pre>
+10 5
+win
+</pre>
+
+    <div>
+      <h1>Sample Input 5</h1>
+      <pre>
+1 2 5
+13 27 19 4 0 30
+14 14 34 4 1 9
+49 71 21 3 1 31
+5 86 18
+85 27 3
+90 91 1
+34 50 10
+92 54 15
+</pre>
+    </div>
+
+    <div>
+      <h1>Sample Output 5</h1>
+      <pre>
+9 30
+lose
+</pre>
+
+    </div>

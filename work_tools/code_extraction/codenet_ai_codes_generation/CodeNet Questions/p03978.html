@@ -1,0 +1,168 @@
+<span class="lang-en">
+<p>Score : <var>150</var> points</p>
+<div class="part">
+<section>
+<h3>Problem Statement</h3>
+<p>
+  There is a long blackboard with <var>2</var> rows and <var>N</var> columns in a classroom of Kyoto University. 
+  This blackboard is so long that it is impossible to tell which cells are already used and which unused. 
+</p>
+<p>
+  Recently, a blackboard retrieval device was installed at the classroom. 
+  To use this device, you type a search query that forms a rectangle with 2 rows and any length of columns, where each cell is used or unused. 
+  When you input a query, the decive answers whether the rectangle that corresponds to the query exists in the blackboard. 
+  Here, for a rectangle that corresponds to a search query, if two integer <var>i, j</var> ( <var>i &lt; j</var> ) exist
+  and the rectangle equals to the partial blackboard between column <var>i</var> and <var>j</var> ,
+  the rectangle is called a sub-blackboard of the blackboard. 
+</p>
+<p>
+  You are currently preparing for a presentation at this classroom.
+  To make the presentation go well, you decided to write a program to detect the status of the whole blackboard using the retrieval device. 
+  Since it takes time to use the device, you want to use it as few times as possible. 
+</p>
+<p>
+  The status of the whole blackboard is already determined at the beginning and does not change while you are using the device. 
+</p>
+</section>
+</div>
+<hr/>
+<div class="io-style">
+<div class="part">
+<section>
+<h3>Input</h3>
+<p>The first input is given in the following format:</p>
+<pre>
+<var>N</var>
+</pre>
+<p> <var>N</var> <var>(1 \leq N \leq 100)</var> is an integer that represents the length of the blackboard. </p>
+<p>
+  After this input value, your program must print search queries. 
+  A search query has the following format. 
+</p>
+<pre>
+<var>s_1</var>
+<var>s_2</var>
+</pre>
+<p>
+  Here, <var>s_1</var> represents the upper part of the blackboard and <var>s_2</var> represents the lower. 
+  <code>#</code> in <var>s_1</var> and <var>s_2</var> represents the cell is already used and <code>.</code> represents the cell is still unused. 
+  The lengths of <var>s_1</var> and <var>s_2</var> are arbitrary, but they must be the same. 
+  Make sure to insert a line break at the end of the lines. 
+</p>
+<p>
+  Every time your program prints a search query, a string that represents the search result of the device is returned in the followin format. 
+</p>
+<pre>
+<var>r</var>
+</pre>
+<p>
+<var>r</var> is either <code>T</code> or <code>F</code> . 
+  The meaning of each character is as follows. 
+</p>
+<ul>
+<li> <code>T</code> represents that the sub-blackboard that corresponds to the search query exists in the blackboard. </li>
+<li> <code>F</code> represents that the sub-blackboard that corresponds to the search query does not exist in the blackboard. </li>
+</ul>
+<p>
+  If the search query equals to the whole blackboard or the number of the search queries exceeds the limit, string <code>end</code> is given instead of <var>r</var> .
+  Once you receive this string, exit your program immediately. 
+  If your program prints the whole blackboard as a search query before exceedin the limit, it is judged as <em>Accepted</em>. Note that the search query that represents the whole blackboard is also counted as the number of search queries. 
+</p>
+</section>
+</div>
+</div>
+<p>
+  Note that the output needs to be flushed every time the output is printed. 
+  For example, In C/C++, search query <code>s1</code>, <code>s2</code> can be printed as follows. 
+</p>
+<pre class="prettyprint">printf("%s\n%s\n", s1, s2); fflush(stdout);</pre>
+<p>
+  Make sure your program receive all the input from the device. Otherwise, the result may be <em>Time Limit Exceeded</em> . 
+</p>
+<hr/>
+<div class="part">
+<section>
+<h3>Query Limit</h3>
+<p>
+  The maximun number of search queries is <var>420</var>.
+  If the number of queries exceeds the limit, the result will be <em>Query Limit Exceeded</em> . 
+</p>
+<hr/>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Sample Input and Output</h3>
+<p>The following is an example where <var>N=3</var> and the blackboard is as follows. </p>
+<pre>
+.#.
+...
+</pre>
+<p>Note that your program does not know the state of the blackboard. </p>
+<pre>
+<table class="table table-striped table-bordered table-condensed">
+  <tr>
+    <th>Output of your program</th>
+    <th>Input to your program</th>
+    <th>Explanation</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>3</td>
+    <td>The length of the blackboard is given</td>
+  </tr>
+  <tr>
+    <td>..<br/>##</td>
+    <td></td>
+    <td>Output a search query</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>F</td>
+    <td>The sub-blackboard does not exist</td>
+  </tr>
+  <tr>
+    <td>.<br/>.</td>
+    <td></td>
+    <td>Output a search query</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>T</td>
+    <td>The sub-blackboard exists</td>
+  </tr>
+  <tr>
+    <td>..<br/>..</td>
+    <td></td>
+    <td>Output a search query</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>F</td>
+    <td>The sub-blackboard does not exist</td>
+  </tr>
+  <tr>
+    <td>.#<br/>..</td>
+    <td></td>
+    <td>Output a search query</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>T</td>
+    <td>The sub-blackboard exists</td>
+  </tr>
+  <tr>
+    <td>.#.<br/>...</td>
+    <td></td>
+    <td>Output a search query</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>end</td>
+    <td>Exit your program because the above sub-blackboard equals to the whole blackboard. </td>
+  </tr>
+</table>
+</pre>
+</section>
+</div>
+</span>

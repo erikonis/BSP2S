@@ -1,0 +1,8 @@
+Model: dn121
+Dataset: preprocessed
+------------------------------
+F1 Score: 0.9602
+Recall: 0.9714
+Precision: 0.9492
+Accuracy: 95.97%
+------------------------------

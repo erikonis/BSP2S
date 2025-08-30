@@ -1,0 +1,123 @@
+
+
+<!-- begin en only -->
+<!--<h3><U>Intelligent Circular Perfect Cleaner</U></h3>-->
+<!-- end en only -->
+<!-- begin ja only -->
+<h3><U>全自動円形掃除機</U></h3>
+<!-- end ja only -->
+
+
+<div>
+<!-- begin en only -->
+<p>
+English text is not available in this practice contest.
+</p>
+<!-- end en only -->
+<!-- begin ja only -->
+<p>
+Automatic Cleaning Machine (ACM) 社は画期的な全自動円形掃除機 Intelligent Circular Perfect Cleaner(ICPC) を開発した．
+なんとこの ICPC は人がいない日中に自動で動き出し，自分が通り過ぎた場所のゴミを掃除する機能を備えている．
+全自動という特性を活かすためにも ICPC の集塵機の容積を大きくし，人手でゴミを捨てる回数を減らしたい．
+しかしながら ICPC が大型化すればするほど ICPC が円形故に部屋の隅の掃除できない部分の面積も大きくなってしまう．(図G-1)
+</p>
+<p style="text-align: center;">
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_PD2011G-1" width="20%"><br/>
+図G-1 
+</p>
+<p>
+また廊下の幅よりも大きくしてしまうと廊下を通ることができなくなってしまう．(図G-2)
+</p>
+<p style="text-align: center;">
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_PD2011G-2" width="40%"><br/>
+図G-2 
+</p>
+<p>
+ACM 社は凄腕プログラマーのあなたに，部屋の見取り図とICPCの中心座標と半径からその部屋の中でICPCが掃除可能な面積を出力するプログラムの作成を依頼した．
+</p>
+<!-- end ja only -->
+</div>
+
+<h3>Input</h3>
+
+<div>
+<!-- begin ja only -->
+<p>
+入力は複数のデータセットからなり，各データセットは以下の形式をしている．
+</p>
+<p>
+<i>n</i> <i>x</i> <i>y</i> <i>r</i><br/>
+<i>x<sub>1</sub></i> <i>y<sub>1</sub></i><br/>
+<i>x<sub>2</sub></i> <i>y<sub>2</sub></i><br/>
+...</br>
+<i>x<sub>n</sub></i> <i>y<sub>n</sub></i>
+</p>
+<p>
+データセットの1行目には４つの整数 <i>n</i> , <i>x</i> , <i>y</i> , <i>r</i> が記されており，それぞれ部屋を構成する多角形の頂点数(3 &le; <i>n</i> &le; 20)，
+ICPCの初期位置の中心座標 (-100 &le; <i>x</i> , <i>y</i> &le; 100)， ICPCの半径 (1 &le; <i>r</i> &le; 100)を表している．
+続く <i>n</i> 行には多角形の頂点の座標が反時計回りに記されており，以下の条件を満たす．
+</p>
+<ul>
+<li>-100 &le; <i>x<sub>i</sub></i> , <i>y<sub>i</sub></i> &le; 100</li>
+<li>全ての壁は，x軸かy軸に並行</li>
+<li>ICPCの初期位置は必ず部屋の内側にあり，どの部屋の壁とも10<sup>-3</sup>以上離れている</li>
+<li>任意の部屋の頂点同士の距離，任意の部屋の頂点と部屋の辺の距離，任意の部屋の辺同士の距離は 2<i>r</i> +10<sup>-3</sup>より大きいかもしくは 2<i>r</i> -10<sup>-3</sup>より小さい</li>
+</ul>
+</p>
+<p>
+四つのゼロのみからなる行が入力の終わりを表す．
+</p>
+<!-- end ja only -->
+</div>
+
+<h3>Output</h3>
+<div>
+<!-- begin ja only -->
+<p>
+各データセットに対し，ICPCが掃除可能な領域の面積を1行に出力せよ．答えには10<sup>-6</sup>を超える誤差があってはならない．
+</p>
+<!-- end ja only -->
+</div>
+
+<h3>Sample Input</h3>
+<div>
+<pre>
+4 5 5 1
+0 0
+10 0
+10 10
+0 10
+8 5 5 1
+0 0
+9 0
+9 1
+10 1
+10 9
+9 9
+9 10
+0 10
+12 25 5 1
+0 0
+10 0
+10 4
+20 4
+20 0 
+40 0
+40 10
+20 10
+20 5
+10 5
+10 10
+0 10
+0 0 0 0
+</pre>
+</div>
+
+<h3>Output for the Sample Input</h3>
+<div>
+<pre>
+99.1415926535897
+96.7123889804
+199.2321787
+</pre>
+</div>

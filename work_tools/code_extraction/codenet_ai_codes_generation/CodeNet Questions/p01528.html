@@ -1,0 +1,118 @@
+
+
+<h1>I - 宝探し</h1>
+
+  <h2>問題文</h2>
+<p>
+わたしはある宝探しの依頼を受けた．<br>
+どうやら，この近くの地中 <var>2W &times; 2H</var> の範囲内にお宝が埋まっているらしい．<br>
+わたしの得意なダウジングを使えば，現在の位置からお宝がどの方向にねむっているのか知ることができる．
+</p>
+
+<p>
+ただ，わたしの能力はその日の体調による影響が大きく，今日はダウジングをした時に最大で <var>E</var> 度まで誤差が出てしまいそうだ．<br>
+また，わたしの体力にも限界はある．1日に200回までしかダウジングを行うことはできない．
+</p>
+
+<p>
+わたしは考えることは苦手だ．<br>
+あなたには，宝を見つけるためにどこでダウジングをするべきかの指示を出していただきたい．
+</p>
+
+<h2>入出力形式</h2>
+<p>
+最初の入力は以下の形式で与えられる．入力は全て小数12桁までの実数で与えられる．
+</p>
+
+<pre>
+<var>W</var> <var>H</var> <var>E</var>
+</pre>
+
+
+<p>
+この入力は，宝の埋まっている座標 <var>(x,y)</var> が，
+</p>
+  <ul>
+    <li><var>-W</var> &le; <var>x</var> &le; <var>W</var></li>
+    <li><var>-H</var> &le; <var>y</var> &le; <var>H</var></li>
+  </ul>
+<p>
+を満たし，またダウジングの結果の誤差が <var>E</var> 度以下であることを表す．
+</p>
+
+<p>
+以降，あなたはダウジングを行う場所を指定し結果を得るか，もしくは，宝の場所を確定したと伝えることができる．
+</p>
+
+<p>地点 <var>(x,y)</var> でダウジングを行い，結果を得るには
+</p>
+<pre class="prettyprint">printf("? %.12f %.12f\n", x, y); fflush(stdout);</pre>
+
+
+<p>
+とする．次に，
+</p>
+<pre class="prettyprint">scanf("%lf", &amp;degree);</pre>
+<p>
+とするとダウジングの結果が得られる．<br>
+結果の角度 <var>degree</var> は，<var>(x,y)</var> から宝のある方向を<var>θ</var> とした時，<var>[θ-E,θ+E]</var> の一様分布によって生成される．<br>
+宝のある地点でダウジングを行った場合，<var>θ=0</var> となる．<br>
+角度はx軸正方向が0度，y軸正方向が+90度とする．<br>
+もし <var>-180 &le; degree &le; 180 </var> を満たしてない場合，この範囲に収まる様に <var> degree</var> は修正される．
+</p>
+
+<p>地点 <var>(x,y)</var> に宝が存在すると伝える場合には
+</p>
+
+<pre class="prettyprint">printf("! %.12f %.12f\n", x, y); fflush(stdout);</pre>
+<p>
+とする．<br>
+このとき，実際の宝の位置との絶対誤差が <a href="http://mathworld.wolfram.com/L-Infinity-Norm.html"><var>L<sup>∞</sup></var>ノルム</a> で 0.5 以下になっていなければならない．
+なお，ダウジングや宝の位置の指定以外の出力を行った場合は誤答(<i>Wrong Answer</i>)と判定される．
+</p>
+<!--
+<p>
+なお参考のため，実際にやりとりを行うプログラムを <a href="/img/other/kupc2012/reactive.zip">reactive.zip</a> に置いている．
+</p>
+-->
+
+<h2>制約</h2>
+<ul>
+<li><var>0</var> &le; <var>W</var> &le; <var>10<sup>4</sup></var></li>
+<li><var>0</var> &le; <var>H</var> &le; <var>10<sup>4</sup></var></li>
+<li><var>0</var> &le; <var>E</var> &le; <var>120</var></li>
+<li>入力値は全て小数12桁までの実数である．</li>
+<li>ダウジングは最大で 200 回まで行える．それを越えると誤答<!--(<i>Query Limit Exceeded</i>)-->となる．</li>
+</ul>
+<p>
+この問題の判定には，3 点分のテストケースのグループが設定されている．このグループに含まれるテストケースは上記の制約に加えて下記の制約も満たす．
+</p>
+<ul>
+  <li><var>E = 0</var></li>
+</ul>
+<h2>入出力例</h2>
+<pre>
+<!--<table class = "table table-striped table-bordered table-condensed">-->
+<table class="withborder">
+<tr><th>プログラムの出力</th><th>プログラムへの入力</th></tr>
+<tr><td></td><td>
+100 100 0
+</td></tr>
+<tr><td>? -97.30147375 -55.03559390</td><td></td></tr>
+<tr><td></td><td>45.8958081317</td></tr>
+<tr><td>? 44.46472896 -54.50272726</td><td></td></tr>
+<tr><td></td><td>110.928234444</td></tr>
+<tr><td> ... </td><td> ... </td></tr>
+<tr><td>! 4.50000018 50.00000005</td><td></td></tr>
+</table>
+</pre>
+<p>
+最初にプログラムは宝のある範囲 <var>W,H</var> とダウジングの精度 <var>E</var> を受け取る．<br>
+その後，プログラムは (-97.3, -55.0) で1回目のダウジングを行い，宝のある方向は 45.8 度の方向だという情報を得ている．<br>
+次に，プログラムは (44.5, -54.5) で2回目のダウジングを行い，宝のある方向は 110.9 度の方向だという情報を得ている．<br>
+その後何度かダウジングを行い，最終的に宝のある位置は (4.5, 50.0) であると出力している．
+</p>
+
+<hr>
+<address>Writer : 森槙悟，楠本充，花田裕一朗</address>
+<!-- <address>Tester:</address> -->

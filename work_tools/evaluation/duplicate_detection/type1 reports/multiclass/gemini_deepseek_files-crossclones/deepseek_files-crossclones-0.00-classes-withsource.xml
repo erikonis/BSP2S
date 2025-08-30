@@ -1,0 +1,510 @@
+<clones>
+<systeminfo processor="nicad6" system="deepseek" system2="gemini" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16835" npairs="15"/>
+<runinfo ncompares="3033079" cputime="311715"/>
+<classinfo nclasses="5"/>
+
+<class classid="1" nclones="2" nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02398_2P.java" startline="1" endline="19" pcid="2763">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        int count = 0;
+        for (int i = a; i <= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02398_4P.java" startline="1" endline="20" pcid="11210">
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        int count = 0;
+        for (int i = a; i <= b; i++) {
+            if (c % i == 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+</source>
+</class>
+
+<class classid="2" nclones="5" nlines="26" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02404_4P.java" startline="1" endline="27" pcid="2795">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            if (H == 0 && W == 0) {
+                break;
+            }
+            for (int i = 0; i < H; i++) {
+                for (int j = 0; j < W; j++) {
+                    if (i == 0 || i == H - 1 || j == 0 || j == W - 1) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02404_0P.java" startline="1" endline="27" pcid="11235">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            if (H == 0 && W == 0) {
+                break;
+            }
+            for (int i = 0; i < H; i++) {
+                for (int j = 0; j < W; j++) {
+                    if (i == 0 || i == H - 1 || j == 0 || j == W - 1) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02404_2P.java" startline="1" endline="27" pcid="11237">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            if (H == 0 && W == 0) {
+                break;
+            }
+            for (int i = 0; i < H; i++) {
+                for (int j = 0; j < W; j++) {
+                    if (i == 0 || i == H - 1 || j == 0 || j == W - 1) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02404_4P.java" startline="1" endline="27" pcid="11239">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            if (H == 0 && W == 0) {
+                break;
+            }
+            for (int i = 0; i < H; i++) {
+                for (int j = 0; j < W; j++) {
+                    if (i == 0 || i == H - 1 || j == 0 || j == W - 1) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02404_3P.java" startline="1" endline="27" pcid="11238">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            if (H == 0 && W == 0) {
+                break;
+            }
+            for (int i = 0; i < H; i++) {
+                for (int j = 0; j < W; j++) {
+                    if (i == 0 || i == H - 1 || j == 0 || j == W - 1) {
+                        System.out.print("#");
+                    } else {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
+
+</source>
+</class>
+
+<class classid="3" nclones="5" nlines="17" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p02898_2P.java" startline="1" endline="21" pcid="4414">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int count = 0;
+
+        for (int i = 0; i < N; i++) {
+            int h = sc.nextInt();
+            if (h >= K) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02898_2P.java" startline="1" endline="20" pcid="12853">
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int count = 0;
+        for (int i = 0; i < N; i++) {
+            int h = sc.nextInt();
+            if (h >= K) {
+                count++;
+            }
+        }
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02898_1P.java" startline="1" endline="19" pcid="12852">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int count = 0;
+        for (int i = 0; i < N; i++) {
+            int h = sc.nextInt();
+            if (h >= K) {
+                count++;
+            }
+        }
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02898_3P.java" startline="1" endline="19" pcid="12854">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int count = 0;
+        for (int i = 0; i < N; i++) {
+            int h = sc.nextInt();
+            if (h >= K) {
+                count++;
+            }
+        }
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p02898_4P.java" startline="1" endline="19" pcid="12855">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int K = sc.nextInt();
+        int count = 0;
+        for (int i = 0; i < N; i++) {
+            int h = sc.nextInt();
+            if (h >= K) {
+                count++;
+            }
+        }
+        System.out.println(count);
+        sc.close();
+    }
+}
+
+</source>
+</class>
+
+<class classid="4" nclones="4" nlines="16" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p03238_1P.java" startline="1" endline="18" pcid="5709">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        if (N == 1) {
+            System.out.println("Hello World");
+        } else if (N == 2) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            System.out.println(A + B);
+        }
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p03238_0P.java" startline="1" endline="18" pcid="14140">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        if (N == 1) {
+            System.out.println("Hello World");
+        } else if (N == 2) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            System.out.println(A + B);
+        }
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p03238_3P.java" startline="1" endline="18" pcid="14143">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        if (N == 1) {
+            System.out.println("Hello World");
+        } else if (N == 2) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            System.out.println(A + B);
+        }
+        sc.close();
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p03238_1P.java" startline="1" endline="18" pcid="14141">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        if (N == 1) {
+            System.out.println("Hello World");
+        } else if (N == 2) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            System.out.println(A + B);
+        }
+        sc.close();
+    }
+}
+
+</source>
+</class>
+
+<class classid="5" nclones="4" nlines="21" similarity="100">
+<source file="../ai_codes/deepseek/deepseek_p04032_2P.java" startline="1" endline="26" pcid="8360">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = s.length();
+
+        for (int i = 0; i < n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                System.out.println((i + 1) + " " + (i + 2));
+                return;
+            }
+        }
+
+        for (int i = 0; i < n - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 2)) {
+                System.out.println((i + 1) + " " + (i + 3));
+                return;
+            }
+        }
+
+        System.out.println("-1 -1");
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p04032_4P.java" startline="1" endline="26" pcid="16770">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = s.length();
+
+        for (int i = 0; i < n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                System.out.println((i + 1) + " " + (i + 2));
+                return;
+            }
+        }
+
+        for (int i = 0; i < n - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 2)) {
+                System.out.println((i + 1) + " " + (i + 3));
+                return;
+            }
+        }
+
+        System.out.println("-1 -1");
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p04032_1P.java" startline="1" endline="26" pcid="16767">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = s.length();
+
+        for (int i = 0; i < n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                System.out.println((i + 1) + " " + (i + 2));
+                return;
+            }
+        }
+
+        for (int i = 0; i < n - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 2)) {
+                System.out.println((i + 1) + " " + (i + 3));
+                return;
+            }
+        }
+
+        System.out.println("-1 -1");
+    }
+}
+
+</source>
+<source file="../ai_codes/gemini/gemini_p04026_2P.java" startline="1" endline="26" pcid="16738">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        int n = s.length();
+
+        for (int i = 0; i < n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                System.out.println((i + 1) + " " + (i + 2));
+                return;
+            }
+        }
+
+        for (int i = 0; i < n - 2; i++) {
+            if (s.charAt(i) == s.charAt(i + 2)) {
+                System.out.println((i + 1) + " " + (i + 3));
+                return;
+            }
+        }
+
+        System.out.println("-1 -1");
+    }
+}
+
+</source>
+</class>
+
+</clones>

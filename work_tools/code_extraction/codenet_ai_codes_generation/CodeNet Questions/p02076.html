@@ -1,0 +1,83 @@
+<style type="text/css">
+    blockquote {
+        font-family: Menlo, Monaco, "Courier New", monospace;
+        display: block;
+        margin: 10px 0 10px 30px;
+        font-size: 16px;
+        line-height: 18px;
+        white-space: pre;
+        white-space: pre-wrap;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    table.ioexample {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    table.ioexample td {
+        width: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        vertical-align: top;
+        padding: 5px;
+    }
+    .no-page-break {
+        page-break-inside: avoid;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+</style>
+
+
+<h3>Problem Statement</h3>
+<p>"Rooks Game" is a single-player game and uses a chessboard which has $N \times N$ grid and $M$ rook pieces.</p>
+<p>A rook moves through any number of unoccupied squares horizontally or vertically. When a rook can attack another rook, it can capture the rook and move to the square which was occupied. Note that, in Rooks Game, we don't distinguish between white and black, in other words, every rook can capture any of other rooks.</p>
+<p><center><img src="https://judgeapi.u-aizu.ac.jp/resources/images/JAGSummer19Day1_J_rooks_001.png" width="400pt"></center></p>
+<p>Initially, there are $M$ rooks on the board. In each move, a rook captures another rook. The player repeats captures until any rook cannot be captured. There are two types of goal of this game. One is to minimize the number of captured rooks, and the other is to maximize it.</p>
+<p>In this problem, you are requested to calculate the minimum and maximum values of the number of captured rooks.</p>
+<hr />
+<h3>Input</h3>
+<p>The input consists of a single test case in the format below.</p>
+<blockquote>$N$ $M$
+$x_{1}$ $y_{1}$
+$\vdots$
+$x_{M}$ $y_{M}$</blockquote>
+<p>The first line contains two integers $N$ and $M$ which are the size of the chessboard and the number of rooks, respectively ($1 \le N, M \le 1000$). Each of the following $M$ lines gives the position of each rook. The $i$-th line with $x_{i}$ and $y_{i}$ means that the $i$-th rook is in the $x_{i}$-th column and $y_{i}$-th row ($1 \le x_{i}, y_{i} \le N$). You can assume any two rooks are not in the same place.</p>
+<h3>Output</h3>
+<p>Output the minimum and maximum values of the number of captured rooks separated by a single space.</p>
+<p><div class="no-page-break"><h3>Examples</h3><table class="ioexample"><tr><th>Input</th><th>Output</th></tr><tr><td><pre>8 3
+1 1
+1 8
+8 8
+</pre></td><td><pre>1 2
+</pre></td></tr><tr><td><pre>8 4
+1 1
+1 8
+8 8
+8 1
+</pre></td><td><pre>2 3
+</pre></td></tr><tr><td><pre>5 5
+1 1
+2 2
+3 3
+4 4
+5 5
+</pre></td><td><pre>0 0
+</pre></td></tr><tr><td><pre>100 1
+100 100
+</pre></td><td><pre>0 0
+</pre></td></tr><tr><td><pre>10 12
+1 2
+1 4
+1 6
+3 6
+5 6
+10 7
+8 7
+6 7
+4 7
+2 7
+7 3
+9 5
+</pre></td><td><pre>7 8
+</pre></td></tr></table></div></p>

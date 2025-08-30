@@ -1,0 +1,115 @@
+
+
+
+<div>
+<h1 class="title">問題 D : 停止問題</h1>
+
+<p>G○○gle Code Jam は G○○gle 社が年に 1 度開催するコンテストである．
+優勝者は G○○gle への入社を許される，世界最高峰のコンテストだ．
+しかし勿論，それ以外の参加者は帰らぬ者となる．</p>
+<p>G○○gle Code Jam では自分の好きなプログラミング言語や処理系を使うことができる．
+僕は Defunge という自らが開発したプログラミング言語で参加することにした．
+この言語を使えば，計算困難な問題はおろか，判定不能な問題ですら解決できる気がしている．</p>
+<div>
+<h1>問題</h1>
+<p>与えられるプログラムが停止するかを判定するプログラムを作成せよ．
+与えられるプログラムは，以下で説明するプログラミング言語 Defunge で記述されている．</p>
+<p>Defunge のプログラムの命令は 1 文字であり，1 次元の列ではなく 2 次元の格子状に並んでいる．
+下図は，Defunge のプログラムの例である:</p>
+<pre class="literal-block">
+6&gt;--v.
+.^--_&#64;
+</pre>
+<p>Defunge の言語仕様は以下のようになっている．</p>
+<ul class="simple">
+<li>Defunge のプログラムは、左上のマスから右向きで開始する． （左上のマスの命令が最初に実行される．）</li>
+<li>命令によって進む向きが上下左右に変更されることがある．</li>
+<li>端に達したら反対側の端へジャンプする．</li>
+<li>メモリは 0 から 15 までの 1 つの整数を記憶することができる．</li>
+<li>メモリにははじめ 0 が記憶されている．</li>
+</ul>
+<p>Defunge の命令は以下の通りである．</p>
+<ul class="simple">
+<li>'&lt;' … 実行の向きを左にする．</li>
+<li>'&gt;' … 実行の向きを右にする．</li>
+<li>'^' … 実行の向きを上にする．</li>
+<li>'v' … 実行の向きを下にする．</li>
+<li>'_' … メモリの値が 0 ならば実行の向きを右に，そうでなければ左にする．</li>
+<li>'|' … メモリの値が 0 ならば実行の向きを下に，そうでなければ上にする．</li>
+<li>'?' … 実行の向きが上下左右のいずれかにランダムに等確率で変更される．</li>
+<li>'.' … 何もしない．</li>
+<li>'&#64;' … プログラムの実行を停止する．</li>
+<li>'0' - '9' … メモリの値を指定の数値にする．</li>
+<li>'+' … メモリの値に 1 を加える，ただし値が 15 だった場合 0 にする．</li>
+<li>'-' … メモリの値から 1 を引く，ただし値が 0 だった場合 15 にする．</li>
+</ul>
+</div>
+<div>
+<h1>入力</h1>
+<p>入力の最初の行は 2 つの整数 R, C を含む．</p>
+<p>続く R 行はプログラムを表す。それぞれ C 文字の文字列を含む。</p>
+</div>
+<div>
+<h1>出力</h1>
+<p>プログラムが停止する可能性がある場合は YES と出力せよ．</p>
+<p>そうでないとき，NO と出力せよ．</p>
+</div>
+<div>
+<h1>制約</h1>
+<ul class="simple">
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>R</i>&nbsp;&le;&nbsp;20</span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>C</i>&nbsp;&le;&nbsp;20</span></li>
+</ul>
+</div>
+<div>
+<h1>入出力例</h1>
+<div>
+<h2>入出力例 1</h2>
+<p>入力例 1:</p>
+<pre class="literal-block">
+2 6
+6&gt;--v.
+.^--_&#64;
+</pre>
+<p>入力例 1 に対する出力:</p>
+<pre class="literal-block">
+YES
+</pre>
+</div>
+<div>
+<h2>入出力例 2</h2>
+<p>入力例 2:</p>
+<pre class="literal-block">
+2 6
+5&gt;--v.
+.^--_&#64;
+</pre>
+<p>入力例 2 に対する出力:</p>
+<pre class="literal-block">
+NO
+</pre>
+</div>
+<div>
+<h2>入出力例 3</h2>
+<p>入力例 3:</p>
+<pre class="literal-block">
+2 6
+.&gt;--v.
+.^--?&#64;
+</pre>
+<p>入力例 3 に対する出力:</p>
+<pre class="literal-block">
+YES
+</pre>
+</div>
+</div>
+<div>
+<h1>補足</h1>
+<p>Defunge は Befunge と類似している．
+Befunge の理解は Defunge の理解を助けるかもしれないが，
+異なる点も多いため，注意せよ．</p>
+<ul class="simple">
+<li><a class="reference external" href="http://ja.wikipedia.org/wiki/Befunge">http://ja.wikipedia.org/wiki/Befunge</a></li>
+</ul>
+</div>
+</div>

@@ -1,0 +1,84 @@
+<span class="lang-en">
+<p>Score : <var>1100</var> points</p>
+<div class="part">
+<section>
+<h3>Problem Statement</h3><p><strong>This is an interactive task.</strong></p>
+<p>You have to guess a secret password <var>S</var>. 
+A password is a nonempty string whose length is at most <var>L</var>. 
+The characters of a password can be lowercase and uppercase english letters (a, b, ... , z, A, B, ... , Z) and digits (0, 1, ... , 9).</p>
+<p>In order to guess the secret password <var>S</var> you can ask queries.
+A query is made of a valid password <var>T</var>, the answer to such query is the edit distance between <var>S</var> and <var>T</var> (the operations considered for the edit distance are: removal, insertion, substitution).
+You can ask at most <var>Q</var> queries.</p>
+<p><strong>Note</strong>: For a definition of edit distance (with operations: removal, insertion, substitution), see <a href="https://en.wikipedia.org/w/index.php?title=Levenshtein_distance&amp;oldid=954598393">this wikipedia page</a>.</p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Constraints</h3><ul>
+<li><var>L = 128</var></li>
+<li><var>Q = 850</var></li>
+<li>The secret password <var>S</var> is chosen before the beginning of the interaction.</li>
+</ul>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Interaction</h3><p>To ask a query, print on Standard Output (with a newline at the end)</p>
+<pre>? <var>T</var>
+</pre>
+<p>The string <var>T</var> must be a valid password.</p>
+<p>The answer <var>ans</var> to each query shall be read from Standard Input in the form:</p>
+<pre><var>ans</var>
+</pre>
+<p>As soon as you have determined the hidden password <var>S</var>, you should print on Standard Output (with a newline at the end)</p>
+<pre>! <var>S</var>
+</pre>
+<p>and terminate your program.</p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Judgement</h3><ul>
+<li><font color="red"><strong>After each output, you must flush Standard Output.</strong></font> Otherwise you may get <code>TLE</code>.</li>
+<li>After you print (your guess of) the hidden password, the program must be terminated immediately. Otherwise, the behavior of the judge is undefined.</li>
+<li>If the password you have determined is wrong, you will get <code>WA</code>.</li>
+<li>If you ask a malformed query (for example because the string is not a valid password, or you forget to put <code>?</code>) or if your program crashes or if you ask more than <var>Q</var> queries, the behavior of the judge is undefined (it does not necessarily give <code>WA</code>).</li>
+</ul>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Samples</h3><p>In the only sample testcase of this problem the hidden password is <code>Atcod3rIsGreat</code>.</p>
+<p>The following one is an example of interaction if <var>S=</var><code>Atcod3rIsGreat</code>.</p>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th align="left">Input</th>
+<th align="left">Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"></td>
+<td align="left"><var>\texttt{? AtcoderIsBad}</var></td>
+</tr>
+<tr>
+<td align="left"><var>5</var></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><var>\texttt{? AtcoderIsGreat}</var></td>
+</tr>
+<tr>
+<td align="left"><var>1</var></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"><var>\texttt{! Atcod3rIsGreat}</var></td>
+</tr>
+</tbody>
+</table></section>
+</div>
+</span>

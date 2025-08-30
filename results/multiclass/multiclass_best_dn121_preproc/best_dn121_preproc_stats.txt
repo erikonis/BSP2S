@@ -1,0 +1,33 @@
+Best model saved at epoch 12 with accuracy: 79.98%
+
+
+
+=== METRICS STATS ===
+
+Model: best_dn121_preproc
+------------------------------
+ROC AUC: 0.9650
+MCC score: 0.7478
+F1 Score: 0.7974
+Recall: 0.7976
+Precision: 0.8000
+Accuracy: 79.76%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label            Samples  Average Confidence Max Confidence Min Confidence
+-------------------------------------------------------------------------------------------------
+best_dn121_preproc     human            773      0.973              1.000          0.286         
+best_dn121_preproc     chatgpt          701      0.836              1.000          0.282         
+best_dn121_preproc     claude           635      0.824              1.000          0.302         
+best_dn121_preproc     gemini           701      0.886              1.000          0.345         
+best_dn121_preproc     deepseek         568      0.812              1.000          0.332         
+
+Table: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+
+=== TRAINING TIME ===
+
+Total training time: 6994.33 seconds
+Optimal training time: 3007.32 seconds

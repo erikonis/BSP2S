@@ -1,0 +1,134 @@
+
+<H1><font color="#000">Problem D:</font> Divide the Water</H1>
+
+<p>
+A scientist Arthur C. McDonell is conducting a very complex chemical experiment. This experiment requires a large number of very simple operations to pour water into every column of the vessel at the predetermined ratio. Tired of boring manual work, he was trying to automate the operation.
+</p>
+
+<p>
+One day, he came upon the idea to use three-pronged tubes to divide the water flow. For example, when you want to pour water into two columns at the ratio of 1 : 1, you can use one three-pronged tube to split one source into two.
+</p>
+
+<center>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_divideTheWater1">
+</center>
+
+<p>
+He wanted to apply this idea to split water from only one faucet to the experiment vessel at an arbitrary ratio, but it has gradually turned out to be impossible to set the configuration in general, due to the limitations coming from the following conditions:
+</p>
+
+<ol>
+<li> The vessel he is using has several columns aligned horizontally, and each column has its specific capacity. He cannot rearrange the order of the columns.</li>
+<li>There are enough number of glass tubes, rubber tubes and three-pronged tubes. A three-pronged tube always divides the water flow at the ratio of 1 : 1.</li>
+<li> Also there are enough number of fater faucets in his laboratory, but they are in the same height.</li>
+<li> A three-pronged tube cannot be used to combine two water flows. Moreover, each flow of water going out of the tubes must be poured into exactly one of the columns; he cannot discard water to the sewage, nor pour water into one column from two or more tubes.</li>
+
+<center>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_divideTheWater2">
+</center>
+
+<li>
+The water flows only downward. So he cannot place the tubes over the faucets, nor under the exit of another tubes. Moreover, the tubes cannot be crossed.
+</li>
+
+</ol>
+
+<center>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_divideTheWater3">
+</center>
+
+<p>
+Still, Arthur did not want to give up. Although one-to-many division at an arbitrary ratio is impossible, he decided to minimize the number of faucets used. He asked you for a help to write a program to calculate the minimum number of faucets required to pour water into the vessel, for the number of columns and the ratio at which each column is going to be filled.
+</p>
+
+<H2>Input</H2>
+
+<p>
+The input consists of an integer sequence.
+</p>
+
+<p>
+The first integer indicates <i>N</i>, the number of columns in the vessel. Then the following <i>N</i> integers describe the capacity by which each column should be filled. The <i>i</i>-th integer in this part specifies the ratio at which he is going to pour water into the <i>i</i>-th column.
+</p>
+
+<p>
+You may assume that <i>N</i> &le; 100, and for all <i>i</i>, <i>v<sub>i</sub></i> &le; 1000000.
+</p>
+
+<H2>Output</H2>
+
+<p>
+Output the number of the minimum faucet required to complete the operation.
+</p>
+
+<H2>Sample Input and Output</H2>
+
+<H2>Input #1</H2>
+<pre>
+2 1 1
+</pre>
+<H2>Output #1</H2>
+<pre>
+1
+</pre>
+<br/>
+
+<H2>Input #2</H2>
+<pre>
+2 3 1
+</pre>
+<H2>Output #2</H2>
+<pre>
+2
+</pre>
+<br/>
+<H2>Input #3</H2>
+<pre>
+2 2 1
+</pre>
+<H2>Output #3</H2>
+<pre>
+2
+</pre>
+<br/>
+
+<H2>Input #4</H2>
+<pre>
+4 3 1 1 3
+</pre>
+<H2>Output #4</H2>
+<pre>
+3
+</pre>
+<br/>
+
+
+<H2>Input #5</H2>
+<pre>
+3 1 2 1
+</pre>
+<H2>Output #5</H2>
+<pre>
+3
+</pre>
+<br/>
+
+<H2>Input #6</H2>
+<pre>
+5 1 2 3 4 5
+</pre>
+<H2>Output #6</H2>
+<pre>
+5
+</pre>
+<br/>
+
+<H2>Input #7</H2>
+<pre>
+7 8 8 1 1 2 4 8
+</pre>
+<H2>Output #7</H2>
+<pre>
+1
+</pre>
+<br/>

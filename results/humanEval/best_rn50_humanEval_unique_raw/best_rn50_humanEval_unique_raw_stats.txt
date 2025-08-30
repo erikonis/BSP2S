@@ -1,0 +1,29 @@
+Best model saved at epoch 2 with accuracy: 75.00%
+
+
+
+=== METRICS STATS ===
+
+Model: best_rn50_humanEval_unique_raw
+------------------------------
+ROC AUC: 0.8431
+MCC score: 0.3125
+F1 Score: 0.7115
+Recall: 0.9250
+Precision: 0.5781
+Accuracy: 62.50%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label    Samples  Average Confidence Max Confidence Min Confidence
+-----------------------------------------------------------------------------------------
+best_rn50_humanEval_unique_raw Student  13       0.631              0.772          0.505         
+best_rn50_humanEval_unique_raw AI       37       0.829              1.000          0.504         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+=== TRAINING TIME ===
+
+Total training time: 120.51 seconds
+Optimal training time: 22.29 seconds

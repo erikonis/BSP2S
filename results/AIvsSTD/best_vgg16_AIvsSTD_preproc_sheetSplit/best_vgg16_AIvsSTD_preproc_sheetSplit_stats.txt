@@ -1,0 +1,29 @@
+Best model saved at epoch 12 with accuracy: 85.17%
+
+
+
+=== METRICS STATS ===
+
+Model: best_vgg16_AIvsSTD_preproc_sheetSplit
+------------------------------
+ROC AUC: 0.8749
+MCC score: 0.5536
+F1 Score: 0.7364
+Recall: 0.7686
+Precision: 0.7068
+Accuracy: 78.28%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label    Samples  Average Confidence Max Confidence Min Confidence
+-----------------------------------------------------------------------------------------
+best_vgg16_AIvsSTD_preproc_sheetSplit Student  278      0.936              1.000          0.517         
+best_vgg16_AIvsSTD_preproc_sheetSplit AI       176      0.889              1.000          0.504         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+=== TRAINING TIME ===
+
+Total training time: 1196.24 seconds
+Optimal training time: 513.40 seconds

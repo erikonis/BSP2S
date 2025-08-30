@@ -1,0 +1,99 @@
+<h2>E: 最短経路の復元</h2>
+
+<h3>物語</h3>
+<p>競技プログラマーは日々最短経路問題を解いている。BFS や、ベルマンフォード、ダイクストラ、ワーシャルフロイドと多くのアルゴリズムも知られている。</p>
+
+<p>あなたはそんな中、どうしても解けない最短路問題があった。それはグラフを見ずに最短路問題を解けという問題だ！こんなもの通常の人類には解けるわけがないのだが、30 分だけ ivvivvi 神の天啓を受けることができるようになった。</p>
+
+<p>ivvivvi 神は競技プログラミングにも最短経路問題にも精通しており、どんなグラフに対しても任意の 2 点間の最短経路長を定数時間で求める能力を持っている。あなたは ivvivvi 神の力を借りて最短経路問題を解こうと思ったが、残念ながらあなたの解くべき最短経路問題では具体的な経路を出力しなければならない。ivvivvi 神なら、最短経路の復元も容易だが、ivvivvi 神は非常に忙しいので、これ以上手を煩わせるわけには行けない。そこで、できるだけ少ない質問回数で自力で最短経路を復元することにした。</p>
+
+<h3>問題</h3>
+
+<p><var>3</var> つの整数 <var>N</var>、 <var>s</var>、そして、<var>t</var> が与えられる。このとき、頂点数 <var>N</var> のグラフがあり、頂点数以外の辺数や頂点の隣接関係などのグラフに関する情報は与えられないが、<var>2</var> 頂点 <var>u</var>、<var>v</var> の距離を質問することができる。ここで、グラフの頂点番号は <var>1</var> 以上 <var>N</var> 以下である。<var>5N</var> 回以下の質問回数で <var>s</var> から <var>t</var> への最短路を発見し、最短路を表す頂点列を <var>1</var> つ出力せよ。</p>
+
+<p>
+  <b>この問題では <var>2</var> 頂点 <var>u</var>、<var>v</var> 間の距離をジャッジに質問しなければならない。</b> 標準出力に次のように出力することで、<var>u</var>、<var>v</var> 間の距離を質問することができる。
+</p>
+
+
+<pre>? <var>u</var> <var>v</var></pre>
+
+<p>
+このように標準出力したあと、この答えは標準入力に <var>1</var> 行の整数として与えられる。
+この問題ではプログラムの行った質問の回数が <var>5N</var> 回を超えると誤答（WA）と判定される。この問題では最後に頂点列、つまり整数列を出力する。頂点列 <var>(x_1, ..., x_k)</var> を出力する出力形式は次のようである。
+</p>
+
+<pre>! <var>x_1</var> <var>x_2</var> <var>...</var> <var>x_k</var></pre>
+
+<p>
+ここで、出力は <var>x_1 = s</var> 、 <var>x_k = t</var> を満たし、任意の<var>1 \leq i \leq k - 1</var> に対して、<var>x_i</var> と <var>x_{i + 1}</var> を直接結ぶ辺が存在する。
+さらに、この最終的な解答は、一度しか行うことができない。この解答が正しい出力だったとき、正答とみなす。さらに、標準出力として上記の <var>2</var> つの記法と異なる出力や質問回数が <var>5N</var> 回を超えた時はジャッジは <var>-1</var> を返す。この時、即座にプログラムを終了させない場合、ジャッジが WA を正しく判定することを保証しない。
+</p>
+
+<p>また、標準出力を行う毎に、ストリームをフラッシュ (flush) する必要があることに注意されよ。主要な言語でのフラッシュ例を以下に示す。もちろん、これ以外の方法でフラッシュを行っても構わない。</p>
+
+<p>C 言語:</p>
+
+<pre>
+#include &lt;stdio.h&gt;
+fflush(stdout);
+</pre>
+
+
+<p>C++:</p>
+
+<pre>
+#include &lt;iostream&gt;
+std::cout.flush();
+</pre>
+
+<p>Java:</p>
+
+<pre>System.out.flush();</pre>
+
+<p>Python:</p>
+
+<pre>print(end='', flush=True)</pre>
+
+<h3>入力形式</h3>
+
+<p>入力として整数 <var>3</var> つが与えられる。</p>
+
+<pre><var>N</var> <var>s</var> <var>t</var></pre>
+
+<h3>制約</h3>
+
+<ul>
+<li><var>2 \leq N \leq 300</var></li>
+<li><var>1 \leq s, t \leq N</var></li>
+<li><var>s \neq t</var></li>
+<li>問題において使用されるグラフ上の任意の 2 頂点 <var>u</var>, <var>v</var> について、最短距離を求めたものの最大値は <var>10^9</var> 以下である</li>
+<li>問題において使用されるグラフは連結であることが保証される</li>
+</ul>
+
+<h3>入出力例</h3>
+<p>
+<table width="600" class="withborder"><tbody>
+<tr><th>標準入力</th><th>標準出力</th></tr>
+<tr><td>4 1 3</td><td> </td></tr>
+<tr><td> </td><td>? 4 3</td></tr>
+<tr><td>3</td><td> </td></tr>
+<tr><td> </td><td>? 1 4</td></tr>
+<tr><td>2</td><td> </td></tr>
+<tr><td> </td><td>? 2 1</td></tr>
+<tr><td>1</td><td> </td></tr>
+<tr><td> </td><td>? 3 2</td></tr>
+<tr><td>2</td><td> </td></tr>
+<tr><td> </td><td>? 1 3</td></tr>
+<tr><td>3</td><td> </td></tr>
+<tr><td> </td><td>? 4 2</td></tr>
+<tr><td>1</td><td> </td></tr>
+<tr><td> </td><td>! 1 2 3</td></tr>
+</tbody></table>
+</p>
+
+<p>この入出力例では以下のグラフに対して 2 点間の距離を質問している。</p>
+
+<!--<object data="images/exam.png" type="image/png" width="400"></object>-->
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE3_HUPC2019Day1_E_exam" width="400"/>
+

@@ -1,0 +1,146 @@
+<span class="lang">
+<span class="lang-ja">
+<h1>N: 3人協力ゲーム</h1>
+<p><span style='color: red;'>リアクティブ問題です。</span></p>
+
+<div class="part">
+<section>
+<h3>問題文</h3><p>$1000$ ビットの非負整数が $200$ 個あり、$a_1, \ldots, a_{100}, b_1, \ldots, b_{100}$ とします。</p>
+<p>アリスは $a_1, \ldots, a_{100}$ を確認し、$3000$ ビットのメモ $X$ をチャーリーのために残します。</p>
+<p>ボブは $b_1, \ldots, b_{100}$ を確認し、$3000$ ビットのメモ $Y$ をチャーリーのために残します。</p>
+<p>チャーリーはメモ $X, Y$ の情報をもとに、$100$ 個の質問に答えます。</p>
+<p>$i$ 番目の質問は $1000$ ビットの非負整数 $c_i$ で表され、チャーリーは $a_{x_i}$ と $b_{y_i}$ のビットごとの排他的論理和が $c_i$ に等しくなるような $x_i, y_i$ を答えます。</p>
+<p>$100$ 個の質問のうち、$95$ 個以上の質問に正答できる戦略を考えてください。</p>
+</section>
+</div>
+
+<div class="part">
+<section>
+<h3>制約</h3><ul>
+<li>$a_1, \ldots, a_{100}, b_1, \ldots, b_{100}, c_1, \ldots, c_{100}$ は $2$ 進数表記で与えられ、<code>0</code>，<code>1</code> からなる長さ $1000$ の文字列である。</li>
+<li>$a_1, \ldots, a_{100}$ は互いに異なる。</li>
+<li>$b_1, \ldots, b_{100}$ は互いに異なる。</li>
+<li>$c_1, \ldots, c_{100}$ は互いに異なる。</li>
+<li>$i = 1, 2, \ldots, 100$ について、$a_j$ と $b_k$ のビットごとの排他的論理和が $c_i$ になるような $j, k$ が存在する。</li>
+</ul>
+</section>
+</div>
+
+<div class="part">
+<section>
+<h3>入出力とジャッジ</h3><p>あなたのプログラムは $1$ つのテストケースに対して $3$ 回実行される。</p>
+<p>$1$ 回目の実行では次の入力形式でアリスへの情報が与えられる。</p>
+<pre>Alice
+$a_1$
+$a_2$
+$\vdots$
+$a_{100}$
+</pre>
+
+<p>$1$ 行目に必ず <code>Alice</code> の文字列が与えられる。
+この場合、入力を全て受け取った後 <code>0</code>，<code>1</code> からなる長さ $3000$ の文字列 $X$ を出力し、プログラムを即座に終了させなければならない。</p>
+<p>$2$ 回目の実行では次の入力形式でボブへの情報が与えられる。</p>
+<pre>Bob
+$b_1$
+$b_2$
+$\vdots$
+$b_{100}$
+</pre>
+
+<p>$1$ 行目に必ず <code>Bob</code> の文字列が与えられる。
+この場合、入力を全て受け取った後 <code>0</code>，<code>1</code> からなる長さ $3000$ の文字列 $Y$ を出力し、プログラムを即座に終了させなければならない。</p>
+<p>$3$ 回目の実行では次の入力形式でチャーリーへの質問およびメモの情報が与えられる。</p>
+<pre>Charlie
+$X$
+$Y$
+$c_1$
+$c_2$
+$\vdots$
+$c_{100}$
+</pre>
+
+<p>$1$ 行目に必ず <code>Charlie</code> の文字列が与えられる。
+入力を全て受け取った後 $1$ 以上 $100$ 以下の整数 $x_1, x_2, \ldots, x_{100}$ と $1$ 以上 $100$ 以下の整数 $y_1, y_2, \ldots, y_{100}$ を以下の形式で出力し、プログラムを即座に終了させなければならない。</p>
+<pre>$x_1$ $y_1$
+$x_2$ $y_2$
+$\vdots$
+$x_{100}$ $y_{100}$
+</pre>
+
+<p>ジャッジは、$i = 1, 2, \ldots, 100$ について $a_{x_i}$ と $b_{y_i}$ のビットごとの排他的論理和が $c_i$ に一致するか調べ、一致数が $95$ 個以上であれば正答、そうでなければ誤答と判定する。</p>
+<p>不正な値や不正な形式での出力があった場合にも誤答とする。</p>
+</section>
+</div>
+
+<div class="part">
+<section>
+<h3>注意</h3><ul>
+<li>出力の度に標準出力を flush せよ。そうしない場合、TLE となる可能性がある。</li>
+<li>どの種類の入力の末尾にも EOF が与えられる。</li>
+<li><span style='color: red;'>プロセスは、上記によって規定された以外のいかなる通信も行ってはならない。</span></li>
+</ul>
+</section>
+</div>
+
+<div class="part">
+<section>
+<h3>入出力例1</h3><p>以下はビット数や非負整数の数、質問の数が異なるが、$a = (000, 011), b = (110, 111), c = (101, 100)$ としたときの対話例である。</p>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th align="left">解答プログラムの出力</th>
+<th align="left">解答プログラムへの入力</th>
+<th align="left">説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">解答プログラム（アリス）が実行される</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Alice<br>$000$<br>$011$</td>
+<td align="left">アリスは $a = (000, 011)$ の情報を得る</td>
+</tr>
+<tr>
+<td align="left">$0000110\ldots 0$</td>
+<td align="left"></td>
+<td align="left">アリスはメモ $X = 0000110\ldots 0$ を残す</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">解答プログラム（アリス）の実行が終了し、新たな解答プログラム（ボブ）が実行される</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Bob<br>$110$<br>$111$</td>
+<td align="left">ボブは $b = (110, 111)$ の情報を得る</td>
+</tr>
+<tr>
+<td align="left">$1101110\ldots 0$</td>
+<td align="left"></td>
+<td align="left">ボブはメモ $Y = 1101110\ldots 0$ を残す</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">解答プログラム（ボブ）の実行が終了し、新たな解答プログラム（チャーリー）が実行される</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Charlie<br>$0000110\ldots 0$<br>$1101110\ldots 0$<br>$101$<br>$100$</td>
+<td align="left">チャーリーは $X, Y$ の情報を得たあと、質問の情報 $c = (101, 100)$ を得る</td>
+</tr>
+<tr>
+<td align="left">$2$ $1$<br>$2$ $2$</td>
+<td align="left"></td>
+<td align="left">チャーリーは $1$ つ目の質問に対して $(x_1, y_1) = (2, 1)$、$2$ つ目の質問に対して $(x_2, y_2) = (2, 2)$ と回答する</td>
+</tr>
+</tbody>
+</table></section>
+</div>
+</span>
+</span>

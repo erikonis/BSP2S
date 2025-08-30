@@ -1,0 +1,120 @@
+<h2>E: Broccoli or Cauliflower</h2>
+
+<h3>Problem</h3>
+<p>The input is a rooted tree <var>T = (V, E)</var> with <var>n</var> vertices. Note that <var>n</var> is odd and the vertex with index <var>1</var> is the root of <var>T</var>. In addition, we give a label <var>G</var> or <var>W</var> for each vertex. Let <var>T_v  = (U, F)</var> be a subtree of <var>T</var> such that <var>U</var> is defined as following.</p>
+
+<ul>
+<li> <var>U = </var>$\{$<var> u \in V \ \  | \ \  u </var>$\text{ is the descendant of }$<var> v </var>$\}$</li>
+</ul>
+
+<p>We call <var>T_v</var> a subtree of <var>v</var>.</p>
+
+<p>We consider the following operation and perform operations <var>q</var> times.</p>
+
+<ul>
+<li> Let <var>v</var> be a vertex. If a vertex <var>u \in U</var> has the label <var>G</var>, then we change the label of <var>u</var> <var>G</var> to <var>W</var>. Otherwise, we change the label of <var>u</var> <var>W</var> to <var>G</var>. </li>
+</ul>
+
+<p>After each operation, output “broccoli” if the number of vertices with the label <var>G</var> is greater than <var>W</var>. Otherwise, output “cauliflower”.</p>
+
+<h3>Input format</h3>
+
+<p>An input is the following format.</p>
+
+
+<pre>
+<var>n</var> <var>q</var>
+<var>p_2</var> <var>...</var> <var>p_n</var>
+<var>c_1</var> <var>...</var> <var>c_n</var>
+<var>v_1</var>
+$\vdots$
+<var>v_q</var>
+</pre>
+
+<p>In line <var>1</var>, there are two integers <var>n</var> and <var>q</var>, where <var>n</var> is the number of vertices in <var>T</var> and <var>q</var> is the number of queries. Note that <var>n</var> is odd.</p>
+
+<p>In line <var>2</var>, there are <var>n - 1</var> integers <var>p_2</var> to <var>p_n</var>. <var>p_i</var> represents the parent of a vertex <var>v_i</var>.</p>
+
+<p>
+In line <var>3</var>, there are <var>n</var> characters <var>c_1</var> to <var>c_n</var>. <var>c_i</var> represents the label of <var>v_i</var>. 
+Finally, in line <var>j + 3</var>, there is an integer <var>v_j</var>. We perform the operation for <var>T_{v_j}</var>. 
+</p>
+
+
+<h3>Constraints</h3>
+<ul>
+<li> <var>1 \leq n \leq 100,000</var> ( <var>n</var> is odd. )</li>
+<li> <var>1 \leq q \leq 100,000</var></li>
+<li> <var>1 \leq p_i &lt; i</var>（<var>2 \leq i \leq n</var>）</li>
+<li> <var>c_j</var> is <var>G</var> or <var>W</var>.  (<var>1 \leq j \leq n</var>)</li>
+<li> <var>1 \leq v_i \leq n</var>（<var>1 \leq i \leq q</var>）</li>
+</ul>
+
+<h3>Output format</h3>
+<p>An output consists <var>q</var> lines and output “broccoli” or “cauliflower” in each line.</p>
+
+<h3>Input example 1</h3>
+<pre>
+7 4
+1 1 2 2 3 3
+G G W W W G G 
+2
+1
+3
+4
+</pre>
+
+<h3>Output example 1</h3>
+<pre>
+broccoli
+cauliflower
+cauliflower
+broccoli
+</pre>
+
+<h3>Input example 2</h3>
+<pre>
+17 18
+1 1 1 3 1 4 2 4 3 6 10 9 3 4 5 15
+W W W W W W W W G W G G W G W W W
+6
+7
+1
+9
+14
+6
+4
+5
+3
+7
+8
+13
+9
+6
+14
+12
+9
+13
+</pre>
+
+<h3>Output example 2</h3>
+<pre>
+cauliflower
+cauliflower
+broccoli
+broccoli
+broccoli
+broccoli
+broccoli
+broccoli
+broccoli
+cauliflower
+cauliflower
+cauliflower
+cauliflower
+cauliflower
+broccoli
+cauliflower
+cauliflower
+cauliflower
+</pre>

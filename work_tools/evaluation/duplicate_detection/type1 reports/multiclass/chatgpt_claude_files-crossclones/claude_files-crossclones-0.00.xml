@@ -1,0 +1,1056 @@
+<clones>
+<systeminfo processor="nicad6" system="claude" system2="chatgpt" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16914" npairs="210"/>
+<runinfo ncompares="3223712" cputime="401062"/>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/claude/claude_p00241_4P.java" startline="1" endline="33" pcid="1010"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p00241_0P.java" startline="1" endline="31" pcid="9466"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/claude/claude_p00241_3P.java" startline="1" endline="33" pcid="1009"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p00241_0P.java" startline="1" endline="31" pcid="9466"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/claude/claude_p00241_2P.java" startline="1" endline="33" pcid="1008"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p00241_0P.java" startline="1" endline="31" pcid="9466"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/claude/claude_p00241_1P.java" startline="1" endline="33" pcid="1007"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p00241_0P.java" startline="1" endline="31" pcid="9466"></source>
+</clone>
+
+<clone nlines="26" similarity="100">
+<source file="../ai_codes/claude/claude_p00241_0P.java" startline="1" endline="33" pcid="1006"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p00241_0P.java" startline="1" endline="31" pcid="9466"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../ai_codes/claude/claude_p03228_1P.java" startline="1" endline="27" pcid="5707"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03228_2P.java" startline="1" endline="27" pcid="14163"></source>
+</clone>
+
+<clone nlines="24" similarity="100">
+<source file="../ai_codes/claude/claude_p03228_1P.java" startline="1" endline="27" pcid="5707"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03228_1P.java" startline="1" endline="26" pcid="14162"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03265_4P.java" startline="1" endline="22" pcid="5850"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03265_1P.java" startline="1" endline="23" pcid="14302"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03265_4P.java" startline="1" endline="22" pcid="5850"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03265_3P.java" startline="1" endline="23" pcid="14304"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03265_1P.java" startline="1" endline="23" pcid="5847"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03265_1P.java" startline="1" endline="23" pcid="14302"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03265_1P.java" startline="1" endline="23" pcid="5847"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03265_3P.java" startline="1" endline="23" pcid="14304"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03265_0P.java" startline="1" endline="23" pcid="5846"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03265_1P.java" startline="1" endline="23" pcid="14302"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03265_0P.java" startline="1" endline="23" pcid="5846"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03265_3P.java" startline="1" endline="23" pcid="14304"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/claude/claude_p02860_2P.java" startline="1" endline="24" pcid="4299"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02860_1P.java" startline="1" endline="21" pcid="12756"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/claude/claude_p00444_1P.java" startline="1" endline="26" pcid="1212"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p00444_0P.java" startline="1" endline="21" pcid="9671"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02777_2P.java" startline="1" endline="21" pcid="3954"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02777_0P.java" startline="1" endline="22" pcid="12410"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02777_2P.java" startline="1" endline="21" pcid="3954"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02777_3P.java" startline="1" endline="20" pcid="12413"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02777_2P.java" startline="1" endline="21" pcid="3954"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02777_4P.java" startline="1" endline="22" pcid="12414"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="../ai_codes/claude/claude_p03416_0P.java" startline="1" endline="25" pcid="6446"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03416_0P.java" startline="1" endline="24" pcid="14900"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02700_0P.java" startline="1" endline="21" pcid="3627"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02700_4P.java" startline="1" endline="21" pcid="12089"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02700_1P.java" startline="1" endline="21" pcid="3628"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02700_4P.java" startline="1" endline="21" pcid="12089"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02700_0P.java" startline="1" endline="21" pcid="3627"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02700_3P.java" startline="1" endline="21" pcid="12088"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02700_1P.java" startline="1" endline="21" pcid="3628"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02700_3P.java" startline="1" endline="21" pcid="12088"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02700_0P.java" startline="1" endline="21" pcid="3627"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02700_0P.java" startline="1" endline="21" pcid="12085"></source>
+</clone>
+
+<clone nlines="18" similarity="100">
+<source file="../ai_codes/claude/claude_p02700_1P.java" startline="1" endline="21" pcid="3628"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02700_0P.java" startline="1" endline="21" pcid="12085"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/claude/claude_p03035_0P.java" startline="1" endline="21" pcid="4972"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03035_1P.java" startline="1" endline="19" pcid="13429"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/claude/claude_p03035_2P.java" startline="1" endline="21" pcid="4974"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03035_1P.java" startline="1" endline="19" pcid="13429"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/claude/claude_p03035_0P.java" startline="1" endline="21" pcid="4972"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03035_2P.java" startline="1" endline="19" pcid="13430"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/claude/claude_p03035_2P.java" startline="1" endline="21" pcid="4974"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03035_2P.java" startline="1" endline="19" pcid="13430"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/claude/claude_p03035_0P.java" startline="1" endline="21" pcid="4972"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03035_4P.java" startline="1" endline="21" pcid="13432"></source>
+</clone>
+
+<clone nlines="19" similarity="100">
+<source file="../ai_codes/claude/claude_p03035_2P.java" startline="1" endline="21" pcid="4974"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03035_4P.java" startline="1" endline="21" pcid="13432"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p04047_1P.java" startline="1" endline="23" pcid="8444"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p04047_4P.java" startline="1" endline="19" pcid="16904"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03719_2P.java" startline="1" endline="20" pcid="7495"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03719_2P.java" startline="1" endline="20" pcid="15952"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03719_2P.java" startline="1" endline="20" pcid="7495"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03719_1P.java" startline="1" endline="18" pcid="15951"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03719_2P.java" startline="1" endline="20" pcid="7495"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03719_0P.java" startline="1" endline="20" pcid="15950"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03719_3P.java" startline="1" endline="20" pcid="7496"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03719_2P.java" startline="1" endline="20" pcid="15952"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03719_3P.java" startline="1" endline="20" pcid="7496"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03719_1P.java" startline="1" endline="18" pcid="15951"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p03719_3P.java" startline="1" endline="20" pcid="7496"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03719_0P.java" startline="1" endline="20" pcid="15950"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p02394_0P.java" startline="1" endline="19" pcid="2762"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_4P.java" startline="1" endline="19" pcid="11226"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p02394_0P.java" startline="1" endline="19" pcid="2762"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_3P.java" startline="1" endline="19" pcid="11225"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p02394_0P.java" startline="1" endline="19" pcid="2762"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_2P.java" startline="1" endline="19" pcid="11224"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p02394_1P.java" startline="1" endline="19" pcid="2763"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_4P.java" startline="1" endline="19" pcid="11226"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p02394_1P.java" startline="1" endline="19" pcid="2763"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_3P.java" startline="1" endline="19" pcid="11225"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p02394_1P.java" startline="1" endline="19" pcid="2763"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_2P.java" startline="1" endline="19" pcid="11224"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p02394_4P.java" startline="1" endline="19" pcid="2766"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_4P.java" startline="1" endline="19" pcid="11226"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p02394_4P.java" startline="1" endline="19" pcid="2766"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_3P.java" startline="1" endline="19" pcid="11225"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/claude/claude_p02394_4P.java" startline="1" endline="19" pcid="2766"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_2P.java" startline="1" endline="19" pcid="11224"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02945_4P.java" startline="1" endline="21" pcid="4621"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02945_0P.java" startline="1" endline="19" pcid="13075"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03632_0P.java" startline="1" endline="19" pcid="7163"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03632_4P.java" startline="1" endline="19" pcid="15624"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03632_0P.java" startline="1" endline="19" pcid="7163"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03632_1P.java" startline="1" endline="20" pcid="15621"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02398_4P.java" startline="1" endline="20" pcid="2781"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02398_4P.java" startline="1" endline="18" pcid="11241"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_1P.java" startline="1" endline="19" pcid="3898"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_4P.java" startline="1" endline="17" pcid="12359"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_2P.java" startline="1" endline="19" pcid="3899"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_4P.java" startline="1" endline="17" pcid="12359"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_3P.java" startline="1" endline="19" pcid="3900"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_4P.java" startline="1" endline="17" pcid="12359"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_4P.java" startline="1" endline="19" pcid="3901"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_4P.java" startline="1" endline="17" pcid="12359"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_1P.java" startline="1" endline="19" pcid="3898"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_2P.java" startline="1" endline="17" pcid="12357"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_2P.java" startline="1" endline="19" pcid="3899"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_2P.java" startline="1" endline="17" pcid="12357"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_3P.java" startline="1" endline="19" pcid="3900"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_2P.java" startline="1" endline="17" pcid="12357"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_4P.java" startline="1" endline="19" pcid="3901"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_2P.java" startline="1" endline="17" pcid="12357"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_1P.java" startline="1" endline="19" pcid="3898"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_0P.java" startline="1" endline="17" pcid="12355"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_2P.java" startline="1" endline="19" pcid="3899"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_0P.java" startline="1" endline="17" pcid="12355"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_3P.java" startline="1" endline="19" pcid="3900"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_0P.java" startline="1" endline="17" pcid="12355"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02765_4P.java" startline="1" endline="19" pcid="3901"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02765_0P.java" startline="1" endline="17" pcid="12355"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p03377_4P.java" startline="1" endline="17" pcid="6310"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03377_0P.java" startline="1" endline="16" pcid="14760"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p03377_4P.java" startline="1" endline="17" pcid="6310"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03377_1P.java" startline="1" endline="17" pcid="14761"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p03377_4P.java" startline="1" endline="17" pcid="6310"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03377_2P.java" startline="1" endline="17" pcid="14762"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p03377_4P.java" startline="1" endline="17" pcid="6310"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03377_3P.java" startline="1" endline="17" pcid="14763"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02570_2P.java" startline="1" endline="17" pcid="3109"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02570_4P.java" startline="1" endline="16" pcid="11570"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02570_2P.java" startline="1" endline="17" pcid="3109"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02570_2P.java" startline="1" endline="16" pcid="11568"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02570_1P.java" startline="1" endline="17" pcid="3108"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02570_4P.java" startline="1" endline="16" pcid="11570"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02570_1P.java" startline="1" endline="17" pcid="3108"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02570_2P.java" startline="1" endline="16" pcid="11568"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02570_0P.java" startline="1" endline="17" pcid="3107"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02570_4P.java" startline="1" endline="16" pcid="11570"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02570_0P.java" startline="1" endline="17" pcid="3107"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02570_2P.java" startline="1" endline="16" pcid="11568"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02915_4P.java" startline="1" endline="20" pcid="4501"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02915_0P.java" startline="1" endline="18" pcid="12955"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02915_4P.java" startline="1" endline="20" pcid="4501"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02915_3P.java" startline="1" endline="18" pcid="12958"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02880_3P.java" startline="1" endline="20" pcid="4365"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02880_3P.java" startline="1" endline="18" pcid="12823"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02880_2P.java" startline="1" endline="20" pcid="4364"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02880_3P.java" startline="1" endline="18" pcid="12823"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/claude/claude_p02880_0P.java" startline="1" endline="20" pcid="4362"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02880_3P.java" startline="1" endline="18" pcid="12823"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02694_3P.java" startline="1" endline="19" pcid="3600"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02694_4P.java" startline="1" endline="16" pcid="12059"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02694_2P.java" startline="1" endline="19" pcid="3599"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02694_4P.java" startline="1" endline="16" pcid="12059"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02694_1P.java" startline="1" endline="19" pcid="3598"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02694_4P.java" startline="1" endline="16" pcid="12059"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02887_4P.java" startline="1" endline="19" pcid="4401"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02887_4P.java" startline="1" endline="17" pcid="12859"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02887_3P.java" startline="1" endline="20" pcid="4400"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02887_4P.java" startline="1" endline="17" pcid="12859"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02887_1P.java" startline="1" endline="19" pcid="4398"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02887_4P.java" startline="1" endline="17" pcid="12859"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/claude/claude_p02887_0P.java" startline="1" endline="19" pcid="4397"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02887_4P.java" startline="1" endline="17" pcid="12859"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02681_3P.java" startline="1" endline="16" pcid="3535"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02681_1P.java" startline="1" endline="15" pcid="11991"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02681_4P.java" startline="1" endline="16" pcid="3536"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02681_1P.java" startline="1" endline="15" pcid="11991"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02681_1P.java" startline="1" endline="16" pcid="3533"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02681_1P.java" startline="1" endline="15" pcid="11991"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/claude/claude_p03861_1P.java" startline="1" endline="16" pcid="7999"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03861_2P.java" startline="1" endline="16" pcid="16457"></source>
+</clone>
+
+<clone nlines="12" similarity="100">
+<source file="../ai_codes/claude/claude_p03861_4P.java" startline="1" endline="16" pcid="8002"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03861_2P.java" startline="1" endline="16" pcid="16457"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02699_0P.java" startline="1" endline="16" pcid="3622"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02699_2P.java" startline="1" endline="15" pcid="12082"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02699_2P.java" startline="1" endline="16" pcid="3624"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02699_2P.java" startline="1" endline="15" pcid="12082"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02699_0P.java" startline="1" endline="16" pcid="3622"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02699_3P.java" startline="1" endline="15" pcid="12083"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02699_2P.java" startline="1" endline="16" pcid="3624"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02699_3P.java" startline="1" endline="15" pcid="12083"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_0P.java" startline="1" endline="16" pcid="4357"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_0P.java" startline="1" endline="15" pcid="12815"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_0P.java" startline="1" endline="16" pcid="4357"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_1P.java" startline="1" endline="15" pcid="12816"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_0P.java" startline="1" endline="16" pcid="4357"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_2P.java" startline="1" endline="15" pcid="12817"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_0P.java" startline="1" endline="16" pcid="4357"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_4P.java" startline="1" endline="15" pcid="12819"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_1P.java" startline="1" endline="16" pcid="4358"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_0P.java" startline="1" endline="15" pcid="12815"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_1P.java" startline="1" endline="16" pcid="4358"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_1P.java" startline="1" endline="15" pcid="12816"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_1P.java" startline="1" endline="16" pcid="4358"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_2P.java" startline="1" endline="15" pcid="12817"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_1P.java" startline="1" endline="16" pcid="4358"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_4P.java" startline="1" endline="15" pcid="12819"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_3P.java" startline="1" endline="16" pcid="4360"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_0P.java" startline="1" endline="15" pcid="12815"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_3P.java" startline="1" endline="16" pcid="4360"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_1P.java" startline="1" endline="15" pcid="12816"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_3P.java" startline="1" endline="16" pcid="4360"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_2P.java" startline="1" endline="15" pcid="12817"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02879_3P.java" startline="1" endline="16" pcid="4360"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02879_4P.java" startline="1" endline="15" pcid="12819"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/claude/claude_p02657_3P.java" startline="1" endline="17" pcid="3450"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02657_1P.java" startline="1" endline="15" pcid="11906"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_4P.java" startline="1" endline="17" pcid="4166"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_0P.java" startline="1" endline="16" pcid="12620"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_4P.java" startline="1" endline="17" pcid="4166"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_2P.java" startline="1" endline="17" pcid="12622"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_4P.java" startline="1" endline="17" pcid="4166"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_3P.java" startline="1" endline="16" pcid="12623"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_4P.java" startline="1" endline="17" pcid="4166"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_4P.java" startline="1" endline="16" pcid="12624"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_3P.java" startline="1" endline="17" pcid="4165"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_0P.java" startline="1" endline="16" pcid="12620"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_3P.java" startline="1" endline="17" pcid="4165"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_2P.java" startline="1" endline="17" pcid="12622"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_3P.java" startline="1" endline="17" pcid="4165"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_3P.java" startline="1" endline="16" pcid="12623"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_3P.java" startline="1" endline="17" pcid="4165"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_4P.java" startline="1" endline="16" pcid="12624"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_2P.java" startline="1" endline="17" pcid="4164"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_0P.java" startline="1" endline="16" pcid="12620"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_2P.java" startline="1" endline="17" pcid="4164"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_2P.java" startline="1" endline="17" pcid="12622"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_2P.java" startline="1" endline="17" pcid="4164"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_3P.java" startline="1" endline="16" pcid="12623"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_2P.java" startline="1" endline="17" pcid="4164"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_4P.java" startline="1" endline="16" pcid="12624"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_1P.java" startline="1" endline="17" pcid="4163"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_0P.java" startline="1" endline="16" pcid="12620"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_1P.java" startline="1" endline="17" pcid="4163"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_2P.java" startline="1" endline="17" pcid="12622"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_1P.java" startline="1" endline="17" pcid="4163"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_3P.java" startline="1" endline="16" pcid="12623"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_1P.java" startline="1" endline="17" pcid="4163"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_4P.java" startline="1" endline="16" pcid="12624"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_0P.java" startline="1" endline="17" pcid="4162"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_0P.java" startline="1" endline="16" pcid="12620"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_0P.java" startline="1" endline="17" pcid="4162"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_2P.java" startline="1" endline="17" pcid="12622"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_0P.java" startline="1" endline="17" pcid="4162"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_3P.java" startline="1" endline="16" pcid="12623"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02829_0P.java" startline="1" endline="17" pcid="4162"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02829_4P.java" startline="1" endline="16" pcid="12624"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02811_2P.java" startline="1" endline="16" pcid="4099"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02811_0P.java" startline="1" endline="15" pcid="12555"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02811_2P.java" startline="1" endline="16" pcid="4099"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02811_2P.java" startline="1" endline="15" pcid="12557"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02811_0P.java" startline="1" endline="16" pcid="4097"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02811_0P.java" startline="1" endline="15" pcid="12555"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02811_0P.java" startline="1" endline="16" pcid="4097"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02811_2P.java" startline="1" endline="15" pcid="12557"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_0P.java" startline="1" endline="16" pcid="5821"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_4P.java" startline="1" endline="16" pcid="14280"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_1P.java" startline="1" endline="16" pcid="5822"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_4P.java" startline="1" endline="16" pcid="14280"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_2P.java" startline="1" endline="16" pcid="5823"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_4P.java" startline="1" endline="16" pcid="14280"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_0P.java" startline="1" endline="16" pcid="5821"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_3P.java" startline="1" endline="16" pcid="14279"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_1P.java" startline="1" endline="16" pcid="5822"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_3P.java" startline="1" endline="16" pcid="14279"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_2P.java" startline="1" endline="16" pcid="5823"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_3P.java" startline="1" endline="16" pcid="14279"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_0P.java" startline="1" endline="16" pcid="5821"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_2P.java" startline="1" endline="16" pcid="14278"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_1P.java" startline="1" endline="16" pcid="5822"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_2P.java" startline="1" endline="16" pcid="14278"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_2P.java" startline="1" endline="16" pcid="5823"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_2P.java" startline="1" endline="16" pcid="14278"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_0P.java" startline="1" endline="16" pcid="5821"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_0P.java" startline="1" endline="16" pcid="14276"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_1P.java" startline="1" endline="16" pcid="5822"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_0P.java" startline="1" endline="16" pcid="14276"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03260_2P.java" startline="1" endline="16" pcid="5823"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03260_0P.java" startline="1" endline="16" pcid="14276"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03777_2P.java" startline="1" endline="16" pcid="7685"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03777_0P.java" startline="1" endline="16" pcid="16140"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p03777_0P.java" startline="1" endline="16" pcid="7683"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03777_0P.java" startline="1" endline="16" pcid="16140"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02999_4P.java" startline="1" endline="16" pcid="4841"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02999_1P.java" startline="1" endline="15" pcid="13294"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02999_2P.java" startline="1" endline="16" pcid="4839"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02999_1P.java" startline="1" endline="15" pcid="13294"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02999_1P.java" startline="1" endline="16" pcid="4838"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02999_1P.java" startline="1" endline="15" pcid="13294"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02999_0P.java" startline="1" endline="16" pcid="4837"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02999_1P.java" startline="1" endline="15" pcid="13294"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02999_4P.java" startline="1" endline="16" pcid="4841"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02999_4P.java" startline="1" endline="15" pcid="13297"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02999_2P.java" startline="1" endline="16" pcid="4839"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02999_4P.java" startline="1" endline="15" pcid="13297"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02999_1P.java" startline="1" endline="16" pcid="4838"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02999_4P.java" startline="1" endline="15" pcid="13297"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/claude/claude_p02999_0P.java" startline="1" endline="16" pcid="4837"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02999_4P.java" startline="1" endline="15" pcid="13297"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p03548_1P.java" startline="1" endline="15" pcid="6839"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03548_1P.java" startline="1" endline="15" pcid="15296"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p02729_2P.java" startline="1" endline="16" pcid="3764"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_3P.java" startline="1" endline="14" pcid="12223"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p02729_2P.java" startline="1" endline="16" pcid="3764"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_2P.java" startline="1" endline="13" pcid="12222"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p02729_2P.java" startline="1" endline="16" pcid="3764"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_0P.java" startline="1" endline="13" pcid="12220"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p02729_1P.java" startline="1" endline="15" pcid="3763"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_3P.java" startline="1" endline="14" pcid="12223"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p02729_1P.java" startline="1" endline="15" pcid="3763"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_2P.java" startline="1" endline="13" pcid="12222"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p02729_1P.java" startline="1" endline="15" pcid="3763"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_0P.java" startline="1" endline="13" pcid="12220"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p02729_0P.java" startline="1" endline="16" pcid="3762"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_3P.java" startline="1" endline="14" pcid="12223"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p02729_0P.java" startline="1" endline="16" pcid="3762"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_2P.java" startline="1" endline="13" pcid="12222"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p02729_0P.java" startline="1" endline="16" pcid="3762"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02729_0P.java" startline="1" endline="13" pcid="12220"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/claude/claude_p02627_3P.java" startline="1" endline="15" pcid="3360"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02627_1P.java" startline="1" endline="14" pcid="11816"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/claude/claude_p02627_2P.java" startline="1" endline="15" pcid="3359"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02627_1P.java" startline="1" endline="14" pcid="11816"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/claude/claude_p02627_1P.java" startline="1" endline="15" pcid="3358"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02627_1P.java" startline="1" endline="14" pcid="11816"></source>
+</clone>
+
+<clone nlines="13" similarity="100">
+<source file="../ai_codes/claude/claude_p02627_0P.java" startline="1" endline="15" pcid="3357"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02627_1P.java" startline="1" endline="14" pcid="11816"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p00094_4P.java" startline="1" endline="15" pcid="475"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p00094_2P.java" startline="1" endline="13" pcid="8929"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p00094_4P.java" startline="1" endline="15" pcid="475"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p00094_4P.java" startline="1" endline="13" pcid="8931"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p00094_1P.java" startline="1" endline="15" pcid="472"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p00094_2P.java" startline="1" endline="13" pcid="8929"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="../ai_codes/claude/claude_p00094_1P.java" startline="1" endline="15" pcid="472"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p00094_4P.java" startline="1" endline="13" pcid="8931"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03563_4P.java" startline="1" endline="14" pcid="6902"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03563_0P.java" startline="1" endline="12" pcid="15355"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03485_2P.java" startline="1" endline="14" pcid="6710"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03485_4P.java" startline="1" endline="12" pcid="15169"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03485_2P.java" startline="1" endline="14" pcid="6710"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03485_2P.java" startline="1" endline="12" pcid="15167"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03563_4P.java" startline="1" endline="14" pcid="6902"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03563_3P.java" startline="1" endline="12" pcid="15358"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03485_2P.java" startline="1" endline="14" pcid="6710"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03485_1P.java" startline="1" endline="12" pcid="15166"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03563_4P.java" startline="1" endline="14" pcid="6902"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03563_4P.java" startline="1" endline="12" pcid="15359"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03795_2P.java" startline="1" endline="14" pcid="7740"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03795_4P.java" startline="1" endline="12" pcid="16199"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p03795_2P.java" startline="1" endline="14" pcid="7740"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p03795_2P.java" startline="1" endline="14" pcid="16197"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_0P.java" startline="1" endline="14" pcid="4427"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_4P.java" startline="1" endline="12" pcid="12889"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_1P.java" startline="1" endline="14" pcid="4428"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_4P.java" startline="1" endline="12" pcid="12889"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_2P.java" startline="1" endline="14" pcid="4429"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_4P.java" startline="1" endline="12" pcid="12889"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_3P.java" startline="1" endline="14" pcid="4430"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_4P.java" startline="1" endline="12" pcid="12889"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_4P.java" startline="1" endline="14" pcid="4431"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_4P.java" startline="1" endline="12" pcid="12889"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_0P.java" startline="1" endline="14" pcid="4427"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_3P.java" startline="1" endline="12" pcid="12888"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_1P.java" startline="1" endline="14" pcid="4428"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_3P.java" startline="1" endline="12" pcid="12888"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_2P.java" startline="1" endline="14" pcid="4429"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_3P.java" startline="1" endline="12" pcid="12888"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_3P.java" startline="1" endline="14" pcid="4430"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_3P.java" startline="1" endline="12" pcid="12888"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02897_4P.java" startline="1" endline="14" pcid="4431"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02897_3P.java" startline="1" endline="12" pcid="12888"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02717_4P.java" startline="1" endline="13" pcid="3706"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02717_1P.java" startline="1" endline="12" pcid="12161"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02717_0P.java" startline="1" endline="13" pcid="3702"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02717_1P.java" startline="1" endline="12" pcid="12161"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_0P.java" startline="1" endline="13" pcid="3982"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_4P.java" startline="1" endline="12" pcid="12444"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_0P.java" startline="1" endline="13" pcid="3982"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_3P.java" startline="1" endline="12" pcid="12443"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_0P.java" startline="1" endline="13" pcid="3982"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_2P.java" startline="1" endline="12" pcid="12442"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_0P.java" startline="1" endline="13" pcid="3982"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_1P.java" startline="1" endline="12" pcid="12441"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_0P.java" startline="1" endline="13" pcid="3982"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_0P.java" startline="1" endline="12" pcid="12440"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_3P.java" startline="1" endline="14" pcid="3985"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_4P.java" startline="1" endline="12" pcid="12444"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_3P.java" startline="1" endline="14" pcid="3985"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_3P.java" startline="1" endline="12" pcid="12443"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_3P.java" startline="1" endline="14" pcid="3985"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_2P.java" startline="1" endline="12" pcid="12442"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_3P.java" startline="1" endline="14" pcid="3985"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_1P.java" startline="1" endline="12" pcid="12441"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_3P.java" startline="1" endline="14" pcid="3985"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_0P.java" startline="1" endline="12" pcid="12440"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_4P.java" startline="1" endline="14" pcid="3986"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_4P.java" startline="1" endline="12" pcid="12444"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_4P.java" startline="1" endline="14" pcid="3986"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_3P.java" startline="1" endline="12" pcid="12443"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_4P.java" startline="1" endline="14" pcid="3986"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_2P.java" startline="1" endline="12" pcid="12442"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_4P.java" startline="1" endline="14" pcid="3986"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_1P.java" startline="1" endline="12" pcid="12441"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02783_4P.java" startline="1" endline="14" pcid="3986"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02783_0P.java" startline="1" endline="12" pcid="12440"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02612_4P.java" startline="1" endline="15" pcid="3286"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02612_3P.java" startline="1" endline="12" pcid="11743"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02612_3P.java" startline="1" endline="15" pcid="3285"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02612_3P.java" startline="1" endline="12" pcid="11743"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02612_4P.java" startline="1" endline="15" pcid="3286"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02612_4P.java" startline="1" endline="12" pcid="11744"></source>
+</clone>
+
+<clone nlines="10" similarity="100">
+<source file="../ai_codes/claude/claude_p02612_3P.java" startline="1" endline="15" pcid="3285"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02612_4P.java" startline="1" endline="12" pcid="11744"></source>
+</clone>
+
+</clones>

@@ -1,0 +1,589 @@
+<span class="lang-en">
+<div class="part">
+<section>
+<h3>Problem Setting</h3></section>
+</div>
+<div class="part">
+<section>
+<h3>Overview</h3>
+<ul>
+<li><strong>Concept:</strong> In this programming contest, you will run a delivery service. Customers will place orders with your shop. Each order has a unique <var>\text{ID}</var> and should be delivered to the corresponding customer. Your delivery service has one car. The car will fetch the ordered item from the shop and deliver it to the customer.</li>
+<li><strong>Score:</strong> Your goal is to deliver as many items as possible, as quickly as possible in a given amount of time <var>T_{\text{max}}</var>. (Orders are expected until <var>0.95 \times T_{\text{max}}</var>).</li>
+<li><strong>Constraint:</strong> In this contest there is no constraint on the number of items you can place in the car. However, an item can only be loaded in the car, by fetching it from the shop, after the order has been placed.</li>
+<li><strong>Problem A/B:</strong> In problem A all order positions and times are given to the contestant in advance and the contestant algorithm shall optimize the moves of the car to make as many deliveries as possible as fast as possible. On the other hand, in problem B orders appear online, that is new orders appear, while you move your car to make as many deliveries as possible as fast as possible.</li>
+</ul>
+<div style="text-align:center;">
+<img alt="overview" src="https://img.atcoder.jp/hokudai-hitachi2019-1/7faf401c00c790b9a8cb5c6968dc80c3.png" title="overview">
+</img></div>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Specification of Time and Space:</h3>
+<ul>
+<li><strong>Time:</strong> In this contest we model the progress of time by integer values <var>0 \le t &lt; T_{\text{max}}</var>.</li>
+<li><strong>Map:</strong> In this contest we model a map by a simple, undirected, and connected graph <var>G=(V, E)</var>, consisting of a set of vertices <var>V</var> and a set of edges <var>E</var></li>
+<li><strong>Shop and customer locations:</strong> The vertices <var>u \in V</var> are labeled from <var>1</var> to <var>|V|</var> and the vertex <var>u=1</var> denotes the location of your shop, while vertices <var>u = 2,...,|V|</var> denote locations of potential customers. Here, <var>|V|</var> denotes the number of elements of the set <var>V</var>.</li>
+<li><strong>Streets:</strong> Each edge <var>\left\{ u, v \right\} \in E</var> represents a street connecting the vertices <var>u, v \in V</var>. The corresponding length is given by an integer edge weight <var>d_{u, v} \ge 1</var>.</li>
+<li><strong>Graph creation:</strong> The algorithm for generating the map graph based on a random seed is specified in the following pseudo-code. For further details, please see the sample code below.</li>
+</ul>
+<details>
+<summary style="display:list-item"> <b>Pseudo code:</b> Map graph generator </summary>
+<ul>
+<li> <b>Input:</b><var>|V|</var>, <var>|E|</var>, <var>\mathrm{MaxDegree}=5</var></li>
+<li> <b>2d vertex grid:</b>
+<ul>
+<li> First, find the largest integer <var>R&gt;0</var> such that <var>|V| = R^{2} + r</var>, with <var>r</var> being the smallest possible non-negative integer.</li>
+<li> Then we plot points <var>(x, y)</var> on the 2d vertex grid <var>(0 \leq x, y \lt R)</var>.</li>
+<li> For each point <var>(x, y)</var> add a uniform random offset <var>dx, dy \in [0, 1] </var>, giving the final vertex position <var>(x + dx, y + dy)\in [0,R] \times [0,R]</var>.</li>
+<li> Finally, add the remaining <var>r</var> vertices at a uniform random position <var>(x, y)</var> with <var>0 \leq x, y \leq R</var>.</li>
+<li> Vertex labels <var>u \in V</var> are assigned by random shuffling. The shop is the vertex <var>u=1</var>.</li>
+</ul>
+</li>
+<li> <b>How we create Highways:</b>
+<ul>
+<li> To generate a highway network, we create a complete graph <var>G_{\text{comp}}</var> on the vertex set <var>u \in V</var>, assigning each vertex pair <var>u, v \in V \times V</var> the Euclidean distance <var>W_{u, v}</var> as an edge weight.</li>
+<li> Next, we construct a <a href="https://en.wikipedia.org/wiki/Minimum_spanning_tree"> minimum spanning </a> tree of <var>G_{\text{comp}}</var>. The <var>|V|-1</var> edges of the minimum spanning tree are the highway network of the graph <var>G</var>. We assign each of those edges <var>\left\{ u, v \right\}</var> an edge weight <var>d_{u,v} \leftarrow \lceil 2 \times W_{u, v} \rceil </var>.
+  </li>
+</ul>
+</li>
+<li> <b>How we add side roads:</b>
+<ul>
+<li> To create a network of side roads, we successively add <var>|E|-(|V|-1)</var> edges to the graph <var>G</var> as follows:
+  <ul>
+<li> Update <var>\mathrm{cost}(u,v)</var>. </li>
+<li> Among the vertex pairs <var>\left( u, v \right) \in V\times V</var>, not yet connected by an edge, select a pair with minimal <var>\mathrm{cost}(u,v)</var>.</li>
+<li> Assign the edge weight <var>d_{u,v} \leftarrow \lceil 4 \times W_{u, v} \rceil </var>.</li>
+</ul>
+</li>
+<li>
+  Here, <var>\mathrm{cost}(u,v)</var> is essentially based on the Euclidean distance of vertices, giving preference to connecting nearby vertices with low degree. In addition, preference is given to side roads along the rectangular grid, to avoid too many bridges. The detailed definitions are as follows:
+  <ul>
+<li> Define <var>\mathrm{degree}(u)</var>, the degree of vertex <var>u\in V</var> as the number of incident edges. </li>
+<li> Define <var>\mathrm{color}(u)</var> for each vertex <var>u\in V</var> according to its original position <var>(x,y)</var> on the vertex grid as:
+    <ul>
+<li> If <var>x+y</var> is even : <var>\mathrm{color}(u) = 0</var> </li>
+<li> If <var>x+y</var> is odd : <var>\mathrm{color}(u) = 1</var> </li>
+<li> For the remaining <var>r</var> vertices : Assign a color <var>\mathrm{color}(u) \in \left\{0,1\right\}</var> at random. </li>
+</ul>
+</li>
+<li> Define a factor <var>f(u,v)</var> as follows:
+    <ul>
+<li> If <var>\mathrm{color}(u)</var> and <var>\mathrm{color}(v)</var> are the same : Set <var>\mathrm{f}(u,v) = 5</var> </li>
+<li> If <var>\mathrm{color}(u)</var> and <var>\mathrm{color}(v)</var> are different : Set <var>\mathrm{f}(u,v) = 1</var> </li>
+</ul>
+</li>
+<li> Define a factor <var>g(u)</var> as follows:
+    <ul>
+<li> If <var>\mathrm{degree}(u) \lt \mathrm{MaxDegree}</var> : Set <var>g(u)=1</var> </li>
+<li> If <var>\mathrm{degree}(u) \geq \mathrm{MaxDegree}</var> : Set <var>g(u)=\infty</var> </li>
+</ul>
+</li>
+<li> Finally, the cost is defined as follows:
+    <ul>
+<li> <var>\mathrm{cost}(u,v) = W_{u,v}\times \mathrm{degree}(u) \times \mathrm{degree}(v) \times f(u,v) \times g(u) \times g(v)</var>. </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <b> How we assign order frequencies: </b>
+<ul>
+<li> Assign each vertex <var>u \in V</var> an order frequency <var>f_u \in \left\{0,1,2\right\}</var>.</li>
+<li> Init the order frequency of the shop vertex: <var>f_1 \leftarrow 0</var>. </li>
+<li> Init the order frequency of the other vertices: <var>f_u \leftarrow 1</var></li>
+<li> Now determine vertices with order frequency 2. For this draw a uniform random center point <var>c=(c_x,c_y)\in [R/4,3R/4]\times[R/4,3R/4]</var> and then for all vertices <var>u=2,...,|V|</var> do:  
+    <ul>
+<li> If <var>\mathrm{EuclideanDistance}(c,u)\le R/8 + \mathrm{uniformRandom}[0,R/8]</var>: <var>f_{u} \leftarrow 2</var> </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</details>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Specification of Car Locations and Moves:</h3>
+<p>In order to make deliveries you will operate a delivery car, which can take positions and make moves as specified below.</p>
+<ul>
+<li>
+<p><strong>Car position:</strong> A car can generally take two types of position:</p>
+<ul>
+<li>on a vertex <var>u \in V</var>.</li>
+<li>on an edge <var>\left\{ u, v \right\} \in E</var>. More specifically, it is located at a distance <var>x</var> <var>(0 \lt x \lt d_{u, v})</var> from <var> u </var> to <var> v </var>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Car move:</strong> At each step  <var> 0 \le t &lt; T_{\text{max}} </var> you have to choose one of the following actions in order to control your delivery car.</p>
+<ul>
+<li><code>stay</code>: stay at the current position.</li>
+<li><code>move w</code>: Take one step towards vertex <var>w \in V</var>.</li>
+</ul>
+<p>In case of choosing <code>move w</code>, <var>w</var> must obey the following constraints. A failure to obey these constraints results in a wrong answer <code>WA</code>.
+<ul>
+<li> <var>w</var> must be a vertex, i.e., <var>w \in V</var>.</li>
+<li> If the car is on vertex <var>u \in V</var>, there must be an edge connecting <var>u</var> and <var>v</var>, i.e., <var>\left\{ u, w \right\} \in E</var>.</li>
+<li> If the car is on the edge <var>\left\{ u, v \right\} \in E</var>, <var>w</var> must either be <var>w = u</var> or <var>w = v</var>.</li>
+</ul></p>
+</li>
+</ul>
+<div style="text-align:center;">
+<img alt="Car position and moves" src="https://img.atcoder.jp/hokudai-hitachi2019-1/60c6d261238fb10fb2bb26d89d275f9c.png" title="Car position and moves"/>
+</div>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Orders, Deliveries, and Constraints:</h3>
+<ul>
+<li><strong>Orders:</strong> Throughout the contest each order is characterized by three quantities: A unique order ID, a vertex <var>v \in V</var> indicating the order destination, and the order time <var>t</var> at which the order appeared. For the detailed format see below.</li>
+<li><strong>Order generation:</strong> At each time <var> 0 \le t \le T_{\text{last}} = 0.95 \times T_{\text{max}}</var> up to one new order can appear with probability <var>p_{\text{order}}(t)</var>. In case there is an order, the order destination <var>i</var> is chosen from the vertex set <var>V</var> with probability proportional to the order frequency <var>f_i</var>. For details, see the pseudo-code below or the sample code further below.</li>
+</ul>
+<details>
+<summary style="display:list-item"> <b>Pseudo code:</b> Order generation </summary>
+<ul>
+<li> <b>Input:</b> Last order time <var>T_{\text{last}}</var> and average order probability <var>p_{\text{order}}(t)</var>. </li>
+<li> <b>Init:</b> <var> \mathrm{ID} \leftarrow 0</var>. </li>
+<li> For each step <var>t = 0, ..., T_{\text{last}} </var> do:
+    <ul>
+<li> Generate a uniform random number <var>r \in [0,1] </var>. </li>
+<li> <b>If</b> <var> r \le p_{\text{order}}(t) </var>:
+      <ul>
+<li> Select a vertex position <var> u \in V </var> at random with probability proportional to the order frequency <var> f_{u} </var> of the vertex. </li>
+<li> <var>\mathrm{ID} \leftarrow \mathrm{ID} + 1</var> </li>
+<li> place order (new order ID, order time <var>t</var>, vertex position
+      <var> u \in V </var>)</li>
+</ul>
+</li>
+<li> <b>Else:</b> place no order</li>
+</ul>
+</li>
+</ul>
+<ul style="list-style:none;">
+<li> <b>Note:</b> The average order probability is defined as follows:
+<li>
+<var> p_{\text{order}}(t) =
+\begin{cases}
+t / T_{\text{peak}},  &amp;
+\text{if } 0\le t \lt T_{\text{peak}}, \\
+(T_{\text{last}} - t) / (T_{\text{last}}- T_{\text{peak}}),  &amp;
+\text{if } T_{\text{peak}} \le t \lt T_{\text{last}}, \\
+0, &amp;
+\text{if } T_{\text{last}} \le t,
+\end{cases}
+</var></li>
+<li>where <var>T_{\text{last}}:=0.95 \times T_{\max}</var> and <var>T_{\text{peak}}</var> is drawn randomly uniform from the interval <var>[0, T_{\text{last}}]</var>.</li>
+<li> Note: The value of <var>T_{\text{peak}}</var> will not be given as an input. </li>
+</li></ul>
+<div style="text-align:center;">
+<img src="https://img.atcoder.jp/hokudai-hitachi2019-1/caa24f9e6a715e0d1a778f1fdfe4e14b.png"/>
+</div>
+</details>
+<ul>
+<li><strong>Delivery:</strong> To deliver an order, the contestant must do the following steps after the order has been placed:<ul>
+<li><strong>(1st) Move the car onto the shop:</strong> Note: When moving a car onto the shop, all orders with order time less than or equal to the current time, will be transfered into the car. On the other hand, orders which have not appeared yet, cannot be placed into the car.</li>
+<li><strong>(2nd) Move the car to the customer position:</strong> To finalize a delivery, move the car onto the vertex of the customer position. Note: Orders which have not been transfered into the car yet, will not be delivered, even if you arrive at the customer position.</li>
+</ul>
+</li>
+</ul>
+<div style="text-align:center;">
+<img alt="constraint image" src="https://img.atcoder.jp/hokudai-hitachi2019-1/03b28647c6ddc92cc3cbb33ade09f468.png" title="Constraints"/>
+</div>
+<ul>
+<li><strong>Constraints:</strong> Throughout the contest, we assume each order has a unique <var>\text{ID}</var> and should be delivered to the corresponding customer. It is further assumed that an unlimited number of orders can be placed in the car.</li>
+</ul>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Scoring</h3>
+<ul>
+<li> During the contest the total score of a submission is determined by summing the score of the submission with respect to 30 input cases.</li>
+<li> After the contest a system test will be performed. To this end, the contestant's <b>last submission</b> will be scored by summing the score of the submission on 100 previously unseen input cases.</li>
+<li> For each input case, the score is calculated as follows:
+<p style="text-align:center;">
+<var> \text{Score} =
+    \sum_{i \in D} {(T_{\text{max}})}^{2} - {(\mathrm{waitingTime}_i)}^{2}, </var>
+</p>
+Here we use the following definitions:
+<ul>
+<li> <var> D </var> : the set of orders delivered until <var>t=T_{\text{max}}</var></li>
+<li> the waiting time of the <var>i</var>th order: <var>\mathrm{waitingTime}_i = \mathrm{deliveredTime}_i - \mathrm{orderedTime}_i</var>.</li>
+<li>Note that an input case giving the output <code>WA</code> will receive <var>0</var> points.</li>
+</ul>
+</li>
+</ul></section>
+</div>
+<div class="part">
+<section>
+<h3>Particulars of Problem B:</h3>
+<p>
+Problem B is an <span style="color:red"> interactive </span> contest, where the contestant code successively receives updates on newly generated and delivered orders from a host code, while simultaneously servicing the customer by moving the car to a neighboring position in every step <var>t=0,...,T_{\max}-1</var>. The precise flow which details the interaction of the contestant and host code is shown below.
+</p>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th align="center"></th>
+<th>Contestant Code</th>
+<th>Host Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td></td>
+<td>Generate and output graph <var>G</var></td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td></td>
+<td>Time <var>t</var>: Generate and output new orders</td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td></td>
+<td>Time <var>t</var>: If on shop, output orders loaded into car</td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td>Time <var>t</var>: Determine and output a move</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td></td>
+<td>Check feasibility of move; If move unfeasible: output <code>NG</code>, If feasible: output <code>OK</code></td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td></td>
+<td>Time <var>t+1</var>: update and output information on delivered items (if any)</td>
+</tr>
+</tbody>
+</table>
+<p>Note: The host code outputs the graph only once. The processes marked by a "+" on the left side of the table are repeated iteratively for integers <var>t</var> in <var> t = 0,..., T_{\max} - 1</var>.</p>
+<hr/>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Input/Output Format for the Standard IO</h3>
+<p>At first, the host code will output a graph <var>G</var>, the order frequencies <var>f_{i}</var> for each vertex <var>i</var>, which are proportional to the probability of an order to appear at vertex <var>i</var>, and the total number of steps <var>T_{\max}</var>.</p>
+<pre><var>|V|</var> <var>|E|</var>
+<var>u_1</var> <var>v_1</var> <var>d_{u_1, v_1}</var>
+<var>u_2</var> <var>v_2</var> <var>d_{u_2, v_2}</var>
+<var>\vdots</var>
+<var>u_{|E|}</var> <var>v_{|E|}</var> <var>d_{u_{|E|}, v_{|E|}}</var>
+<var>f_1</var> <var>f_2</var> <var>\ldots</var> <var>f_{|V|}</var>
+<var>T_{\max}</var>
+</pre>
+<ul>
+<li>First line: <var>|V|</var> number of vertices, <var>|E|</var> number of edges</li>
+<li>The next <var>|E|</var> lines: The edges of the graph. In particular, the <var>i</var>th line denotes the vertices <var>u_i</var> and <var>v_i</var> which form an edge, along with the corresponding edge weight <var>d_{u_i, v_i}</var>.</li>
+<li>The next line: The order frequencies <var>f_i</var> which determine the probability of an order at vertex <var>i</var> as <var>p_{i}=\frac{f_{i}}{\sum_{i}f_{i}}</var>.</li>
+<li>The last line: The total number of car updates <var>T_{\max}</var>.</li>
+</ul>
+<p>At time <var>t</var> we first obtain the following information through the standard input.</p>
+<pre><var>N_{\text{new}}</var>
+<var>\mathrm{new\_id}_1</var> <var>\mathrm{dst}_1</var>
+<var>\mathrm{new\_id}_2</var> <var>\mathrm{dst}_2</var>
+<var>\vdots</var>
+<var>\mathrm{new\_id}_{N_{\text{new}}}</var> <var>\mathrm{dst}_{N_{\text{new}}}</var>
+<var>N_{\text{put}}</var>
+<var>\mathrm{put\_id}_1</var>
+<var>\mathrm{put\_id}_2</var>
+<var>\mathrm{put\_id}_{N_{\text{put}}}</var>
+</pre>
+<ul>
+<li><var>N_{\text{new}}</var> represents the number of new orders which appeared at time <var>t</var>.</li>
+<li>The next <var>N_{\text{new}}</var> lines give the newly generated order information. The <var>i</var>th order information indicates that the order ID <var>\mathrm{new_{id}}_i</var> of the new order, while <var>\mathrm{dst}_i</var> denotes the vertex to which the customer wishes the order to be delivered.</li>
+<li><var>N_{\text{put}}</var> represents the number of items transfered into the car at time <var>t</var>.<ul>
+<li>If the car is not at the vertex of the store <var>N_{\text{put}}</var> will be zero.</li>
+</ul>
+</li>
+<li>The subsequent <var>N_{\text{put}}</var> lines indicate the order information for the newly loaded items. In particular, the <var>i</var>th line indicates that the order ID corresponding to the product loaded in the car is <var>\mathrm{put_{id}}_i</var>.</li>
+</ul>
+<p>Next, in order to move the delivery car to a neighboring position the contestant code must at every time <var>t</var> (<var>0 \leq t \lt T_{\max}</var>) output the following <var>\mathrm{command}</var> to the standard output.</p>
+<pre><var>\mathrm{command}</var>
+</pre>
+<p>Here, <var>\mathrm{command}</var> must be of the following form</p>
+<ul>
+<li>If you want the car to <code>stay</code> at its current position, send <code>-1</code> to the standard output</li>
+<li>If you want the car to move one step towards a neigboring vertex <code>move w</code>, send <code>w</code> to the standard output</li>
+</ul>
+<p>Note: In case you choose <code>move w</code>, <var>w</var> must meet all of the following conditions. If any of the following conditions is violated, the host code will output <code>NG</code> and the contestant should terminate the program, ultimately leading to <code>WA</code> (incorrect).</p>
+<ul>
+<li><var>w</var> is a vertex index with <var>w \in \left\{1, ... , |V|\right\}</var></li>
+<li>If the car is on a vertex <var>u</var>, the edge <var>\left\{ u, w \right\} \in E</var> must exist</li>
+<li>If the car is on an edge <var>\left\{ u, v \right\}</var>, <var>w</var> must either be <var>w = u</var> or <var>w = v</var></li>
+</ul>
+<p>After your action at time <var> t </var> is send to the standard output, the host code will send the following information about time <var> t + 1 </var> to the standard input.</p>
+<pre><var>\mathrm{verdict}</var>
+<var>N_{\text{achieve}}</var>
+<var>\mathrm{achieve\_id}_1</var>
+<var>\mathrm{achieve\_id}_2</var>
+<var>\vdots</var>
+<var>\mathrm{achieve\_id}_{N_{\text{achieve}}}</var>
+</pre>
+<ul>
+<li><var>\mathrm{verdict}</var> is a string indicating whether your action at time <var> t </var> was valid. It can be one of the two following options.<ul>
+<li><code>OK</code>: Indicating that your action was feasible</li>
+<li><code>NG</code>: Indicates that your action is infeasible. If you receive this input, <strong>you must terminate the program immediately.</strong> It is guaranteed to be WA (incorrect), if it is terminated immediately.If you do not terminate immediately the behavior is undefined.</li>
+</ul>
+</li>
+<li><var>N_{\text{achieve}}</var> represents the number of orders that have been delivered at  time <var>t</var>.<ul>
+<li>If the car is not at a delivery vertex, no orders have been delivered and <var>N_{\text{achieve}}=0</var>.</li>
+</ul>
+</li>
+<li>The subsequent <var>N_{\text{achieve}}</var> lines indicate the delivered orders. In particular, the <var>i</var>th line indicates the order ID <var>\mathrm{achieve\_{id}}_i</var>.</li>
+</ul>
+<p>Finally, after receiving the standard input of the host code after the last step <var>T_{\max}</var> <strong>you must terminate the program immediately.</strong></p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Constraints</h3>
+<h4>I/O Constraints</h4>
+<ul>
+<li> All numbers given through the standard input are integers. </li>
+<li> All outputs must be integers </li>
+<li> <var>T_{\text{max}} = 10000</var> </li>
+<li> <var>200 \leq |V| \leq 400</var> </li>
+<li> <var>1.5 |V| \leq |E| \leq 2|V|</var></li>
+<li><var>1 \leq u_{i}, v_{i} \leq |V|</var> <var>(1 \leq i \leq |E|)</var></li>
+<li><var>1 \leq d_{u_i, v_i} \leq \lceil 4\sqrt{2|V|} \rceil</var> <var>(1 \leq i \leq |E|)</var></li>
+<li>The given graph has no self-loops, no multiple edges and is guaranteed to be connected.</li>
+<li> <var>f_1 = 0</var> </li>
+<li> <var>f_i \in \left\{ 1, 2 \right\}</var> (<var>2 \leq i \leq |V|</var>) </li>
+<li> <var>\mathrm{verdict} \in \left\{ \text{"OK"}, \text{"NG"} \right\}</var> </li>
+<li><var>0 \leq N_{\text{new}} \leq 1</var></li>
+<li><var>1 \leq \mathrm{new\_id}_{i} \leq T_{\text{last}}+1</var> <var>(1 \leq i \leq N_{\text{new}})</var>. Note: If all orders are generated by the order generation rule as explained above, the total number of orders is at most <var>T_{\text{last}}+1</var>. Therefore, the possible range of <var>\mathrm{new\_id}_{i}</var> should be from <var>1</var> to <var>T_{\text{last}}+1</var>.</li>
+<li>The order IDs <var>\mathrm{new\_{id}}_i</var> are unique. </li>
+<li><var>2 \leq \mathrm{dst}_i \leq |V|</var> <var>(1 \leq i \leq N_{\text{new}})</var></li>
+<li> The integer which the contestant outputs to the standard output at time <var>t</var> must either be <var>-1</var> or <var>1 \leq w \leq |V|</var> </li>
+</ul>
+<hr/>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Input/Output Example</h3>
+<style>
+.pre-sample-inout {
+  margin: 0;
+}
+</style>
+<table class="table table-striped table-bordered">
+<tr>
+<th>Time</th>
+<th>Contestant</th>
+<th>Host Code</th>
+<th>Explanation</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>
+<pre class="pre-sample-inout">
+5 7
+1 2 5
+5 3 4
+2 4 8
+1 5 1
+2 3 3
+4 5 3
+4 3 9
+0 1 1 5 5
+500
+</pre>
+</td>
+<td> At first, the host code provides the graph data through the standard input. In this example, the graph has <var>|V| = 5</var> vertices and <var>| E | = 7</var> edges. Next, the order frequency for each vertex is given in one line. Finally, <var>T_{\max}</var> is given.
+</td>
+</tr>
+<tr>
+<td rowspan="3"><var>0 \rightarrow 1</var></td>
+<td></td>
+<td>
+<pre class="pre-sample-inout">
+1
+1 5
+1
+1
+</pre>
+</td>
+<td> At time <var>t=0</var> we get one order. This order has ID<var>= 1</var> and should be delivered to vertex <var> 5</var>. Because your car is currently at vertex one, the order will be automatically transfered into your car. In this way, when your car is at the shop, all orders which have been made at present and before, will automatically be loaded into your car.</td>
+</tr>
+<tr>
+<td>
+<pre class="pre-sample-inout">
+2
+</pre>
+</td>
+<td></td>
+<td>You decided to move one step towards vertex.</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<pre class="pre-sample-inout">
+OK
+0
+</pre>
+</td>
+<td>The first line indicates that your move was feasible. The second line shows that no orders have been delivered.</td>
+</tr>
+<tr>
+<td rowspan="3"><var>1 \rightarrow 2</var></td>
+<td></td>
+<td>
+<pre class="pre-sample-inout">
+1
+2 2
+0
+</pre>
+</td>
+<td> One new order (ID <var>=2</var>, delivery vertex  <var>=2</var>) has occured. Your car is on the edge between vertex <var>1</var> and <var>2</var>, so zero orders have been transfered to your car.</td>
+</tr>
+<tr>
+<td>
+<pre class="pre-sample-inout">
+-1
+</pre>
+</td>
+<td></td>
+<td>You decided to keep your car in the same position.</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<pre class="pre-sample-inout">
+OK
+0
+</pre>
+</td>
+<td> Your move was valid. No orders will be delivered, because you are not at a delivery item position.</td>
+</tr>
+<tr>
+<td rowspan="3"><var>2 \rightarrow 3</var></td>
+<td></td>
+<td>
+<pre class="pre-sample-inout">
+1
+3 4
+0
+</pre>
+</td>
+<td>A new order (ID <var>=3</var>, delivery vertex <var>=4</var>) has appeared. </td>
+</tr>
+<tr>
+<td>
+<pre class="pre-sample-inout">
+1
+</pre>
+</td>
+<td></td>
+<td>You decided to move back one step towards vertex <var>1</var>. In this way you are allowed to perform a U-turn.</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<pre class="pre-sample-inout">
+OK
+0
+</pre>
+</td>
+<td>No orders have been delivered.</td>
+</tr>
+<tr>
+<td rowspan="3"><var>3 \rightarrow 4</var></td>
+<td></td>
+<td>
+<pre class="pre-sample-inout">
+0
+2
+2
+3
+</pre>
+</td>
+<td>Since the car has returned to the store, products corresponding to order ID 2 and 3 are loaded onto the car.</td>
+</tr>
+<tr>
+<td>
+<pre class="pre-sample-inout">
+5
+</pre>
+</td>
+<td></td>
+<td>The contestant has decided to move one step towards vertex 5.</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<pre class="pre-sample-inout">
+OK
+1
+1
+</pre>
+</td>
+<td>Since you arrived at vertex 5, the order with ID <var>1</var> was delivered.</td>
+</tr>
+<tr>
+<td rowspan="3"><var>4 \rightarrow 5</var></td>
+<td></td>
+<td>
+<pre class="pre-sample-inout">
+0
+0
+</pre>
+</td>
+<td>There is no new order. </td>
+</tr>
+<tr>
+<td>
+<pre class="pre-sample-inout">
+5
+</pre>
+</td>
+<td></td>
+<td>The contestant decides to move one step towards vertex <var>5</var>.</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<pre>
+NG
+</pre>
+</td>
+<td>The input was invalid and you should terminate your program. </td>
+</tr>
+</table>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Using the Standard Output</h3>
+<p>When returning your move instruction to the standard output, please use the flush command. As an example, consider the case where you want to output <code>-1</code>. This is how to do it in some of the major programming languages.</p>
+<h4>C++</h4>
+<pre class="prettyprint">
+std::cout &lt;&lt; "-1" &lt;&lt; std::endl;
+</pre>
+<h4>Java</h4>
+<p><pre class="prettyprint">
+System.out.println("-1");
+</pre></p>
+<h4>Python 3.4</h4>
+<p><pre class="prettyprint">
+print("-1", flush=True)
+</pre></p>
+</section>
+</div>
+<div class="part">
+<section>
+<h3>Sample Code B</h3>
+<p>A software toolkit for generation of input samples, scoring and testing on a local contestant environment, and  sample codes for beginners
+is provided through the following <a href="https://img.atcoder.jp/hokudai-hitachi2019-1/7742d79123e4cd369848aebec76fbc63.zip">link</a>. In addition we provide <a href="https://img.atcoder.jp/hokudai-hitachi2019-1/d2dded0de70ff38cbb8aa6dbfb88dfc3.zip">software for visualizing</a> the contestants results.</p></section>
+</div>
+</span>

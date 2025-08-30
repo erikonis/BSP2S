@@ -1,0 +1,89 @@
+
+<H1><font color="#000">Problem F:</font> Poor Computer</H1>
+
+<p>
+Brian Fulk is struggling with a really poor computer for a couple of days. Now he is trying to write a very simple program which receives a positive integer <i>x</i> and returns some of its multiples, say, <i>a</i><sub>1</sub><i>x</i>,...,<i>a</i><sub><i>N</i></sub><i>x</i>. However, even such a simple task is not easy on this computer since it has only three arithmetic operations: addition, subtraction and left shift.
+</p>
+
+<p>
+Let us describe the situation in more details. Initially the computer stores only a given positive integer <i>x</i>. The program Brian is writing will produce <i>a</i><sub>1</sub><i>x</i>,..., <i>a</i><sub><i>N</i></sub><i>x</i>, where <i>a</i><sub>1</sub>,...,<i>a</i><sub><i>N</i></sub> are given multipliers, using only the following operations:
+</p>
+
+<ul>
+<li> addition of two values,</li>
+<li> subtraction of two values, and</li>
+<li> bitwise left shift (left shift by n bits is equivalent to multiplication by 2<sup><i>n</i></sup>).</li>
+</ul>
+
+<p>
+The program should not generate any value greater than 42<i>x</i>; under this constraint he can assume that no overflow occurs. Also, since this computer cannot represent negative values, there should not be subtraction of a greater value from a smaller value.
+</p>
+
+<p>
+Some of you may wonder where the number 42 comes from. There is a deep reason related to the answer to life, the universe and everything, but we don't have enough space and time to describe it.
+<?p>
+
+<p>
+Your task is to write a program that finds the shortest sequence of operations to produce the multiples <i>a</i><sub>1</sub><i>x</i>,...,<i>a</i><sub><i>N</i></sub><i>x</i> and reports the length of the sequence. These numbers may be produced in any order.
+</p>
+
+<p>
+Here we give an example sequence for the first sample input, in a C++/Java-like language:
+</p>
+
+<pre>
+a = x << 1;  // 2x
+b = x + a;   // 3x
+c = a + b;   // 5x
+d = c << 2;  // 20x
+e = d - b;   // 18x
+</pre>
+
+<H2>Input</H2>
+
+<p>
+The first line specifies <i>N</i>, the number of multipliers. The second line contains <i>N</i> integers <i>a</i><sub>1</sub>,..., <i>a</i><sub><i>N</i></sub>, each of which represents a multiplier of <i>x</i>.
+</p>
+
+<p>
+You can assume that <i>N</i> &le; 41 and 2 &le; <i>a<sub>i</sub></i> &le; 42 (1 &le; <i>i</i> &le; <i>N</i>). Furthermore, <i>a</i><sub>1</sub>,...,<i>a<sub>N</sub></i> are all distinct.
+</p>
+
+<H2>Output</H2>
+
+<p>
+Output in a line the minimum number of operations you need to produce the values <i>a</i><sub>1</sub><i>x</i>,...,<i>a</i><sub><i>N</i></sub><i>x</i>.
+</p>
+
+<H2>Sample Input and Output</H2>
+
+<H2>Input #1</H2>
+<pre>
+3
+3 5 18
+</pre>
+<H2>Output #1</H2>
+<pre>
+5
+</pre>
+<br/>
+
+<H2>Input #2</H2>
+<pre>
+1
+29
+</pre>
+<H2>Output #2</H2>
+<pre>
+4
+</pre>
+<br/>
+<H2>Input #3</H2>
+<pre>
+4
+12 19 41 42
+</pre>
+<H2>Output #3</H2>
+<pre>
+8
+</pre>

@@ -1,0 +1,155 @@
+
+
+
+<div>
+<h1 class="title">問題 L : <span style="font-size:110%;font-family:times new roman;"><i>L</i></span> 番目の数字</h1>
+
+<p>反乱を嗅ぎつけた多くの G○○gle のコーダーが我々を取り押さえにやってきた．
+かなりの数だ．
+その中には，東京大学時代に僕らを優しく指導してくれた先輩たちも多く見受けられる．
+残念ながら，今では敵同士だ．</p>
+<dl class="docutils">
+<dt>wata</dt>
+<dd>「予想以上の数だ…」</dd>
+<dt>(iwi)</dt>
+<dd>「ああ，我々が超高速指数時間アルゴリズムを持っているからと言って，それは彼らにようやく並んだに過ぎない．この数では…」</dd>
+<dt>？？</dt>
+<dd>「心配要らない！君たち，アルゴリズムをこっちに渡すんだ！」</dd>
+</dl>
+<p>声がした窓の外を見ると，G○○gle の建物に向きあう集団がいた．
+黒の生地に赤で I，緑で ○，黄色で M と書かれた T シャツ … 彼らは I○M か！？
+そして奇妙なことに，彼らは，向かってくる G○○gle のコーダー達を，
+キーボードに触れることなく倒していた．
+どうなっている？</p>
+<dl class="docutils">
+<dt>(iwi)</dt>
+<dd>「…！ ついに Wats○n 2 は完成したのか！」</dd>
+<dt>wata</dt>
+<dd>「どういうことだ？」</dd>
+</dl>
+<p>2011 年，I○M は彼らの高い技術力を活用し，
+自然言語で出題されたクイズに高速かつ正確に応答するシステムである Wats○n を完成させ，
+クイズ番組にてクイズ王と呼ばれてきた人間たちに勝利した．
+そして 20XX 年の今，Wats○n は，
+プログラミングコンテストの問題に対し解答のプログラムを作成するシステムとして生まれ変わったのだ．</p>
+<p>I○M の登場により，我々を取り囲む人数が減ってゆく．</p>
+<dl class="docutils">
+<dt>wata</dt>
+<dd>「チャンスだ！半分は任せられるか？」</dd>
+<dt>(iwi)</dt>
+<dd>「もちろんだ！」</dd>
+</dl>
+<p>僕は，妄想と決別したことにより，全てを思い出していた．
+当然，当時の知識や経験は，今から見ればレベルが低すぎて役に立たない．
+しかし，一番大切なものを思い出すことができた．
+それは，プログラミングコンテストを愛する気持ちである．
+問題を開く瞬間のワクワク感，サンプルが通った瞬間の盛り上がり，
+ステータスが更新される瞬間の緊張，勝利の瞬間の喜び．</p>
+<dl class="docutils">
+<dt>(iwi)</dt>
+<dd>「必ず kita_masa の復讐を果たし，この狂った世界を終わらせる！」</dd>
+</dl>
+<p>そして，僕は自信の 1 題を繰り出す．
+これは，東京大学時代の自分が愛した問題「<span style="font-size:110%;font-family:times new roman;"><i>K</i></span> 番目の数字」を独自のテクニックにより一般化かつ大規模化した問題である．</p>
+<div>
+<h1>問題</h1>
+<p>グラフが与えられる．</p>
+<ul class="simple">
+<li><span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 個の頂点があり，頂点に <span style="font-size:110%;font-family:times new roman;">1</span> から <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> の番号が付いている．</li>
+<li>これらの頂点は，<span style="font-size:110%;font-family:times new roman;"><i>N</i>&nbsp;-&nbsp;1</span> 本の辺によりツリー状に接続されている．</li>
+<li>各頂点 <span style="font-size:110%;font-family:times new roman;"><i>v</i></span> には数字 <span style="font-size:110%;font-family:times new roman;"><i>a</i><sub><i>v</i></sub></span> が定まっている．</li>
+</ul>
+<p>下図は，与えられるグラフの例である．
+各頂点には上部に頂点の番号が，下部にその頂点に定められた数字 (<span style="font-size:110%;font-family:times new roman;"><i>a</i><sub><i>v</i></sub></span>) が書かれている．</p>
+<div>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_2270" alt="与えられるグラフの例"  />
+<p class="caption">与えられるグラフの例</p>
+</div>
+<p>次に，<span style="font-size:110%;font-family:times new roman;"><i>Q</i></span> 個の以下のようなクエリが与えられる．</p>
+<ul class="simple">
+<li>各クエリ <span style="font-size:110%;font-family:times new roman;"><i>q</i></span> には，頂点 <span style="font-size:110%;font-family:times new roman;"><i>v</i><sub><i>q</i></sub>,&nbsp;<i>w</i><sub><i>q</i></sub></span> と整数 <span style="font-size:110%;font-family:times new roman;"><i>l</i><sub><i>q</i></sub></span> が指定される．</li>
+<li>頂点 <span style="font-size:110%;font-family:times new roman;"><i>v</i><sub><i>q</i></sub></span> から頂点 <span style="font-size:110%;font-family:times new roman;"><i>w</i><sub><i>q</i></sub></span> への経路に含まれる頂点の数字のうち <span style="font-size:110%;font-family:times new roman;"><i>l</i><sub><i>q</i></sub></span> 番目に小さいものを求めよ．<ul>
+<li>経路は単純なもののみを考える．単純な経路とは，同じ頂点を二度通らない経路のことである．グラフがツリー状であることから，単純な経路は一意である．</li>
+<li>経路には両端点（すなわち頂点 <span style="font-size:110%;font-family:times new roman;"><i>v</i><sub><i>q</i></sub>,&nbsp;<i>w</i><sub><i>q</i></sub></span>）を含むものとする．</li>
+</ul>
+</li>
+</ul>
+<p>例えば，上図のグラフが与えられている時，
+<span style="font-size:110%;font-family:times new roman;">(<i>v</i><sub><i>q</i></sub>,&nbsp;<i>w</i><sub><i>q</i></sub>,&nbsp;<i>l</i><sub><i>q</i></sub>)&nbsp;=&nbsp;(1,&nbsp;6,&nbsp;3)</span> なるクエリ <span style="font-size:110%;font-family:times new roman;"><i>q</i></span> に対する答えは 7 である．
+これは，頂点 1 から頂点 6 への経路には頂点 1, 3, 4, 6 が含まれており，
+それらに定まった数字 2, 5, 8, 7 の 3 番目めに小さな数字は 7 であることによる．</p>
+<p>グラフとクエリを受け取り，結果を出力するプログラムを作成せよ．</p>
+</div>
+<div>
+<h1>入力</h1>
+<p>入力の最初の行は 2 つの整数 <span style="font-size:110%;font-family:times new roman;"><i>N</i>,&nbsp;<i>Q</i></span> を含む．
+これは，頂点数とクエリの数を表す．</p>
+<p>続く <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 行は，各頂点の持つ数字を表す．
+これらの行のうちの <span style="font-size:110%;font-family:times new roman;"><i>v</i></span> 行目は 1 つの整数 <span style="font-size:110%;font-family:times new roman;"><i>x</i><sub><i>v</i></sub></span> が書かれており，
+これは頂点 <span style="font-size:110%;font-family:times new roman;"><i>v</i></span> の持つ数字を表す．</p>
+<p>続く <span style="font-size:110%;font-family:times new roman;"><i>N</i>&nbsp;-&nbsp;1</span> 行は，辺の情報を表す．
+これらの行のうちの <span style="font-size:110%;font-family:times new roman;"><i>e</i></span> 行目は 2 つの整数 <span style="font-size:110%;font-family:times new roman;"><i>a</i><sub><i>e</i></sub>,&nbsp;<i>b</i><sub><i>e</i></sub></span> が書かれており，
+これらは辺 <span style="font-size:110%;font-family:times new roman;"><i>e</i></span> が結ぶ 2 つの頂点を表す．</p>
+<p>続く <span style="font-size:110%;font-family:times new roman;"><i>Q</i></span> 行は，クエリの情報を表す．
+これらの行のうちの <span style="font-size:110%;font-family:times new roman;"><i>q</i></span> 行目は 3 つの整数
+<span style="font-size:110%;font-family:times new roman;"><i>v</i><sub><i>q</i></sub>,&nbsp;<i>w</i><sub><i>q</i></sub>,&nbsp;<i>l</i><sub><i>q</i></sub></span> が書かれており，
+これらはクエリ <span style="font-size:110%;font-family:times new roman;"><i>q</i></span> の情報を表す．</p>
+</div>
+<div>
+<h1>出力</h1>
+<p>出力は <span style="font-size:110%;font-family:times new roman;"><i>Q</i></span> 行からなる．<span style="font-size:110%;font-family:times new roman;"><i>q</i></span> 行目にクエリ <span style="font-size:110%;font-family:times new roman;"><i>q</i></span> の答えを出力せよ．</p>
+</div>
+<div>
+<h1>入力に関する制約</h1>
+<ul class="simple">
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>N</i>,&nbsp;<i>Q</i>&nbsp;&le;&nbsp;10<sup>5</sup></span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>x</i><sub><i>v</i></sub>&nbsp;&le;&nbsp;10<sup>9</sup></span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>a</i><sub><i>e</i></sub>,&nbsp;<i>b</i><sub><i>e</i></sub>&nbsp;&le;&nbsp;<i>N</i></span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>v</i><sub><i>q</i></sub>,&nbsp;<i>w</i><sub><i>q</i></sub>&nbsp;&le;&nbsp;<i>N</i></span></li>
+<li>頂点 <span style="font-size:110%;font-family:times new roman;"><i>v</i><sub><i>q</i></sub></span> から頂点 <span style="font-size:110%;font-family:times new roman;"><i>w</i><sub><i>q</i></sub></span> への経路には <span style="font-size:110%;font-family:times new roman;"><i>l</i><sub><i>q</i></sub></span> 個以上の頂点が存在する．</li>
+</ul>
+</div>
+<div>
+<h1>入出力例</h1>
+<p>入力例:</p>
+<pre class="literal-block">
+6 11
+2
+4
+5
+8
+9
+7
+1 3
+2 3
+3 4
+4 5
+4 6
+1 6 1
+1 6 2
+1 6 3
+1 6 4
+1 2 1
+1 2 2
+1 2 3
+2 5 1
+2 5 2
+2 5 3
+2 5 4
+</pre>
+<p>入力例に対する出力:</p>
+<pre class="literal-block">
+2
+5
+7
+8
+2
+4
+5
+4
+5
+8
+9
+</pre>
+</div>
+</div>

@@ -1,0 +1,92 @@
+
+
+
+<div>
+<h1 class="title">問題 E : ファーストアクセプタンス</h1>
+
+<p>プログラミングコンテストでは，各問題に関して，
+その問題を最初に正解した人の名前や正解時間が，
+ファーストアクセプタンス（最初の正解）として解説等でしばしば言及される．</p>
+<p>久しぶりにプログラミングコンテストに参加するとはいえ，予選で落ちるとは到底思えない．
+ならば，最初のうちは，多少高いスコアを取ることを目指すよりも，
+ファーストアクセプタンスを多く獲得し，存在をアピールしたほうが良いのではないか．</p>
+<p>自分の実力を持ってすれば，各問題を見た瞬間に，
+その問題を自分が何分で解くことができるかと，
+その問題が開始後何分で自分以外の参加者によって最初に解かれるかがわかる．</p>
+<p>これらの情報を用いて，
+どの程度ファーストアクセプタンスを獲得できるかを計算するプログラムを作っておこう．</p>
+<div>
+<h1>問題</h1>
+<p><span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 問の問題から成るプログラミングコンテストを考える．
+問題 <span style="font-size:110%;font-family:times new roman;"><i>i</i></span> を自分が解くには <span style="font-size:110%;font-family:times new roman;"><i>A</i><sub><i>i</i></sub></span> 秒の時間がかかり，
+また，問題 <span style="font-size:110%;font-family:times new roman;"><i>i</i></span> は開始後 <span style="font-size:110%;font-family:times new roman;"><i>B</i><sub><i>i</i></sub></span> 秒で自分以外の参加者によって最初に解かれるとする．</p>
+<p>自分が問題を解く順番は自由に決められるが，
+1 つの問題を解き始めたら，解き終えるまでその問題をやるものとする．
+問題を解き終え次の問題に取りかかる際などの，
+問題を解いている時間以外の時間は十分小さいと考え，無視して考えることにする．
+また，全ての問題は終了までに 1 人以上の自分以外の参加者によって解かれるものと考える．</p>
+<p>自分以外の参加者によって最初に解かれるよりも早く，
+あるいは同時に問題 <span style="font-size:110%;font-family:times new roman;"><i>i</i></span> を自分が解きおえた時，
+問題 <span style="font-size:110%;font-family:times new roman;"><i>i</i></span> のファーストアクセプタンスを獲得できる．
+すなわち，問題 <span style="font-size:110%;font-family:times new roman;"><i>i</i></span> を自分が開始後 <span style="font-size:110%;font-family:times new roman;"><i>t</i><sub><i>i</i></sub></span> 秒に解き終えたとしたとき，
+<span style="font-size:110%;font-family:times new roman;"><i>t</i><sub><i>i</i></sub>&nbsp;&le;&nbsp;<i>B</i><sub><i>i</i></sub></span> であれば，問題 <span style="font-size:110%;font-family:times new roman;"><i>i</i></span> のファーストアクセプタンスを獲得できる．</p>
+<p>最大で何個の問題に関してファーストアクセプタンスが獲得できるかを計算するプログラムを作成せよ．</p>
+</div>
+<div>
+<h1>入力</h1>
+<p>入力の最初の行は 1 つの整数 <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> を含む．</p>
+<p>続く <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 行には，各問題に関する情報が与えられる．
+これらの行のうちの <span style="font-size:110%;font-family:times new roman;"><i>i</i></span> 行目には 2 個の数字 <span style="font-size:110%;font-family:times new roman;"><i>A</i><sub><i>i</i></sub>,&nbsp;<i>B</i><sub><i>i</i></sub></span> が書かれている．</p>
+</div>
+<div>
+<h1>出力</h1>
+<p>最大で獲得することのできるファーストアクセプタンスの数を出力せよ．</p>
+</div>
+<div>
+<h1>制約</h1>
+<ul class="simple">
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>N</i>&nbsp;&le;&nbsp;1000</span></li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>A</i><sub><i>i</i></sub>&nbsp;&le;&nbsp;10<sup>6</sup></span> (<span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>i</i>&nbsp;&le;&nbsp;<i>N</i></span>)</li>
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>B</i><sub><i>i</i></sub>&nbsp;&le;&nbsp;10<sup>6</sup></span> (<span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>i</i>&nbsp;&le;&nbsp;<i>N</i></span>)</li>
+</ul>
+</div>
+<div>
+<h1>部分点</h1>
+<p>この問題の判定には，20 点分のテストケースのグループが設定されている．
+このグループに含まれるテストケースの入力は以下を満たす．</p>
+<ul class="simple">
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>N</i>&nbsp;&le;&nbsp;16</span></li>
+</ul>
+</div>
+<div>
+<h1>入出力例</h1>
+<div>
+<h2>入出力例 1</h2>
+<p>入力例 1:</p>
+<pre class="literal-block">
+3
+3 5
+5 9
+10 20
+</pre>
+<p>入力例 1 に対する出力例:</p>
+<pre class="literal-block">
+3
+</pre>
+</div>
+<div>
+<h2>入出力例 2</h2>
+<p>入力例 2:</p>
+<pre class="literal-block">
+3
+3 2
+5 15
+10 12
+</pre>
+<p>入力例 2 に対する出力例:</p>
+<pre class="literal-block">
+2
+</pre>
+</div>
+</div>
+</div>

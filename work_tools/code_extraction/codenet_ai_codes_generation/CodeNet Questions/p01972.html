@@ -1,0 +1,91 @@
+<h2>F： 最短距離を伸ばすえびちゃん (Ebi-chan Lengthens Shortest Paths)</h2>
+
+<h3>Problem</h3>
+
+<p>
+Ebi-chan loves directed graphs.
+One day, a directed graph with <var>N</var> vertices and <var>M</var> edges dropped from somewhere in front of Ebi-chan!
+The vertices and the edges of the graph is labeled with a number from <var>1</var> to <var>N</var> and from <var>1</var> to <var>M</var>, respectively.
+Moreover, the <var>i</var>th edge directs from a vertex <var>u_i</var> to a vertex <var>v_i</var> with distance <var>d_i</var>.
+</p>
+
+<p>
+Ebi-chan thought that, for a pair of vertices <var>s</var> and <var>t</var>, she tries to lengthen the distance of shortest paths from <var>s</var> to <var>t</var>.
+Although Ebi-chan should lengthen all edges slightly to easily achieve hers goal, she can not enjoy the directed graph with such way!
+So, she decided the following rules of operations that can be done by her.
+</p>
+
+<ul>
+<li> She can lengthen each edges independently.</li>
+<li> When she lengthens an edge, she must select the additional distance from positive integers.</li>
+<li> The <var>i</var>th edge takes a cost <var>c_i</var> per additional distance 1.</li>
+</ul>
+<p>How is the minimum total cost of operations needed to achieve Ebi-chan’s goal?</p>
+
+<h3>Input Format</h3>
+
+<p>An input is given in the following format.</p>
+
+<pre>
+<var>N</var> <var>M</var> <var>s</var> <var>t</var>
+<var>u_1</var> <var>v_1</var> <var>d_1</var> <var>c_1</var>
+$\vdots$
+<var>u_M</var> <var>v_M</var> <var>d_M</var> <var>c_M</var>
+</pre>
+
+<p>In line <var>1</var>, four integers <var>N</var>, <var>M</var>, <var>s</var>, and <var>t</var> are given in separating by en spaces. <var>N</var> and <var>M</var> is the number of vertices and edges, respectively. Ebi-chan tries to lengthen shortest paths from the vertex <var>s</var> to the vertex <var>t</var>.</p>
+
+<p>Line <var>1 + i</var>, where <var>1 \leq i \leq M</var>, has the information of the <var>i</var>th edge. <var>u_i</var> and <var>v_i</var> are the start and end vertices of the edge, respectively. <var>d_i</var> and <var>c_i</var> represents the original distance and cost of the edge, respectively. These integers are given in separating by en spaces.</p>
+
+<h3>Constraints</h3>
+
+<ul>
+<li> <var>2 \leq N \leq 200</var></li>
+<li> <var>1 \leq M \leq 2,000</var></li>
+<li> <var>1 \leq s, t \leq N, s \neq t</var></li>
+<li> <var>1 \leq u_i, v_i \leq N, u_i \neq v_i</var> (<var>1 \leq i \leq M</var>) </li>
+<li> For each <var>i, j</var> (<var>1 \leq i &lt; j \leq M</var>), <var>u_i \neq u_j</var> or <var>v_i \neq v_j</var> are satisfied.</li>
+<li> <var>1 \leq d_i \leq 10</var> (<var>1 \leq i \leq M</var>)</li>
+<li> <var>1 \leq c_i \leq 10</var> (<var>1 \leq i \leq M</var>)</li>
+<li> It is guaranteed that there is at least one path from <var>s</var> to <var>t</var>.</li>
+</ul>
+
+<h3>Output Format</h3>
+
+<p>Print the minimum cost, that is to lengthen the distance of shortest paths from <var>s</var> to <var>t</var> at least 1, in one line.</p>
+
+<h3>Example 1</h3>
+<pre>
+3 3 1 3
+1 2 1 1
+2 3 1 1
+1 3 1 1
+</pre>
+
+<h3>Output 1</h3>
+<pre>1</pre>
+
+<p>Ebi-chan should lengthen 3rd edge with additional distance 1.</p>
+
+<h3>Exapmle 2</h3>
+<pre>
+8 15 5 7
+1 5 2 3
+3 8 3 6
+8 7 1 3
+2 7 6 4
+3 7 5 5
+8 3 1 3
+5 6 3 5
+1 7 3 2
+4 3 2 4
+5 4 4 3
+2 3 2 2
+2 8 6 5
+6 2 1 3
+4 2 1 6
+6 1 4 2
+</pre>
+
+<h3>Output 2</h3>
+<pre>8</pre>

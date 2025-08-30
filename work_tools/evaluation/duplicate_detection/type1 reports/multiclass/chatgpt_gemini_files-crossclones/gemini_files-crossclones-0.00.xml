@@ -1,0 +1,156 @@
+<clones>
+<systeminfo processor="nicad6" system="gemini" system2="chatgpt" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="15627" npairs="30"/>
+<runinfo ncompares="2578093" cputime="447243"/>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_0P.java" startline="1" endline="19" pcid="2764"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_4P.java" startline="1" endline="19" pcid="11177"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_1P.java" startline="1" endline="19" pcid="2765"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_4P.java" startline="1" endline="19" pcid="11177"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_3P.java" startline="1" endline="20" pcid="2767"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_4P.java" startline="1" endline="19" pcid="11177"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_4P.java" startline="1" endline="19" pcid="2768"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_4P.java" startline="1" endline="19" pcid="11177"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_0P.java" startline="1" endline="19" pcid="2764"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_3P.java" startline="1" endline="19" pcid="11176"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_1P.java" startline="1" endline="19" pcid="2765"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_3P.java" startline="1" endline="19" pcid="11176"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_3P.java" startline="1" endline="20" pcid="2767"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_3P.java" startline="1" endline="19" pcid="11176"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_4P.java" startline="1" endline="19" pcid="2768"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_3P.java" startline="1" endline="19" pcid="11176"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_0P.java" startline="1" endline="19" pcid="2764"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_2P.java" startline="1" endline="19" pcid="11175"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_1P.java" startline="1" endline="19" pcid="2765"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_2P.java" startline="1" endline="19" pcid="11175"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_3P.java" startline="1" endline="20" pcid="2767"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_2P.java" startline="1" endline="19" pcid="11175"></source>
+</clone>
+
+<clone nlines="17" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02394_4P.java" startline="1" endline="19" pcid="2768"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02394_2P.java" startline="1" endline="19" pcid="11175"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02398_3P.java" startline="1" endline="19" pcid="2782"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02398_4P.java" startline="1" endline="18" pcid="11192"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02398_2P.java" startline="1" endline="19" pcid="2781"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02398_4P.java" startline="1" endline="18" pcid="11192"></source>
+</clone>
+
+<clone nlines="16" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02398_1P.java" startline="1" endline="19" pcid="2780"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02398_4P.java" startline="1" endline="18" pcid="11192"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02392_3P.java" startline="1" endline="18" pcid="2757"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02392_3P.java" startline="1" endline="16" pcid="11166"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02392_3P.java" startline="1" endline="18" pcid="2757"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02392_2P.java" startline="1" endline="16" pcid="11165"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02392_3P.java" startline="1" endline="18" pcid="2757"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02392_0P.java" startline="1" endline="16" pcid="11163"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_0P.java" startline="1" endline="16" pcid="3802"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_4P.java" startline="1" endline="16" pcid="12220"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_2P.java" startline="1" endline="16" pcid="3804"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_4P.java" startline="1" endline="16" pcid="12220"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_3P.java" startline="1" endline="16" pcid="3805"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_4P.java" startline="1" endline="16" pcid="12220"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_0P.java" startline="1" endline="16" pcid="3802"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_3P.java" startline="1" endline="16" pcid="12219"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_2P.java" startline="1" endline="16" pcid="3804"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_3P.java" startline="1" endline="16" pcid="12219"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_3P.java" startline="1" endline="16" pcid="3805"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_3P.java" startline="1" endline="16" pcid="12219"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_0P.java" startline="1" endline="16" pcid="3802"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_2P.java" startline="1" endline="16" pcid="12218"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_2P.java" startline="1" endline="16" pcid="3804"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_2P.java" startline="1" endline="16" pcid="12218"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_3P.java" startline="1" endline="16" pcid="3805"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_2P.java" startline="1" endline="16" pcid="12218"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_0P.java" startline="1" endline="16" pcid="3802"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_1P.java" startline="1" endline="15" pcid="12217"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_2P.java" startline="1" endline="16" pcid="3804"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_1P.java" startline="1" endline="15" pcid="12217"></source>
+</clone>
+
+<clone nlines="14" similarity="100">
+<source file="../ai_codes/gemini/gemini_p02742_3P.java" startline="1" endline="16" pcid="3805"></source>
+<source file="../ai_codes/chatgpt/chatgpt_p02742_1P.java" startline="1" endline="15" pcid="12217"></source>
+</clone>
+
+</clones>

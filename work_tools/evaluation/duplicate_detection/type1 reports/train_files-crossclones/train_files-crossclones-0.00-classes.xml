@@ -1,0 +1,229 @@
+<clones>
+<systeminfo processor="nicad6" system="train" system2="test" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="67606" npairs="88"/>
+<runinfo ncompares="37118322" cputime="2218822"/>
+<classinfo nclasses="37"/>
+
+<class classid="1" nclones="2" nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03502_2P.java" startline="1" endline="23" pcid="32548"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03316_2P.java" startline="1" endline="23" pcid="67336"></source>
+</class>
+
+<class classid="2" nclones="6" nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_1P.java" startline="1" endline="25" pcid="32828"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03612_3P.java" startline="1" endline="25" pcid="67441"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03612_1P.java" startline="1" endline="25" pcid="67439"></source>
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_4P.java" startline="1" endline="26" pcid="32829"></source>
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_3P.java" startline="1" endline="25" pcid="32835"></source>
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03614_0P.java" startline="1" endline="25" pcid="32830"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="42" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03626_1P.java" startline="1" endline="44" pcid="32870"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03628_4P.java" startline="1" endline="44" pcid="67452"></source>
+</class>
+
+<class classid="4" nclones="4" nlines="62" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_0P.java" startline="1" endline="69" pcid="32998"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_3P.java" startline="1" endline="72" pcid="67461"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03662_2P.java" startline="1" endline="72" pcid="67460"></source>
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03660_4P.java" startline="1" endline="72" pcid="33002"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="36" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03701_2P.java" startline="1" endline="39" pcid="33121"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03699_0P.java" startline="1" endline="38" pcid="67478"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="44" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03714_1P.java" startline="1" endline="52" pcid="33164"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03716_0P.java" startline="1" endline="50" pcid="67488"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03865_0P.java" startline="1" endline="24" pcid="33636"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03863_3P.java" startline="1" endline="25" pcid="67555"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03865_1P.java" startline="1" endline="23" pcid="33638"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_2P.java" startline="1" endline="23" pcid="65032"></source>
+</class>
+
+<class classid="9" nclones="5" nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_0P.java" startline="1" endline="25" pcid="33763"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_0P.java" startline="1" endline="25" pcid="67567"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_2P.java" startline="1" endline="26" pcid="67569"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p03964_4P.java" startline="1" endline="25" pcid="67571"></source>
+<source file="../preprocessed_sheetSplit/train/1/gemini_p03966_4P.java" startline="1" endline="25" pcid="33767"></source>
+</class>
+
+<class classid="10" nclones="5" nlines="21" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_1P.java" startline="1" endline="26" pcid="33951"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p04026_3P.java" startline="1" endline="26" pcid="65928"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_2P.java" startline="1" endline="26" pcid="67604"></source>
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04032_2P.java" startline="1" endline="26" pcid="56613"></source>
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_4P.java" startline="1" endline="26" pcid="33955"></source>
+</class>
+
+<class classid="11" nclones="7" nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_0P.java" startline="1" endline="25" pcid="33952"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p04026_2P.java" startline="1" endline="25" pcid="65927"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_4P.java" startline="1" endline="25" pcid="67606"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_0P.java" startline="1" endline="26" pcid="67602"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_3P.java" startline="1" endline="25" pcid="67605"></source>
+<source file="../preprocessed_sheetSplit/test/1/gemini_p04026_1P.java" startline="1" endline="26" pcid="67603"></source>
+<source file="../preprocessed_sheetSplit/train/1/gemini_p04032_3P.java" startline="1" endline="25" pcid="33954"></source>
+</class>
+
+<class classid="12" nclones="3" nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03502_0P.java" startline="1" endline="22" pcid="40026"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_0P.java" startline="1" endline="22" pcid="66495"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03316_4P.java" startline="1" endline="22" pcid="66499"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="13" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03502_1P.java" startline="1" endline="15" pcid="40027"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03316_3P.java" startline="1" endline="15" pcid="64813"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_2P.java" startline="1" endline="23" pcid="40211"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_4P.java" startline="1" endline="23" pcid="64909"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03583_3P.java" startline="1" endline="22" pcid="40212"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03589_3P.java" startline="1" endline="22" pcid="64908"></source>
+</class>
+
+<class classid="16" nclones="4" nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_1P.java" startline="1" endline="19" pcid="41121"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_3P.java" startline="1" endline="19" pcid="65033"></source>
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_0P.java" startline="1" endline="19" pcid="41122"></source>
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_2P.java" startline="1" endline="18" pcid="41123"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="15" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03865_3P.java" startline="1" endline="19" pcid="41125"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03863_1P.java" startline="1" endline="19" pcid="65031"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="19" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p03966_2P.java" startline="1" endline="26" pcid="41253"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p03964_4P.java" startline="1" endline="26" pcid="65049"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="27" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04015_0P.java" startline="1" endline="35" pcid="41380"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04013_3P.java" startline="1" endline="36" pcid="65078"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="35" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04015_1P.java" startline="1" endline="41" pcid="41382"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04013_1P.java" startline="1" endline="42" pcid="65076"></source>
+</class>
+
+<class classid="21" nclones="5" nlines="22" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/chatgpt_p04032_0P.java" startline="1" endline="25" pcid="41440"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_2P.java" startline="1" endline="27" pcid="65082"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_3P.java" startline="1" endline="27" pcid="65083"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_4P.java" startline="1" endline="27" pcid="65084"></source>
+<source file="../preprocessed_sheetSplit/test/1/chatgpt_p04026_1P.java" startline="1" endline="27" pcid="65081"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="38" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03403_0P.java" startline="1" endline="44" pcid="47294"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03401_1P.java" startline="1" endline="44" pcid="65691"></source>
+</class>
+
+<class classid="23" nclones="6" nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03502_1P.java" startline="1" endline="24" pcid="47622"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_2P.java" startline="1" endline="24" pcid="65657"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_4P.java" startline="1" endline="24" pcid="65659"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_3P.java" startline="1" endline="24" pcid="65658"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_0P.java" startline="1" endline="24" pcid="65655"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03316_1P.java" startline="1" endline="24" pcid="65656"></source>
+</class>
+
+<class classid="24" nclones="3" nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03583_0P.java" startline="1" endline="25" pcid="47806"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03589_2P.java" startline="1" endline="25" pcid="65752"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03589_4P.java" startline="1" endline="25" pcid="65754"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03583_4P.java" startline="1" endline="24" pcid="47809"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03589_0P.java" startline="1" endline="25" pcid="65750"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="20" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03583_3P.java" startline="1" endline="25" pcid="47810"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03589_1P.java" startline="1" endline="25" pcid="65751"></source>
+</class>
+
+<class classid="27" nclones="2" nlines="28" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03614_0P.java" startline="1" endline="33" pcid="47910"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03612_2P.java" startline="1" endline="33" pcid="65762"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="27" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03614_4P.java" startline="1" endline="32" pcid="47914"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03612_1P.java" startline="1" endline="32" pcid="65761"></source>
+</class>
+
+<class classid="29" nclones="3" nlines="29" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03701_0P.java" startline="1" endline="36" pcid="48205"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03699_4P.java" startline="1" endline="36" pcid="65804"></source>
+<source file="../preprocessed_sheetSplit/train/1/claude_p03701_4P.java" startline="1" endline="36" pcid="48208"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/claude_p03966_1P.java" startline="1" endline="29" pcid="48848"></source>
+<source file="../preprocessed_sheetSplit/test/1/claude_p03964_4P.java" startline="1" endline="29" pcid="65894"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03583_3P.java" startline="1" endline="21" pcid="55383"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03589_1P.java" startline="1" endline="21" pcid="66591"></source>
+</class>
+
+<class classid="32" nclones="4" nlines="24" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03614_0P.java" startline="1" endline="26" pcid="55484"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03612_3P.java" startline="1" endline="26" pcid="66603"></source>
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03614_1P.java" startline="1" endline="26" pcid="60851"></source>
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03614_3P.java" startline="1" endline="26" pcid="55486"></source>
+</class>
+
+<class classid="33" nclones="3" nlines="18" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03817_2P.java" startline="1" endline="19" pcid="56123"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03815_4P.java" startline="1" endline="19" pcid="66698"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03815_0P.java" startline="1" endline="19" pcid="66694"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="14" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03865_4P.java" startline="1" endline="15" pcid="56295"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03863_0P.java" startline="1" endline="16" pcid="66714"></source>
+</class>
+
+<class classid="35" nclones="5" nlines="16" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_4P.java" startline="1" endline="21" pcid="56424"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_0P.java" startline="1" endline="21" pcid="66729"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_1P.java" startline="1" endline="21" pcid="66730"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p03964_2P.java" startline="1" endline="21" pcid="66731"></source>
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p03966_3P.java" startline="1" endline="19" pcid="56425"></source>
+</class>
+
+<class classid="36" nclones="4" nlines="33" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04015_2P.java" startline="1" endline="39" pcid="56551"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p04013_1P.java" startline="1" endline="38" pcid="66760"></source>
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04015_3P.java" startline="1" endline="39" pcid="56553"></source>
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04015_1P.java" startline="1" endline="38" pcid="56554"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="26" similarity="100">
+<source file="../preprocessed_sheetSplit/train/1/deepseek_p04032_4P.java" startline="1" endline="31" pcid="56615"></source>
+<source file="../preprocessed_sheetSplit/test/1/deepseek_p04026_4P.java" startline="1" endline="31" pcid="66768"></source>
+</class>
+
+</clones>

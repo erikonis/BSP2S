@@ -1,0 +1,267 @@
+<clones>
+<systeminfo processor="nicad6" system="hum_codes_multiclass" system2="ai_codes/deepseek" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16892" npairs="9"/>
+<runinfo ncompares="2354779" cputime="379908"/>
+<classinfo nclasses="4"/>
+
+<class classid="1" nclones="6" nlines="17" similarity="100">
+<source file="../hum_codes_multiclass/s061879748P.java" startline="1" endline="21" pcid="540">
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+
+		if (a + b == 15) {
+			System.out.println("+");
+		} else if (a * b == 15) {
+			System.out.println("*");
+		} else {
+			System.out.println("x");
+		}
+
+	}
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03302_4P.java" startline="1" endline="18" pcid="14445">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a + b == 15) {
+            System.out.println("+");
+        } else if (a * b == 15) {
+            System.out.println("*");
+        } else {
+            System.out.println("x");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03302_0P.java" startline="1" endline="18" pcid="14441">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a + b == 15) {
+            System.out.println("+");
+        } else if (a * b == 15) {
+            System.out.println("*");
+        } else {
+            System.out.println("x");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03302_3P.java" startline="1" endline="18" pcid="14444">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a + b == 15) {
+            System.out.println("+");
+        } else if (a * b == 15) {
+            System.out.println("*");
+        } else {
+            System.out.println("x");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03302_1P.java" startline="1" endline="18" pcid="14442">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a + b == 15) {
+            System.out.println("+");
+        } else if (a * b == 15) {
+            System.out.println("*");
+        } else {
+            System.out.println("x");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03302_2P.java" startline="1" endline="18" pcid="14443">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a + b == 15) {
+            System.out.println("+");
+        } else if (a * b == 15) {
+            System.out.println("*");
+        } else {
+            System.out.println("x");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="2" nclones="3" nlines="15" similarity="100">
+<source file="../hum_codes_multiclass/s110563723P.java" startline="1" endline="17" pcid="915">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        if ( b - a == c - b) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03759_4P.java" startline="1" endline="17" pcid="16058">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        if (b - a == c - b) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03759_2P.java" startline="1" endline="17" pcid="16056">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        if (b - a == c - b) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="3" nclones="2" nlines="14" similarity="100">
+<source file="../hum_codes_multiclass/s726306509P.java" startline="1" endline="17" pcid="6105">
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+
+		if((A+B)%2==0) {
+			System.out.println((A+B)/2);
+		}else {
+			System.out.println("IMPOSSIBLE");
+		}
+	}
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p02957_1P.java" startline="1" endline="16" pcid="13118">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if ((A + B) % 2 == 0) {
+            System.out.println((A + B) / 2);
+        } else {
+            System.out.println("IMPOSSIBLE");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="4" nclones="2" nlines="10" similarity="100">
+<source file="../hum_codes_multiclass/s798126232P.java" startline="1" endline="14" pcid="6724">
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int h = sc.nextInt();
+
+		System.out.println((a+b)*h/2);
+	}
+
+}
+
+</source>
+<source file="../ai_codes/deepseek/deepseek_p03997_0P.java" startline="1" endline="13" pcid="16683">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int h = sc.nextInt();
+
+        System.out.println((a + b) * h / 2);
+    }
+}
+
+</source>
+</class>
+
+</clones>

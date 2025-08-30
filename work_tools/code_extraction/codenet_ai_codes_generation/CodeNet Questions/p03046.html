@@ -1,0 +1,17 @@
+<span class="lang-en">
+<p>Score : <var>600</var> points</p>
+<div class="part">
+<section>
+<h3>Problem Statement</h3><p>Construct a sequence <var>a</var> = {<var>a_1,\ a_2,\ ...,\ a_{2^{M + 1}}</var>} of length <var>2^{M + 1}</var> that satisfies the following conditions, if such a sequence exists.</p>
+<ul>
+<li>Each integer between <var>0</var> and <var>2^M - 1</var> (inclusive) occurs twice in <var>a</var>.</li>
+<li>For any <var>i</var> and <var>j</var> <var>(i &lt; j)</var> such that <var>a_i = a_j</var>, the formula <var>a_i \ xor \ a_{i + 1} \ xor \ ... \ xor \ a_j = K</var> holds.</li>
+</ul>
+<p><details>
+<summary style="display: list-item; outline: none;">What is xor (bitwise exclusive or)?</summary></details></p>
+<p>The xor of integers <var>c_1, c_2, ..., c_n</var> is defined as follows:</p>
+<ul>
+<li>When <var>c_1 \ xor \ c_2 \ xor \ ... \ xor \ c_n</var> is written in base two, the digit in the <var>2^k</var>'s place (<var>k \geq 0</var>) is <var>1</var> if the number of integers among <var>c_1, c_2, ...c_m</var> whose binary representations have <var>1</var> in the <var>2^k</var>'s place is odd, and <var>0</var> if that count is even.</li>
+</ul>
+<p>For example, <var>3 \ xor \ 5 = 6</var>. (If we write it in base two: <code>011</code> <var>xor</var> <code>101</code> <var>=</var> <code>110</code>.)</p>
+<p></p></section></div></span>

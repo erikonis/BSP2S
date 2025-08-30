@@ -1,0 +1,142 @@
+<clones>
+<systeminfo processor="nicad6" system="hum_codes_multiclass" system2="ai_codes/claude" granularity="files" threshold="0%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="16922" npairs="5"/>
+<runinfo ncompares="2434675" cputime="428715"/>
+<classinfo nclasses="2"/>
+
+<class classid="1" nclones="4" nlines="14" similarity="100">
+<source file="../hum_codes_multiclass/s617909226P.java" startline="1" endline="18" pcid="5183">
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int K = sc.nextInt();
+        String S = sc.next();
+
+        if(S.length() <= K){
+            System.out.println(S);
+        }else{
+            System.out.println(S.substring(0,K) + "...");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02676_3P.java" startline="1" endline="16" pcid="11975">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        String S = sc.next();
+
+        if (S.length() <= K) {
+            System.out.println(S);
+        } else {
+            System.out.println(S.substring(0, K) + "...");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02676_1P.java" startline="1" endline="16" pcid="11973">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        String S = sc.next();
+
+        if (S.length() <= K) {
+            System.out.println(S);
+        } else {
+            System.out.println(S.substring(0, K) + "...");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02676_4P.java" startline="1" endline="16" pcid="11976">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int K = sc.nextInt();
+        String S = sc.next();
+
+        if (S.length() <= K) {
+            System.out.println(S);
+        } else {
+            System.out.println(S.substring(0, K) + "...");
+        }
+    }
+}
+
+</source>
+</class>
+
+<class classid="2" nclones="3" nlines="14" similarity="100">
+<source file="../hum_codes_multiclass/s726306509P.java" startline="1" endline="17" pcid="6105">
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+
+		if((A+B)%2==0) {
+			System.out.println((A+B)/2);
+		}else {
+			System.out.println("IMPOSSIBLE");
+		}
+	}
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02957_1P.java" startline="1" endline="16" pcid="13138">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if ((A + B) % 2 == 0) {
+            System.out.println((A + B) / 2);
+        } else {
+            System.out.println("IMPOSSIBLE");
+        }
+    }
+}
+
+</source>
+<source file="../ai_codes/claude/claude_p02957_2P.java" startline="1" endline="16" pcid="13139">
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+
+        if ((A + B) % 2 == 0) {
+            System.out.println((A + B) / 2);
+        } else {
+            System.out.println("IMPOSSIBLE");
+        }
+    }
+}
+
+</source>
+</class>
+
+</clones>

@@ -1,0 +1,150 @@
+
+
+
+<div>
+<h1 class="title">問題 J : 乱択平衡分二分探索木</h1>
+
+<p>ところで，G○○gle Code Jam の地区大会で右の席に座っていた男の
+ID は rng_58 と言うらしい．
+東京大学時代の記憶に，似たような ID の仲間が居た覚えがあるが，僕の仲間は一人残さず美少女だったはずだ．
+彼女はいわゆる無表情不思議系キャラだったような気がする．</p>
+<p>ということは，彼は知らない男だ．rng とは何の略だろう．
+おそらく Random Number Generator に違いない．
+乱択アルゴリズムを得意とするのだろう．</p>
+<p>ところで，乱数を用いた平衡二分探索木である Treap は，
+2011 年頃のプログラミングコンテストではしばしば用いられていたようだが，
+20XX 年の今では，あまり使用されていない．</p>
+<p>当時 Treap は実装が平易であるという理由により Splay 木や Scapegoat 木と並んでよく使われていた．
+20XX 年の今，命をかけたプログラミングコンテストが日常的に行われるこの世界では，
+実装が多少平易になるというような甘い根拠での選択は到底考えられない．
+皆，少しでもプログラムが高速になるよう考えているし，
+世界大会出場者ともなれば，Left-leaning 赤黒木程度なら十数秒で記述できるのが当然だ．</p>
+<p>例えば，Treap が赤黒木よりも遅くなってしまうのは，
+高さの定数倍が効いてくるからであると言われている．
+ここは，落ち着いてそれを数値的に考察することにより，精神の安定を取り戻そう．</p>
+<div>
+<h1>問題</h1>
+<p>キーを実数とする Treap に <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 個のランダムな要素を挿入した際に，
+高さが <span style="font-size:110%;font-family:times new roman;"><i>h</i></span> (<span style="font-size:110%;font-family:times new roman;"><i>h</i>&nbsp;=&nbsp;0,&nbsp;1,&nbsp;…,&nbsp;<i>N</i>&nbsp;-&nbsp;1</span>) となる確率を求めよ．
+以下，より詳しく説明する．</p>
+<p>Treap とは乱数を用いた平衡二分探索木である．
+各ノードは，キーの他に，優先度という値を持つ．
+ここでは，キーと優先度は <span style="font-size:110%;font-family:times new roman;">0</span> から <span style="font-size:110%;font-family:times new roman;">1</span> までの実数値とする．
+Treap では，以下の 2 つの条件が常に保たれる．</p>
+<ol class="arabic simple">
+<li>キーに関する条件</li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li>各ノードに関して，左の子以下のノードは自分より小さなキーを持つ</li>
+<li>各ノードに関して，右の子以下のノードは自分より大きなキーを持つ</li>
+</ul>
+</blockquote>
+<ol class="arabic simple" start="2">
+<li>優先度に関する条件</li>
+</ol>
+<blockquote>
+<ul class="simple">
+<li>各ノードに関して，子のノードは自分より小さな優先度を持つ</li>
+</ul>
+</blockquote>
+<p>下図は，Treap の例である．
+各ノードの，上部にキーが，下部に優先度が書かれている．</p>
+<div>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_2268_1" alt="7 つのノードからなる Treap の例"  />
+<p class="caption">7 つのノードからなる Treap の例．</p>
+</div>
+<p>挿入の操作は，以下のように行われる．
+挿入するキー を <span style="font-size:110%;font-family:times new roman;"><i>x</i></span> とおく．</p>
+<ol class="arabic simple">
+<li>挿入する新しいノードの優先度 <span style="font-size:110%;font-family:times new roman;"><i>p</i></span> を <span style="font-size:110%;font-family:times new roman;">0</span> から <span style="font-size:110%;font-family:times new roman;">1</span> までの一様分布よりランダムに決定する．</li>
+<li>通常の二分探索木と同様に，まずは優先度を無視し新しいノードを挿入する．</li>
+<li>優先度の条件を満たすように，新しいノードを上に持ち上げるような回転操作を必要なだけ繰り返す．</li>
+</ol>
+<p>木の回転操作に関しては，補足の節に詳しく記述したので，参考にせよ．</p>
+<p>下図は，先ほどの例にキーとして 0.5，優先度として 0.7 を持つ頂点を挿入した過程の例である．</p>
+<div>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_2268_2" alt="まずは優先度が無視され，ノードが挿入される．"  />
+<p class="caption">まずは優先度が無視され，ノードが挿入される．</p>
+</div>
+<div>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_2268_3" alt="回転を行い新しいノードが上へ行く"  />
+<p class="caption">回転を行い新しいノードが上へ行く．</p>
+</div>
+<div>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_2268_4" alt="さらに回転を行うと，優先度の条件が満たされるので，挿入は終了する" />
+<p class="caption">さらに回転を行うと，優先度の条件が満たされるので，挿入は終了する．</p>
+</div>
+<p>空の Treap に <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 個のキーを，
+やはり <span style="font-size:110%;font-family:times new roman;">0</span> から <span style="font-size:110%;font-family:times new roman;">1</span> までの一様分布よりランダムに選び挿入してゆくとする．
+最終的に高さが <span style="font-size:110%;font-family:times new roman;"><i>h</i></span> となる確率を，
+各 <span style="font-size:110%;font-family:times new roman;"><i>h</i>&nbsp;=&nbsp;0,&nbsp;1,&nbsp;…,&nbsp;<i>N</i>&nbsp;-&nbsp;1</span> について求めよ．
+なお，実数は十分な精度を持って扱われるとし，
+例えば 2 つのノードの優先度が等しくなる確率は 0 としてよい．
+また，高さとは，根のノードから各ノードに至るために通らなければならない辺の本数の最大値である．</p>
+</div>
+<div>
+<h1>入力</h1>
+<p>1 つの整数 <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> が書かれている．</p>
+</div>
+<div>
+<h1>出力</h1>
+<p>出力は <span style="font-size:110%;font-family:times new roman;"><i>N</i></span> 行から成る．
+<span style="font-size:110%;font-family:times new roman;"><i>i</i></span> 行目に高さが <span style="font-size:110%;font-family:times new roman;"><i>i</i>&nbsp;-&nbsp;1</span> となる確率を出力せよ．
+値は小数点以下何桁表示しても構わない．</p>
+</div>
+<div>
+<h1>制約</h1>
+<ul class="simple">
+<li><span style="font-size:110%;font-family:times new roman;">1&nbsp;&le;&nbsp;<i>N</i>&nbsp;&le;&nbsp;3&nbsp;×&nbsp;10<sup>4</sup></span></li>
+<li>出力する値は <span style="font-size:110%;font-family:times new roman;">10<sup>&nbsp;-&nbsp;5</sup></span> 以下の誤差を含んでいても構わない．</li>
+</ul>
+</div>
+<div>
+<h1>入出力例</h1>
+<p>入力例 1:</p>
+<pre class="literal-block">
+1
+</pre>
+<p>入力例 1 に対する出力例:</p>
+<pre class="literal-block">
+1.0
+</pre>
+<p>入力例 2:</p>
+<pre class="literal-block">
+2
+</pre>
+<p>入力例 2 に対する出力例:</p>
+<pre class="literal-block">
+0.0000000000
+1.0000000000
+</pre>
+</div>
+<div>
+<h1>補足</h1>
+<p>木の回転操作には，右回転と左回転がある．
+右回転とは，以下の 2 つの図の 1 つめの状態を 2 つめの状態にする操作であり，
+左回転とは，以下の 2 つの図の 2 つめの状態を 1 つめの状態にする操作である．</p>
+<div>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_2268_5" alt="右回転をする前，または左回転をした後"  />
+<p class="caption">右回転をする前，または左回転をした後</p>
+</div>
+<div>
+<img src="https://judgeapi.u-aizu.ac.jp/resources/images/IMAGE2_2268_6" alt="右回転をした後，または左回転をする前"  />
+<p class="caption">右回転をした後，または左回転をする前</p>
+</div>
+<p>Treap においては，持ち上げたいノードがその親ノードの左の子であった場合，
+持ち上げたいノードを上図の P とするような右回転を適用し，
+持ち上げたいノードがその親ノードの右の子であった場合，
+持ち上げたいノードを上図の Q とするような左回転を適用する．</p>
+<p>木の回転操作について，より詳しくは，例えば以下を参照せよ．</p>
+<ul class="simple">
+<li><a class="reference external" href="http://ja.wikipedia.org/wiki/%E6%9C%A8%E3%81%AE%E5%9B%9E%E8%BB%A2">http://ja.wikipedia.org/wiki/%E6%9C%A8%E3%81%AE%E5%9B%9E%E8%BB%A2</a></li>
+</ul>
+<p>Treap について，より詳しくは，例えば以下を参照せよ．</p>
+<ul class="simple">
+<li><a class="reference external" href="http://en.wikipedia.org/wiki/Treap">http://en.wikipedia.org/wiki/Treap</a></li>
+<li><a class="reference external" href="http://www.prefield.com/algorithm/container/treap.html">http://www.prefield.com/algorithm/container/treap.html</a></li>
+</ul>
+</div>
+</div>

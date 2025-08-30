@@ -1,0 +1,133 @@
+
+
+
+<h2>H : Typing Game / タイピングゲーム</h2>
+
+<h3>物語</h3>
+<p>
+ここからは，タイピング力を鍛える時間です．皆さんは早く正確なタイピングをすることができますか？
+Let’s enjoy Typing Game!
+</p>
+
+<h3>問題</h3>
+<p>タイピングゲームのゲームシステムとして，ジャッジ側が用意したAIの出力に対して対話的に動作するプログラムを作成せよ．</p>
+
+<p>AIは <var>N</var> 個の文字列をタイプするゲームをプレイする．AIは体力を持っており，その初期値は <var>H</var> である．AIは体力がある限り文字のタイプを行う．システムはAIがタイプすべき文字列を提示する．システムはAIがタイプした文字を受け取り，次にタイプすべき文字と一致するか判定する．AIが文字列を<var>1</var>つタイプし終えると，システムは次の文字列を提示する．</p>
+
+<p>また，各文字列にはミスタイプの許容回数が定められている．AIのある文字列におけるミスタイプの回数が許容回数を超えてしまうとAIの体力が<var>1</var>減り，システムは強制的に次の文字列を提示する．AIの体力が<var>0</var>になったらゲームオーバーとなる．最後の文字列において，タイプの成功またはミスタイプ回数の超過が起こった後で，AIの体力が残っていればゲームクリアとなる．</p>
+
+<h3>入出力形式</h3>
+<p>まず，入力が以下の形式で与えられる．</p>
+
+<pre>
+ <var>N</var> <var>H</var>
+ <var>S_1</var> <var>T_1</var>
+ ...
+ <var>S_N</var> <var>T_N</var>
+</pre>
+<p>1行目に文字列の数 <var>N</var> とAIの体力 <var>H</var> が空白区切りで与えられる．</p>
+
+
+<p>続く <var>N</var> 行には <var>i</var> 行目に <var>i</var> 番目の文字列 <var>S_i</var> と，その文字列に対するミスタイプの許容回数 <var>T_i</var> が空白区切りで与えられる．</p>
+
+<p>
+この入力は以下の制約を満たす．
+</p>
+
+<ul>
+<li> <var>1 &le; N &le; 100</var> </li>
+<li> <var>1 &le; H &le; 10</var> </li>
+<li> <var>1 &le;  |S_i|  &le; 15</var> </li>
+<li> <var>S_i</var> はアルファベット'a'-'z'，または'A'-'Z'のみを含む． </li>
+<li> <var>0 &le; T_i &le; 20</var> </li>
+</ul>
+
+<p>システムは文字列 <var>S_1</var> から文字列 <var>S_N</var> まで順番に処理をする．<var>i</var> 番目の文字列 <var>S_i</var> について，AIが <var>j</var> 文字目までタイプを成功させている場合，以下の処理をする．</p>
+
+<p>システムはAIに対して，<var>S_i</var> を出力する．このとき，<var>S_i</var> の1文字目から <var>j</var> 文字目を&quot;_&quot; (アンダースコア) に置き換える．システムが間違った文字列を出力すると，AIは動作を中断しWrong Answerとなる．システムが出力する文字列が S である場合，C/C++での出力例は以下のようになる．</p>
+
+<pre>printf(&quot;? %s\n&quot;, S); fflush(stdout);</pre>
+
+<p>AIはシステムの出力を受け取ると，</p>
+
+<pre><var>c</var></pre>
+
+<p>の形式で返答する．<var>c</var> はAIがタイプした文字である．<var>c</var> はアルファベット'a'-'z'からなる．C/C++での返答の受け取り方の例は以下のようになる．</p>
+
+<pre>
+ char c[2];
+ scanf(&quot;%s&quot;, c);
+ /*
+ char c;
+ scanf(&quot;%c&quot;, &amp;c);
+ は空白文字読み込みの仕様上の理由で非推奨です．
+ */
+</pre>
+
+<p>システムはAIの出力を受け取るとまずAIがタイプした文字と <var>S_i</var> の <var>j+1</var> 文字目が一致しているか判定する．この判定の際，大文字と小文字は区別しないことに注意せよ．一致しているときは，<var>j+1</var> 文字目までタイプに成功したとする．ここで <var>j+1</var> 文字目が <var>S_i</var> の最後の文字だった場合，<var>S_i</var> のタイプに成功したとし <var>S_i</var> の処理を終える．AIがタイプした文字と <var>S_i</var> の <var>j+1</var> 文字目が一致していなければ，<var>S_i</var> に対するミスタイプ回数を1だけ増やす．このとき <var>T_i</var> を超えていればAIの体力を<var>1</var>減らし，<var>S_i</var> の処理を終える．<var>S_i</var> の処理を終えたとき，AIの体力が<var>0</var>であればゲームオーバーとする．ゲームオーバーでなければ <var>i</var> が <var>N</var> のときゲームクリアとし，そうでなければ <var>S_{i+1}</var> の処理に移る．</p>
+
+<p>また，ゲームオーバーの際には&quot;! Game Over&quot;を，ゲームクリアの際には&quot;! Game Clear [タイプ成功率]&quot;を出力せよ．タイプ成功率は (成功タイプ数) / (合計タイプ数) <var>&times; 100</var> で計算される値を小数点以下第2位で切り捨てた値とする．小数点以下第1位が0であっても小数点以下第1位まで出力せよ．C/C++での出力例は以下のようになる．</p>
+
+<pre>printf(&quot;! Game Over\n&quot;); fflush(stdout);</pre>
+
+<pre>printf(&quot;! Game Clear %.1lf\n&quot;, success_type_rate); fflush(stdout);</pre>
+
+<p><b>※printfの書式を"%.1lf"とした場合，出力される浮動小数点数は小数点以下第2位が四捨五入される．このため，タイプ成功率を浮動小数点数として計算し，上記の手法で出力した場合，正しい出力結果が得られないことがあることに注意せよ．</b></p>
+
+
+<h3>入出力例1</h3>
+<pre>
+<table width="600" class="withborder">
+<tr><th>システムの出力</th><th>システムへの入力・AIの返答</th></tr>
+<tr><td></td><td>
+2 5<br/>ICPC 2<br/>Tsurai 5
+</td></tr>
+<tr><td>? ICPC</td><td></td></tr>
+<tr><td></td><td>i</td></tr>
+<tr><td>? _CPC</td><td></td></tr>
+<tr><td></td><td>g</td></tr>
+<tr><td>? _CPC</td><td></td></tr>
+<tr><td></td><td>p</td></tr>
+<tr><td>? _CPC</td><td></td></tr>
+<tr><td></td><td>c</td></tr>
+<tr><td>? __PC</td><td></td></tr>
+<tr><td></td><td>p</td></tr>
+<tr><td>? ___C</td><td></td></tr>
+<tr><td></td><td>c</td></tr>
+<tr><td>? Tsurai</td><td></td></tr>
+<tr><td></td><td>t</td></tr>
+<tr><td>? _surai</td><td></td></tr>
+<tr><td></td><td>s</td></tr>
+<tr><td>? __urai</td><td></td></tr>
+<tr><td></td><td>u</td></tr>
+<tr><td>? ___rai</td><td></td></tr>
+<tr><td></td><td>r</td></tr>
+<tr><td>? ____ai</td><td></td></tr>
+<tr><td></td><td>a</td></tr>
+<tr><td>? _____i</td><td></td></tr>
+<tr><td></td><td>i</td></tr>
+<tr><td>! Game Clear 83.3</td><td></td></tr>
+</table>
+</pre>
+
+<h3>入出力例2</h3>
+<pre>
+<table width="600" class="withborder">
+<tr><th>システムの出力 </th><th>システムへの入力・AIの返答</th></tr>
+<tr><td></td><td>
+2 1<br/>ICPC 1<br/>Tsurai 1
+</td></tr>
+<tr><td>? ICPC</td><td></td></tr>
+<tr><td></td><td>i</td></tr>
+<tr><td>? _CPC</td><td></td></tr>
+<tr><td></td><td>c</td></tr>
+<tr><td>? __PC</td><td></td></tr>
+<tr><td></td><td>o</td></tr>
+<tr><td>? __PC</td><td></td></tr>
+<tr><td></td><td>p</td></tr>
+<tr><td>? ___C</td><td></td></tr>
+<tr><td></td><td>d</td></tr>
+<tr><td>! Game Over</td><td></td></tr>
+<tr><td></td><td></td></tr>
+</table>
+</pre>

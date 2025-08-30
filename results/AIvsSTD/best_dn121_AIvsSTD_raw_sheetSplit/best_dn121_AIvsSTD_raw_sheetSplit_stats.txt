@@ -1,0 +1,29 @@
+Best model saved at epoch 11 with accuracy: 94.17%
+
+
+
+=== METRICS STATS ===
+
+Model: best_dn121_AIvsSTD_raw_sheetSplit
+------------------------------
+ROC AUC: 0.9665
+MCC score: 0.7939
+F1 Score: 0.8765
+Recall: 0.9301
+Precision: 0.8288
+Accuracy: 89.80%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label    Samples  Average Confidence Max Confidence Min Confidence
+-----------------------------------------------------------------------------------------
+best_dn121_AIvsSTD_raw_sheetSplit Student  315      0.956              1.000          0.502         
+best_dn121_AIvsSTD_raw_sheetSplit AI       213      0.950              1.000          0.522         
+
+Table 6: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+=== TRAINING TIME ===
+
+Total training time: 1119.71 seconds
+Optimal training time: 453.14 seconds

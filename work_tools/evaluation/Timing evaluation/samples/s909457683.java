@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+
+public class Main {
+
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String in = sc.nextLine();
+		char[] inArray = in.toCharArray();
+		StringBuffer buf = new StringBuffer();
+		for (int i = 0 ; i < inArray.length; i = i + 2) {
+			buf.append(Character.toString(inArray[i]));
+		}
+		System.out.println(buf.toString());
+
+	}
+
+
+}
