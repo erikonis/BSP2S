@@ -1,0 +1,33 @@
+Best model saved at epoch 14 with accuracy: 78.77%
+
+
+
+=== METRICS STATS ===
+
+Model: best_vgg16_preproc
+------------------------------
+ROC AUC: 0.9611
+MCC score: 0.7397
+F1 Score: 0.7905
+Recall: 0.7908
+Precision: 0.7953
+Accuracy: 79.08%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label            Samples  Average Confidence Max Confidence Min Confidence
+-------------------------------------------------------------------------------------------------
+best_vgg16_preproc     human            778      0.974              1.000          0.386         
+best_vgg16_preproc     chatgpt          678      0.812              1.000          0.302         
+best_vgg16_preproc     claude           713      0.843              1.000          0.253         
+best_vgg16_preproc     gemini           619      0.845              1.000          0.320         
+best_vgg16_preproc     deepseek         561      0.824              1.000          0.337         
+
+Table: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+
+=== TRAINING TIME ===
+
+Total training time: 8400.84 seconds
+Optimal training time: 4029.56 seconds

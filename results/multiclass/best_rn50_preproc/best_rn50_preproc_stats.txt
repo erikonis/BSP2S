@@ -1,0 +1,33 @@
+Best model saved at epoch 9 with accuracy: 79.62%
+
+
+
+=== METRICS STATS ===
+
+Model: best_rn50_preproc
+------------------------------
+ROC AUC: 0.9611
+MCC score: 0.7455
+F1 Score: 0.7972
+Recall: 0.7957
+Precision: 0.8022
+Accuracy: 79.57%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label            Samples  Average Confidence Max Confidence Min Confidence
+-------------------------------------------------------------------------------------------------
+best_rn50_preproc      human            773      0.974              1.000          0.422         
+best_rn50_preproc      chatgpt          667      0.794              1.000          0.300         
+best_rn50_preproc      claude           676      0.834              1.000          0.325         
+best_rn50_preproc      gemini           616      0.847              1.000          0.336         
+best_rn50_preproc      deepseek         638      0.819              1.000          0.344         
+
+Table: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+
+=== TRAINING TIME ===
+
+Total training time: 6469.62 seconds
+Optimal training time: 2287.92 seconds
