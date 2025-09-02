@@ -1,0 +1,33 @@
+Best model saved at epoch 10 with accuracy: 88.50%
+
+
+
+=== METRICS STATS ===
+
+Model: best_dn121_sheetSplit_raw
+------------------------------
+ROC AUC: 0.9803
+MCC score: 0.8389
+F1 Score: 0.8699
+Recall: 0.8708
+Precision: 0.8708
+Accuracy: 87.08%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label            Samples  Average Confidence Max Confidence Min Confidence
+-------------------------------------------------------------------------------------------------
+best_dn121_sheetSplit_raw human            796      0.973              1.000          0.370         
+best_dn121_sheetSplit_raw chatgpt          717      0.863              1.000          0.382         
+best_dn121_sheetSplit_raw claude           763      0.945              1.000          0.387         
+best_dn121_sheetSplit_raw gemini           784      0.938              1.000          0.398         
+best_dn121_sheetSplit_raw deepseek         619      0.862              1.000          0.338         
+
+Table: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+
+=== TRAINING TIME ===
+
+Total training time: 7165.91 seconds
+Optimal training time: 2700.90 seconds

@@ -1,0 +1,33 @@
+Best model saved at epoch 21 with accuracy: 87.77%
+
+
+
+=== METRICS STATS ===
+
+Model: best_vgg16_sheetSplit_raw
+------------------------------
+ROC AUC: 0.9794
+MCC score: 0.8314
+F1 Score: 0.8642
+Recall: 0.8649
+Precision: 0.8648
+Accuracy: 86.49%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label            Samples  Average Confidence Max Confidence Min Confidence
+-------------------------------------------------------------------------------------------------
+best_vgg16_sheetSplit_raw human            790      0.983              1.000          0.396         
+best_vgg16_sheetSplit_raw chatgpt          730      0.892              1.000          0.401         
+best_vgg16_sheetSplit_raw claude           748      0.946              1.000          0.350         
+best_vgg16_sheetSplit_raw gemini           767      0.952              1.000          0.367         
+best_vgg16_sheetSplit_raw deepseek         619      0.904              1.000          0.406         
+
+Table: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+
+=== TRAINING TIME ===
+
+Total training time: 8757.64 seconds
+Optimal training time: 5721.54 seconds

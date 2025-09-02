@@ -1,0 +1,33 @@
+Best model saved at epoch 11 with accuracy: 80.43%
+
+
+
+=== METRICS STATS ===
+
+Model: best_dn121_sheetSplit_preproc
+------------------------------
+ROC AUC: 0.9518
+MCC score: 0.7106
+F1 Score: 0.7683
+Recall: 0.7683
+Precision: 0.7695
+Accuracy: 76.83%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label            Samples  Average Confidence Max Confidence Min Confidence
+-------------------------------------------------------------------------------------------------
+best_dn121_sheetSplit_preproc human            786      0.975              1.000          0.424         
+best_dn121_sheetSplit_preproc chatgpt          627      0.809              1.000          0.311         
+best_dn121_sheetSplit_preproc claude           579      0.827              1.000          0.347         
+best_dn121_sheetSplit_preproc gemini           668      0.869              1.000          0.324         
+best_dn121_sheetSplit_preproc deepseek         586      0.865              1.000          0.312         
+
+Table: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+
+=== TRAINING TIME ===
+
+Total training time: 6993.46 seconds
+Optimal training time: 2786.14 seconds

@@ -1,0 +1,33 @@
+Best model saved at epoch 13 with accuracy: 79.67%
+
+
+
+=== METRICS STATS ===
+
+Model: best_vgg16_sheetSplit_preproc
+------------------------------
+ROC AUC: 0.9516
+MCC score: 0.7107
+F1 Score: 0.7662
+Recall: 0.7676
+Precision: 0.7698
+Accuracy: 76.76%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label            Samples  Average Confidence Max Confidence Min Confidence
+-------------------------------------------------------------------------------------------------
+best_vgg16_sheetSplit_preproc human            770      0.972              1.000          0.305         
+best_vgg16_sheetSplit_preproc chatgpt          689      0.841              1.000          0.338         
+best_vgg16_sheetSplit_preproc claude           628      0.824              1.000          0.330         
+best_vgg16_sheetSplit_preproc gemini           656      0.867              1.000          0.273         
+best_vgg16_sheetSplit_preproc deepseek         500      0.838              1.000          0.314         
+
+Table: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+
+=== TRAINING TIME ===
+
+Total training time: 8375.15 seconds
+Optimal training time: 3784.91 seconds

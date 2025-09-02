@@ -1,0 +1,33 @@
+Best model saved at epoch 14 with accuracy: 80.92%
+
+
+
+=== METRICS STATS ===
+
+Model: best_rn50_sheetSplit_preproc
+------------------------------
+ROC AUC: 0.9562
+MCC score: 0.7206
+F1 Score: 0.7777
+Recall: 0.7761
+Precision: 0.7814
+Accuracy: 77.61%
+------------------------------
+
+=== CONFIDENCE STATISTICS ===
+
+Model                  Label            Samples  Average Confidence Max Confidence Min Confidence
+-------------------------------------------------------------------------------------------------
+best_rn50_sheetSplit_preproc human            762      0.979              1.000          0.436         
+best_rn50_sheetSplit_preproc chatgpt          631      0.828              1.000          0.299         
+best_rn50_sheetSplit_preproc claude           653      0.866              1.000          0.366         
+best_rn50_sheetSplit_preproc gemini           621      0.897              1.000          0.320         
+best_rn50_sheetSplit_preproc deepseek         612      0.870              1.000          0.334         
+
+Table: Confidence Score Statistics for model acting as oracle on the accurately sorted test codes
+
+
+=== TRAINING TIME ===
+
+Total training time: 6695.45 seconds
+Optimal training time: 3140.65 seconds
