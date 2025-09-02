@@ -280,7 +280,7 @@ def evaluate_model(
     sns.heatmap(
         cm_percent,
         annot=annot,
-        fmt=".2f",
+        fmt="",
         cmap="Blues",
         xticklabels=labels,
         yticklabels=labels,
